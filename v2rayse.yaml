@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-04 04:16:48
+#  创建时间：2022-12-04 07:09:38
 #  模版：v2rayse默认模版
-#  节点数量：62
+#  节点数量：61
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -49,7 +49,6 @@ proxies:
   - {"type":"vmess","name":"🇺🇸US_296|7.60Mb","ws-opts":{"path":"/"},"server":"161.129.34.102","port":"443","uuid":"ec736482-173e-3eff-9114-b49df8056e7d","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"default_name_8","server":"150.230.217.213","port":443,"password":"c09eb137-bf68-4658-84e0-102d94b74168","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_1","ws-opts":{"path":"/vmess","headers":{"host":"152.228.217.34"}},"server":"152.228.217.34","port":"80","uuid":"20fd35be-315f-4bee-a330-29aa54848d96","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇳🇴NO_316+|17.67Mb","server":"138.124.183.216","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_9","server":"140.238.205.173","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_10","server":"152.67.160.174","port":443,"password":"54080134-2cba-4535-8599-95650bd9aa54","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"🇺🇸US_297|7.38Mb","ws-opts":{"path":"/","headers":{"host":"lc-kr02-direct01.lc-kr02.lc-node.com"}},"server":"lc-kr02-direct01.lc-kr02.lc-node.com","port":"443","uuid":"ec736482-173e-3eff-9114-b49df8056e7d","alterId":"2","cipher":"auto","network":"ws","tls":true}
@@ -117,7 +116,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
@@ -185,7 +183,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
@@ -253,7 +250,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
@@ -320,7 +316,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
@@ -387,7 +382,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
@@ -454,7 +448,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
@@ -538,7 +531,6 @@ proxy-groups:
       - 🇺🇸US_296|7.60Mb
       - default_name_8
       - 🇲🇫t.me/DarkVPNpro_1
-      - 🇳🇴NO_316+|17.67Mb
       - default_name_9
       - default_name_10
       - 🇺🇸US_297|7.38Mb
