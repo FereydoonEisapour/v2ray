@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-06 09:13:15
+#  创建时间：2022-12-06 09:46:09
 #  模版：v2rayse默认模版
-#  节点数量：177
+#  节点数量：112
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -15,6 +15,11 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"trojan","name":"default_name_1","server":"51.81.211.171","port":443,"password":"2dab5d78-5c56-4252-850d-c037753a40db","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_1","ws-opts":{"path":"/"},"server":"cdn2.soft98.download","port":"8443","uuid":"41e41e46-9bdb-4666-ae89-754c4cc8255b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_1","ws-opts":{"path":"/?ed=2048","headers":{"host":"w1.800876.xyz"}},"server":"164.132.68.14","port":"443","uuid":"1f4322e1-0e7e-4af2-cc09-84666ac15616","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇬🇧GB_168","server":"109.169.72.249","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇺🇸US_409|96.86Mb","server":"162.251.61.47","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇬🇧GB_170","server":"109.169.72.249","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_2","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"168.138.184.67","port":"47165","uuid":"a4ead4e6-c4db-458a-c612-a3991f4081d2","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"trojan","name":"default_name_2","server":"138.2.113.84","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_3","server":"219.94.250.108","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_2","ws-opts":{"path":"/"},"server":"52.79.182.230","port":"42517","uuid":"b5b5209f-bcbd-4bac-b044-0d179698c62d","alterId":"0","cipher":"auto","network":"ws"}
@@ -22,15 +27,25 @@ proxies:
   - {"type":"trojan","name":"default_name_4","server":"kr1.api-aws.com","port":443,"password":"205f8ab6-cb17-4480-93a6-aece90b88742","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_5","server":"152.67.98.30","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_6","server":"45.136.14.70","port":15410,"password":"6A30qqSh8W","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇺🇸US_788|2.13Mb","server":"162.251.61.47","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"trojan","name":"default_name_7","server":"kr1.api-aws.com","port":443,"password":"d30afdba-ca55-463a-b26e-27080698a2a6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_8","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_9","server":"kr1.api-aws.com","port":443,"password":"61f6271b-5e65-46b8-bc80-c6468a1f185e","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_3","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"152.228.191.232","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇳🇴NO_316+|17.67Mb","server":"138.124.183.216","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_10","server":"211.72.35.157","port":3389,"password":"0cc6b4268dea0ba8","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_11","server":"148.113.141.99","port":443,"password":"HdsUZmsHQW","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_12","server":"129.146.242.130","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇰🇷KR_173","ws-opts":{"path":"/"},"server":"13.125.33.31","port":"42517","uuid":"b5b5209f-bcbd-4bac-b044-0d179698c62d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇬🇧GB_162","server":"109.169.72.249","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"@Hope_NetjoinusonTelegram_1","server":"23-175-144-246.nhost.00cdn.com","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true,"sni":"government.kbservice.club"}
   - {"type":"trojan","name":"default_name_13","server":"official.seoulcityhall.com.ua","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵JP_214","server":"kr1.api-aws.com","port":443,"password":"8c20177e-d245-4ec6-9610-34c20500d10b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_14","server":"49.212.221.47","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@v2rayng_orgتلگرام","ws-opts":{"path":"/"},"server":"cdn2.soft98.download","port":"80","uuid":"3a357de4-6f1f-40fa-b8eb-56c01a7dc010","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"default_name_15","server":"kr1.api-aws.com","port":443,"password":"cbd08acf-2d47-4065-aafa-4201e5307f67","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵JP_186_1","server":"kr1.api-aws.com","port":443,"password":"96e08c45-762a-48d2-8b65-0088c3c5e3d4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_205","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_16","server":"211.72.35.155","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_17","server":"152.67.162.166","port":443,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_18","server":"official.seoulcityhall.com.ua","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
@@ -40,156 +55,76 @@ proxies:
   - {"type":"trojan","name":"default_name_21","server":"211.72.35.157","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_22","server":"138.2.45.243","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_23","server":"138.124.183.222","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇸🇬t.me/DarkVPNpro","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/"},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"chacha20-poly1305","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_4","ws-opts":{"path":"/chat","headers":{"host":"vus3.0bad.com"}},"server":"vus3.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_5","ws-opts":{"path":"/","headers":{"host":"fi3.vpnmaster.website"}},"server":"fi3.vpnmaster.website","port":"443","uuid":"86e436dc-aef4-498c-95e5-193564fb4e4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@Hope_NetjoinusonTelegram_2","ws-opts":{"path":"/aries","headers":{"host":"wapsd.189.cn"}},"server":"gcorehk.arc.pics","port":"2086","uuid":"7a8a19ec-94f5-4262-edbe-a308e1d0c66d","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"default_name_24","server":"kr1.api-aws.com","port":443,"password":"dc26913c-a31c-4b3f-9c03-28a6b4283a89","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_25","server":"kr1.api-aws.com","port":443,"password":"545034ab-8179-46ea-a7d4-a5c992cce000","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_5","server":"206.119.112.6","port":"8189","uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":"10","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"@Hope_NetjoinusonTelegram_3","ws-opts":{"path":"/user","headers":{"host":"stream.azadrah22.com"}},"server":"185.143.234.120","port":"80","uuid":"76e151a7-9980-4077-bd52-07ef4e9cb496","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_6","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"172.104.79.242","port":"41782","uuid":"b581d347-ea8e-4464-f6de-c251e3b1e926","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_187","server":"kr1.api-aws.com","port":443,"password":"da647e58-8f85-450f-b123-568c492c297c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"9️⃣Telegram:﴾@ZED_FilterR﴿","ws-opts":{"path":"/dg14dg4154drdgs"},"server":"king8.workingoogle.ga","port":"8880","uuid":"1a32ba1f-da83-47c2-f494-4203492fa933","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_7","server":"37.32.4.163","port":"13028","uuid":"a9552a8e-7d0b-4ccc-c257-869f38a558a6","alterId":"0","cipher":"auto","network":"kcp"}
   - {"type":"trojan","name":"default_name_26","server":"194.156.99.39","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_6","ws-opts":{"path":"/"},"server":"cdn2.soft98.download","port":"8880","uuid":"6aa785e3-f252-4350-f792-dffccca93e61","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰t.me/DarkVPNpro","server":"206.119.112.6","port":"8189","uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":"10","cipher":"auto","network":"tcp","tls":true}
   - {"type":"trojan","name":"default_name_27","server":"160.16.145.107","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_28","server":"211.72.35.152","port":3389,"password":"0cc6b4268dea0ba8","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵JP_199","server":"kr1.api-aws.com","port":443,"password":"7f9e51b9-928e-4076-b075-ba7577c36443","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_29","server":"kr1.api-aws.com","port":443,"password":"d66dccd1-90c1-4713-8972-2417a2854df2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"@Hope_Net-join-us-on-Telegram_8","server":"s4.sib30b.tk","port":443,"password":"cdef8534-1ab9-4cc7-8ca1-b147585ea6f8","udp":true,"skip-cert-verify":true,"sni":"s4.sib30b.tk"}
   - {"type":"ss","name":"default_name_30","server":"31.192.232.218","port":23456,"cipher":"aes-256-gcm","password":"09305968"}
   - {"type":"trojan","name":"default_name_31","server":"kr1.api-aws.com","port":443,"password":"36443c4f-4487-48a6-8438-57bd7700b916","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇺🇸US_788|13.37Mb","server":"162.251.61.47","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"vmess","name":"_7","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.us05.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10025","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"default_name_32","server":"168.138.43.89","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_9","ws-opts":{"path":"/reffs7y26g0ua"},"server":"surongwei.eu.org","port":"443","uuid":"6093eefb-7ab6-41df-aba0-d5fa58147e10","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"default_name_33","server":"kr1.api-aws.com","port":443,"password":"80b07539-c253-4526-8a80-424708ff2ced","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_34","server":"kr1.api-aws.com","port":443,"password":"98a68cfb-42c6-4498-ac6e-7e5c203924a7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_35","server":"153.121.74.146","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_8","ws-opts":{"path":"/"},"server":"161.129.34.102","port":"443","uuid":"ec736482-173e-3eff-9114-b49df8056e7d","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"_9","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.jp02.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10015","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_10","ws-opts":{"path":"/"},"server":"cdn1.soft9821.gq","port":"8880","uuid":"a2ecce43-c6fb-4978-8b1d-8018ddd9faf4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_11","ws-opts":{"path":"/","headers":{"host":"a.pointyool.ml"}},"server":"185.143.233.122","port":"8080","uuid":"4ce1933b-d5fc-4287-f87c-4032a35ac5cb","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"default_name_36","server":"official.seoulcitygovernment.com.ua","port":2083,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_12","ws-opts":{"path":"/","headers":{"host":"159.65.151.44"}},"server":"159.65.151.44","port":"8081","uuid":"30e1d1f5-1d7f-4a44-d129-a910b85a6bdf","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"default_name_37","server":"kr1.api-aws.com","port":443,"password":"edeb6377-0d40-483b-869a-8b3be9d74850","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_10","ws-opts":{"path":"/"},"server":"54.180.150.171","port":"42517","uuid":"b5b5209f-bcbd-4bac-b044-0d179698c62d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_13","ws-opts":{"path":"/vipen","headers":{"host":"khandevaneh.me"}},"server":"khandevaneh.me","port":"443","uuid":"b4696faa-2ff9-4ed6-aa30-ca8930f5ec24","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"default_name_38","server":"162.251.61.47","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_14","ws-opts":{"path":"/"},"server":"145.239.186.192","port":"13509","uuid":"55b4e6a3-15b2-4b2c-e495-4ffb9135b508","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_15","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"172.104.79.242","port":"41782","uuid":"b581d347-ea8e-4464-f6de-c251e3b1e926","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"🇬🇧GB_157","server":"109.169.72.249","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"trojan","name":"default_name_39","server":"211.72.35.155","port":3389,"password":"b09d2aaa443af97a","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_40","server":"kr1.api-aws.com","port":443,"password":"1bacde9b-3a1a-43eb-b091-287824dc91d3","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_16","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"176.119.159.245","port":"37672","uuid":"86b4e35c-1061-47b3-8c6c-811d1853a477","alterId":"64","cipher":"auto","network":"http"}
   - {"type":"trojan","name":"default_name_41","server":"146.56.189.146","port":443,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_221","server":"kr1.api-aws.com","port":443,"password":"374e524b-834f-4764-93d2-64f9f734f596","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_11","ws-opts":{"path":"/chat","headers":{"host":"vjp1.0bad.com"}},"server":"vjp1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@Hope_NetjoinusonTelegram_4","ws-opts":{"path":"/"},"server":"164.92.246.249","port":"8081","uuid":"b029f444-416c-4fb4-fd43-7c1cba681632","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇷🇺RU_314|74.97Mb","server":"79.133.109.56","port":1036,"cipher":"chacha20-ietf-poly1305","password":")1N1E6v0SU_rGTpg"}
   - {"type":"trojan","name":"default_name_42","server":"140.238.205.173","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_43","server":"168.138.44.176","port":443,"password":"8d2d5953-d649-4034-94f2-72f2df2623da","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_12","ws-opts":{"path":"/"},"server":"54.180.131.191","port":"42517","uuid":"b5b5209f-bcbd-4bac-b044-0d179698c62d","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"_13","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk06.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10009","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"default_name_44","server":"kr1.api-aws.com","port":443,"password":"3f087c04-44e6-4c96-a917-ca974de1212b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵JP_226","server":"kr1.api-aws.com","port":443,"password":"f2239c58-4684-4747-8985-fbca693f352b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_45","server":"211.72.35.152","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵JP_211","server":"kr1.api-aws.com","port":443,"password":"65f7378f-edb8-4f5d-913a-641ecd853cea","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_46","server":"official.seoulcitygovernment.com.ua","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_17","ws-opts":{"path":"/in-vpn-majani-ast-vws","headers":{"host":"freeinternet.click"}},"server":"freeinternet.click","port":"443","uuid":"01b4f91a-51a7-4a0b-9dbc-a84b2144d0bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"default_name_47","server":"official.seoulcitygovernment.com.ua","port":8080,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_18","ws-opts":{"path":"/fh454hg4fthfh"},"server":"king6.workingoogle.ga","port":"8880","uuid":"050624ec-ba6a-49c3-e8d9-c46e5c167be0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"default_name_48","server":"kr1.api-aws.com","port":443,"password":"e3dcc71e-f058-43bf-bf0d-5bdf20dec071","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵JP_227","server":"kr1.api-aws.com","port":443,"password":"23103894-eec7-4de1-a05a-c2e11e351287","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"@Hope_Net-join-us-on-Telegram_19","server":"official.seoulcityhall.com.ua","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true,"sni":"45.32.28.232"}
   - {"type":"trojan","name":"default_name_49","server":"official.seoulcityhall.com.ua","port":8080,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"default_name_50","server":"152.67.160.174","port":443,"password":"54080134-2cba-4535-8599-95650bd9aa54","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"_14","ws-opts":{"path":"/","headers":{"host":"lc-kr02-direct01.lc-kr02.lc-node.com"}},"server":"lc-kr02-direct01.lc-kr02.lc-node.com","port":"443","uuid":"ec736482-173e-3eff-9114-b49df8056e7d","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_1","server":"51.77.230.27","port":2443,"cipher":"aes-256-gcm","password":"VYhKjrZkqk"}
-  - {"type":"ss","name":"🇨🇦t.me/DarkVPNpro_1","server":"149.56.142.154","port":8388,"cipher":"chacha20-ietf-poly1305","password":"NTljO"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_1","server":"141.95.16.79","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MGM1M"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_2","server":"141.94.76.180","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MWZkN"}
-  - {"type":"ss","name":"🇺🇲t.me/DarkVPNpro_1","server":"135.148.42.126","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ZmE2M"}
-  - {"type":"ss","name":"🇬🇧t.me/DarkVPNpro_1","server":"51.195.217.64","port":8388,"cipher":"chacha20-ietf-poly1305","password":"Yzg2Y"}
-  - {"type":"ss","name":"🇳🇱t.me/DarkVPNpro_1","server":"188.119.112.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"Y2JmM"}
-  - {"type":"ss","name":"🇵🇱t.me/DarkVPNpro_1","server":"51.38.132.76","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ZGQ4M"}
-  - {"type":"ss","name":"🇷🇺t.me/DarkVPNpro_1","server":"45.144.31.96","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MTA0O"}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_2","server":"147.182.147.17","port":2002,"uuid":"a4631b7c-3c93-4063-bafb-9b81778de7af","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"/grpc"},"servername":"zoom.us"}
-  - {"type":"trojan","name":"🇲🇫t.me/DarkVPNpro_3","server":"51.75.249.107","port":443,"password":"8d5ab940-29d2-486b-897e-9e1ada3be686","udp":true,"skip-cert-verify":true,"sni":"zoom.us"}
-  - {"type":"ss","name":"🇲🇫_1","server":"51.77.230.27","port":2443,"cipher":"aes-256-gcm","password":"VYhKjrZkqk"}
-  - {"type":"ss","name":"🇲🇫_2","server":"51.75.249.107","port":8443,"cipher":"aes-256-gcm","password":"5f9616f4-91c4-4015-8c2d-883feaae304e"}
-  - {"type":"ss","name":"🇳🇱","server":"77.91.123.74","port":8443,"cipher":"aes-256-gcm","password":"7a44bd7d-61e5-4647-a340-85cbb4e93068"}
-  - {"type":"ss","name":"🇨🇦","server":"147.182.147.17","port":8443,"cipher":"aes-256-gcm","password":"40f57eea-227a-4138-98f3-46ada91564bd"}
-  - {"type":"ss","name":"🇹🇷","server":"193.46.56.210","port":2443,"cipher":"aes-256-gcm","password":"UrjUsVpeNq"}
-  - {"type":"ss","name":"🇫🇷t.me/DarkVPNpro","server":"217.70.189.155","port":443,"cipher":"chacha20-ietf-poly1305","password":"eJZJAeK3S9st"}
-  - {"type":"ss","name":"🇷🇺t.me/DarkVPNpro_2","server":"45.150.64.243","port":10584,"cipher":"chacha20-ietf-poly1305","password":"T6xRpRQ8tXSY"}
-  - {"type":"ss","name":"🇫🇮t.me/DarkVPNpro_1","server":"185.77.217.217","port":443,"cipher":"chacha20-ietf-poly1305","password":"qYAt85SFGV56"}
-  - {"type":"ss","name":"🇺🇸t.me/DarkVPNpro","server":"172.99.188.99","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_2","server":"193.176.86.190","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇬🇧t.me/DarkVPNpro_2","server":"78.129.253.9","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_4","server":"92.222.217.16","port":443,"uuid":"0bfc702b-7c10-4760-9218-d93c0aaa5849","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"api.midtrans.com","ws-opts":{"path":"/vless","headers":{"host":"api.midtrans.com"}}}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_5","server":"92.222.217.16","port":80,"uuid":"0bfc702b-7c10-4760-9218-d93c0aaa5849","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"92.222.217.16","ws-opts":{"path":"/vless","headers":{"host":"92.222.217.16"}}}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_3","server":"51.79.52.142","port":443,"uuid":"d8ab918a-1564-460d-a052-2abb38c1c0ba","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"api.midtrans.com","ws-opts":{"path":"/vless","headers":{"host":"api.midtrans.com"}}}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_4","server":"51.79.52.142","port":80,"uuid":"d8ab918a-1564-460d-a052-2abb38c1c0ba","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"51.79.52.142","ws-opts":{"path":"/vless","headers":{"host":"51.79.52.142"}}}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_5","server":"51.222.137.198","port":443,"uuid":"f39183ad-fe5d-402b-99cf-b991c7b46aa3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"api.midtrans.com","ws-opts":{"path":"/vless","headers":{"host":"api.midtrans.com"}}}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_6","server":"51.222.137.198","port":80,"uuid":"f39183ad-fe5d-402b-99cf-b991c7b46aa3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"51.222.137.198","ws-opts":{"path":"/vless","headers":{"host":"51.222.137.198"}}}
-  - {"type":"vless","name":"🇵🇱t.me/DarkVPNpro_2","server":"146.59.13.37","port":443,"uuid":"5dde079a-d31d-4bb0-aede-b73bacdede71","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"api.midtrans.com","ws-opts":{"path":"/vless","headers":{"host":"api.midtrans.com"}}}
-  - {"type":"vless","name":"🇵🇱t.me/DarkVPNpro_3","server":"146.59.13.37","port":80,"uuid":"5dde079a-d31d-4bb0-aede-b73bacdede71","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"146.59.13.37","ws-opts":{"path":"/vless","headers":{"host":"146.59.13.37"}}}
-  - {"type":"vless","name":"🇨🇭t.me/DarkVPNpro_1","server":"45.90.57.107","port":443,"uuid":"8aec20fb-fa53-4a40-ab2f-63a5cf0f7201","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"api.midtrans.com","ws-opts":{"path":"/vless","headers":{"host":"api.midtrans.com"}}}
-  - {"type":"vless","name":"🇨🇭t.me/DarkVPNpro_2","server":"45.90.57.107","port":80,"uuid":"8aec20fb-fa53-4a40-ab2f-63a5cf0f7201","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"45.90.57.107","ws-opts":{"path":"/vless","headers":{"host":"45.90.57.107"}}}
-  - {"type":"vmess","name":"🇷🇺t.me/DarkVPNpro_3","server":"45.144.30.178","port":"8443","uuid":"bf94a603-fa10-4a0f-dffd-31f4fe497534","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_6","server":"51.77.230.27","port":"8443","uuid":"0d77ae12-6f96-4bdb-a64c-0d58c802c61c","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_3","server":"164.92.171.236","port":"8443","uuid":"6c761222-ae22-465d-bab0-8fd440105f7b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇳🇱t.me/DarkVPNpro_2","server":"188.166.30.174","port":"8443","uuid":"d0aa7d0f-fd88-4480-ff62-4a3422722114","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vless","name":"🇩🇪t.me/DarkVPNpro_4","server":"164.92.142.166","port":443,"uuid":"74550ee9-7285-4c34-87a1-17cedf8b71c5","skip-cert-verify":true,"network":"tcp","servername":"api.midtrans.com","tls":true,"udp":true}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_7","server":"51.75.249.107","port":443,"uuid":"c3a07eea-6d21-4e0e-a0ff-4f7c6b56e85c","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-direct","servername":"api.midtrans.com","tls":false,"udp":true}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_5","ws-opts":{"path":"/v2raydns","headers":{"host":"51.68.188.150"}},"server":"51.68.188.150","port":"443","uuid":"30dc73f7-0c35-4e8c-a162-230290100ae5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇲t.me/DarkVPNpro_2","ws-opts":{"path":"/v2raydns","headers":{"host":"198.98.61.117"}},"server":"198.98.61.117","port":"443","uuid":"1d0a8a12-040c-4c7f-8b74-f65f70e4c076","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇵🇱t.me/DarkVPNpro_4","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"443","uuid":"a04e04db-2219-4d8e-bb34-fafc1e41e80e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇵🇱t.me/DarkVPNpro_5","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"80","uuid":"a04e04db-2219-4d8e-bb34-fafc1e41e80e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇦t.me/DarkVPNpro_7","server":"158.69.62.161","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MzY4N"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_8","server":"193.70.85.110","port":8388,"cipher":"chacha20-ietf-poly1305","password":"YzU2N"}
-  - {"type":"ss","name":"🇷🇺t.me/DarkVPNpro_4","server":"45.144.31.96","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MTA0O"}
-  - {"type":"ss","name":"🇳🇱t.me/DarkVPNpro_3","server":"188.119.112.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"Y2JmM"}
-  - {"type":"ss","name":"🇵🇱t.me/DarkVPNpro_6","server":"51.38.132.76","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ZGQ4M"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_6","server":"51.75.78.207","port":8388,"cipher":"chacha20-ietf-poly1305","password":"Y2YyZ"}
-  - {"type":"ss","name":"🇨🇦t.me/DarkVPNpro_8","server":"149.56.142.154","port":8388,"cipher":"chacha20-ietf-poly1305","password":"NTljO"}
-  - {"type":"ss","name":"🇨🇦t.me/DarkVPNpro_9","server":"149.56.142.154","port":1443,"cipher":"chacha20-ietf-poly1305","password":"NTljO"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_9","server":"141.94.76.180","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MWZkN"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_10","server":"141.94.76.180","port":1443,"cipher":"chacha20-ietf-poly1305","password":"MWZkN"}
-  - {"type":"ss","name":"🇵🇱t.me/DarkVPNpro_7","server":"145.239.82.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MDZjN"}
-  - {"type":"ss","name":"🇵🇱t.me/DarkVPNpro_8","server":"145.239.82.59","port":1443,"cipher":"chacha20-ietf-poly1305","password":"MDZjN"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_7","server":"141.95.16.79","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MGM1M"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_8","server":"141.95.16.79","port":1443,"cipher":"chacha20-ietf-poly1305","password":"MGM1M"}
-  - {"type":"vmess","name":"🇫🇮t.me/DarkVPNpro_2","http-opts":{"path":["/"]},"server":"135.181.34.209","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_9","ws-opts":{"path":"/graphql"},"server":"157.90.120.15","port":"80","uuid":"6ccaf3ce-5060-4aac-a47f-3fb81da2bcdd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_11","server":"152.228.217.34","port":8443,"uuid":"89123efe-a118-4283-b05c-0d264d6f2df0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"api.midtrans.com","ws-opts":{"path":"/vless","headers":{"host":"api.midtrans.com"}}}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_12","server":"152.228.217.34","port":8080,"uuid":"89123efe-a118-4283-b05c-0d264d6f2df0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"152.228.217.34","ws-opts":{"path":"/vless","headers":{"host":"152.228.217.34"}}}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_10","ws-opts":{"path":"/connect/ir/","headers":{"host":"plan9sim.online"}},"server":"212.33.201.35","port":"80","uuid":"c036f5f4-e25e-4d85-875b-49e4c31a5bfa","alterId":"0","cipher":"none","network":"ws"}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_11","ws-opts":{"path":"/connect/ir/","headers":{"host":"plan9sim.online"}},"server":"212.33.201.35","port":"80","uuid":"c036f5f4-e25e-4d85-875b-49e4c31a5bfa","alterId":"0","cipher":"none","network":"ws"}
-  - {"type":"trojan","name":"🇩🇪t.me/DarkVPNpro_12","server":"51.89.22.228","port":443,"password":"67e200f1-4ff5-42ca-8425-3f16f7986c29","udp":true,"skip-cert-verify":true,"sni":"xljuni.xjvpn.net"}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_13","ws-opts":{"path":"/racevpn","headers":{"host":"51.75.249.107"}},"server":"51.75.249.107","port":"443","uuid":"c3a07eea-6d21-4e0e-a0ff-4f7c6b56e85c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇲🇫t.me/DarkVPNpro_14","server":"51.75.249.107","port":443,"password":"8d5ab940-29d2-486b-897e-9e1ada3be686","udp":true,"skip-cert-verify":true,"sni":"plan9sim.online"}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_15","ws-opts":{"path":"/racevpn","headers":{"host":"5.188.168.19"}},"server":"51.75.249.107","port":"443","uuid":"c3a07eea-6d21-4e0e-a0ff-4f7c6b56e85c","alterId":"0","cipher":"chacha20-poly1305","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇷🇺t.me/DarkVPNpro_5","server":"45.144.30.178","port":"8443","uuid":"bf94a603-fa10-4a0f-dffd-31f4fe497534","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"ss","name":"🇷🇺t.me/DarkVPNpro_6","server":"45.144.31.96","port":8388,"cipher":"chacha20-ietf-poly1305","password":"M2ZjM"}
-  - {"type":"ss","name":"🇷🇺t.me/DarkVPNpro_7","server":"45.144.31.96","port":1443,"cipher":"chacha20-ietf-poly1305","password":"M2ZjM"}
-  - {"type":"ss","name":"🇵🇱t.me/DarkVPNpro_9","server":"51.38.132.76","port":8388,"cipher":"chacha20-ietf-poly1305","password":"Y2ZkO"}
-  - {"type":"ss","name":"🇵🇱t.me/DarkVPNpro_10","server":"51.38.132.76","port":1443,"cipher":"chacha20-ietf-poly1305","password":"Y2ZkO"}
-  - {"type":"ss","name":"🇺🇲t.me/DarkVPNpro_3","server":"38.54.110.94","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MGY5Z"}
-  - {"type":"ss","name":"🇺🇲t.me/DarkVPNpro_4","server":"38.54.110.94","port":1443,"cipher":"chacha20-ietf-poly1305","password":"MGY5Z"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_16","server":"193.70.85.110","port":8388,"cipher":"chacha20-ietf-poly1305","password":"NjgxY"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_17","server":"193.70.85.110","port":1443,"cipher":"chacha20-ietf-poly1305","password":"NjgxY"}
-  - {"type":"ss","name":"🇬🇧t.me/DarkVPNpro_3","server":"51.89.138.245","port":8388,"cipher":"chacha20-ietf-poly1305","password":"YzIzN"}
-  - {"type":"ss","name":"🇬🇧t.me/DarkVPNpro_4","server":"51.89.138.245","port":1443,"cipher":"chacha20-ietf-poly1305","password":"YzIzN"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_13","server":"141.95.16.79","port":8388,"cipher":"chacha20-ietf-poly1305","password":"OWM4M"}
-  - {"type":"ss","name":"🇩🇪t.me/DarkVPNpro_14","server":"141.95.16.79","port":1443,"cipher":"chacha20-ietf-poly1305","password":"OWM4M"}
-  - {"type":"ss","name":"🇮🇹t.me/DarkVPNpro","server":"158.58.173.240","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_15","http-opts":{"path":["/"]},"server":"5.75.144.24","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"t.me/CyberVPNs🇩🇪","ws-opts":{"path":"/graphql"},"server":"188.34.156.150","port":"80","uuid":"72dbf328-3ed8-4096-83e4-b68fdd9175fe","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇵🇱t.me/DarkVPNpro_11","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"443","uuid":"b7d37c60-1f96-4629-a8de-e47a8b67768c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇵🇱t.me/DarkVPNpro_12","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"80","uuid":"b7d37c60-1f96-4629-a8de-e47a8b67768c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_16","ws-opts":{"path":"/v2raydns","headers":{"host":"51.68.188.150"}},"server":"51.68.188.150","port":"443","uuid":"51c79d31-f874-4d8f-abf3-599a3ce8b0bd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇦t.me/DarkVPNpro_10","ws-opts":{"path":"/v2raydns","headers":{"host":"51.222.156.142"}},"server":"51.222.156.142","port":"443","uuid":"3492525d-f92c-4af7-a2c3-06268e3f290a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_17","ws-opts":{"path":"/vmess","headers":{"host":"5.249.160.226"}},"server":"5.249.160.226","port":"80","uuid":"c721b258-e101-41e1-9574-ad171e502ab8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇨🇦t.me/DarkVPNpro_11","server":"149.56.141.11","port":443,"password":"67960bfb-00de-4a6b-9a7a-e74fc9e8b158","udp":true,"skip-cert-verify":true,"sni":"plan9sim.online"}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_18","server":"51.75.249.107","port":2002,"uuid":"c3a07eea-6d21-4e0e-a0ff-4f7c6b56e85c","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"/grpc"},"servername":"zoom.us"}
-  - {"type":"trojan","name":"🇩🇪t.me/Darkvpnpro","server":"164.92.142.166","port":443,"password":"c21fa1f1-b119-4bb2-8074-d0531572ab7f","udp":true,"skip-cert-verify":true,"sni":"plan9sim.online"}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_19","ws-opts":{"path":"/vmess","headers":{"host":"152.228.217.34"}},"server":"152.228.217.34","port":"80","uuid":"20fd35be-315f-4bee-a330-29aa54848d96","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_20","ws-opts":{"path":"/vmess","headers":{"host":"152.228.219.211"}},"server":"152.228.219.211","port":"80","uuid":"2d851735-268c-4e54-8144-0f8de48a9717","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇲🇫t.me/Darkvpnpro_1","server":"51.77.230.27","port":2443,"cipher":"aes-256-gcm","password":"B9AOCx56c5"}
-  - {"type":"trojan","name":"🇬🇧t.me/Darkvpnpro_1","server":"51.195.219.173","port":8080,"password":"3cb682c3-44a4-4c08-8154-5130f9c4cb78","udp":true,"skip-cert-verify":true,"sni":"plan9sim.online"}
-  - {"type":"vless","name":"🇬🇧t.me/Darkvpnpro_2","server":"54.37.18.98","port":80,"uuid":"a9c50213-b538-4347-bf54-80a731bbbfef","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"54.37.18.98","ws-opts":{"path":"/vless","headers":{"host":"54.37.18.98"}}}
-  - {"type":"vless","name":"🇨🇭t.me/Darkvpnpro","server":"45.90.57.107","port":80,"uuid":"ffdbc409-effb-4e33-b0c7-bdb5e190be46","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"45.90.57.107","ws-opts":{"path":"/vless","headers":{"host":"45.90.57.107"}}}
-  - {"type":"vless","name":"🇨🇦t.me/Darkvpnpro","server":"51.222.137.198","port":80,"uuid":"790fa184-694c-44b9-9c5a-01630e9a4b3a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"51.222.137.198","ws-opts":{"path":"/vless","headers":{"host":"51.222.137.198"}}}
-  - {"type":"vmess","name":"🇲🇫t.me/Darkvpnpro_2","server":"51.77.230.27","port":"8443","uuid":"618105e7-6d3c-411c-e3a9-c7d7d8695f86","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇲🇫t.me/Darkvpnpro_3","ws-opts":{"path":"/racevpn","headers":{"host":"51.75.249.107"}},"server":"51.75.249.107","port":"443","uuid":"e952358c-b8fa-46cd-928d-dc5c64ee3471","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇳🇱t.me/Darkvpnpro","server":"77.91.123.74","port":443,"password":"1c91b075-4365-44a2-a7a6-014e63cec3d3","udp":true,"skip-cert-verify":true,"sni":"plan9sim.online"}
-  - {"type":"ss","name":"🇲🇫t.me/DarkVPNpro_21","server":"51.77.230.27","port":2443,"cipher":"aes-256-gcm","password":"B9AOCx56c5"}
-  - {"type":"ss","name":"🇬🇧t.me/DarkVPNpro_5","server":"77.91.101.145","port":8443,"cipher":"aes-256-gcm","password":"1eb444ba-e178-434e-9615-3f013c6a2418"}
-  - {"type":"trojan","name":"🇬🇧t.me/DarkVPNpro_6","server":"77.91.101.145","port":443,"password":"9959f486-59e3-47dc-bb46-33d12a862747","udp":true,"skip-cert-verify":true,"sni":"77.91.101.145"}
-  - {"type":"trojan","name":"🇲🇫t.me/DarkVPNpro_22","server":"51.75.249.107","port":443,"password":"4ced82e0-68d6-4f5b-886a-b5ca81dd241b","udp":true,"skip-cert-verify":true,"sni":"plan9sim.online"}
-  - {"type":"vless","name":"🇳🇱t.me/DarkVPNpro_4","server":"77.91.123.74","port":2002,"uuid":"bc12f455-0800-4242-906e-42fa508d3106","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"/grpc"},"servername":"77.91.123.74"}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_23","server":"92.222.217.16","port":443,"uuid":"b59b12cb-5e05-4b30-8e47-c97e3f64423f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"plan9sim.online","ws-opts":{"path":"/vless","headers":{"host":"plan9sim.online"}}}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_24","server":"92.222.217.16","port":80,"uuid":"b59b12cb-5e05-4b30-8e47-c97e3f64423f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"92.222.217.16","ws-opts":{"path":"/vless","headers":{"host":"92.222.217.16"}}}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_12","server":"51.79.52.142","port":443,"uuid":"603c06c8-4d53-4e66-a801-1b746f0de574","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"plan9sim.online","ws-opts":{"path":"/vless","headers":{"host":"plan9sim.online"}}}
-  - {"type":"vless","name":"🇨🇦t.me/DarkVPNpro_13","server":"51.79.52.142","port":80,"uuid":"603c06c8-4d53-4e66-a801-1b746f0de574","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"51.79.52.142","ws-opts":{"path":"/vless","headers":{"host":"51.79.52.142"}}}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro_18","ws-opts":{"path":"/vmess","headers":{"host":"168.119.174.242"}},"server":"168.119.174.242","port":"80","uuid":"c25c791c-7262-11ed-8ff9-5b4639ec0c92","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇺🇲t.me/DarkVPNpro_5","server":"5.249.165.96","port":8443,"uuid":"b7fdfa21-bb43-4178-82e1-7f1f2962ff71","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"plan9sim.online","ws-opts":{"path":"/vless","headers":{"host":"plan9sim.online"}}}
-  - {"type":"vless","name":"🇺🇲t.me/DarkVPNpro_6","server":"5.249.165.96","port":8080,"uuid":"b7fdfa21-bb43-4178-82e1-7f1f2962ff71","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"5.249.165.96","ws-opts":{"path":"/vless","headers":{"host":"5.249.165.96"}}}
-  - {"type":"vmess","name":"🇳🇱t.me/DarkVPNpro_5","server":"188.166.30.174","port":"8443","uuid":"fa1e9225-0c30-4d3a-e743-2a5a1a21f0e1","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"🇯🇵JP_186_2","server":"kr1.api-aws.com","port":443,"password":"33073a7c-e6d5-4271-9b19-4416afcc25b5","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_20","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"176.119.159.245","port":"37672","uuid":"86b4e35c-1061-47b3-8c6c-811d1853a477","alterId":"64","cipher":"auto","network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -198,6 +133,11 @@ proxy-groups:
       - DIRECT
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -205,15 +145,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -223,156 +173,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -381,6 +251,11 @@ proxy-groups:
     proxies:
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -388,15 +263,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -406,156 +291,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -564,6 +369,11 @@ proxy-groups:
       - 🎯 全球直连
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -571,15 +381,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -589,156 +409,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -746,6 +486,11 @@ proxy-groups:
       - 🎯 全球直连
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -753,15 +498,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -771,156 +526,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -928,6 +603,11 @@ proxy-groups:
       - 🚀 节点选择
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -935,15 +615,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -953,156 +643,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1110,6 +720,11 @@ proxy-groups:
       - 🎯 全球直连
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -1117,15 +732,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -1135,156 +760,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1309,6 +854,11 @@ proxy-groups:
       - ♻️ 自动选择
       - default_name_1
       - _1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇬🇧GB_168
+      - 🇺🇸US_409|96.86Mb
+      - 🇬🇧GB_170
+      - '@Hope_Net-join-us-on-Telegram_2'
       - default_name_2
       - default_name_3
       - _2
@@ -1316,15 +866,25 @@ proxy-groups:
       - default_name_4
       - default_name_5
       - default_name_6
+      - 🇺🇸US_788|2.13Mb
       - default_name_7
       - default_name_8
       - default_name_9
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇳🇴NO_316+|17.67Mb
       - default_name_10
       - default_name_11
       - default_name_12
+      - 🇰🇷KR_173
+      - 🇬🇧GB_162
+      - '@Hope_NetjoinusonTelegram_1'
       - default_name_13
+      - 🇯🇵JP_214
       - default_name_14
+      - '@v2rayng_orgتلگرام'
       - default_name_15
+      - 🇯🇵JP_186_1
+      - Relay_🇯🇵JP-🇯🇵JP_205
       - default_name_16
       - default_name_17
       - default_name_18
@@ -1334,156 +894,76 @@ proxy-groups:
       - default_name_21
       - default_name_22
       - default_name_23
+      - 🇸🇬t.me/DarkVPNpro
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_NetjoinusonTelegram_2'
       - default_name_24
       - default_name_25
       - _5
+      - '@Hope_NetjoinusonTelegram_3'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - Relay_🇯🇵JP-🇯🇵JP_187
+      - 9️⃣Telegram:﴾@ZED_FilterR﴿
+      - '@Hope_Net-join-us-on-Telegram_7'
       - default_name_26
       - _6
+      - 🇭🇰t.me/DarkVPNpro
       - default_name_27
       - default_name_28
+      - 🇯🇵JP_199
       - default_name_29
+      - '@Hope_Net-join-us-on-Telegram_8'
       - default_name_30
       - default_name_31
+      - 🇺🇸US_788|13.37Mb
       - _7
       - default_name_32
+      - '@Hope_Net-join-us-on-Telegram_9'
       - default_name_33
       - default_name_34
       - default_name_35
       - _8
       - _9
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
       - default_name_36
+      - '@Hope_Net-join-us-on-Telegram_12'
       - default_name_37
       - _10
+      - '@Hope_Net-join-us-on-Telegram_13'
       - default_name_38
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇬🇧GB_157
       - default_name_39
       - default_name_40
+      - '@Hope_Net-join-us-on-Telegram_16'
       - default_name_41
+      - Relay_🇯🇵JP-🇯🇵JP_221
       - _11
+      - '@Hope_NetjoinusonTelegram_4'
+      - 🇷🇺RU_314|74.97Mb
       - default_name_42
       - default_name_43
       - _12
       - _13
       - default_name_44
+      - 🇯🇵JP_226
       - default_name_45
+      - 🇯🇵JP_211
       - default_name_46
+      - '@Hope_Net-join-us-on-Telegram_17'
       - default_name_47
+      - '@Hope_Net-join-us-on-Telegram_18'
       - default_name_48
+      - 🇯🇵JP_227
+      - '@Hope_Net-join-us-on-Telegram_19'
       - default_name_49
       - default_name_50
       - _14
-      - 🇲🇫t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_1
-      - 🇩🇪t.me/DarkVPNpro_1
-      - 🇲🇫t.me/DarkVPNpro_2
-      - 🇺🇲t.me/DarkVPNpro_1
-      - 🇬🇧t.me/DarkVPNpro_1
-      - 🇳🇱t.me/DarkVPNpro_1
-      - 🇵🇱t.me/DarkVPNpro_1
-      - 🇷🇺t.me/DarkVPNpro_1
-      - 🇨🇦t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_3
-      - 🇲🇫_1
-      - 🇲🇫_2
-      - 🇳🇱
-      - 🇨🇦
-      - 🇹🇷
-      - 🇫🇷t.me/DarkVPNpro
-      - 🇷🇺t.me/DarkVPNpro_2
-      - 🇫🇮t.me/DarkVPNpro_1
-      - 🇺🇸t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_2
-      - 🇬🇧t.me/DarkVPNpro_2
-      - 🇲🇫t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_3
-      - 🇨🇦t.me/DarkVPNpro_4
-      - 🇨🇦t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_6
-      - 🇵🇱t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_3
-      - 🇨🇭t.me/DarkVPNpro_1
-      - 🇨🇭t.me/DarkVPNpro_2
-      - 🇷🇺t.me/DarkVPNpro_3
-      - 🇲🇫t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_3
-      - 🇳🇱t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_2
-      - 🇵🇱t.me/DarkVPNpro_4
-      - 🇵🇱t.me/DarkVPNpro_5
-      - 🇨🇦t.me/DarkVPNpro_7
-      - 🇲🇫t.me/DarkVPNpro_8
-      - 🇷🇺t.me/DarkVPNpro_4
-      - 🇳🇱t.me/DarkVPNpro_3
-      - 🇵🇱t.me/DarkVPNpro_6
-      - 🇩🇪t.me/DarkVPNpro_6
-      - 🇨🇦t.me/DarkVPNpro_8
-      - 🇨🇦t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_10
-      - 🇵🇱t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_8
-      - 🇩🇪t.me/DarkVPNpro_7
-      - 🇩🇪t.me/DarkVPNpro_8
-      - 🇫🇮t.me/DarkVPNpro_2
-      - 🇩🇪t.me/DarkVPNpro_9
-      - 🇲🇫t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_11
-      - 🇩🇪t.me/DarkVPNpro_12
-      - 🇲🇫t.me/DarkVPNpro_13
-      - 🇲🇫t.me/DarkVPNpro_14
-      - 🇲🇫t.me/DarkVPNpro_15
-      - 🇷🇺t.me/DarkVPNpro_5
-      - 🇷🇺t.me/DarkVPNpro_6
-      - 🇷🇺t.me/DarkVPNpro_7
-      - 🇵🇱t.me/DarkVPNpro_9
-      - 🇵🇱t.me/DarkVPNpro_10
-      - 🇺🇲t.me/DarkVPNpro_3
-      - 🇺🇲t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_16
-      - 🇲🇫t.me/DarkVPNpro_17
-      - 🇬🇧t.me/DarkVPNpro_3
-      - 🇬🇧t.me/DarkVPNpro_4
-      - 🇩🇪t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_14
-      - 🇮🇹t.me/DarkVPNpro
-      - 🇩🇪t.me/DarkVPNpro_15
-      - t.me/CyberVPNs🇩🇪
-      - 🇵🇱t.me/DarkVPNpro_11
-      - 🇵🇱t.me/DarkVPNpro_12
-      - 🇩🇪t.me/DarkVPNpro_16
-      - 🇨🇦t.me/DarkVPNpro_10
-      - 🇩🇪t.me/DarkVPNpro_17
-      - 🇨🇦t.me/DarkVPNpro_11
-      - 🇲🇫t.me/DarkVPNpro_18
-      - 🇩🇪t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_19
-      - 🇲🇫t.me/DarkVPNpro_20
-      - 🇲🇫t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_1
-      - 🇬🇧t.me/Darkvpnpro_2
-      - 🇨🇭t.me/Darkvpnpro
-      - 🇨🇦t.me/Darkvpnpro
-      - 🇲🇫t.me/Darkvpnpro_2
-      - 🇲🇫t.me/Darkvpnpro_3
-      - 🇳🇱t.me/Darkvpnpro
-      - 🇲🇫t.me/DarkVPNpro_21
-      - 🇬🇧t.me/DarkVPNpro_5
-      - 🇬🇧t.me/DarkVPNpro_6
-      - 🇲🇫t.me/DarkVPNpro_22
-      - 🇳🇱t.me/DarkVPNpro_4
-      - 🇲🇫t.me/DarkVPNpro_23
-      - 🇲🇫t.me/DarkVPNpro_24
-      - 🇨🇦t.me/DarkVPNpro_12
-      - 🇨🇦t.me/DarkVPNpro_13
-      - 🇩🇪t.me/DarkVPNpro_18
-      - 🇺🇲t.me/DarkVPNpro_5
-      - 🇺🇲t.me/DarkVPNpro_6
-      - 🇳🇱t.me/DarkVPNpro_5
+      - 🇯🇵JP_186_2
+      - '@Hope_Net-join-us-on-Telegram_20'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
