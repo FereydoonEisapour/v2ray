@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-21 05:50:47
+#  创建时间：2022-12-21 05:53:54
 #  模版：v2rayse默认模版
-#  节点数量：30
+#  节点数量：31
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -25,12 +25,11 @@ proxies:
   - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2365","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
   - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2735","server":"85.208.108.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
   - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2172","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"vmess","name":"@MyPremium98","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@MyPremium98_1","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_4","ws-opts":{"path":"/vmess","headers":{"host":"152.228.217.34"}},"server":"152.228.217.34","port":"80","uuid":"806ec1ab-0eee-46d2-884a-b7b88d5cb651","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"⚡️@DeamNet_🇯🇵Osaka-1038","server":"138.2.45.243","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
-  - {"type":"vless","name":"🇲🇫t.me/DarkVPNpro_1","server":"193.70.85.110","port":80,"uuid":"5a23cd64-35cd-4a96-999e-91320f8b67ea","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"193.70.85.110","ws-opts":{"path":"/vless","headers":{"host":"193.70.85.110"}}}
   - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro","ws-opts":{"path":"/graphql"},"server":"168.119.254.234","port":"80","uuid":"41990bdc-da75-496d-bad3-ae822ad8be5f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro_2","http-opts":{"path":["/"],"headers":{"Host":["51.77.230.27"]}},"server":"51.77.230.27","port":"35403","uuid":"e3ebb4c5-5a22-4f19-c0e3-4ef4b9913921","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro","http-opts":{"path":["/"],"headers":{"Host":["51.77.230.27"]}},"server":"51.77.230.27","port":"35403","uuid":"e3ebb4c5-5a22-4f19-c0e3-4ef4b9913921","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Miami-2657","server":"79.133.109.56","port":1036,"cipher":"chacha20-ietf-poly1305","password":")1N1E6v0SU_rGTpg"}
   - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1096","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_5","ws-opts":{"path":"/","headers":{"host":"51.159.2.152"}},"server":"51.159.2.152","port":"80","uuid":"43587dc1-34f1-4254-ab90-56507e72d7a8","alterId":"0","cipher":"auto","network":"ws"}
@@ -39,10 +38,12 @@ proxies:
   - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Chicago-2595","server":"38.64.138.53","port":1035,"cipher":"chacha20-ietf-poly1305","password":")1N1E6v0SU_rGTpg"}
   - {"type":"ss","name":"default_name","server":"samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"jinajina123"}
   - {"type":"vmess","name":"","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}},"server":"vsg1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@v2rayng_org","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"80","uuid":"b7601267-ba4f-4042-b2df-080a42173f43","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@v2rayng_org_1","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"80","uuid":"b7601267-ba4f-4042-b2df-080a42173f43","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"⚡️@DeamNet_🇺🇸Phoenix-1195","server":"129.146.242.130","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1881","server":"85.208.108.60","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
   - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1211","server":"kr1.api-aws.com","port":443,"password":"33073a7c-e6d5-4271-9b19-4416afcc25b5","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@v2rayng_org_2","ws-opts":{"path":"/vmess","headers":{"host":"152.228.217.34"}},"server":"152.228.217.34","port":"443","uuid":"149b702b-dbf0-47d6-b5f3-2a0e636bcb83","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@MyPremium98_2","ws-opts":{"path":"/clientarea","headers":{"host":"hkbn03.tizi1.net"}},"server":"hkbn03.tizi1.net","port":"443","uuid":"0565f51e-f7e9-4962-ab9c-61407ef581c8","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,12 +62,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -75,10 +75,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -97,12 +99,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -111,10 +112,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -133,12 +136,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -147,10 +149,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -168,12 +172,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -182,10 +185,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -203,12 +208,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -217,10 +221,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -238,12 +244,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -252,10 +257,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -290,12 +297,11 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-2365
       - ⚡️@DeamNet_🇯🇵Tokyo-2735
       - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98'
+      - '@MyPremium98_1'
       - '@Hope_Net-join-us-on-Telegram_4'
       - ⚡️@DeamNet_🇯🇵Osaka-1038
-      - 🇲🇫t.me/DarkVPNpro_1
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro_2
+      - 🇲🇫t.me/DarkVPNpro
       - ⚡️@DeamNet_🇺🇸Miami-2657
       - ⚡️@DeamNet_🇰🇷Seoul-1096
       - '@Hope_Net-join-us-on-Telegram_5'
@@ -304,10 +310,12 @@ proxy-groups:
       - ⚡️@DeamNet_🇺🇸Chicago-2595
       - default_name
       - ''
-      - '@v2rayng_org'
+      - '@v2rayng_org_1'
       - ⚡️@DeamNet_🇺🇸Phoenix-1195
       - ⚡️@DeamNet_🇯🇵Tokyo-1881
       - ⚡️@DeamNet_🇰🇷Seoul-1211
+      - '@v2rayng_org_2'
+      - '@MyPremium98_2'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
