@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-21 05:53:54
+#  创建时间：2022-12-21 06:17:04
 #  模版：v2rayse默认模版
-#  节点数量：31
+#  节点数量：79
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,256 +13,592 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"sshocean-payam_nsi2","ws-opts":{"path":"/sshocean","headers":{"host":"ch1.v2rayserv.com"}},"server":"ch1.v2rayserv.com","port":"80","uuid":"0011a5e6-5aa4-48e9-be00-8b797227aab4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"⚡️@DeamNet_🇸🇬Singapore-1051","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/"},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"⚡️@DeamNet_🇦🇺Sydney-1180","server":"140.238.205.173","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇬🇧@prrofile_purple","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore-2.sharecentre.online"}},"server":"47.243.107.181","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"default_name_1","server":"37.32.28.228","port":443,"cipher":"chacha20-ietf-poly1305","password":"jinajina123"}
-  - {"type":"trojan","name":"default_name_2","server":"kr1.api-aws.com","port":443,"password":"36443c4f-4487-48a6-8438-57bd7700b916","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_1","ws-opts":{"path":"/ezN9pvil/","headers":{"host":"v2ray.wefuckgfw.tk"}},"server":"v2ray.wefuckgfw.tk","port":"2096","uuid":"ec1af151-9562-4fb2-919f-5506647aa5dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_2","ws-opts":{"path":"/ezN9pvil/","headers":{"host":"v2ray.wefuckgfw.tk"}},"server":"v2ray.wefuckgfw.tk","port":"2096","uuid":"ec1af151-9562-4fb2-919f-5506647aa5dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_3","ws-opts":{"path":"/"},"server":"bugtr2.mlgolden.site","port":"2053","uuid":"d7827816-b9f5-40c6-b1a1-e641326a40bd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2365","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2735","server":"85.208.108.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2172","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"vmess","name":"@MyPremium98_1","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_4","ws-opts":{"path":"/vmess","headers":{"host":"152.228.217.34"}},"server":"152.228.217.34","port":"80","uuid":"806ec1ab-0eee-46d2-884a-b7b88d5cb651","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1111","server":"kr1.api-aws.com","port":443,"password":"6c383778-a50e-4292-8e2b-13b4184363e0","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1476","server":"85.208.108.60","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1304","server":"kr1.api-aws.com","port":443,"password":"205f8ab6-cb17-4480-93a6-aece90b88742","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1886","server":"85.208.108.60","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇯🇵Osaka-1140","server":"168.138.43.89","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇮🇳Hyderabad-1215","server":"152.67.160.174","port":443,"password":"54080134-2cba-4535-8599-95650bd9aa54","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_1","ws-opts":{"path":"/telegram-id-@privatevpns","headers":{"host":"google.com"}},"server":"78.46.129.226","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2135","server":"85.208.108.60","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇦🇺Sydney-1226","server":"152.67.98.30","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2055","server":"85.208.108.60","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"vmess","name":"_1","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.us05.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10025","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇭🇰HongKong-1124","server":"194.156.99.39","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Chicago-2219","server":"162.251.61.47","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1863","server":"85.208.108.60","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2435","server":"85.208.108.60","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇺🇸Secaucus-1091","server":"138.124.183.216","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2929","server":"85.208.108.60","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1513","server":"85.208.108.60","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2313","server":"85.208.108.60","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇮🇹Rome-1418","server":"84.33.193.79","port":18760,"cipher":"aes-256-gcm","password":"hg49$WH8943g3"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇺🇸Secaucus-1197","server":"138.124.183.222","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸US_858","ws-opts":{"path":"/home","headers":{"host":"ca.0112233.xyz"}},"server":"ca.0112233.xyz","port":"8443","uuid":"c3000e9d-bee7-4fdb-b312-dd07030f325d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇦🇪Sharjah-2555","server":"109.169.72.249","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_1183","ws-opts":{"path":"/"},"server":"ca.0112233.xyz","port":"443","uuid":"c3000e9d-bee7-4fdb-b312-dd07030f325d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1846","server":"85.208.108.60","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"type":"trojan","name":"⚡️@DeamNet_🇯🇵Osaka-1038","server":"138.2.45.243","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro","ws-opts":{"path":"/graphql"},"server":"168.119.254.234","port":"80","uuid":"41990bdc-da75-496d-bad3-ae822ad8be5f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇲🇫t.me/DarkVPNpro","http-opts":{"path":["/"],"headers":{"Host":["51.77.230.27"]}},"server":"51.77.230.27","port":"35403","uuid":"e3ebb4c5-5a22-4f19-c0e3-4ef4b9913921","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Miami-2657","server":"79.133.109.56","port":1036,"cipher":"chacha20-ietf-poly1305","password":")1N1E6v0SU_rGTpg"}
-  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1096","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_5","ws-opts":{"path":"/","headers":{"host":"51.159.2.152"}},"server":"51.159.2.152","port":"80","uuid":"43587dc1-34f1-4254-ab90-56507e72d7a8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_6","ws-opts":{"path":"/in-vpn-majani-ast-vws","headers":{"host":"xvnp.de"}},"server":"188.114.96.14","port":"443","uuid":"1d7f97be-e0a9-4377-97eb-c05c45392509","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_7","ws-opts":{"path":"/vmess","headers":{"host":"139.99.135.182"}},"server":"139.99.135.182","port":"80","uuid":"5fa2bc9f-9958-4578-8587-268211341239","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Chicago-2595","server":"38.64.138.53","port":1035,"cipher":"chacha20-ietf-poly1305","password":")1N1E6v0SU_rGTpg"}
-  - {"type":"ss","name":"default_name","server":"samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"jinajina123"}
-  - {"type":"vmess","name":"","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}},"server":"vsg1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@v2rayng_org_1","ws-opts":{"path":"/vmess","headers":{"host":"147.135.208.210"}},"server":"147.135.208.210","port":"80","uuid":"b7601267-ba4f-4042-b2df-080a42173f43","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"⚡️@DeamNet_🇺🇸Phoenix-1195","server":"129.146.242.130","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_2","http-opts":{"path":["/"]},"server":"167.235.131.2","port":"24719","uuid":"75564a30-48d3-43e2-f036-70a149ce52db","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2615","server":"85.208.108.60","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1881","server":"85.208.108.60","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2278","server":"85.208.108.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2172","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"trojan","name":"🇬🇧t.me/DarkVPNpro","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1860","server":"85.208.108.60","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"🇩🇪t.me/DarkVPNpro","ws-opts":{"path":"/graphql"},"server":"168.119.254.234","port":"80","uuid":"41990bdc-da75-496d-bad3-ae822ad8be5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇦🇺Sydney-1180","server":"140.238.205.173","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"_2","ws-opts":{"path":"/","headers":{"host":"ca.0112233.xyz"}},"server":"ca.0112233.xyz","port":"443","uuid":"c3000e9d-bee7-4fdb-b312-dd07030f325d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇦🇪Sharjah-2440","server":"109.169.72.249","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"default_name","server":"samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"jinajina123"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2166","server":"85.208.108.60","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"🇯🇵JP","server":"kr1.api-aws.com","port":443,"password":"98a68cfb-42c6-4498-ac6e-7e5c203924a7","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1952","server":"85.208.108.60","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2628","server":"85.208.108.60","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1266","server":"kr1.api-aws.com","port":443,"password":"0d8285f8-33da-4076-bb24-d498bd83f2f9","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1096","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇮🇳Hyderabad-1258","server":"152.67.190.183","port":443,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2151","server":"85.208.108.60","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_3","ws-opts":{"path":"/"},"server":"185.242.161.206","port":"25212","uuid":"43a988d1-8c8c-4303-9e03-8d651de6f376","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1248","server":"kr1.api-aws.com","port":443,"password":"65f7378f-edb8-4f5d-913a-641ecd853cea","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1216","server":"kr1.api-aws.com","port":443,"password":"8c20177e-d245-4ec6-9610-34c20500d10b","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_4","ws-opts":{"path":"/dwcqvws","headers":{"host":"farmone5.online"}},"server":"95.216.64.173","port":"443","uuid":"b886f9e9-d50f-fa02-0c31-f794c06e6713","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2211","server":"85.208.108.60","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"🇺🇲t.me/DarkVPNpro","ws-opts":{"path":"/"},"server":"138.124.184.163","port":"13941","uuid":"c17dfdf0-50b6-420a-fe9d-20778fd5e540","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1729","server":"85.208.108.60","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"trojan","name":"default_name_2","server":"kr1.api-aws.com","port":443,"password":"36443c4f-4487-48a6-8438-57bd7700b916","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1986","server":"85.208.108.60","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇮🇳Hyderabad-1148","server":"152.67.162.166","port":443,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"⚡️@DeamNet_🇨🇦Toronto-2461","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"xjp4h.mayaa.ml","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Miami-2657","server":"79.133.109.56","port":1036,"cipher":"chacha20-ietf-poly1305","password":")1N1E6v0SU_rGTpg"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2735","server":"85.208.108.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"default_name_1","server":"37.32.28.228","port":443,"cipher":"chacha20-ietf-poly1305","password":"jinajina123"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1296","server":"146.56.189.146","port":443,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1137","server":"kr1.api-aws.com","port":443,"password":"ed9a202f-7871-4a15-a4c1-f3a47c1f5493","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2225","server":"85.208.108.60","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2365","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1818","server":"85.208.108.60","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇦🇪Sharjah-2453","server":"109.169.72.249","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1870","server":"85.208.108.60","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2273","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_5","ws-opts":{"path":"/aries"},"server":"185.14.47.240","port":"2086","uuid":"7a8a19ec-94f5-4262-edbe-a308e1d0c66d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_6","ws-opts":{"path":"/1f213abcf6?ed=2048"},"server":"www.xvbu.de","port":"443","uuid":"213694e5-56e7-4987-96dc-839abdb8d461","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2962","server":"85.208.108.60","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2322","server":"85.208.108.60","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"type":"trojan","name":"⚡️@DeamNet_🇰🇷Seoul-1211","server":"kr1.api-aws.com","port":443,"password":"33073a7c-e6d5-4271-9b19-4416afcc25b5","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@v2rayng_org_2","ws-opts":{"path":"/vmess","headers":{"host":"152.228.217.34"}},"server":"152.228.217.34","port":"443","uuid":"149b702b-dbf0-47d6-b5f3-2a0e636bcb83","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@MyPremium98_2","ws-opts":{"path":"/clientarea","headers":{"host":"hkbn03.tizi1.net"}},"server":"hkbn03.tizi1.net","port":"443","uuid":"0565f51e-f7e9-4962-ab9c-61407ef581c8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb","server":"kr1.api-aws.com","port":443,"password":"036ba5aa-fcb7-4e6f-95b5-a857cb354aa8","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"_3","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk06.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10009","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1953","server":"85.208.108.60","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2228","server":"85.208.108.60","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"trojan","name":"⚡️@DeamNet_🇯🇵Osaka-1169","server":"168.138.44.176","port":443,"password":"8d2d5953-d649-4034-94f2-72f2df2623da","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"⚡️@DeamNet_🇺🇸Chicago-2224","server":"162.251.61.47","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -285,37 +621,85 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - sshocean-payam_nsi2
-      - ⚡️@DeamNet_🇸🇬Singapore-1051
-      - ⚡️@DeamNet_🇦🇺Sydney-1180
-      - 🇬🇧@prrofile_purple
-      - default_name_1
-      - default_name_2
+      - ⚡️@DeamNet_🇰🇷Seoul-1111
+      - ⚡️@DeamNet_🇯🇵Tokyo-1476
+      - ⚡️@DeamNet_🇰🇷Seoul-1304
+      - ⚡️@DeamNet_🇯🇵Tokyo-1886
+      - ⚡️@DeamNet_🇯🇵Osaka-1140
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1215
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - ⚡️@DeamNet_🇯🇵Tokyo-2365
-      - ⚡️@DeamNet_🇯🇵Tokyo-2735
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - '@MyPremium98_1'
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2135
+      - ⚡️@DeamNet_🇦🇺Sydney-1226
+      - ⚡️@DeamNet_🇯🇵Tokyo-2055
+      - _1
+      - ⚡️@DeamNet_🇭🇰HongKong-1124
+      - ⚡️@DeamNet_🇺🇸Chicago-2219
+      - ⚡️@DeamNet_🇯🇵Tokyo-1863
+      - ⚡️@DeamNet_🇯🇵Tokyo-2435
+      - ⚡️@DeamNet_🇺🇸Secaucus-1091
+      - ⚡️@DeamNet_🇯🇵Tokyo-2929
+      - ⚡️@DeamNet_🇯🇵Tokyo-1513
+      - ⚡️@DeamNet_🇯🇵Tokyo-2313
+      - ⚡️@DeamNet_🇮🇹Rome-1418
+      - ⚡️@DeamNet_🇺🇸Secaucus-1197
+      - 🇺🇸US_858
+      - ⚡️@DeamNet_🇦🇪Sharjah-2555
+      - Relay_🇺🇸US-🇺🇸US_1183
+      - ⚡️@DeamNet_🇯🇵Tokyo-1846
       - ⚡️@DeamNet_🇯🇵Osaka-1038
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2615
+      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2278
+      - ⚡️@DeamNet_🇯🇵Tokyo-2172
+      - 🇬🇧t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1860
       - 🇩🇪t.me/DarkVPNpro
-      - 🇲🇫t.me/DarkVPNpro
-      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇦🇺Sydney-1180
+      - _2
+      - ⚡️@DeamNet_🇦🇪Sharjah-2440
+      - default_name
+      - ⚡️@DeamNet_🇯🇵Tokyo-2166
+      - 🇯🇵JP
+      - ⚡️@DeamNet_🇯🇵Tokyo-1952
+      - ⚡️@DeamNet_🇯🇵Tokyo-2628
+      - ⚡️@DeamNet_🇰🇷Seoul-1266
       - ⚡️@DeamNet_🇰🇷Seoul-1096
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1258
+      - ⚡️@DeamNet_🇯🇵Tokyo-2151
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - ⚡️@DeamNet_🇰🇷Seoul-1248
+      - ⚡️@DeamNet_🇰🇷Seoul-1216
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - ⚡️@DeamNet_🇯🇵Tokyo-2211
+      - 🇺🇲t.me/DarkVPNpro
+      - ⚡️@DeamNet_🇯🇵Tokyo-1729
+      - default_name_2
+      - ⚡️@DeamNet_🇯🇵Tokyo-1986
+      - ⚡️@DeamNet_🇮🇳Hyderabad-1148
+      - ⚡️@DeamNet_🇨🇦Toronto-2461
+      - ⚡️@DeamNet_🇺🇸Miami-2657
+      - ⚡️@DeamNet_🇯🇵Tokyo-2735
+      - default_name_1
+      - ⚡️@DeamNet_🇰🇷Seoul-1296
+      - ⚡️@DeamNet_🇰🇷Seoul-1137
+      - ⚡️@DeamNet_🇯🇵Tokyo-2225
+      - ⚡️@DeamNet_🇯🇵Tokyo-2365
+      - ⚡️@DeamNet_🇯🇵Tokyo-1818
+      - ⚡️@DeamNet_🇦🇪Sharjah-2453
+      - ⚡️@DeamNet_🇯🇵Tokyo-1870
+      - ⚡️@DeamNet_🇯🇵Tokyo-2273
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - ⚡️@DeamNet_🇺🇸Chicago-2595
-      - default_name
-      - ''
-      - '@v2rayng_org_1'
-      - ⚡️@DeamNet_🇺🇸Phoenix-1195
-      - ⚡️@DeamNet_🇯🇵Tokyo-1881
+      - ⚡️@DeamNet_🇯🇵Tokyo-2962
+      - ⚡️@DeamNet_🇯🇵Tokyo-2322
       - ⚡️@DeamNet_🇰🇷Seoul-1211
-      - '@v2rayng_org_2'
-      - '@MyPremium98_2'
+      - Relay_🇯🇵JP-🇯🇵JP_216+|+1.60Mb
+      - _3
+      - ⚡️@DeamNet_🇯🇵Tokyo-1953
+      - ⚡️@DeamNet_🇯🇵Tokyo-2228
+      - ⚡️@DeamNet_🇯🇵Osaka-1169
+      - ⚡️@DeamNet_🇺🇸Chicago-2224
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
