@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-26 10:19:37
+#  创建时间：2022-12-26 10:22:37
 #  模版：v2rayse默认模版
-#  节点数量：79
+#  节点数量：59
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -54,7 +54,7 @@ proxies:
   - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1863","server":"85.208.108.60","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
   - {"type":"vmess","name":"Pool_🇨🇳CN_29","ws-opts":{"path":"/path/243535322906"},"server":"202.79.171.157","port":"443","uuid":"fb3583a3-7717-4fe5-9146-3301861f9f41","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_6","http-opts":{"path":["/"],"headers":{"Host":["Telegram.confingserver"]}},"server":"5.75.184.210","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"@MyPremium98😍🤍_1","http-opts":{"path":["/"]},"server":"47.243.36.34","port":"26953","uuid":"6a1f0373-d449-4305-8e46-e72a789076d5","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"@MyPremium98😍🤍","http-opts":{"path":["/"]},"server":"47.243.36.34","port":"26953","uuid":"6a1f0373-d449-4305-8e46-e72a789076d5","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"trojan","name":"default_name_12","server":"152.67.98.30","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"trojan","name":"default_name_13","server":"138.124.183.222","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_7","ws-opts":{"path":"/roewesu","headers":{"host":"suzhihan.eu.org"}},"server":"suzhihan.eu.org","port":"443","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -72,26 +72,6 @@ proxies:
   - {"type":"trojan","name":"default_name_15","server":"146.56.189.146","port":443,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"ss","name":"default_name_16","server":"85.208.108.60","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
   - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_10","http-opts":{"path":["/"]},"server":"116.203.202.160","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-1818","server":"85.208.108.60","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2435","server":"85.208.108.60","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"@MyPremium98😍🤍_2","http-opts":{"path":["/"]},"server":"8.210.104.101","port":"61898","uuid":"d1b4c525-f298-4c8c-9f8f-dd87dc32df0b","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"trojan","name":"@v2rayfa","server":"dl-hk1.efyunpan.com","port":443,"password":"1de78101-cc31-45eb-a8ac-41bd77578314","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
-  - {"type":"ss","name":"default_name_17","server":"85.208.108.60","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_460","ws-opts":{"path":"/","headers":{"host":"lc-kr02-direct01.lc-kr02.lc-node.com"}},"server":"lc-kr02-direct01.lc-kr02.lc-node.com","port":"443","uuid":"ec736482-173e-3eff-9114-b49df8056e7d","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_11","ws-opts":{"path":"/"},"server":"138.2.49.230","port":"10021","uuid":"a12e496e-f89a-434a-8011-108846f0e412","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇷🇺RU","server":"194.156.99.39","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"default_name_18","server":"kr1.api-aws.com","port":443,"password":"205f8ab6-cb17-4480-93a6-aece90b88742","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2615","server":"85.208.108.60","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"trojan","name":"default_name_19","server":"kr1.api-aws.com","port":443,"password":"8c20177e-d245-4ec6-9610-34c20500d10b","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"ss","name":"⚡️@DeamNet_🇯🇵Tokyo-2172","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"vmess","name":"⚡️@DeamNet_🇲🇴Macao-2362","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"cdn.chigua.tk","port":"443","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"default_name_20","server":"129.146.190.42","port":443,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"default_name_21","server":"152.67.162.166","port":443,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"default_name_22","server":"150.230.217.213","port":443,"password":"c09eb137-bf68-4658-84e0-102d94b74168","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"default_name_23","server":"kr1.api-aws.com","port":443,"password":"36443c4f-4487-48a6-8438-57bd7700b916","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_12","http-opts":{"path":["/"],"headers":{"Host":["8.218.86.59"]}},"server":"8.218.86.59","port":"36536","uuid":"ae3c56f1-c243-4373-bd65-07fd0569c455","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"@Hope_Net-join-us-on-Telegram_13","http-opts":{"path":["/"]},"server":"47.242.174.112","port":"49564","uuid":"61a57665-7db8-424e-8cbf-b95f9dc9d799","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"trojan","name":"🇬🇧GB","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -139,7 +119,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -157,26 +137,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -224,7 +184,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -242,26 +202,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -309,7 +249,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -327,26 +267,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
   - name: 📲 电报信息
     type: select
     proxies:
@@ -393,7 +313,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -411,26 +331,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -477,7 +377,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -495,26 +395,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -561,7 +441,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -579,26 +459,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -662,7 +522,7 @@ proxy-groups:
       - ⚡️@DeamNet_🇯🇵Tokyo-1863
       - Pool_🇨🇳CN_29
       - '@Hope_Net-join-us-on-Telegram_6'
-      - '@MyPremium98😍🤍_1'
+      - '@MyPremium98😍🤍'
       - default_name_12
       - default_name_13
       - '@Hope_Net-join-us-on-Telegram_7'
@@ -680,26 +540,6 @@ proxy-groups:
       - default_name_15
       - default_name_16
       - '@Hope_Net-join-us-on-Telegram_10'
-      - ⚡️@DeamNet_🇯🇵Tokyo-1818
-      - ⚡️@DeamNet_🇯🇵Tokyo-2435
-      - '@MyPremium98😍🤍_2'
-      - '@v2rayfa'
-      - default_name_17
-      - Relay_🇺🇸US-🇺🇸US_460
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - 🇷🇺RU
-      - default_name_18
-      - ⚡️@DeamNet_🇯🇵Tokyo-2615
-      - default_name_19
-      - ⚡️@DeamNet_🇯🇵Tokyo-2172
-      - ⚡️@DeamNet_🇲🇴Macao-2362
-      - default_name_20
-      - default_name_21
-      - default_name_22
-      - default_name_23
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - 🇬🇧GB
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
