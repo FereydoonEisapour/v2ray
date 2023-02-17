@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：16-02-2023 21:37:26
+# 创建时间：17-02-2023 16:07:50
 # 使用模版：V2RaySE 默认模版
-# 节点数量：15
+# 节点数量：22
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,21 +21,28 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"3.97.11.18","port":11111,"cipher":"aes-128-gcm","uuid":"7cb72883-9635-46eb-8531-8d697927ff04","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"✅ @ShadowSocks_S","type":"vmess","server":"tcas.padra-holding.com","port":36005,"cipher":"auto","uuid":"05c38399-5296-4bf2-a606-1cec3b71c942","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"wew.rest8746.ml","port":22301,"cipher":"auto","uuid":"176ed834-75dc-4e4c-a536-f05479b39b3c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"65.109.219.41","port":19464,"cipher":"auto","uuid":"8123f74a-839f-4b3d-dab1-ef721a4c72f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@kutoproxy","type":"ss","server":"51.79.177.159","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"65.109.219.41","port":49380,"cipher":"auto","uuid":"a1007163-1b36-4d68-de00-0dae5fabedd9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇮t.me/DarkVPNpro S11","type":"vmess","server":"45.85.118.214","port":2053,"cipher":"auto","uuid":"0705e107-ec42-4a52-803c-87cebb26564b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"tron.sprotarsha.top"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"78.47.131.39","port":443,"cipher":"auto","uuid":"6f514878-9513-4393-a68f-1225de4960a7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"h1.freenet.sbs","port":2086,"cipher":"auto","uuid":"c90554cd-ef5b-4acb-b1fb-6ce48559af74","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"h1.freenet.sbs"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"45.85.118.88","port":443,"cipher":"auto","uuid":"ee30d3ff-da14-4ea8-bcd2-02e8ee3667de","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hstr1675520106270.aidapp.life","network":"ws","ws-opts":{"path":"/aidapp.lifevws","headers":{"host":"hstr1675520106270.aidapp.life"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"78.47.131.39","port":80,"cipher":"auto","uuid":"a4c9aaee-9a13-4c20-cf98-a14570a44554","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@v2rayng_org","type":"vmess","server":"139.99.91.95","port":443,"cipher":"auto","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":32,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"91.107.140.193","port":8443,"cipher":"auto","uuid":"344f5fad-36c9-4a14-e924-66209b3b1e70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@kutoproxy🇩🇪_1","type":"vmess","server":"91.107.167.217","port":80,"cipher":"auto","uuid":"b5d062c4-4589-4b39-ebc2-923285bb8c56","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷_FR_法国_1","type":"ss","server":"149.202.82.172","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷_FR_法国_2","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"@kutoproxy🇩🇪_2","type":"vmess","server":"91.107.167.217","port":2096,"cipher":"auto","uuid":"e8a815cb-a3cd-4834-d0bc-07a9a81f614a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"51.75.67.118","port":443,"cipher":"auto","uuid":"c182157a-f9fd-43e0-971f-87914dd1fb28","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"soft98.ir","network":"ws","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"185.225.69.134","port":45081,"cipher":"auto","uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"47.243.185.128","port":47365,"cipher":"auto","uuid":"fb695171-6b24-4255-9893-8921f53a0548","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"47.243.183.124","port":42093,"cipher":"auto","uuid":"6bd6d540-ab4a-4ecf-98d6-1bd781a450c7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"91.107.171.113","port":81,"cipher":"auto","uuid":"9e56f531-9277-4ed5-b20d-0bb472856e3f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"159.69.121.197","port":443,"cipher":"auto","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"91.193.181.192","port":8090,"cipher":"auto","uuid":"08bc30e1-be39-4eb4-e887-e6579be15a45","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"91.193.181.192"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"172.104.167.240","port":7203,"cipher":"auto","uuid":"9c52776b-4b01-4ae6-9f7d-25cd4725e13c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sg1"}}
+  - {"name":"@v2rayng_org_1","type":"trojan","server":"185.212.200.74","port":443,"udp":true,"password":"Sp3eDVp","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"lolo.govermentco.space","port":80,"cipher":"auto","uuid":"16ea73bc-59f7-485d-973c-055fb29f57b3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"s1.govermentco.space"}}}
+  - {"name":"@kutoproxy🌈🕊","type":"vmess","server":"91.107.167.217","port":80,"cipher":"auto","uuid":"b5d062c4-4589-4b39-ebc2-923285bb8c56","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"@kutoproxy ✅","type":"vmess","server":"vtor8.net2vip.com","port":54766,"cipher":"auto","uuid":"6620d0e4-9a9f-4a49-d0e0-e0be3775078f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇮t.me/DarkVPNpro S17","type":"vmess","server":"45.95.241.51","port":2053,"cipher":"auto","uuid":"0705e107-ec42-4a52-803c-87cebb26564b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"tron.sprotarsha.top"}}}
-  - {"name":"🇫🇮t.me/DarkVPNpro S13","type":"vmess","server":"45.95.241.94","port":2053,"cipher":"auto","uuid":"0705e107-ec42-4a52-803c-87cebb26564b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"tron.sprotarsha.top"}}}
+  - {"name":"@v2rayng_org_2","type":"trojan","server":"185.16.206.211","port":443,"udp":true,"password":"shefelnak","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"91.107.140.193","port":443,"cipher":"auto","uuid":"fdae8ca9-3a3f-4d25-b1f3-3795710dd30c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"45.95.241.251","port":443,"cipher":"auto","uuid":"d1ace408-1102-4919-9ee8-88f85c8a91e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"gemws.mainssh.xyz","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"gemws.mainssh.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vmess","server":"91.107.140.193","port":8080,"cipher":"auto","uuid":"782796a5-0605-4f26-b366-273858558082","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷_FR_法国_3","type":"ss","server":"149.202.82.172","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,20 +50,27 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -64,20 +78,27 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -85,80 +106,108 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,20 +231,27 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - '@Hope_Net-join-us-on-Telegram_1'
-      - ✅ @ShadowSocks_S
+      - '@kutoproxy🇩🇪_1'
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - '@kutoproxy🇩🇪_2'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
-      - '@kutoproxy'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇮t.me/DarkVPNpro S11
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@v2rayng_org'
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@v2rayng_org_1'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@kutoproxy🌈🕊'
       - '@kutoproxy ✅'
-      - 🇫🇮t.me/DarkVPNpro S17
-      - 🇫🇮t.me/DarkVPNpro S13
+      - '@v2rayng_org_2'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - 🇫🇷_FR_法国_3
 
 rules:
 # 本地/局域网地址
