@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：19-02-2023 11:58:09
+# 创建时间：19-02-2023 15:36:07
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：13
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,88 +21,130 @@ dns:
     - tls://dns.google:853
 
 proxies:
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"kani.abdulkhanioffline.pw","port":41299,"cipher":"auto","uuid":"eec49dc4-29a5-45af-be1e-fa900d81f062","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇩🇪@kutoproxy💎","type":"vmess","server":"5.254.17.52","port":2087,"cipher":"auto","uuid":"01c60c90-af54-11ed-b2d8-1239d0255272","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ba24.ir","network":"ws","ws-opts":{"path":"/vmws","headers":{"host":"ba24.ir"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"victor.govermentco.space","port":80,"cipher":"auto","uuid":"893c20f6-cfcc-42aa-9b2d-83f8c595a7eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"brayan.govermentco.space"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"h2.sharlout.pw","port":2053,"cipher":"auto","uuid":"055dd8b5-f693-4ae0-8eb2-58c01c4dd153","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"d1.shapark-tab.com","network":"ws","ws-opts":{"path":"/path-thruth-code","headers":{"host":"d1.shapark-tab.com"}}}
+  - {"name":"🇫🇷_FR_法国_1","type":"ss","server":"149.202.82.172","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"@v2rayng_org_1","type":"trojan","server":"185.16.206.209","port":443,"udp":true,"password":"shefelnak","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@v2rayng_org_2","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷_FR_法国_2","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"skala-freenode-01.epfereydoon.workers.dev","type":"vmess","server":"185.162.228.190","port":443,"cipher":"auto","uuid":"BC94CB37-F5FC-4A46-A519-6AD51BFA66A6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-freenode-01.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"skala-freenode-01.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"47.243.185.128","port":47365,"cipher":"auto","uuid":"fb695171-6b24-4255-9893-8921f53a0548","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@v2rayng_org_1","type":"ss","server":"193.108.117.75","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"@kutoproxy🌈🕊","type":"vmess","server":"45.85.118.48","port":2083,"cipher":"auto","uuid":"a3629454-5dab-487b-ea6b-c6c422d24c0e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"webshecanir.symodi.ml","network":"ws","ws-opts":{"path":"/ihMnsjHy","headers":{"host":"webshecanir.symodi.ml"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"192.65.217.6","port":2053,"cipher":"auto","uuid":"daedaf89-7cc6-411b-cdf4-4c63e66534f1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"s1.mamanjoon.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"s1.mamanjoon.shop"}}}
-  - {"name":"@kutoproxy","type":"vmess","server":"vtor8.net2vip.com","port":54766,"cipher":"auto","uuid":"6620d0e4-9a9f-4a49-d0e0-e0be3775078f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@v2rayng_org_2","type":"trojan","server":"185.212.200.74","port":443,"udp":true,"password":"Sp3eDVp","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_FR_法国_3","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"@kutoproxy","type":"vmess","server":"kani.abdulkhanioffline.pw","port":41299,"cipher":"auto","uuid":"eec49dc4-29a5-45af-be1e-fa900d81f062","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷_FR_法国_4","type":"ss","server":"149.202.82.172","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷_FR_法国_5","type":"ss","server":"149.202.82.172","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,13 +167,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - skala-freenode-01.epfereydoon.workers.dev
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@v2rayng_org_1'
-      - '@kutoproxy🌈🕊'
+      - 🇩🇪@kutoproxy💎
       - '@Hope_Net-join-us-on-Telegram_2'
-      - '@kutoproxy'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷_FR_法国_1
+      - '@v2rayng_org_1'
       - '@v2rayng_org_2'
+      - 🇫🇷_FR_法国_2
+      - skala-freenode-01.epfereydoon.workers.dev
+      - 🇫🇷_FR_法国_3
+      - '@kutoproxy'
+      - 🇫🇷_FR_法国_4
+      - 🇫🇷_FR_法国_5
 
 rules:
 # 本地/局域网地址
