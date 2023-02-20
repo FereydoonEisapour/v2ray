@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：19-02-2023 15:36:07
+# 创建时间：20-02-2023 14:12:39
 # 使用模版：V2RaySE 默认模版
-# 节点数量：13
+# 节点数量：19
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,130 +21,172 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"kani.abdulkhanioffline.pw","port":41299,"cipher":"auto","uuid":"eec49dc4-29a5-45af-be1e-fa900d81f062","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇩🇪@kutoproxy💎","type":"vmess","server":"5.254.17.52","port":2087,"cipher":"auto","uuid":"01c60c90-af54-11ed-b2d8-1239d0255272","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ba24.ir","network":"ws","ws-opts":{"path":"/vmws","headers":{"host":"ba24.ir"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"victor.govermentco.space","port":80,"cipher":"auto","uuid":"893c20f6-cfcc-42aa-9b2d-83f8c595a7eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"brayan.govermentco.space"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"h2.sharlout.pw","port":2053,"cipher":"auto","uuid":"055dd8b5-f693-4ae0-8eb2-58c01c4dd153","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"d1.shapark-tab.com","network":"ws","ws-opts":{"path":"/path-thruth-code","headers":{"host":"d1.shapark-tab.com"}}}
-  - {"name":"🇫🇷_FR_法国_1","type":"ss","server":"149.202.82.172","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"@v2rayng_org_1","type":"trojan","server":"185.16.206.209","port":443,"udp":true,"password":"shefelnak","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@v2rayng_org_2","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷_FR_法国_2","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"CLOUD FLARE  FREE NODE","type":"vmess","server":"45.85.119.166","port":443,"cipher":"auto","uuid":"4A5DBF2E-2CC2-4353-8AC1-D4A25FA81927","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-node-cloudflare.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"free-node-cloudflare.epfereydoon.workers.dev"}}}
+  - {"name":"defaultName_1","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_79","type":"ss","server":"54.36.174.181","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪700130@shadowsockskeys","type":"ss","server":"193.108.118.30","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"defaultName_2","type":"ss","server":"ak1598.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"45.85.119.48","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a3.iraniancp.fun","network":"ws","ws-opts":{"path":"/","headers":{"host":"a3.iraniancp.fun"}}}
+  - {"name":"🏁ZZ_964 |60.56Mb","type":"ss","server":"134.195.196.107","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"King.nexious.ir","port":24676,"cipher":"auto","uuid":"42f3267b-a883-4eaa-b0d2-e5f5fbe4eb12","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"grpc","grpc-opts":{"grpc-server-name":""}}
+  - {"name":"defaultName_3","type":"trojan","server":"51.83.186.142","port":80,"udp":true,"password":"2959e4f7-7589-4a40-9b96-1be750ac7845","sni":"pl1.trojanvh.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷FR_114","type":"ss","server":"149.202.82.172","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_93","type":"ss","server":"54.36.174.181","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"dl.progbyrazyar.ir","port":8443,"cipher":"auto","uuid":"c32c7fb8-9dbd-4bb0-bcee-dbcc98655b16","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/graphql"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"05e7d010-52b9-42aa-8a06-daf3e737f279","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dd3.1808.cf","network":"ws","ws-opts":{"path":"/nguevws","headers":{"host":"dd3.1808.cf"}}}
+  - {"name":"🇫🇷FR_119","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"skala-freenode-01.epfereydoon.workers.dev","type":"vmess","server":"185.162.228.190","port":443,"cipher":"auto","uuid":"BC94CB37-F5FC-4A46-A519-6AD51BFA66A6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-freenode-01.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"skala-freenode-01.epfereydoon.workers.dev"}}}
-  - {"name":"🇫🇷_FR_法国_3","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"@kutoproxy","type":"vmess","server":"kani.abdulkhanioffline.pw","port":41299,"cipher":"auto","uuid":"eec49dc4-29a5-45af-be1e-fa900d81f062","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷_FR_法国_4","type":"ss","server":"149.202.82.172","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷_FR_法国_5","type":"ss","server":"149.202.82.172","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_84","type":"ss","server":"54.36.174.181","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL_237","type":"ss","server":"51.77.53.200","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL_238","type":"ss","server":"51.77.53.200","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_103 |43.83Mb","type":"ss","server":"145.239.1.100","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -167,19 +209,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CLOUD FLARE  FREE NODE
+      - defaultName_1
+      - 🇫🇷FR_79
+      - 🇩🇪700130@shadowsockskeys
+      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇩🇪@kutoproxy💎
+      - 🏁ZZ_964 |60.56Mb
       - '@Hope_Net-join-us-on-Telegram_2'
+      - defaultName_3
+      - 🇫🇷FR_114
+      - 🇫🇷FR_93
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷_FR_法国_1
-      - '@v2rayng_org_1'
-      - '@v2rayng_org_2'
-      - 🇫🇷_FR_法国_2
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇫🇷FR_119
       - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷_FR_法国_3
-      - '@kutoproxy'
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
+      - 🇫🇷FR_84
+      - 🇵🇱PL_237
+      - 🇵🇱PL_238
+      - 🇫🇷FR_103 |43.83Mb
 
 rules:
 # 本地/局域网地址
