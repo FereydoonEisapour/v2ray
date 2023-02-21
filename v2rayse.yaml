@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：20-02-2023 14:12:39
+# 创建时间：21-02-2023 12:10:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：19
+# 节点数量：14
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,172 +21,137 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"CLOUD FLARE  FREE NODE","type":"vmess","server":"45.85.119.166","port":443,"cipher":"auto","uuid":"4A5DBF2E-2CC2-4353-8AC1-D4A25FA81927","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-node-cloudflare.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"free-node-cloudflare.epfereydoon.workers.dev"}}}
-  - {"name":"defaultName_1","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR_79","type":"ss","server":"54.36.174.181","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇩🇪700130@shadowsockskeys","type":"ss","server":"193.108.118.30","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_2","type":"ss","server":"ak1598.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"45.85.119.48","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a3.iraniancp.fun","network":"ws","ws-opts":{"path":"/","headers":{"host":"a3.iraniancp.fun"}}}
-  - {"name":"🏁ZZ_964 |60.56Mb","type":"ss","server":"134.195.196.107","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"King.nexious.ir","port":24676,"cipher":"auto","uuid":"42f3267b-a883-4eaa-b0d2-e5f5fbe4eb12","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"grpc","grpc-opts":{"grpc-server-name":""}}
-  - {"name":"defaultName_3","type":"trojan","server":"51.83.186.142","port":80,"udp":true,"password":"2959e4f7-7589-4a40-9b96-1be750ac7845","sni":"pl1.trojanvh.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷FR_114","type":"ss","server":"149.202.82.172","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR_93","type":"ss","server":"54.36.174.181","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"dl.progbyrazyar.ir","port":8443,"cipher":"auto","uuid":"c32c7fb8-9dbd-4bb0-bcee-dbcc98655b16","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/graphql"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"05e7d010-52b9-42aa-8a06-daf3e737f279","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dd3.1808.cf","network":"ws","ws-opts":{"path":"/nguevws","headers":{"host":"dd3.1808.cf"}}}
-  - {"name":"🇫🇷FR_119","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"skala-freenode-01.epfereydoon.workers.dev","type":"vmess","server":"185.162.228.190","port":443,"cipher":"auto","uuid":"BC94CB37-F5FC-4A46-A519-6AD51BFA66A6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-freenode-01.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"skala-freenode-01.epfereydoon.workers.dev"}}}
-  - {"name":"🇫🇷FR_84","type":"ss","server":"54.36.174.181","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL_237","type":"ss","server":"51.77.53.200","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL_238","type":"ss","server":"51.77.53.200","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR_103 |43.83Mb","type":"ss","server":"145.239.1.100","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"143.198.219.182","port":80,"cipher":"auto","uuid":"e9c4ce52-9a78-4381-b6f8-23350bc4d606","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v2ray"}}
+  - {"name":"🏁ZZ_510","type":"ss","server":"134.195.196.231","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🏁ZZ_942 |18.38Mb","type":"ss","server":"134.195.196.231","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱 Poland","type":"ss","server":"51.77.53.200","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"140.83.86.129","port":80,"cipher":"auto","uuid":"8700cfbd-71dc-42b0-84f2-53cd7fe5645b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇩🇪DE_91 |23.17Mb","type":"ss","server":"193.108.117.24","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"@v2rayng_org","type":"ss","server":"54.36.174.181","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_144","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_72","type":"ss","server":"54.36.174.181","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🏁ZZ_927 |106.86Mb","type":"ss","server":"134.195.196.143","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"sg1-v.sshmax.xyz","port":443,"cipher":"auto","uuid":"b655be0e-4b1a-4e3e-b63f-22a928a6e808","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg1-v.sshmax.xyz","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"sg1-v.sshmax.xyz"}}}
+  - {"name":"🇫🇷FR_109 |40.92Mb","type":"ss","server":"145.239.1.100","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪DE_79 |35.90Mb","type":"ss","server":"193.108.117.24","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"profile.progbyrazyar.ir","port":993,"cipher":"auto","uuid":"73a6bbe7-ce5d-425f-b1ed-864f326e2e3e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -209,25 +174,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CLOUD FLARE  FREE NODE
-      - defaultName_1
-      - 🇫🇷FR_79
-      - 🇩🇪700130@shadowsockskeys
-      - defaultName_2
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_964 |60.56Mb
+      - 🏁ZZ_510
+      - 🏁ZZ_942 |18.38Mb
+      - 🇵🇱 Poland
       - '@Hope_Net-join-us-on-Telegram_2'
-      - defaultName_3
-      - 🇫🇷FR_114
-      - 🇫🇷FR_93
+      - 🇩🇪DE_91 |23.17Mb
+      - '@v2rayng_org'
+      - 🇫🇷FR_144
+      - 🇫🇷FR_72
+      - 🏁ZZ_927 |106.86Mb
       - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇫🇷FR_109 |40.92Mb
+      - 🇩🇪DE_79 |35.90Mb
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇫🇷FR_119
-      - skala-freenode-01.epfereydoon.workers.dev
-      - 🇫🇷FR_84
-      - 🇵🇱PL_237
-      - 🇵🇱PL_238
-      - 🇫🇷FR_103 |43.83Mb
 
 rules:
 # 本地/局域网地址
