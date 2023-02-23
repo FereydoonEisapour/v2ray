@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：21-02-2023 12:10:06
+# 创建时间：23-02-2023 20:03:10
 # 使用模版：V2RaySE 默认模版
-# 节点数量：14
+# 节点数量：13
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,137 +21,130 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"143.198.219.182","port":80,"cipher":"auto","uuid":"e9c4ce52-9a78-4381-b6f8-23350bc4d606","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"name":"🏁ZZ_510","type":"ss","server":"134.195.196.231","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🏁ZZ_942 |18.38Mb","type":"ss","server":"134.195.196.231","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱 Poland","type":"ss","server":"51.77.53.200","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"140.83.86.129","port":80,"cipher":"auto","uuid":"8700cfbd-71dc-42b0-84f2-53cd7fe5645b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇩🇪DE_91 |23.17Mb","type":"ss","server":"193.108.117.24","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"@v2rayng_org","type":"ss","server":"54.36.174.181","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR_144","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR_72","type":"ss","server":"54.36.174.181","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🏁ZZ_927 |106.86Mb","type":"ss","server":"134.195.196.143","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"sg1-v.sshmax.xyz","port":443,"cipher":"auto","uuid":"b655be0e-4b1a-4e3e-b63f-22a928a6e808","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg1-v.sshmax.xyz","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"sg1-v.sshmax.xyz"}}}
-  - {"name":"🇫🇷FR_109 |40.92Mb","type":"ss","server":"145.239.1.100","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇩🇪DE_79 |35.90Mb","type":"ss","server":"193.108.117.24","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"profile.progbyrazyar.ir","port":993,"cipher":"auto","uuid":"73a6bbe7-ce5d-425f-b1ed-864f326e2e3e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram","type":"vmess","server":"5.75.200.176","port":50954,"cipher":"auto","uuid":"8befe5ea-f0bc-4a31-87d5-3a58a579fe7d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"NalbeKink-sg-5.0rd.net_1","type":"vmess","server":"188.42.89.5","port":443,"cipher":"auto","uuid":"b7200fb0-b107-11ed-b233-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"auto-nodes-worker.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/sg-5.0rd.net/","headers":{"host":"auto-nodes-worker.epfereydoon.workers.dev"}}}
+  - {"name":"NalbeKink-clash6.ssr-free.xyz","type":"vmess","server":"194.152.44.32","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"auto-nodes-worker.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/clash6.ssr-free.xyz/dongtaiwang.com","headers":{"host":"auto-nodes-worker.epfereydoon.workers.dev"}}}
+  - {"name":"Node-sg-gcore.sharecentre.online","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/sg-gcore.sharecentre.online/shirker","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"Node-hk-gcore.sharecentre.online","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/hk-gcore.sharecentre.online/shirker","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"NalbeKink-jpjoq.ftvpn.xyz","type":"vmess","server":"159.112.235.120","port":443,"cipher":"auto","uuid":"b9f6ef01-a4a6-4a95-8c22-59666be14599","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"auto-nodes-worker.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/jpjoq.ftvpn.xyz/vmess","headers":{"host":"auto-nodes-worker.epfereydoon.workers.dev"}}}
+  - {"name":"NalbeKink-sg-5.0rd.net_2","type":"vmess","server":"185.170.166.32","port":443,"cipher":"auto","uuid":"b7200fb0-b107-11ed-b233-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"auto-nodes-worker.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/sg-5.0rd.net/","headers":{"host":"auto-nodes-worker.epfereydoon.workers.dev"}}}
+  - {"name":"@v2rayng_org_1","type":"ss","server":"51.178.87.37","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"英国+社会保险安全部","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@v2rayng_org_2","type":"ss","server":"193.108.117.75","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"github.com/freefq - 法国ONLINE S.A.S.数据中心 7","type":"vmess","server":"212.129.20.7","port":10000,"cipher":"auto","uuid":"e3fb99ec-b275-11ed-88b4-52540000fafa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vpnjantit"}}
+  - {"name":"NalbeKink-us-dp.sharecentre.online","type":"vmess","server":"188.42.89.5","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"auto-nodes-worker.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/us-dp.sharecentre.online/shirker","headers":{"host":"auto-nodes-worker.epfereydoon.workers.dev"}}}
+  - {"name":"NalbeKink-tw1.sanfen001.pics","type":"vmess","server":"203.30.188.161","port":443,"cipher":"auto","uuid":"e7d09c21-31af-4c4b-b9db-ad60d7497a65","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"auto-nodes-worker.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/tw1.sanfen001.pics/zh-cn","headers":{"host":"auto-nodes-worker.epfereydoon.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,20 +167,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁ZZ_510
-      - 🏁ZZ_942 |18.38Mb
-      - 🇵🇱 Poland
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇩🇪DE_91 |23.17Mb
-      - '@v2rayng_org'
-      - 🇫🇷FR_144
-      - 🇫🇷FR_72
-      - 🏁ZZ_927 |106.86Mb
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇫🇷FR_109 |40.92Mb
-      - 🇩🇪DE_79 |35.90Mb
-      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram'
+      - NalbeKink-sg-5.0rd.net_1
+      - NalbeKink-clash6.ssr-free.xyz
+      - Node-sg-gcore.sharecentre.online
+      - Node-hk-gcore.sharecentre.online
+      - NalbeKink-jpjoq.ftvpn.xyz
+      - NalbeKink-sg-5.0rd.net_2
+      - '@v2rayng_org_1'
+      - 英国+社会保险安全部
+      - '@v2rayng_org_2'
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 7
+      - NalbeKink-us-dp.sharecentre.online
+      - NalbeKink-tw1.sanfen001.pics
 
 rules:
 # 本地/局域网地址
