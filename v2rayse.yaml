@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：09-03-2023 21:57:27
+# 创建时间：10-03-2023 18:31:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,81 +21,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"github.com/freefq - 美国Nokia 20","type":"trojan","server":"us.disnet.gq","port":443,"udp":true,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"dsdfj2.dslovedfj.icu","port":80,"cipher":"auto","uuid":"9d8178ec-c6d8-44a7-8ada-aeb97cf69e91","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray12345"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"51.75.226.83","port":39152,"cipher":"auto","uuid":"dd716574-789e-4153-ea8d-2251b46c2299","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"usdo.tzccifq.ga","port":443,"cipher":"auto","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"usdo.tzccifq.ga","network":"ws","ws-opts":{"path":"/","headers":{"host":"usdo.tzccifq.ga"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"104.21.91.249","port":2095,"cipher":"auto","uuid":"3522d2e8-e880-4e3a-a836-496a0bb92f60","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"servsermci15.numallas.shop"}}}
   - {"name":"美国+Nokia","type":"trojan","server":"us.disnet.gq","port":443,"udp":true,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"z71.zirogame71.pw","port":58424,"cipher":"auto","uuid":"13db49c1-112a-474e-db86-ab540a261018","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"20.205.214.65","port":19188,"cipher":"auto","uuid":"b8ec1401-e5c1-4299-b315-9694cca0c2f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"152.67.254.16","port":43815,"cipher":"auto","uuid":"7a9f026f-f7a8-40ca-f2f9-3b380c287c0d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/abc","headers":{"host":"152.67.254.16"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"203.24.108.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"77.v2ray1.xyz","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"dsdfj2.dslovedfj.icu","port":80,"cipher":"auto","uuid":"9d8178ec-c6d8-44a7-8ada-aeb97cf69e91","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray12345"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"158.101.229.162","port":15227,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"66.235.200.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"77.v2ray1.xyz","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,12 +132,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国Nokia 20
+      - 美国+Nokia
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 美国+Nokia
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
 
 rules:
 # 本地/局域网地址
