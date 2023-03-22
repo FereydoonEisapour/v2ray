@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：19-03-2023 23:05:57
+# 创建时间：22-03-2023 13:26:21
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：14
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,116 +21,137 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"64.226.94.113","port":41843,"cipher":"auto","uuid":"9030630b-6c43-4913-9d2d-986b68e6b1db","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"mci.webshecan.cloud","port":2083,"cipher":"auto","uuid":"39305385-2076-4e65-bb9c-da5c2fde0151","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"281.webshecan.ro.to","network":"ws","ws-opts":{"path":"/benten","headers":{"host":"281.webshecan.ro.to"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"64.226.94.113","port":46719,"cipher":"auto","uuid":"bdf61ee5-851a-43ab-bb23-2c5fd701bd3e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@v2rayng_org","type":"vmess","server":"free0vp.devhrtz2.gq","port":25788,"cipher":"auto","uuid":"c674dba3-94b7-449c-b08a-fcd76a200362","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"همراه اول _kutoproxy","type":"vmess","server":"bomb2.arsalantau.com","port":8880,"cipher":"auto","uuid":"3e158c75-216b-4c62-dbf7-7766ea9fc285","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"bomb2.arsalantau.com"}}}
-  - {"name":"v2rayng_org","type":"vmess","server":"free0vp.devhrtz2.gq","port":25788,"cipher":"auto","uuid":"c674dba3-94b7-449c-b08a-fcd76a200362","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp1.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"jp1.scproxy.top"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"116.203.218.66","port":443,"cipher":"auto","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"51.79.161.126","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"64.226.94.113","port":41843,"cipher":"auto","uuid":"9030630b-6c43-4913-9d2d-986b68e6b1db","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"github.com/freefq - 丹麦  17","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"@V2RAYNG_FA2","type":"vmess","server":"203.30.188.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"77.v2ray1.xyz","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"Node-clash6.ssr-free.xyz_1","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/clash6.ssr-free.xyz/dongtaiwang.com","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"Node-clash6.ssr-free.xyz_2","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/clash6.ssr-free.xyz/dongtaiwang.com","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"Node-petal.ga","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"b744f5cc-eab2-d2cd-f477-76646d17987f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/petal.ga/petalvws","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"github.com/freefq - 欧盟  15","type":"vmess","server":"mtnx.ircf.space","port":443,"cipher":"auto","uuid":"de3642e8-5e51-432f-ed10-63af07842141","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/wss34055","headers":{"host":"freeservice.blanku.me"}}}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 6","type":"vmess","server":"lv3.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"github.com/freefq - 欧盟  17","type":"vmess","server":"45.12.30.192","port":443,"cipher":"auto","uuid":"EB176736-29D0-484E-8464-28547013A162","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 14","type":"vmess","server":"172.67.136.81","port":443,"cipher":"auto","uuid":"5eba5b30-7c4a-419c-c1b8-cafd0b4d4eee","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/123","headers":{"host":"eu4.isi.lol"}}}
+  - {"name":"Node-200.aquabazi.site","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/200.aquabazi.site/suzhihan.eu.org/roewesu","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"Node-dp1.scproxy.top_1","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/dp1.scproxy.top/shirker","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
+  - {"name":"github.com/freefq - 丹麦  17","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-cloud.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/77.v2ray1.xyz:443/A2DJOPFT","headers":{"host":"skala-cloud.epfereydoon.workers.dev"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram","type":"vmess","server":"z17.zirogame17.pw","port":57077,"cipher":"auto","uuid":"0a49d0bf-7f90-421a-fba6-70531d848c60","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Node-dp1.scproxy.top_2","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/dp1.scproxy.top/shirker","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,17 +174,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@v2rayng_org'
-      - همراه اول _kutoproxy
-      - v2rayng_org
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@V2RAYNG_FA2'
+      - Node-clash6.ssr-free.xyz_1
+      - Node-clash6.ssr-free.xyz_2
+      - Node-petal.ga
+      - github.com/freefq - 欧盟  15
+      - github.com/freefq - 美国CloudFlare节点 6
+      - github.com/freefq - 欧盟  17
+      - github.com/freefq - 美国CloudFlare节点 14
+      - Node-200.aquabazi.site
+      - Node-dp1.scproxy.top_1
       - github.com/freefq - 丹麦  17
+      - 美国 CloudFlare节点
+      - '@Hope_Net-join-us-on-Telegram'
+      - Node-dp1.scproxy.top_2
 
 rules:
 # 本地/局域网地址
