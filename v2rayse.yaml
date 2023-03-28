@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：27-03-2023 20:34:53
+# 创建时间：28-03-2023 20:46:23
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：23
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,95 +21,200 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"64.227.42.251","port":55044,"cipher":"auto","uuid":"6852193b-ee76-43cd-eb08-14fe449f1873","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"91.107.244.178","port":22301,"cipher":"auto","uuid":"176ed834-75dc-4e4c-a536-f05479b39b3c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 9","type":"vmess","server":"pm.motori.pw","port":8880,"cipher":"auto","uuid":"d1c59699-1874-49f1-b9ba-bbbfd7968075","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"pm.motori.pw"}}}
+  - {"name":"github.com/freefq - 美国CloudFlare公司CDN节点 21","type":"vmess","server":"77.v2ray1.xyz","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"jp03-alt-vm0.entry.srthdw.art","port":21585,"cipher":"auto","uuid":"d504b031-c575-317a-9c62-71d4bb464082","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"github.com/freefq - 美国CloudFlare公司CDN节点 13","type":"vmess","server":"quranweb40.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_1","type":"vmess","server":"holyquran18.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-cloud.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/holyquran18.store:443/current_time","headers":{"host":"skala-cloud.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"104.17.14.48","port":443,"cipher":"auto","uuid":"8ee1de23-9eb9-4d18-b765-066e7e0def94","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg1-v.sshmax.xyz","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"sg1-v.sshmax.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"jp06-alt-vm0.entry.jpojpoh.art","port":28787,"cipher":"auto","uuid":"d504b031-c575-317a-9c62-71d4bb464082","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_2","type":"vmess","server":"ba_bots.themaskedcrossing.top","port":12153,"cipher":"auto","uuid":"fe370712-6af2-47b4-e09a-336f47f87bae","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ba-bots","headers":{"host":"ba-bots.com"}}}
   - {"name":"✅ @ShadowSocks_S","type":"vmess","server":"95.179.128.145","port":2083,"cipher":"auto","uuid":"1cf2679f-8ec4-4b07-d758-132573825850","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Node-154.v2ray3.xyz","type":"vmess","server":"ip.isegaro.click","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200-nodes-segaro.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/154.v2ray3.xyz/ECTCJ0DF","headers":{"host":"200-nodes-segaro.epfereydoon.workers.dev"}}}
-  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_1","type":"vmess","server":"leg.fastv2ray.eu.org","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran4.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran4.store"}}}
-  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_2","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"44a0b2a0-ca6a-11ed-b532-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-14.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"us-14.0rd.net"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"64.227.42.251","port":55044,"cipher":"auto","uuid":"6852193b-ee76-43cd-eb08-14fe449f1873","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_3","type":"vmess","server":"holyquran18.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_3","type":"vmess","server":"leg.fastv2ray.eu.org","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran4.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran4.store"}}}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_4","type":"vmess","server":"holyquran18.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"quranweb41.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_5","type":"vmess","server":"leg.fastv2ray.eu.org","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran4.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran4.store"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"LIGHTNING6.joinbede.opensoftware.top","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"quranweb37.xyz","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"quranweb37.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"holyquran1.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran1.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran1.store"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"irancell.backshop.cf","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cf-topspeedoneplus.uk","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"cf-topspeedoneplus.uk"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"irancell.backshop.cf","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cf-topspeedoneplus.uk","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"cf-topspeedoneplus.uk"}}}
+  - {"name":"@payam_nsi👈🏻سرورای بیشتر","type":"vmess","server":"irancell.fxnxs.com","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"quranweb24.xyz","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"quranweb24.xyz"}}}
+  - {"name":"github.com/freefq - 澳大利亚Kooweerup Secondary College 5","type":"vmess","server":"203.30.189.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"github.com/freefq - 丹麦  14","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"github.com/freefq - 美国  28","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"quranweb41.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-cloud.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/quranweb41.xyz:443/current_time","headers":{"host":"skala-cloud.epfereydoon.workers.dev"}}}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_6","type":"vmess","server":"quranweb7.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,14 +237,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - github.com/freefq - 美国CloudFlare节点 9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
       - '@Hope_Net-join-us-on-Telegram_1'
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - ✅ @ShadowSocks_S
-      - Node-154.v2ray3.xyz
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
       - کانفیگ های بیشتر در کانال payam_nsi@_1
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
+      - کانفیگ های بیشتر در کانال payam_nsi@_2
+      - ✅ @ShadowSocks_S
       - کانفیگ های بیشتر در کانال payam_nsi@_3
+      - کانفیگ های بیشتر در کانال payam_nsi@_4
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - کانفیگ های بیشتر در کانال payam_nsi@_5
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - '@payam_nsi👈🏻سرورای بیشتر'
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 5
+      - github.com/freefq - 丹麦  14
+      - github.com/freefq - 美国  28
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - کانفیگ های بیشتر در کانال payam_nsi@_6
 
 rules:
 # 本地/局域网地址
