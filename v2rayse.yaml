@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：30-03-2023 20:46:11
+# 创建时间：31-03-2023 21:11:39
 # 使用模版：V2RaySE 默认模版
-# 节点数量：22
+# 节点数量：9
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,193 +21,102 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_1","type":"vmess","server":"leg.fastv2ray.eu.org","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran4.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran4.store"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"quran-audio4.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-cloud.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/quran-audio4.xyz:443/current_time","headers":{"host":"skala-cloud.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"45.85.119.44","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-cloud.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/quranweb40.xyz:443/current_time","headers":{"host":"skala-cloud.epfereydoon.workers.dev"}}}
+  - {"name":"🇰🇷KR-152.67.218.216-4157","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path","headers":{"host":"YTB-AWKJ"}}}
+  - {"name":"🇸🇬SG-52.77.188.88-14376","type":"trojan","server":"sgp-2.fuckjdieng.uk","port":50132,"udp":true,"password":"14dfcbc3-fb69-43f4-a1a1-d06124eb3d03","sni":"sgp-2.fuckjdieng.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"172.67.182.218","port":8880,"cipher":"auto","uuid":"c3b965e5-57f3-42ce-900e-dfcd17547650","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sermci19.numallas.shop"}}}
+  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@","type":"vmess","server":"serv3.savalanservice.com","port":443,"cipher":"auto","uuid":"a088c7fa-8819-42aa-a5c3-aed4ec70dae2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"serv3.savalanservice.com","network":"ws","ws-opts":{"path":"/sajad/10050","headers":{"host":"serv3.savalanservice.com"}}}
+  - {"name":"🇩🇪DE-144.76.110.76-14547","type":"vmess","server":"domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net","port":443,"cipher":"auto","uuid":"3445bb7a-7dcb-408e-be51-a8912bad94ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net"}}}
+  - {"name":"🇰🇷KR-152.67.218.216-4156","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path"}}
+  - {"name":"🇰🇷KR-152.67.218.216-4155","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path","headers":{"host":"152.67.218.216"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"uniquenet2.alliraneman.tk","port":2053,"cipher":"auto","uuid":"8de73e9d-918a-47ef-9172-156e3598d343","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ger4.khasbox.fun","network":"grpc","grpc-opts":{"grpc-service-name":"ponisha.ir","grpc-mode":"gun"}}
   - {"name":"Node-dynamic-sg2b.obfs.xyz","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"afe07da4-e28c-4921-affa-4a5fb4696c04","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/dynamic-sg2b.obfs.xyz/worryfree","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"Node-ca.ilovescp.com","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/ca.ilovescp.com/shirker","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"45.85.119.18","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran4.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran4.store"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"45.85.119.44","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"quranweb40.xyz","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"quranweb40.xyz"}}}
-  - {"name":"Node-quranweb20.xyz","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/quranweb20.xyz/current_time","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"irancell.backshop.cf","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cf-topspeedoneplus.uk","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"cf-topspeedoneplus.uk"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"quranweb41.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
-  - {"name":"Node-petal.ga","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"b744f5cc-eab2-d2cd-f477-76646d17987f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/petal.ga/petalvws","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"3445bb7a-7dcb-408e-be51-a8912bad94ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net/vmess","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"45.85.119.18","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"holyquran4.store","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"holyquran4.store"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"ca.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ca.ilovescp.com","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
-  - {"name":"@payam_nsi👈🏻سرورای بیشتر","type":"vmess","server":"irancell.fxnxs.com","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"quranweb24.xyz","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"quranweb24.xyz"}}}
-  - {"name":"کانفیگ های بیشتر در کانال payam_nsi@_2","type":"vmess","server":"holyquran18.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
-  - {"name":"Node-de1.sharecentrepro.org","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/de1.sharecentrepro.org/shirker","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"mtn.anahid.beauty","port":2053,"cipher":"auto","uuid":"0e7026e4-232d-48a9-c341-7535f552457e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"s11.shahrivar.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"s1.shahrivar.shop"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"mci.anahid.beauty","port":2053,"cipher":"auto","uuid":"0e7026e4-232d-48a9-c341-7535f552457e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"s11.shahrivar.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"s1.shahrivar.shop"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"f-a-l-l-c-o-n-i-ra-n-n.redmoon.sbs","port":443,"cipher":"auto","uuid":"97b37ac2-8c30-42d2-f398-81faacc821c3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sr.grensky.sbs","network":"ws","ws-opts":{"path":"/speed","headers":{"host":"sr.grensky.sbs"}}}
-  - {"name":"Node-eu6.739256.xyz","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"5775d530-ab7a-455f-d841-82bdca57b9b2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/eu6.739256.xyz/","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"ping1.yebrahimi.ir","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"skala-cloud.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/cf-topspeedone.uk:443/current_time","headers":{"host":"skala-cloud.epfereydoon.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,28 +139,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - کانفیگ های بیشتر در کانال payam_nsi@_1
+      - 🇰🇷KR-152.67.218.216-4157
+      - 🇸🇬SG-52.77.188.88-14376
       - '@Hope_Net-join-us-on-Telegram_1'
+      - کانفیگ های بیشتر در کانال payam_nsi@
+      - 🇩🇪DE-144.76.110.76-14547
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
       - Node-dynamic-sg2b.obfs.xyz
-      - Node-ca.ilovescp.com
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - Node-quranweb20.xyz
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - Node-petal.ga
-      - Node-domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
-      - '@payam_nsi👈🏻سرورای بیشتر'
-      - کانفیگ های بیشتر در کانال payam_nsi@_2
-      - Node-de1.sharecentrepro.org
-      - '@Hope_Net-join-us-on-Telegram_9'
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - Node-eu6.739256.xyz
-      - '@Hope_Net-join-us-on-Telegram_12'
 
 rules:
 # 本地/局域网地址
