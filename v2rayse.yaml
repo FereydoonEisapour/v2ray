@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：31-03-2023 21:11:39
+# 创建时间：31-03-2023 21:17:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：9
+# 节点数量：14
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,7 +29,12 @@ proxies:
   - {"name":"🇰🇷KR-152.67.218.216-4156","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path"}}
   - {"name":"🇰🇷KR-152.67.218.216-4155","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path","headers":{"host":"152.67.218.216"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"uniquenet2.alliraneman.tk","port":2053,"cipher":"auto","uuid":"8de73e9d-918a-47ef-9172-156e3598d343","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ger4.khasbox.fun","network":"grpc","grpc-opts":{"grpc-service-name":"ponisha.ir","grpc-mode":"gun"}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_1","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"Node-fr1-vmess.greenssh.xyz","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"4e75e69b-eae0-4654-9aa6-0ce45deaa0b8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/fr1-vmess.greenssh.xyz/vmess","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
   - {"name":"Node-dynamic-sg2b.obfs.xyz","type":"vmess","server":"159.246.55.184","port":443,"cipher":"auto","uuid":"afe07da4-e28c-4921-affa-4a5fb4696c04","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"free-nodes-100.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/dynamic-sg2b.obfs.xyz/worryfree","headers":{"host":"free-nodes-100.epfereydoon.workers.dev"}}}
+  - {"name":"🇦🇺-澳大利亚-203.30.188.2","type":"vmess","server":"203.30.188.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🇺🇸US-45.86.74.236-1354","type":"vmess","server":"45.86.74.236","port":443,"cipher":"auto","uuid":"64319f6e-7a86-41d5-d561-aa1a69a07fe4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"🏁RELAY-104.21.91.249-0260","type":"vmess","server":"sermci19.numallas.shop","port":8880,"cipher":"auto","uuid":"c3b965e5-57f3-42ce-900e-dfcd17547650","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sermci19.numallas.shop"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,7 +49,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,7 +69,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -74,7 +89,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
   - name: 📲 电报信息
     type: select
     proxies:
@@ -88,7 +108,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -102,7 +127,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -116,7 +146,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,7 +182,12 @@ proxy-groups:
       - 🇰🇷KR-152.67.218.216-4156
       - 🇰🇷KR-152.67.218.216-4155
       - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_1
+      - Node-fr1-vmess.greenssh.xyz
       - Node-dynamic-sg2b.obfs.xyz
+      - 🇦🇺-澳大利亚-203.30.188.2
+      - 🇺🇸US-45.86.74.236-1354
+      - 🏁RELAY-104.21.91.249-0260
 
 rules:
 # 本地/局域网地址
