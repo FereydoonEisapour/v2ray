@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：03-04-2023 16:12:58
+# 创建时间：02-04-2023 22:17:45
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：22
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,109 +21,193 @@ dns:
     - tls://dns.google:853
 
 proxies:
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path"}}
   - {"name":"🇰🇷KR-152.67.218.216-4156","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path"}}
-  - {"name":"🇩🇪DE(AzadNet.t.me)_6_1","type":"vmess","server":"162.55.165.209","port":80,"cipher":"auto","uuid":"bb8595d3-25f9-4378-8500-64910472cd7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws"}}
-  - {"name":"🇩🇪DE(AzadNet.t.me)_6_2","type":"vmess","server":"162.55.165.209","port":80,"cipher":"auto","uuid":"bb8595d3-25f9-4378-8500-64910472cd7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws"}}
-  - {"name":"✅ @ShadowSocks_S_1","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"d8c26b40-ce10-11ed-b534-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de-2.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"de-2.0rd.net"}}}
-  - {"name":"✅ @ShadowSocks_S_2","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"6d652520-cf0d-11ed-b432-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nl-2.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"nl-2.0rd.net"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"mtn.aliyari.cf","port":2053,"cipher":"auto","uuid":"84d8a5f2-703b-4a20-ca24-2107a2902c75","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"reza.aliyari.cf","network":"ws","ws-opts":{"path":"/","headers":{"host":"reza.aliyari.cf"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"ebc2fa20-d17f-11ed-b237-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"pl.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"pl.0rd.net"}}}
-  - {"name":"v2rayfree.eu.org - 美国CloudFlare节点 27","type":"vmess","server":"ming2.kiwireich.com","port":443,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"ming2.kiwireich.com"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
-  - {"name":"🇩🇪DE(AzadNet.t.me)_10","type":"vmess","server":"domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net","port":443,"cipher":"auto","uuid":"3445bb7a-7dcb-408e-be51-a8912bad94ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_53","type":"trojan","server":"b.mg.us.cat77.cloud","port":2222,"udp":true,"password":"cd27884b-c5af-34ec-b75f-8248077818fe","sni":"b.mg.us.cat77.cloud","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"www.gov.tw","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"mtn.aliyari.cf","port":2053,"cipher":"auto","uuid":"84d8a5f2-703b-4a20-ca24-2107a2902c75","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"reza.aliyari.cf","network":"ws","ws-opts":{"path":"/","headers":{"host":"reza.aliyari.cf"}}}
+  - {"name":"🇺🇸-美国-162.159.255.205","type":"vmess","server":"162.159.255.205","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"🇳🇱NL(AzadNet.t.me)_1","type":"vmess","server":"185.162.235.250","port":2054,"cipher":"auto","uuid":"6f117af4-cd52-40f8-9236-7c5e3f357cc8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/socket.io"}}
+  - {"name":"🇺🇸-美国-162.159.255.200_1","type":"vmess","server":"162.159.255.200","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"🇩🇪DE(AzadNet.t.me)_6","type":"vmess","server":"162.55.165.209","port":80,"cipher":"auto","uuid":"bb8595d3-25f9-4378-8500-64910472cd7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws"}}
+  - {"name":"🇺🇸-美国-162.55.165.209","type":"vmess","server":"162.55.165.209","port":80,"cipher":"auto","uuid":"bb8595d3-25f9-4378-8500-64910472cd7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws"}}
+  - {"name":"🇰🇷KR-152.67.218.216-4157","type":"vmess","server":"152.67.218.216","port":17992,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-path","headers":{"host":"YTB-AWKJ"}}}
+  - {"name":"v2rayfree.eu.org - 丹麦  14","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🇩🇪DE(AzadNet.t.me)_8_1","type":"trojan","server":"130.61.186.122","port":5678,"udp":true,"password":"cd27884b-c5af-34ec-b75f-8248077818fe","sni":"b.dg.cat77.cloud","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸-美国-162.159.255.200_2","type":"vmess","server":"162.159.255.200","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"🇩🇪DE(AzadNet.t.me)_2","type":"trojan","server":"b.dg.cat77.cloud","port":5678,"udp":true,"password":"cd27884b-c5af-34ec-b75f-8248077818fe","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪DE(AzadNet.t.me)_8_2","type":"trojan","server":"130.61.186.122","port":5678,"udp":true,"password":"cd27884b-c5af-34ec-b75f-8248077818fe","sni":"b.dg.cat77.cloud","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"join-bede.vmessorg.fun","port":80,"cipher":"auto","uuid":"632d4973-0676-4c4a-d972-fa2815d926ee","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"join-bede.vmessorg.fun","port":80,"cipher":"auto","uuid":"07bbbde2-a5a0-4dd9-ba22-a9a0da0cefb8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"niaa.ddns.net","port":2096,"cipher":"auto","uuid":"e27c867d-62dd-4a84-baf8-eaf670eb8341","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"m4.digitalcity6.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"m4.digitalcity6.sbs"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"mci.ircf.space","port":2096,"cipher":"auto","uuid":"6cf2745b-f46e-4820-8b1d-00082b2544b0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dl.filmino.online","network":"ws","ws-opts":{"path":"/graphql","headers":{"host":"dl.filmino.online"}}}
+  - {"name":"kutoproxy","type":"vmess","server":"niaa.ddns.net","port":2096,"cipher":"auto","uuid":"e27c867d-62dd-4a84-baf8-eaf670eb8341","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"m4.digitalcity6.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"m4.digitalcity6.sbs"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +230,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷KR-152.67.218.216-4156
-      - 🇩🇪DE(AzadNet.t.me)_6_1
-      - 🇩🇪DE(AzadNet.t.me)_6_2
-      - ✅ @ShadowSocks_S_1
-      - ✅ @ShadowSocks_S_2
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇰🇷KR-152.67.218.216-4156
+      - 🇺🇸US(AzadNet.t.me)_53
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 27
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇩🇪DE(AzadNet.t.me)_10
+      - 🇺🇸-美国-162.159.255.205
+      - 🇳🇱NL(AzadNet.t.me)_1
+      - 🇺🇸-美国-162.159.255.200_1
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇩🇪DE(AzadNet.t.me)_6
+      - 🇺🇸-美国-162.55.165.209
+      - 🇰🇷KR-152.67.218.216-4157
+      - v2rayfree.eu.org - 丹麦  14
+      - 🇩🇪DE(AzadNet.t.me)_8_1
+      - 🇺🇸-美国-162.159.255.200_2
+      - 🇩🇪DE(AzadNet.t.me)_2
+      - 🇩🇪DE(AzadNet.t.me)_8_2
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - kutoproxy
 
 rules:
 # 本地/局域网地址
