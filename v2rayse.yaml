@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：08-04-2023 18:22:43
+# 创建时间：11-04-2023 18:26:59
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：14
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,116 +21,137 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"v2rayfree.eu.org - 美国CloudFlare节点 12","type":"vmess","server":"po-59.f-sub.xyz","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"138.68.181.46","port":18455,"cipher":"auto","uuid":"6c2598b1-aa6e-46de-91a3-31f6ea463d7a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"کانفیگ های بیشتر در کانال : payam_nsi@✅️","type":"vmess","server":"niaa.ddns.net","port":443,"cipher":"auto","uuid":"04b25c26-f150-450b-922b-abd0576b2c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"freeservice.blanku.me","network":"ws","ws-opts":{"path":"/wss36217","headers":{"host":"freeservice.blanku.me"}}}
-  - {"name":"کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@","type":"ss","server":"40.127.184.74","port":43887,"password":"4Vhq828UQvuBOoRN6bBdBT","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_90","type":"vmess","server":"vde1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇰🇷KR-13.124.196.41-2513","type":"trojan","server":"kr-s-3.fuckjdieng.uk","port":50328,"udp":true,"password":"3195b7ff-6535-4ead-aaf0-428982a39b92","sni":"kr-s-3.fuckjdieng.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"eefd14f0-d568-11ed-b730-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-3.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"us-3.0rd.net"}}}
-  - {"name":"v2rayfree.eu.org - 美国CloudFlare节点 30","type":"vmess","server":"dp3.scproxy.top","port":443,"cipher":"none","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dp3.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
-  - {"name":"github.com/freefq - 美国CloudFlare节点 12","type":"vmess","server":"po-59.f-sub.xyz","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇰🇷KR-52.79.146.140-12796","type":"trojan","server":"kr-s-1.fuckjdieng.uk","port":50186,"udp":true,"password":"cab121ab-da8a-435f-bc51-959a79c956da","sni":"kr-s-1.fuckjdieng.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🏁RELAY-172.67.156.138-2243-Worker-COM","type":"vmess","server":"discord.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site:443/speedtest","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN","type":"vmess","server":"94.140.0.211","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.46158590.xyz:443/path/120306182525","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇸US-198.2.218.216-1816-Worker-GEN","type":"vmess","server":"94.140.0.211","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.78280643.xyz:443/path/120306182525","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"eefd14f0-d568-11ed-b730-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-3.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"us-3.0rd.net"}}}
+  - {"name":"✅ @ShadowSocks_S","type":"vmess","server":"www.gov.tw","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"🏁RELAY-172.67.70.11-19268-Worker-GEN","type":"vmess","server":"94.140.0.211","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfvgit.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/lg2.v2ray6.xyz:443/5QNROSRV","headers":{"host":"cfvgit.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"172.67.128.39","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"91.107.137.183","port":56425,"cipher":"auto","uuid":"cf89534b-aee3-4636-881d-30c707bc729a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"91.107.137.183","port":56425,"cipher":"auto","uuid":"cf89534b-aee3-4636-881d-30c707bc729a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"91.107.137.183","port":56425,"cipher":"auto","uuid":"cf89534b-aee3-4636-881d-30c707bc729a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇦🇶-欧盟-rtl.ircf.space-Worker-GEN","type":"vmess","server":"94.140.0.211","port":443,"cipher":"auto","uuid":"67AA54B9-5006-46A3-AFB8-07F77A73426A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/13.walidfree13.workers.dev:443/speedtest/Amsterdam.kotick.site","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇸-美国-172.67.13.11-Worker-GEN","type":"vmess","server":"94.140.0.211","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/lg2.v2ray6.xyz:443/5QNROSRV","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"64.226.99.228","port":38607,"cipher":"auto","uuid":"7f6e9ed1-779a-4f3b-f5d1-f216e726acc5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN","type":"vmess","server":"94.140.0.211","port":443,"cipher":"auto","uuid":"e6442903-4753-4783-8916-ac47c8080e4f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/dynamic-sg3b.obfs.xyz:443/worryfree","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"dsos.bombiran.tk","port":443,"cipher":"auto","uuid":"268c3125-245f-4349-9ed6-322480b3c999","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hello.fifaxboxfree021.top","network":"ws","ws-opts":{"path":"/api01","headers":{"host":"hello.fifaxboxfree021.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,17 +174,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
+      - 🇺🇸-美国加利福尼亚州洛杉矶-198.2.198.10-Worker-GEN
+      - 🇺🇸US-198.2.218.216-1816-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 'کانفیگ های بیشتر در کانال : payam_nsi@✅️'
-      - کانفیگ+های+بیشتر+در+کانال+:+payam_nsi@
-      - 🇺🇸US(AzadNet.t.me)_90
-      - 🇰🇷KR-13.124.196.41-2513
+      - ✅ @ShadowSocks_S
+      - 🏁RELAY-172.67.70.11-19268-Worker-GEN
       - '@Hope_Net-join-us-on-Telegram_2'
-      - v2rayfree.eu.org - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 12
-      - 🇰🇷KR-52.79.146.140-12796
-      - 🏁RELAY-172.67.156.138-2243-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - 🇦🇶-欧盟-rtl.ircf.space-Worker-GEN
+      - 🇺🇸-美国-172.67.13.11-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇸🇬-新加坡-dynamic-sg3b.obfs.xyz-Worker-GEN
+      - '@Hope_Net-join-us-on-Telegram_7'
 
 rules:
 # 本地/局域网地址
