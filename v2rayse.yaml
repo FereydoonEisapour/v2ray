@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：12-04-2023 18:47:18
+# 创建时间：13-04-2023 21:44:22
 # 使用模版：V2RaySE 默认模版
 # 节点数量：8
 ####################################
@@ -21,95 +21,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"GetAFreeNode.com-Lille_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Kansas_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Dusseldorf_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"GetAFreeNode.com-Dusseldorf_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"GetAFreeNode.com-Lille","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
   - {"name":"GetAFreeNode.com-Amsterdam_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Kansas_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"vi.mot20.ga","port":8080,"cipher":"auto","uuid":"342e932e-d990-4ad4-b38a-837a8ed3463c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"172.67.128.39","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
   - {"name":"GetAFreeNode.com-Amsterdam_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Dusseldorf_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Lille_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"GetAFreeNode.com-Kansas","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"GetAFreeNode.com-Dusseldorf_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,14 +132,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Kansas_1
       - GetAFreeNode.com-Dusseldorf_1
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam_1
-      - GetAFreeNode.com-Kansas_2
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - '@Hope_Net-join-us-on-Telegram_2'
       - GetAFreeNode.com-Amsterdam_2
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf_2
-      - GetAFreeNode.com-Lille_2
 
 rules:
 # 本地/局域网地址
