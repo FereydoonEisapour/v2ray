@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：15-04-2023 22:19:36
+# 创建时间：17-04-2023 15:31:12
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：19
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,109 +21,172 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"GetAFreeNode.com-Lille_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Dusseldorf_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"✅ @ShadowSocks_S","type":"vmess","server":"www.gov.tw","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"join-bede.vmessorg.fun","port":80,"cipher":"auto","uuid":"06c2a6e8-e7fb-4a6c-fefe-0b5e93146dc3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"GetAFreeNode.com-Lille_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Lille_3","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Lille_4","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"GetAFreeNode.com-Dusseldorf_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"@v2rayng_org","type":"vmess","server":"172.67.128.39","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"172.67.128.39","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"1.36.183.86","port":2086,"cipher":"auto","uuid":"9f27a86f-71be-3393-90b5-65b90af56f22","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"hkt3-cdn.tencent.best"}}
+  - {"name":"GetAFreeNode.com-Kansas","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"117.2.203.124","port":80,"cipher":"auto","uuid":"b3b67842-78f7-4706-dae5-38a47d2180ef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"tw1.sanfen004.me","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw1.sanfen004.me","network":"ws","ws-opts":{"path":"/zh-cn"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"1.36.183.86","port":2086,"cipher":"auto","uuid":"9f27a86f-71be-3393-90b5-65b90af56f22","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"join-bede.vmessorg.fun","port":80,"cipher":"auto","uuid":"973738f9-c5a6-4d26-a4fe-3ccb49401c6e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"lop.hk3.gfwcaonimanmsl.ml","port":12800,"cipher":"auto","uuid":"3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_010-Worker-COM","type":"vmess","server":"discord.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/vjp3.0bad.com:443/chat","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"germany1.unlimiteddev.co","port":80,"cipher":"auto","uuid":"97ea79a6-615c-4ad7-8083-4f3b49cbe8a2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"po-59.f-sub.xyz","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"GetAFreeNode.com-Lille","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"po-59.f-sub.xyz","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"95.216.166.180","port":443,"cipher":"auto","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"54.199.101.4","port":12800,"cipher":"auto","uuid":"3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"54.36.103.107","port":80,"cipher":"auto","uuid":"556eddfa-7a44-43d8-82bd-7c1792fc563c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess/"}}
+  - {"name":"GetAFreeNode.com-Dusseldorf","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"✅ @ShadowSocks_S","type":"vmess","server":"vietnam8.azzphuc.pro","port":80,"cipher":"auto","uuid":"7bea35a3-d29c-4a33-b471-1eb63b3ecf70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hahuutung"}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vmess","server":"3.mamadcucu.com","port":2086,"cipher":"auto","uuid":"929344e1-473c-4feb-b86b-fde3ee1ccd16","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ArsalanTauBot","headers":{"host":"3.mamadcucu.com"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_14","type":"vmess","server":"vietnam8.azzphuc.pro","port":80,"cipher":"auto","uuid":"7bea35a3-d29c-4a33-b471-1eb63b3ecf70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hahuutung","headers":{"host":"vietnam8.azzphuc.pro"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +209,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Lille_1
-      - GetAFreeNode.com-Dusseldorf_1
-      - ✅ @ShadowSocks_S
       - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Lille_2
-      - GetAFreeNode.com-Lille_3
-      - GetAFreeNode.com-Lille_4
-      - GetAFreeNode.com-Dusseldorf_2
-      - '@v2rayng_org'
+      - GetAFreeNode.com-Kansas
       - '@Hope_Net-join-us-on-Telegram_2'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - '@Hope_Net-join-us-on-Telegram_4'
+      - '@Hope_Net-join-us-on-Telegram_5'
+      - '@Hope_Net-join-us-on-Telegram_6'
+      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
+      - '@Hope_Net-join-us-on-Telegram_7'
+      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille
+      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@Hope_Net-join-us-on-Telegram_10'
+      - '@Hope_Net-join-us-on-Telegram_11'
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - GetAFreeNode.com-Dusseldorf
+      - ✅ @ShadowSocks_S
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
 
 rules:
 # 本地/局域网地址
