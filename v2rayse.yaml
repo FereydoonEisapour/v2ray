@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：18-04-2023 20:36:14
+# 创建时间：21-04-2023 21:33:25
 # 使用模版：V2RaySE 默认模版
-# 节点数量：23
+# 节点数量：24
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,200 +21,207 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"k33.xka3ra.online","port":443,"cipher":"auto","uuid":"1147ea09-d02a-4a1a-b330-ef74b0979859","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"k33.xka3ra.online","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"GetAFreeNode.com-Kansas_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"GetAFreeNode.com-Lille_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/vus5.0bad.com:443/chat","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"GetAFreeNode.com-Kansas_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"@vpn_ocean_1","type":"vmess","server":"jp05-vm0.entry.srthdw.art","port":30592,"cipher":"auto","uuid":"f1539409-b415-3730-8388-efd146aa17c0","alterId":1,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"@v2rayng_org_1","type":"vmess","server":"91.107.186.216","port":443,"cipher":"auto","uuid":"22faec0a-a98a-4b74-c19b-01ad095963d4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"GetAFreeNode.com-Amsterdam_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"142.4.118.249","port":57402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"GetAFreeNode.com-Lille_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"GetAFreeNode.com-LosAngeles_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"LosAngeles.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"LosAngeles.kotick.site"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"203.29.53.13","port":443,"cipher":"auto","uuid":"fb0613d0-dec3-11ed-b830-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de-2.0rd.net","network":"ws","ws-opts":{"path":"/2v1x97rl","headers":{"host":"de-2.0rd.net"}}}
+  - {"name":"vpei-🇺🇸-美国-172.67.251.43-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"908a929a-74c9-427c-dcec-76549aa25249","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/resso.vtcss.top:443/","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@vpn_ocean_2","type":"vmess","server":"jp06-alt-vm0.entry.jpojpoh.art","port":28786,"cipher":"auto","uuid":"f1539409-b415-3730-8388-efd146aa17c0","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"GetAFreeNode.com-Amsterdam_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
+  - {"name":"vpei-🇺🇸-美国-apt.ircf.space-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site:443/speedtest","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"vpei-🇺🇸-美国-172.66.43.240-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"12612e87-8003-44a8-b4e8-ec4a325e9016","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/z.zorro.tk:443/ou","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@vpn_ocean_3","type":"vmess","server":"jp04-vm0.entry.srthdw.art","port":447,"cipher":"auto","uuid":"f1539409-b415-3730-8388-efd146aa17c0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"140.238.1.117","port":80,"cipher":"auto","uuid":"c4a6952e-138a-3fe9-803b-8f2d2dd0254b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4gmp","headers":{"host":"140.238.1.117"}}}
   - {"name":"GetAFreeNode.com-Dusseldorf_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"172.67.128.39","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"vietnam8.azzphuc.pro","port":80,"cipher":"auto","uuid":"7bea35a3-d29c-4a33-b471-1eb63b3ecf70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hahuutung","headers":{"host":"vietnam8.azzphuc.pro"}}}
-  - {"name":"GetAFreeNode.com-Kansas_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"ch.learnpropy.click","port":2053,"cipher":"auto","uuid":"8cab8fb7-4977-4ec2-8bba-2914dd43bfbd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"abs.learnpropy.click","network":"ws","ws-opts":{"path":"/gsdg43575","headers":{"host":"abs.learnpropy.click"}}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_010-Worker-COM","type":"vmess","server":"discord.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/vjp3.0bad.com:443/chat","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"po-59.f-sub.xyz","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"104.17.3.81","port":80,"cipher":"auto","uuid":"e40b2de3-b829-4591-a7b6-99d1913f3246","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"w.evouch77.live"}}}
-  - {"name":"🇺🇸US-142.4.118.150-23172-Worker-COM","type":"vmess","server":"discord.com","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.16616906.xyz:443/path/120306182525","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"104.17.3.81","port":80,"cipher":"auto","uuid":"e40b2de3-b829-4591-a7b6-99d1913f3246","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"w.evouch77.live"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"54.36.103.107","port":80,"cipher":"auto","uuid":"556eddfa-7a44-43d8-82bd-7c1792fc563c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess/"}}
-  - {"name":"GetAFreeNode.com-Kansas_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"4.mamadcucu.com","port":8880,"cipher":"auto","uuid":"51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ArsalanTauBot","headers":{"host":"4.mamadcucu.com"}}}
+  - {"name":"mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"12612e87-8003-44a8-b4e8-ec4a325e9016","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/z.zorro.tk:443/ou","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
   - {"name":"GetAFreeNode.com-Dusseldorf_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"✅ @ShadowSocks_S","type":"vmess","server":"vietnam8.azzphuc.pro","port":80,"cipher":"auto","uuid":"7bea35a3-d29c-4a33-b471-1eb63b3ecf70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hahuutung"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"162.159.135.233","port":443,"cipher":"auto","uuid":"fb938bf0-db02-11ed-b936-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-3.0rd.net","network":"ws","ws-opts":{"path":"/zonrigyb","headers":{"host":"us-3.0rd.net"}}}
-  - {"name":"GetAFreeNode.com-Dusseldorf_3","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"tw1.sanfen004.me","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw1.sanfen004.me","network":"ws","ws-opts":{"path":"/zh-cn"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"germany1.unlimiteddev.co","port":80,"cipher":"auto","uuid":"97ea79a6-615c-4ad7-8083-4f3b49cbe8a2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"GetAFreeNode.com-Kansas_3","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vmess","server":"mm.learnpropy.click","port":2053,"cipher":"auto","uuid":"8cab8fb7-4977-4ec2-8bba-2914dd43bfbd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"abs.learnpropy.click","network":"ws","ws-opts":{"path":"/gsdg43575","headers":{"host":"abs.learnpropy.click"}}}
-  - {"name":"GetAFreeNode.com-Dusseldorf_4","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"B6076D16-1F56-4D56-80E7-1B45FEE195E9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"@v2rayng_org_2","type":"vmess","server":"142.4.118.249","port":57402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@vpn_ocean_4","type":"vmess","server":"jp03-alt-vm0.entry.srthdw.art","port":21584,"cipher":"auto","uuid":"f1539409-b415-3730-8388-efd146aa17c0","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"GetAFreeNode.com-LosAngeles_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"LosAngeles.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"LosAngeles.kotick.site"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,29 +244,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - GetAFreeNode.com-Dusseldorf_1
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - '@Hope_Net-join-us-on-Telegram_3'
       - GetAFreeNode.com-Kansas_1
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇺🇸US(AzadNet.t.me)_010-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - '@Hope_Net-join-us-on-Telegram_6'
-      - 🇺🇸US-142.4.118.150-23172-Worker-COM
-      - '@Hope_Net-join-us-on-Telegram_7'
-      - '@Hope_Net-join-us-on-Telegram_8'
+      - GetAFreeNode.com-Lille_1
+      - mahdibland-🇺🇸US-170.187.206.48-2001-worker-gen
       - GetAFreeNode.com-Kansas_2
-      - '@Hope_Net-join-us-on-Telegram_9'
+      - '@vpn_ocean_1'
+      - '@v2rayng_org_1'
+      - GetAFreeNode.com-Amsterdam_1
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - GetAFreeNode.com-Lille_2
+      - GetAFreeNode.com-LosAngeles_1
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - vpei-🇺🇸-美国-172.67.251.43-worker-gen
+      - '@vpn_ocean_2'
+      - GetAFreeNode.com-Amsterdam_2
+      - vpei-🇺🇸-美国-apt.ircf.space-worker-gen
+      - vpei-🇺🇸-美国-172.66.43.240-worker-gen
+      - '@vpn_ocean_3'
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - GetAFreeNode.com-Dusseldorf_1
+      - mfuu-🇺🇸 github.com/freefq - 美国CloudFlare节点 6-worker-gen
       - GetAFreeNode.com-Dusseldorf_2
-      - ✅ @ShadowSocks_S
-      - '@Hope_Net-join-us-on-Telegram_10'
-      - GetAFreeNode.com-Dusseldorf_3
-      - '@Hope_Net-join-us-on-Telegram_11'
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - GetAFreeNode.com-Kansas_3
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - GetAFreeNode.com-Dusseldorf_4
+      - '@v2rayng_org_2'
+      - '@vpn_ocean_4'
+      - GetAFreeNode.com-LosAngeles_2
 
 rules:
 # 本地/局域网地址
