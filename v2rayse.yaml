@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：01-05-2023 17:15:46
+# 创建时间：01-05-2023 17:17:24
 # 使用模版：V2RaySE 默认模版
-# 节点数量：45
+# 节点数量：42
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -34,9 +34,6 @@ proxies:
   - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"45.58.180.143","port":55211,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️","type":"vmess","server":"95.179.254.20","port":443,"cipher":"auto","uuid":"AEEAC849-8CD0-46F7-BB4D-8A499C1246DC","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"i.vpchi.tk","port":2082,"cipher":"auto","uuid":"1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@ProxyCom10_1","type":"ss","server":"45.131.248.202","port":40907,"password":"PXIIFuUx41","cipher":"chacha20-poly1305"}
-  - {"name":"@ProxyCom10_2","type":"ss","server":"45.131.248.202","port":40907,"password":"PXIIFuUx41","cipher":"chacha20-poly1305"}
-  - {"name":"@ProxyCom10_3","type":"ss","server":"45.131.248.202","port":40907,"password":"PXIIFuUx41","cipher":"chacha20-poly1305"}
   - {"name":"GetAFreeNode.com-Kansas_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"F66EBBBC-1D4B-4185-B607-EA98E6779114","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"iranham2.foxnim.info","port":7001,"cipher":"auto","uuid":"379edf66-593d-482c-8b9c-56257a7eaff4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"quic"}
   - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"109.169.2.246","port":13565,"cipher":"auto","uuid":"ede1cb3c-3e83-4411-e843-2b5db933f130","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
@@ -54,7 +51,7 @@ proxies:
   - {"name":"GetAFreeNode.com-Kansas_2","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"9EBADE70-240F-463E-A6C2-A6B55CE6A9AA","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_21","type":"vmess","server":"telegram-id.vpneti.tk","port":443,"cipher":"auto","uuid":"92869d41-a98a-40ba-b79d-2eeb7ffe2433","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"telegram-channel.vpneti.tk","network":"ws","ws-opts":{"path":"/dynamic-sg1b.obfs.xyz:443/worryfree","headers":{"host":"telegram-channel.vpneti.tk"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_22","type":"vmess","server":"85.208.107.119","port":38183,"cipher":"auto","uuid":"6b32d610-1e0c-45b0-e91d-af12ccaeed8b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"85.208.107.119"}}}
-  - {"name":"@ProxyCom10_4","type":"vmess","server":"199.180.103.28","port":49988,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@ProxyCom10","type":"vmess","server":"199.180.103.28","port":49988,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"GetAFreeNode.com-Dusseldorf_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"F35A12DA-DA72-4E2E-9480-4CAFDAA4379E","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_23","type":"vmess","server":"158.101.7.8","port":80,"cipher":"auto","uuid":"95b45c49-f5c0-4959-bb64-2b8fbc4a869c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"@Hope_Net-join-us-on-Telegram_24","type":"vmess","server":"afshar.zanbil-mo.cf","port":80,"cipher":"auto","uuid":"4edb9750-e793-11ed-b330-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/e4jfw7i6","headers":{"host":"fr-1.0rd.net"}}}
@@ -85,9 +82,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -105,7 +99,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
@@ -136,9 +130,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -156,7 +147,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
@@ -187,9 +178,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -207,7 +195,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
@@ -237,9 +225,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -257,7 +242,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
@@ -287,9 +272,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -307,7 +289,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
@@ -337,9 +319,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -357,7 +336,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
@@ -404,9 +383,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
-      - '@ProxyCom10_1'
-      - '@ProxyCom10_2'
-      - '@ProxyCom10_3'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net-join-us-on-Telegram_12'
@@ -424,7 +400,7 @@ proxy-groups:
       - GetAFreeNode.com-Kansas_2
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
-      - '@ProxyCom10_4'
+      - '@ProxyCom10'
       - GetAFreeNode.com-Dusseldorf_1
       - '@Hope_Net-join-us-on-Telegram_23'
       - '@Hope_Net-join-us-on-Telegram_24'
