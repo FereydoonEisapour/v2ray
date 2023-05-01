@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：01-05-2023 17:18:44
+# 创建时间：01-05-2023 17:20:52
 # 使用模版：V2RaySE 默认模版
-# 节点数量：42
+# 节点数量：41
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -32,7 +32,6 @@ proxies:
   - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"jp-2.vuex.eu.org","port":8890,"cipher":"auto","uuid":"f5d1753a-06f3-4927-bde8-93bcf6142d52","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"173.249.7.85","port":8443,"cipher":"auto","uuid":"b86870cc-a4b8-4779-bdbc-89f3fe35dbd9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"45.58.180.143","port":55211,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️","type":"vmess","server":"95.179.254.20","port":443,"cipher":"auto","uuid":"AEEAC849-8CD0-46F7-BB4D-8A499C1246DC","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"i.vpchi.tk","port":2082,"cipher":"auto","uuid":"1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"GetAFreeNode.com-Kansas_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"F66EBBBC-1D4B-4185-B607-EA98E6779114","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"iranham2.foxnim.info","port":7001,"cipher":"auto","uuid":"379edf66-593d-482c-8b9c-56257a7eaff4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"quic"}
@@ -80,7 +79,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
@@ -128,7 +126,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
@@ -176,7 +173,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
@@ -223,7 +219,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
@@ -270,7 +265,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
@@ -317,7 +311,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
@@ -381,7 +374,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_10'
       - GetAFreeNode.com-Kansas_1
       - '@Hope_Net-join-us-on-Telegram_11'
