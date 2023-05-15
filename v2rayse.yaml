@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：14-05-2023 22:58:21
+# 创建时间：15-05-2023 17:14:03
 # 使用模版：V2RaySE 默认模版
 # 节点数量：40
 ####################################
@@ -21,319 +21,319 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"104.22.0.12","port":80,"cipher":"auto","uuid":"47d61ef0-f25e-11ed-b339-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/w90d4j3l","headers":{"host":"pl.0rd.net"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"108.186.116.175","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"142.4.97.76","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"us-1.0rd.net","port":80,"cipher":"auto","uuid":"f75497a0-f234-11ed-b038-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/71fn2gjl","headers":{"host":"us-1.0rd.net"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"aa-jp.x898989.xyz","port":41002,"cipher":"auto","uuid":"3caf2931-c39e-4f07-c392-dea78fa3ebb0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"aa-jp.x898989.xyz","network":"h2","h2-opts":{"host":["aa-jp.x898989.xyz"],"path":"/website"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"67.21.89.136","port":46866,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@ProxyCom10_1","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"jp03-alt-vm0.entry.srthdw.art","port":21585,"cipher":"auto","uuid":"1bc52308-0bd9-30d0-90fd-cef337875d10","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@ProxyCom10_2","type":"vmess","server":"107.167.7.12","port":41654,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"135.181.250.148","port":2083,"cipher":"auto","uuid":"844df085-af83-4928-98e8-801b5d1d643f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"142.4.127.4","port":53013,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vmess","server":"us1.socifiles.com","port":80,"cipher":"none","uuid":"16ea7c10-ef03-11ed-b1e0-1239d0255272","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmws"}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
   - {"name":"peasoft-|27.96Mb","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_14","type":"vmess","server":"::ffff:6c3d:d2f8","port":443,"cipher":"none","uuid":"080fcb60-ef57-11ed-b75a-1239d0255272","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.socifiles.com","network":"grpc","grpc-opts":{"grpc-service-name":"vmgrpc","grpc-mode":"gun"}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_15","type":"vmess","server":"143.42.59.153","port":15274,"cipher":"auto","uuid":"c19e0628-0592-40fd-f91b-42ddfb24a46f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@ProxyCom10_1","type":"vmess","server":"199.180.103.28","port":49988,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️","type":"vmess","server":"support.cloudflare.com","port":80,"cipher":"auto","uuid":"44c467a9-8f0d-41a5-f00b-86569753e5b0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b3.iraniancp.autos"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"64.32.24.210","port":48659,"cipher":"auto","uuid":"cff9d860-7330-4ee1-b072-7142ddf1571d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"67.21.89.136","port":46866,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"192.74.234.78","port":51302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"美国 加利福尼亚州洛杉矶Sharktech数据中心","type":"vmess","server":"170.178.167.140","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_16","type":"vmess","server":"109.169.2.246","port":13565,"cipher":"auto","uuid":"ede1cb3c-3e83-4411-e843-2b5db933f130","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_17","type":"vmess","server":"104.18.1.61","port":2096,"cipher":"auto","uuid":"408e2686-9e0d-4014-841e-7ca5da55a215","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"h.h3io.co","network":"ws","ws-opts":{"path":"ho3ino","headers":{"host":"h.h3io.co"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_18","type":"vmess","server":"54.37.206.205","port":54002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_19","type":"vmess","server":"192.74.231.173","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_20","type":"vmess","server":"45.85.119.230","port":443,"cipher":"auto","uuid":"65811756-10E7-4C57-8F9C-83D702F8BA9D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_21","type":"vmess","server":"51.195.35.149","port":30812,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_22","type":"vmess","server":"54.37.206.205","port":54002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_23","type":"vmess","server":"192.74.234.78","port":51302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"mfuu-🇺🇸 _US_美国-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/new8.huvicloud.com:443/","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_24","type":"vmess","server":"173.249.7.85","port":8443,"cipher":"auto","uuid":"b86870cc-a4b8-4779-bdbc-89f3fe35dbd9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_25","type":"vmess","server":"51.89.74.241","port":51102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_26","type":"vmess","server":"5.75.209.121","port":49534,"cipher":"auto","uuid":"e3550c46-f77a-4c89-ce67-73168cd15868","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_27","type":"vmess","server":"104.22.0.12","port":443,"cipher":"auto","uuid":"f75497a0-f234-11ed-b038-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-1.0rd.net","network":"ws","ws-opts":{"path":"/71fn2gjl","headers":{"host":"us-1.0rd.net"}}}
-  - {"name":"@ProxyCom10_3","type":"vmess","server":"198.16.45.166","port":53392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"美国加利福尼亚州洛杉矶 Coperation Coloction数据中心","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_28","type":"vmess","server":"142.0.130.8","port":53452,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_29","type":"vmess","server":"198.2.218.217","port":51202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_30","type":"vmess","server":"167.86.83.54","port":8443,"cipher":"auto","uuid":"391a2165-69ff-4746-8544-7e9dea864bb9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_31","type":"vmess","server":"172.67.71.78","port":443,"cipher":"auto","uuid":"a6742970-f0b1-11ed-b939-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nl-2.0rd.net","network":"ws","ws-opts":{"path":"/r9cmyx6q","headers":{"host":"nl-2.0rd.net"}}}
-  - {"name":"mfuu-🇺🇸 美国 CloudFlare节点-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/new6.huvicloud.com:443/","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
-  - {"name":"vpei-🇺🇸-美国-154.85.1.4-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.42077230.xyz:443/path/1683881458407","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"ru2.elkcloud.gq","port":80,"cipher":"auto","uuid":"330516f2-45c3-3d8b-bd7c-ae1b530377d5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Stockholm-getfreenodes.com","type":"vmess","server":"essa.keeeeeeir.me","port":443,"cipher":"auto","uuid":"FF8A5176-6E92-4DC5-A98D-A56238B83687","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"essa.keeeeeeir.me","network":"ws","ws-opts":{"path":"/login","headers":{"host":"essa.keeeeeeir.me"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vmess","server":"109.169.2.246","port":13565,"cipher":"auto","uuid":"ede1cb3c-3e83-4411-e843-2b5db933f130","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vmess","server":"5.75.209.121","port":49534,"cipher":"auto","uuid":"e3550c46-f77a-4c89-ce67-73168cd15868","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vmess","server":"91.107.169.200","port":803,"cipher":"auto","uuid":"7b7652ca-e168-4bbf-f2d5-dd570776c11f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"91.107.169.200","port":443,"cipher":"auto","uuid":"193c82b8-8ed3-443b-c63b-3323b4169fdd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@ProxyCom10_2","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国+Xerox","type":"trojan","server":"awssg19-data.amazon-azure.com","port":443,"udp":true,"password":"794d739c-89a0-444c-b2e7-acce12af3042","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"54.37.206.205","port":54002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"104.17.200.168","port":443,"cipher":"auto","uuid":"8e3075a0-f0b1-11ed-b634-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nl.0rd.net","network":"ws","ws-opts":{"path":"/53nij47x","headers":{"host":"nl.0rd.net"}}}
+  - {"name":"github.com/freefq - 香港电讯盈科有限公司 6","type":"vmess","server":"hkt2.amazonwebservicess.com","port":80,"cipher":"auto","uuid":"4aeda200-44c9-4168-8f2a-a00a72176d35","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vmess","server":"67.21.89.136","port":46866,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vmess","server":"45.58.180.143","port":55211,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_14","type":"vmess","server":"192.74.237.50","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 9","type":"vmess","server":"172.67.247.250","port":80,"cipher":"auto","uuid":"53ae65be-81ee-4766-8a09-da43c44c4d30","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer11","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_15","type":"vmess","server":"198.2.218.217","port":51202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_16","type":"vmess","server":"142.4.97.76","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_17","type":"vmess","server":"185.231.204.3","port":1950,"cipher":"auto","uuid":"02ea62d3-28b7-496f-af93-8758dfde8937","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_18","type":"vmess","server":"5.75.209.121","port":26250,"cipher":"auto","uuid":"7dbcc140-2316-4f9f-ca27-d24ae3b719e2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_19","type":"vmess","server":"5.75.209.121","port":26250,"cipher":"auto","uuid":"7dbcc140-2316-4f9f-ca27-d24ae3b719e2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"mfuu-🇺🇸 _US_美国-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/new8.huvicloud.com:443/","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_20","type":"vmess","server":"104.22.0.12","port":80,"cipher":"auto","uuid":"47d61ef0-f25e-11ed-b339-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/w90d4j3l","headers":{"host":"pl.0rd.net"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_21","type":"vmess","server":"142.0.130.8","port":53452,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_22","type":"vmess","server":"108.186.116.175","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_23","type":"vmess","server":"104.22.0.12","port":443,"cipher":"auto","uuid":"f75497a0-f234-11ed-b038-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-1.0rd.net","network":"ws","ws-opts":{"path":"/71fn2gjl","headers":{"host":"us-1.0rd.net"}}}
+  - {"name":"@ProxyCom10_3","type":"vmess","server":"198.16.45.166","port":53392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_24","type":"vmess","server":"104.18.3.186","port":80,"cipher":"auto","uuid":"44c467a9-8f0d-41a5-f00b-86569753e5b0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b3.iraniancp.autos"}}}
+  - {"name":"Frankfort-getfreenodes.com","type":"vmess","server":"eddf.keeeeeeir.me","port":443,"cipher":"auto","uuid":"FF8A5176-6E92-4DC5-A98D-A56238B83687","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"eddf.keeeeeeir.me","network":"ws","ws-opts":{"path":"/login","headers":{"host":"eddf.keeeeeeir.me"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_25","type":"vmess","server":"142.0.130.8","port":53452,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_26","type":"vmess","server":"cu.wfitech.net","port":443,"cipher":"chacha20-poly1305","uuid":"030ae75a-1a4a-45cc-88f1-f1b7d9fe15f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cu.wfitech.net","network":"ws","ws-opts":{"path":"/KS4XxcnoWPTpuA9VAxnFIAPLD","headers":{"host":"cu.wfitech.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,46 +356,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国 CloudFlare节点
+      - peasoft-|27.96Mb
+      - '@ProxyCom10_1'
+      - 'کانفیگ های بیشتر در کانال : ⭐️payam_nsi@⭐️'
       - '@Hope_Net-join-us-on-Telegram_1'
       - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net-join-us-on-Telegram_3'
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
       - '@Hope_Net-join-us-on-Telegram_5'
+      - Stockholm-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
-      - '@ProxyCom10_1'
       - '@Hope_Net-join-us-on-Telegram_8'
-      - '@ProxyCom10_2'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - '@ProxyCom10_2'
+      - 美国+Xerox
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
+      - github.com/freefq - 香港电讯盈科有限公司 6
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
-      - peasoft-|27.96Mb
       - '@Hope_Net-join-us-on-Telegram_14'
+      - github.com/freefq - 美国CloudFlare节点 9
       - '@Hope_Net-join-us-on-Telegram_15'
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - '@Hope_Net-join-us-on-Telegram_16'
       - '@Hope_Net-join-us-on-Telegram_17'
       - '@Hope_Net-join-us-on-Telegram_18'
       - '@Hope_Net-join-us-on-Telegram_19'
+      - mfuu-🇺🇸 _US_美国-worker-gen
       - '@Hope_Net-join-us-on-Telegram_20'
       - '@Hope_Net-join-us-on-Telegram_21'
       - '@Hope_Net-join-us-on-Telegram_22'
       - '@Hope_Net-join-us-on-Telegram_23'
-      - mfuu-🇺🇸 _US_美国-worker-gen
+      - '@ProxyCom10_3'
       - '@Hope_Net-join-us-on-Telegram_24'
+      - Frankfort-getfreenodes.com
       - '@Hope_Net-join-us-on-Telegram_25'
       - '@Hope_Net-join-us-on-Telegram_26'
-      - '@Hope_Net-join-us-on-Telegram_27'
-      - '@ProxyCom10_3'
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - '@Hope_Net-join-us-on-Telegram_28'
-      - '@Hope_Net-join-us-on-Telegram_29'
-      - '@Hope_Net-join-us-on-Telegram_30'
-      - '@Hope_Net-join-us-on-Telegram_31'
-      - mfuu-🇺🇸 美国 CloudFlare节点-worker-gen
-      - vpei-🇺🇸-美国-154.85.1.4-worker-gen
 
 rules:
 # 本地/局域网地址
