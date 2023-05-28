@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：24-05-2023 21:01:20
+# 创建时间：28-05-2023 19:24:41
 # 使用模版：V2RaySE 默认模版
-# 节点数量：101
+# 节点数量：53
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,746 +21,422 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇫🇷FR(AzadNet.t.me)_012","type":"ss","server":"149.202.82.172","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_065","type":"vmess","server":"142.4.126.74","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_340","type":"vmess","server":"192.74.224.22","port":54027,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_047","type":"vmess","server":"192.74.237.50","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_189","type":"vmess","server":"192.74.230.39","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_018","type":"ss","server":"145.239.1.100","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_505","type":"vmess","server":"107.173.84.58","port":48531,"cipher":"auto","uuid":"b7883f85-b042-4c0f-a28a-492504ec0be5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_039","type":"ss","server":"145.239.1.100","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_001","type":"ss","server":"51.77.53.200","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_076","type":"ss","server":"54.36.174.181","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_284","type":"vmess","server":"137.175.18.91","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_060","type":"ss","server":"149.202.82.172","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_005","type":"ss","server":"ak1667.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_077","type":"vmess","server":"142.4.112.10","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_102","type":"vmess","server":"137.175.5.49","port":42329,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_231","type":"vmess","server":"205.185.126.20","port":80,"cipher":"auto","uuid":"2cfc4c58-88cb-4e00-9977-ef0a37559a22","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_013","type":"ss","server":"149.202.82.172","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_054","type":"ss","server":"149.202.82.172","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_010","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"108.186.116.175","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_142","type":"vmess","server":"67.21.77.72","port":47140,"cipher":"auto","uuid":"fabb30e8-3a2c-4149-9651-2758f7712481","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵JP(AzadNet.t.me)_043","type":"vmess","server":"vjp1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_121","type":"vmess","server":"107.148.203.244","port":53986,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_014","type":"ss","server":"51.77.53.200","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_003","type":"ss","server":"51.77.53.200","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_070","type":"ss","server":"54.36.174.181","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_099","type":"vmess","server":"137.175.61.130","port":46679,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_499","type":"vmess","server":"45.88.176.19","port":41092,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_028","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"vpei-🇺🇸-美国-154.85.1.4-worker-gen","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.42077230.xyz:443/path/1683881458407","headers":{"host":"cfv.epfereydoon.workers.dev"}}}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_046","type":"ss","server":"145.239.1.100","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_019","type":"ss","server":"51.77.53.200","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_006","type":"ss","server":"38.111.114.246","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_592","type":"vmess","server":"45.86.11.226","port":39182,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_141","type":"vmess","server":"67.21.77.73","port":47140,"cipher":"auto","uuid":"fabb30e8-3a2c-4149-9651-2758f7712481","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_344","type":"vmess","server":"107.148.5.81","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_073","type":"vmess","server":"142.4.118.121","port":40349,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_571","type":"vmess","server":"192.74.246.49","port":52992,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_103","type":"vmess","server":"137.175.18.86","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_203","type":"vmess","server":"142.4.111.166","port":51040,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_289","type":"vmess","server":"vus2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_257","type":"vmess","server":"38.40.158.245","port":45002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"139.99.162.120","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_114","type":"vmess","server":"107.167.29.228","port":46321,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_153","type":"vmess","server":"64.32.20.42","port":54042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_174","type":"trojan","server":"192.9.130.66","port":443,"udp":true,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","sni":"us.disnet.gq","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_027","type":"ss","server":"149.202.82.172","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_567","type":"vmess","server":"192.74.230.38","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_187","type":"vmess","server":"192.74.242.154","port":44667,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"v2rayfree.eu.org - 美国  14","type":"vmess","server":"170.114.45.224","port":443,"cipher":"auto","uuid":"DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Kansas.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_026","type":"ss","server":"54.36.174.181","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_146","type":"vmess","server":"64.32.24.210","port":48659,"cipher":"auto","uuid":"cff9d860-7330-4ee1-b072-7142ddf1571d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_040","type":"ss","server":"145.239.1.100","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_037","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_350","type":"vmess","server":"45.12.144.83","port":47127,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_145","type":"vmess","server":"64.32.3.233","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇦🇺AU(AzadNet.t.me)_004","type":"vmess","server":"139.99.180.115","port":33505,"cipher":"auto","uuid":"6c04a273-7302-4e09-9ced-aedaaa7461af","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬SG(AzadNet.t.me)_003","type":"ss","server":"51.79.161.232","port":443,"password":"4Hub2f9JyhECyAq2Opm0NS","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_032","type":"ss","server":"145.239.1.100","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_503","type":"vmess","server":"142.4.126.72","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇬🇧GB(AzadNet.t.me)_066","type":"ss","server":"51.68.206.229","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_574","type":"vmess","server":"192.74.239.28","port":41288,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_006","type":"vmess","server":"51.195.35.149","port":30812,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵JP(AzadNet.t.me)_011","type":"trojan","server":"awsjp16-data.amazon-azure.com","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"107.167.12.26","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_165","type":"vmess","server":"45.58.186.85","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_009","type":"ss","server":"ak1637.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_072","type":"ss","server":"54.36.174.181","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_091","type":"vmess","server":"142.0.132.38","port":50015,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Frankfort-getfreenodes.com","type":"vmess","server":"eddf.keeeeeeir.me","port":443,"cipher":"auto","uuid":"FF8A5176-6E92-4DC5-A98D-A56238B83687","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"eddf.keeeeeeir.me","network":"ws","ws-opts":{"path":"/login","headers":{"host":"eddf.keeeeeeir.me"}}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_140","type":"vmess","server":"67.21.89.136","port":46866,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.19458162.xyz:443/path/1683543024453","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸 _US_美国->🇩🇪_DE_德国-worker-ip","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"9aa6b5ad-c0fc-47f4-a837-f72179d7b662","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/channel3.unlimiteddev.tk:443/Lsv4s7nS0ErewnEN","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft--1,16|美国 021-worker-ip","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.19458162.xyz:443/path/1684405930831","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.62317155.xyz:443/path/1683715826870","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/vus3.0bad.com:443/chat","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.54092415.xyz:443/path/1684316790433","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/www.62317155.xyz:443/path/1683715826870","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇸🇬SG(AzadNet.t.me)_009","type":"trojan","server":"azsg2-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"794d739c-89a0-444c-b2e7-acce12af3042","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬SG(AzadNet.t.me)_010","type":"trojan","server":"awssg19-data.amazon-azure.com","port":443,"udp":true,"password":"794d739c-89a0-444c-b2e7-acce12af3042","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"45.58.180.143","port":55211,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇦CA(AzadNet.t.me)_019","type":"ss","server":"134.195.198.95","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"peasoft-16,20|澳大利亚 002","type":"vmess","server":"139.99.245.165","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_107","type":"vmess","server":"108.166.203.181","port":44945,"cipher":"auto","uuid":"268a491b-764c-44d1-81a4-30de16130867","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_100","type":"vmess","server":"137.175.69.234","port":44920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸US(AzadNet.t.me)_188","type":"vmess","server":"192.74.242.151","port":44667,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇩🇪DE(AzadNet.t.me)_001","type":"vmess","server":"168.119.58.112","port":80,"cipher":"auto","uuid":"e42d68db-4297-4c17-b5cf-44d421aef400","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_020","type":"ss","server":"51.77.53.200","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_485","type":"vmess","server":"107.167.12.22","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_304","type":"vmess","server":"140.99.148.52","port":47839,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_577","type":"vmess","server":"142.4.119.207","port":53986,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_139","type":"vmess","server":"67.21.91.136","port":30983,"cipher":"auto","uuid":"ec186cad-56ac-42b3-8309-184d0e748b04","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_045","type":"vmess","server":"192.74.231.174","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_473","type":"vmess","server":"142.4.112.11","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_053","type":"ss","server":"149.202.82.172","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_121","type":"vmess","server":"107.148.203.244","port":53986,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-20|US_140.99.148.52_052820234d3f-...","type":"vmess","server":"140.99.148.52","port":47839,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vmess","server":"139.99.162.120","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_079","type":"vmess","server":"142.4.108.25","port":55102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸US(AzadNet.t.me)_181","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_105","type":"vmess","server":"108.186.116.175","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_021","type":"ss","server":"134.195.198.95","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_018","type":"ss","server":"134.195.198.95","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_106","type":"vmess","server":"108.186.116.172","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_020","type":"ss","server":"ak1648.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_018","type":"ss","server":"51.77.53.200","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"167.86.83.54","port":8443,"cipher":"auto","uuid":"391a2165-69ff-4746-8544-7e9dea864bb9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_016","type":"ss","server":"38.111.114.246","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_280","type":"vmess","server":"107.167.12.24","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vmess","server":"67.21.89.136","port":46866,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_003","type":"ss","server":"38.111.114.246","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_016","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_060","type":"vmess","server":"158.101.7.8","port":80,"cipher":"auto","uuid":"95b45c49-f5c0-4959-bb64-2b8fbc4a869c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_051","type":"vmess","server":"192.74.228.174","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_075","type":"ss","server":"54.36.174.181","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_048","type":"vmess","server":"192.74.234.78","port":51302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"51.195.35.149","port":30812,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_142","type":"vmess","server":"67.21.77.72","port":47140,"cipher":"auto","uuid":"fabb30e8-3a2c-4149-9651-2758f7712481","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇯🇵JP(AzadNet.t.me)_012","type":"trojan","server":"awsjp1-data.amazon-azure.com","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2","type":"vmess","server":"dbn.ircf.space","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cfv16.epfereydoon.workers.dev","network":"ws","ws-opts":{"path":"/vus3.0bad.com:443/chat","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_177","type":"ss","server":"37.218.241.130","port":443,"password":"j4wkIrreHEdC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_076","type":"ss","server":"54.36.174.181","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_111","type":"vmess","server":"107.167.29.93","port":45585,"cipher":"auto","uuid":"465dec1a-e09b-4bb6-9905-70f75d6035c8","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft--1|کانال : @V2rayNGvpni","type":"vmess","server":"45.86.11.152","port":39182,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vmess","server":"142.4.97.76","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_168","type":"vmess","server":"45.58.180.173","port":55211,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_043","type":"ss","server":"145.239.1.100","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷FR(AzadNet.t.me)_062","type":"ss","server":"145.239.1.100","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_120","type":"vmess","server":"107.167.16.214","port":33589,"cipher":"auto","uuid":"8c679b81-84fc-43ce-9553-ddca575a6949","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_041","type":"ss","server":"149.202.82.172","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_151","type":"vmess","server":"64.32.20.97","port":40039,"cipher":"auto","uuid":"c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_105","type":"vmess","server":"108.186.116.175","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_308","type":"vmess","server":"192.74.228.177","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft--1,20|@Hope_Net-join-us-on-Telegram","type":"vmess","server":"198.2.200.105","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.54092415.xyz","network":"ws","ws-opts":{"path":"/path/1683543024453","headers":{"host":"www.54092415.xyz"}}}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_013","type":"ss","server":"149.202.82.172","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_062","type":"vmess","server":"142.4.127.6","port":53013,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_113","type":"vmess","server":"107.167.29.229","port":46321,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_299","type":"vmess","server":"137.175.57.23","port":53940,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_084","type":"ss","server":"51.178.87.37","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA(AzadNet.t.me)_011","type":"ss","server":"134.195.198.95","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦CA(AzadNet.t.me)_006","type":"ss","server":"38.111.114.246","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"peasoft--1,20|US_137.175.18.90_0528202354c7-...","type":"vmess","server":"137.175.18.90","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬SG(AzadNet.t.me)_003","type":"ss","server":"51.79.161.232","port":443,"password":"4Hub2f9JyhECyAq2Opm0NS","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA(AzadNet.t.me)_004","type":"ss","server":"38.111.114.246","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳CN(AzadNet.t.me)_004","type":"trojan","server":"hk9.microsoft-orgwly.vip","port":443,"udp":true,"password":"0fb4f44f-82eb-452b-9570-066a07e31fb5","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_548","type":"vmess","server":"192.74.242.153","port":44667,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇦CA(AzadNet.t.me)_012","type":"ss","server":"134.195.198.95","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -783,107 +459,61 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - 🇺🇸US(AzadNet.t.me)_065
-      - 🇺🇸US(AzadNet.t.me)_340
-      - 🇺🇸US(AzadNet.t.me)_047
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇫🇷FR(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_505
-      - 🇫🇷FR(AzadNet.t.me)_039
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇫🇷FR(AzadNet.t.me)_076
-      - 🇺🇸US(AzadNet.t.me)_284
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇨🇦CA(AzadNet.t.me)_005
-      - 🇺🇸US(AzadNet.t.me)_077
-      - 🇺🇸US(AzadNet.t.me)_102
-      - 🇺🇸US(AzadNet.t.me)_231
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_010
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - 🇺🇸US(AzadNet.t.me)_142
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_121
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_070
-      - 🇺🇸US(AzadNet.t.me)_099
-      - 🇺🇸US(AzadNet.t.me)_499
-      - 🇫🇷FR(AzadNet.t.me)_028
       - vpei-🇺🇸-美国-154.85.1.4-worker-gen
-      - 🇫🇷FR(AzadNet.t.me)_046
-      - 🇵🇱PL(AzadNet.t.me)_019
-      - 🇨🇦CA(AzadNet.t.me)_006
-      - 🇺🇸US(AzadNet.t.me)_592
-      - 🇺🇸US(AzadNet.t.me)_141
-      - 🇺🇸US(AzadNet.t.me)_344
-      - 🇺🇸US(AzadNet.t.me)_073
-      - 🇺🇸US(AzadNet.t.me)_571
-      - 🇺🇸US(AzadNet.t.me)_103
-      - 🇺🇸US(AzadNet.t.me)_203
-      - 🇺🇸US(AzadNet.t.me)_289
-      - 🇺🇸US(AzadNet.t.me)_257
-      - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇺🇸US(AzadNet.t.me)_114
-      - 🇺🇸US(AzadNet.t.me)_153
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇫🇷FR(AzadNet.t.me)_027
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇺🇸US(AzadNet.t.me)_187
-      - v2rayfree.eu.org - 美国  14
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇺🇸US(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_040
-      - 🇫🇷FR(AzadNet.t.me)_037
-      - 🇺🇸US(AzadNet.t.me)_350
-      - 🇺🇸US(AzadNet.t.me)_145
-      - 🇦🇺AU(AzadNet.t.me)_004
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_032
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇬🇧GB(AzadNet.t.me)_066
-      - 🇺🇸US(AzadNet.t.me)_574
-      - 🇫🇷FR(AzadNet.t.me)_006
-      - 🇯🇵JP(AzadNet.t.me)_011
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US(AzadNet.t.me)_165
-      - 🇨🇦CA(AzadNet.t.me)_009
-      - 🇫🇷FR(AzadNet.t.me)_072
-      - 🇺🇸US(AzadNet.t.me)_091
-      - Frankfort-getfreenodes.com
-      - 🇺🇸US(AzadNet.t.me)_140
+      - peasoft--1|🇺🇸US-38.63.0.68-0111-worker-ip
+      - >-
+        peasoft-0,1,4,5,7,8,9,10,11,19,25,26,27,28,29,30|🇺🇸
+        _US_美国->🇩🇪_DE_德国-worker-ip
+      - peasoft--1,16|美国 021-worker-ip
+      - peasoft--1,4,5,20,25,26|美国【付费推荐：v1.mk/vip】192-worker-ip
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_1
+      - mahdibland-🇺🇸US-199.188.110.114-4984-worker-ip
+      - mahdibland-🇺🇸US-198.2.208.189-0171-worker-ip
+      - 🇸🇬SG(AzadNet.t.me)_009
       - 🇸🇬SG(AzadNet.t.me)_010
+      - '@Hope_Net-join-us-on-Telegram_1'
+      - 🇨🇦CA(AzadNet.t.me)_019
+      - peasoft-16,20|澳大利亚 002
+      - 🇺🇸US(AzadNet.t.me)_107
+      - 🇺🇸US(AzadNet.t.me)_100
       - 🇺🇸US(AzadNet.t.me)_188
-      - 🇩🇪DE(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_020
-      - 🇺🇸US(AzadNet.t.me)_485
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇺🇸US(AzadNet.t.me)_473
-      - 🇫🇷FR(AzadNet.t.me)_053
+      - 🇺🇸US(AzadNet.t.me)_121
+      - peasoft-20|US_140.99.148.52_052820234d3f-...
+      - '@Hope_Net-join-us-on-Telegram_2'
+      - 🇺🇸US(AzadNet.t.me)_079
       - 🇺🇸US(AzadNet.t.me)_181
-      - 🇺🇸US(AzadNet.t.me)_105
-      - 🇨🇦CA(AzadNet.t.me)_021
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇺🇸US(AzadNet.t.me)_106
-      - 🇨🇦CA(AzadNet.t.me)_020
-      - 🇵🇱PL(AzadNet.t.me)_018
+      - '@Hope_Net-join-us-on-Telegram_3'
+      - 🇺🇸US(AzadNet.t.me)_142
+      - 🇯🇵JP(AzadNet.t.me)_012
+      - peasoft--1|🏁RELAY-173.245.59.219-0122-worker-ip_2
+      - 🇺🇸US(AzadNet.t.me)_177
+      - 🇫🇷FR(AzadNet.t.me)_076
+      - 🇺🇸US(AzadNet.t.me)_111
+      - 'peasoft--1|کانال : @V2rayNGvpni'
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_280
-      - '@Hope_Net-join-us-on-Telegram_5'
-      - 🇨🇦CA(AzadNet.t.me)_003
-      - 🇫🇷FR(AzadNet.t.me)_016
-      - 🇺🇸US(AzadNet.t.me)_060
-      - 🇺🇸US(AzadNet.t.me)_051
-      - 🇫🇷FR(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_048
+      - peasoft-0,1,4,5,7,8,9,10,27,28,29,30|🇺🇸 _US_美国_________________
+      - 🇺🇸US(AzadNet.t.me)_168
+      - 🇫🇷FR(AzadNet.t.me)_043
       - 🇫🇷FR(AzadNet.t.me)_062
-      - 🇺🇸US(AzadNet.t.me)_120
+      - 🇫🇷FR(AzadNet.t.me)_041
+      - 🇺🇸US(AzadNet.t.me)_151
+      - 🇺🇸US(AzadNet.t.me)_105
+      - 🇺🇸US(AzadNet.t.me)_308
+      - peasoft--1,20|@Hope_Net-join-us-on-Telegram
+      - 🇫🇷FR(AzadNet.t.me)_013
+      - 🇺🇸US(AzadNet.t.me)_062
+      - 🇺🇸US(AzadNet.t.me)_113
+      - 🇺🇸US(AzadNet.t.me)_299
+      - 美国 CloudFlare节点
+      - 🇫🇷FR(AzadNet.t.me)_084
+      - 🇨🇦CA(AzadNet.t.me)_011
+      - 🇨🇦CA(AzadNet.t.me)_006
+      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
+      - 🇸🇬SG(AzadNet.t.me)_003
+      - 🇨🇦CA(AzadNet.t.me)_004
+      - 🇨🇳CN(AzadNet.t.me)_004
+      - 🇺🇸US(AzadNet.t.me)_548
+      - 🇨🇦CA(AzadNet.t.me)_012
 
 rules:
 # 本地/局域网地址
@@ -4514,3 +4144,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+ 
