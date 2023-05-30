@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：29-05-2023 22:30:18
+# 创建时间：30-05-2023 22:24:04
 # 使用模版：V2RaySE 默认模版
-# 节点数量：50
+# 节点数量：51
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,389 +21,396 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇸🇬 peasoft-16|新加坡 007","type":"vmess","server":"103.159.64.91","port":32253,"cipher":"auto","uuid":"1751669b-e73b-45a6-96b1-dafc2894c13e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip","type":"vmess","server":"104.17.160.63","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.42077230.xyz:443/path/1684580752213","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
-  - {"name":"peasoft-20|4Sarina-434-worker-ip","type":"vmess","server":"104.17.160.63","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vus4.0bad.com:443/chat","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
-  - {"name":"🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________","type":"vmess","server":"104.27.40.80","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_236","type":"vmess","server":"192.74.242.138","port":44667,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_148","type":"vmess","server":"64.32.21.245","port":44313,"cipher":"auto","uuid":"57f93e92-ebb9-4f16-9bdc-8225d2010995","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_045","type":"vmess","server":"192.74.231.174","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵JP(AzadNet.t.me)_043","type":"vmess","server":"vjp1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇺🇸US(AzadNet.t.me)_304","type":"vmess","server":"140.99.148.52","port":47839,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_005","type":"vmess","server":"38.63.17.176","port":50702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国加利福尼亚州洛杉矶 Coperation Coloction数据中心","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_577","type":"vmess","server":"142.4.119.207","port":53986,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_026","type":"ss","server":"54.36.174.181","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_018","type":"ss","server":"134.195.198.95","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵JP(AzadNet.t.me)_007","type":"trojan","server":"awsjp14-data.amazon-azure.com","port":443,"udp":true,"password":"794d739c-89a0-444c-b2e7-acce12af3042","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_012","type":"ss","server":"149.202.82.172","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"peasoft--1,20|US_137.175.18.90_0528202354c7-...","type":"vmess","server":"137.175.18.90","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_031","type":"ss","server":"149.202.82.172","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_014","type":"ss","server":"38.111.114.246","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"peasoft-20|🇺🇸 美国(油管破解资源君) 3","type":"vmess","server":"192.74.224.27","port":54027,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_189","type":"vmess","server":"192.74.230.39","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰HK(AzadNet.t.me)_014","type":"trojan","server":"awshk7-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_080","type":"vmess","server":"142.4.108.22","port":55102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_001","type":"ss","server":"38.111.114.246","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_139","type":"vmess","server":"67.21.91.136","port":30983,"cipher":"auto","uuid":"ec186cad-56ac-42b3-8309-184d0e748b04","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_285","type":"vmess","server":"192.74.228.172","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇳🇱NL(AzadNet.t.me)_042","type":"vmess","server":"51.15.75.140","port":443,"cipher":"auto","uuid":"4df65f62-99d9-42d1-a4b9-a35b37b26873","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_071","type":"ss","server":"54.36.174.181","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_001","type":"ss","server":"51.77.53.200","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_003","type":"ss","server":"51.77.53.200","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_075","type":"vmess","server":"142.4.114.25","port":55502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_277","type":"vmess","server":"45.86.11.231","port":39182,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_013","type":"vmess","server":"23.234.198.83","port":34888,"cipher":"auto","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇬🇧GB(AzadNet.t.me)_060","type":"vmess","server":"vuk2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_033","type":"ss","server":"54.36.174.181","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_076","type":"vmess","server":"142.4.112.18","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram","type":"vmess","server":"192.74.237.50","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_567","type":"vmess","server":"192.74.230.38","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_013","type":"ss","server":"149.202.82.172","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_053","type":"ss","server":"149.202.82.172","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_174","type":"trojan","server":"192.9.130.66","port":443,"udp":true,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","sni":"us.disnet.gq","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_173","type":"trojan","server":"us.disnet.gq","port":443,"udp":true,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧GB(AzadNet.t.me)_061","type":"ss","server":"ak1661.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬SG(AzadNet.t.me)_003","type":"ss","server":"51.79.161.232","port":443,"password":"4Hub2f9JyhECyAq2Opm0NS","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_498","type":"vmess","server":"45.136.235.11","port":41632,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_002","type":"ss","server":"51.77.53.200","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US(AzadNet.t.me)_503","type":"vmess","server":"142.4.126.72","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_050","type":"ss","server":"145.239.1.100","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA(AzadNet.t.me)_007","type":"ss","server":"134.195.198.95","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_077","type":"ss","server":"54.36.174.181","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"10735fe6-6c8f-498b-b22e-8e98a57e033d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dallas.starsea.vip:443/","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.73218290.xyz:443/path/1684907511842","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇹🇷 peasoft-16|土耳其 001_1","type":"vmess","server":"185.40.86.195","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft--1,16,20|瑞典 001","type":"vmess","server":"37.120.209.124","port":34489,"cipher":"auto","uuid":"dc0cf22d-e35c-4b77-8924-977f6844909b","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-20|4Sarina-375-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"F0259D88-2331-4109-A540-B240DFA251F2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site:443/speedtest","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127","type":"vmess","server":"45.131.248.228","port":59102,"cipher":"auto","uuid":"ac027362-c988-4670-f78f-021b5be6f4e3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"45.131.248.228"}}}
+  - {"name":"peasoft-20|WiFi P","type":"vmess","server":"104.21.238.21","port":443,"cipher":"auto","uuid":"02DD674F-898E-4835-9958-97670C4CCA71","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"aged-salad-8e8c.walidfree17.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-16,18|美国 099","type":"vmess","server":"us9.ss361.xyz","port":2095,"cipher":"auto","uuid":"600d53b5-b034-4889-80ec-3817c5658e3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us9.ss361.xyz"}}}
+  - {"name":"peasoft-20|WiFi P-worker-ip_1","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"02DD674F-898E-4835-9958-97670C4CCA71","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site:443/speedtest","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111","type":"vmess","server":"38.63.0.68","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1683543024453","headers":{"host":"www.19458162.xyz"}}}
+  - {"name":"🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus5.0bad.com"}}}
+  - {"name":"🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.57588776.xyz:443/path/1685361567761","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.26167530.xyz:443/path/1684994761011","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"bardiafa-🇪🇪EE-46.36.219.85-2832","type":"vmess","server":"46.36.219.85","port":443,"cipher":"auto","uuid":"96197594-323a-4ffb-bb3c-c7f64045187e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو","type":"vmess","server":"192.74.229.216","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23","type":"vmess","server":"192.74.224.23","port":54027,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.73218290.xyz:443/path/1684907511842","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft--1,20|v2cross.com_34_1","type":"vmess","server":"23.225.33.170","port":56662,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-16,20|美国 024","type":"vmess","server":"64.32.10.118","port":41169,"cipher":"auto","uuid":"c528d8d8-94d6-48a9-8dd3-52892558a6ab","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.77039717.xyz:443/path/1683715826870","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"12612e87-8003-44a8-b4e8-ec4a325e9016","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z.zorro.tk:443/ou","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft--1,20|v2cross.com_34_2","type":"vmess","server":"23.225.33.170","port":56662,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国","type":"vmess","server":"107.167.29.229","port":46321,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1,16,20|美国 056_1","type":"vmess","server":"107.167.7.12","port":41654,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"10735fe6-6c8f-498b-b22e-8e98a57e033d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dallas.starsea.vip:443/","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vjp2.0bad.com:443/chat","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft-20|WiFi J-worker-ip_1","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site:443/speedtest","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-20|US_170.178.167.140_05302023645...","type":"vmess","server":"170.178.167.140","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1,20|🇺🇸 美国 350_1","type":"vmess","server":"64.32.3.233","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-20|WiFi J-worker-ip_2","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site:443/speedtest","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft-20|WiFi P-worker-ip_2","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"02DD674F-898E-4835-9958-97670C4CCA71","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site:443/speedtest","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-16,20|美国 026_1","type":"vmess","server":"192.74.228.178","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇹🇷 peasoft-16|土耳其 001_2","type":"vmess","server":"185.40.86.195","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1,20|🇺🇸 美国 350_2","type":"vmess","server":"64.32.3.233","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-16,20|美国 028_1","type":"vmess","server":"45.58.186.85","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-16,20|美国 033","type":"vmess","server":"140.99.149.46","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft--1,20|关注电报https://t.me/aifenxiang202...","type":"vmess","server":"154.85.1.128","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684580752213","headers":{"host":"www.42077230.xyz"}}}
+  - {"name":"🇺🇲 peasoft-16,20|美国 060","type":"vmess","server":"23.234.198.83","port":34888,"cipher":"auto","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 peasoft-16|荷兰 005-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"9aa6b5ad-c0fc-47f4-a837-f72179d7b662","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/channel2.unlimiteddev.tk:443/Lsv4s7nS0ErewnEN","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft--1,16,20|美国 044","type":"vmess","server":"107.167.16.85","port":45689,"cipher":"auto","uuid":"7640a1e7-9701-428e-a4b2-19b3e7dd6f9f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-16,20|美国 008","type":"vmess","server":"64.32.10.117","port":41169,"cipher":"auto","uuid":"c528d8d8-94d6-48a9-8dd3-52892558a6ab","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.57588776.xyz:443/path/1685361567761","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vjp2.0bad.com:443/chat","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.73332463.xyz:443/path/1685094923408","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vuk2.0bad.com:443/chat","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/www.71891316.xyz:443/path/1684994761011","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"1d8488a7-c784-4e66-ae92-1b22da9c9e68","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/d2.pgypgykmoljklj.xyz:443/c3lZ7dp02p?ed=2048","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇲 peasoft-16,20|美国 028_2","type":"vmess","server":"45.58.186.85","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-16,20|美国 026_2","type":"vmess","server":"192.74.228.178","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft--1,16,20|美国 056_2","type":"vmess","server":"107.167.7.12","port":41654,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...","type":"vmess","server":"129.146.133.157","port":51009,"cipher":"auto","uuid":"81714cef-9bde-4a08-aa50-d6bc0172d78b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -426,56 +433,57 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 peasoft-16|新加坡 007
-      - 🇳🇱 peasoft--1|🇳🇱NL-154.85.1.128-1236-worker-ip
-      - peasoft-20|4Sarina-434-worker-ip
-      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_由零開始_29________________
-      - 🇺🇸US(AzadNet.t.me)_236
-      - 🇺🇸US(AzadNet.t.me)_148
-      - 🇺🇸US(AzadNet.t.me)_045
-      - 🇯🇵JP(AzadNet.t.me)_043
-      - 🇺🇸US(AzadNet.t.me)_304
-      - 🇺🇸US(AzadNet.t.me)_005
-      - 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇸US(AzadNet.t.me)_577
-      - 🇫🇷FR(AzadNet.t.me)_026
-      - 🇨🇦CA(AzadNet.t.me)_018
-      - 🇯🇵JP(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_012
-      - peasoft--1,20|US_137.175.18.90_0528202354c7-...
-      - 🇫🇷FR(AzadNet.t.me)_031
-      - 🇨🇦CA(AzadNet.t.me)_014
-      - peasoft-20|🇺🇸 美国(油管破解资源君) 3
-      - 🇺🇸US(AzadNet.t.me)_189
-      - 🇭🇰HK(AzadNet.t.me)_014
-      - 🇺🇸US(AzadNet.t.me)_080
-      - 🇨🇦CA(AzadNet.t.me)_001
-      - 🇺🇸US(AzadNet.t.me)_139
-      - 🇺🇸US(AzadNet.t.me)_285
-      - 🇳🇱NL(AzadNet.t.me)_042
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇵🇱PL(AzadNet.t.me)_001
-      - 🇵🇱PL(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_075
-      - 🇺🇸US(AzadNet.t.me)_277
-      - 🇺🇸US(AzadNet.t.me)_013
-      - 🇬🇧GB(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_033
-      - 🇺🇸US(AzadNet.t.me)_076
-      - '@Hope_Net-join-us-on-Telegram'
-      - 🇺🇸US(AzadNet.t.me)_567
-      - 🇫🇷FR(AzadNet.t.me)_013
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇺🇸US(AzadNet.t.me)_174
-      - 🇺🇸US(AzadNet.t.me)_173
-      - 🇬🇧GB(AzadNet.t.me)_061
-      - 🇸🇬SG(AzadNet.t.me)_003
-      - 🇺🇸US(AzadNet.t.me)_498
-      - 🇵🇱PL(AzadNet.t.me)_002
-      - 🇺🇸US(AzadNet.t.me)_503
-      - 🇫🇷FR(AzadNet.t.me)_050
-      - 🇨🇦CA(AzadNet.t.me)_007
-      - 🇫🇷FR(AzadNet.t.me)_077
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_1
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_1
+      - 🇹🇷 peasoft-16|土耳其 001_1
+      - peasoft--1,16,20|瑞典 001
+      - peasoft-20|4Sarina-375-worker-ip
+      - 🇺🇲 bardiafa-🇺🇸US-45.131.248.228-0127
+      - peasoft-20|WiFi P
+      - 🇺🇲 peasoft-16,18|美国 099
+      - peasoft-20|WiFi P-worker-ip_1
+      - 🇺🇲 peasoft--1|🇺🇸US-38.63.0.68-0111
+      - 🇺🇲 peasoft--1,20|US_139.144.16.155_053020238f1d...
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_1
+      - 🇺🇲 peasoft-4,5,25|美国【付费推荐：v1.mk/vip】150-worker-ip
+      - bardiafa-🇪🇪EE-46.36.219.85-2832
+      - peasoft--1|🇲🇫https://t.me/vpn_iossعضو شو
+      - 🇺🇲 peasoft--1|🇺🇸-美国-192.74.224.23
+      - 🇺🇲 peasoft-19|_🇺🇸_US_美国_科网_253-worker-ip_2
+      - peasoft--1,20|v2cross.com_34_1
+      - 🇺🇲 peasoft-16,20|美国 024
+      - 🇺🇲 peasoft--1|🇺🇸US-23.224.110.242-0137-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】3-worker-ip
+      - peasoft--1,20|v2cross.com_34_2
+      - 🇺🇲 peasoft--1,11,20,25|🇺🇸_US_美国
+      - 🇺🇲 peasoft--1,16,20|美国 056_1
+      - 🇺🇲 peasoft-17|github.com/freefq - 美国CloudFla...-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_1
+      - peasoft-20|WiFi J-worker-ip_1
+      - 🇺🇲 peasoft-20|US_170.178.167.140_05302023645...
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_1
+      - peasoft-20|WiFi J-worker-ip_2
+      - peasoft-20|WiFi P-worker-ip_2
+      - 🇺🇲 peasoft-16,20|美国 026_1
+      - 🇹🇷 peasoft-16|土耳其 001_2
+      - 🇺🇲 peasoft--1,20|🇺🇸 美国 350_2
+      - 🇺🇲 peasoft-16,20|美国 028_1
+      - 🇺🇲 peasoft-16,20|美国 033
+      - peasoft--1,20|关注电报https://t.me/aifenxiang202...
+      - 🇺🇲 peasoft-16,20|美国 060
+      - 🇳🇱 peasoft-16|荷兰 005-worker-ip
+      - 🇺🇲 peasoft--1,16,20|美国 044
+      - 🇺🇲 peasoft-16,20|美国 008
+      - 🇺🇲 peasoft-19,19,19,20|_🇺🇸_US_美国_科网_78-worker-ip_2
+      - 🇯🇵 peasoft-20|JP_172.105.235.100_052920237cc...-worker-ip_2
+      - 🇺🇲 peasoft--1|🇺🇸US-142.4.99.84-0129-worker-ip
+      - peasoft--1|🇬🇧GB-178.79.171.33-19948-worker-ip
+      - 🇺🇲 peasoft-19,19,19|_🇺🇸_US_美国_科网_312-worker-ip
+      - 🇺🇲 peasoft-4,5|美国【付费推荐：v1.mk/vip】47-worker-ip
+      - 🇺🇲 peasoft-16,20|美国 028_2
+      - 🇺🇲 peasoft-16,20|美国 026_2
+      - 🇺🇲 peasoft--1,16,20|美国 056_2
+      - 🇺🇲 peasoft-20|US_129.146.133.157_053020238f1...
 
 rules:
 # 本地/局域网地址
