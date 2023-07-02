@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：30-06-2023 20:34:17
+# 创建时间：02-07-2023 21:55:28
 # 使用模版：V2RaySE 默认模版
-# 节点数量：58
+# 节点数量：68
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,445 +21,515 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@free4allVPN|🇯🇵|unavailable","type":"vmess","server":"oci.donpau.com","port":443,"cipher":"auto","uuid":"3C02DC15-56AE-7889-8936-9A2EA8FF8666","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"oci.donpau.com","network":"ws","ws-opts":{"path":"/","headers":{"host":"oci.donpau.com"}}}
-  - {"name":"@free4allVPN|🇸🇬|215.55","type":"vmess","server":"sg1.zingfast.vn","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/anti13.zingfast.vn","headers":{"host":"sg1.zingfast.vn"}}}
-  - {"name":"@free4allVPN|🚩|9.99","type":"vmess","server":"104.19.180.169","port":443,"cipher":"auto","uuid":"1441af41-5cee-497e-a47c-c26af169f9ff","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"x.leonard.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"x.leonard.eu.org"}}}
-  - {"name":"@v2ray_outlineir|🇩🇪|165.48","type":"vmess","server":"116.203.12.27","port":443,"cipher":"auto","uuid":"1c7f9331-de0c-4f3c-da45-55eede60022d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@oneclickvpnkeys|🇮🇷|352.55","type":"vmess","server":"app.snapp.taxi","port":2096,"cipher":"auto","uuid":"95932fbf-03c9-4df6-8aa1-4b8f5f03d78d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"api01.khusezstanshop.website","network":"ws","ws-opts":{"path":"/api","headers":{"host":"api01.khusezstanshop.website"}}}
-  - {"name":"@oneclickvpnkeys|🇺🇸|40.03","type":"vmess","server":"205.185.125.200","port":11451,"cipher":"auto","uuid":"165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@prrofile_purple|🇺🇸|48.5","type":"vmess","server":"89.116.38.208","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@prrofile_purple|🇩🇪|172.24","type":"vmess","server":"116.203.12.27","port":443,"cipher":"auto","uuid":"1c7f9331-de0c-4f3c-da45-55eede60022d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@azadi_az_inja_migzare|🇮🇷|233.29","type":"vmess","server":"ger_tor.ir.azadi021.store","port":443,"cipher":"auto","uuid":"cc40ae80-dba8-498e-b8f2-752b43027d5b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ger_tor.ir.azadi021.store","network":"ws","ws-opts":{"path":"/files/","headers":{"host":"ger_tor.ir.azadi021.store"}}}
-  - {"name":"@vpnfail_v2ray|🇫🇷|114.85","type":"vmess","server":"188.165.170.83","port":80,"cipher":"auto","uuid":"860a862a-2798-4037-8513-b060e310e7fc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@vpnfail_v2ray|🇺🇸|39.48","type":"vmess","server":"45.92.160.138","port":53602,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@vmessorg|🇺🇸|45.91","type":"vmess","server":"join-bede-vmessorg.mokhin.me","port":80,"cipher":"auto","uuid":"bacdd5a5-422b-4aff-9261-ebdb13536491","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@vmessorg|🇺🇸|41.52","type":"vmess","server":"join-bede-vmessorg.mokhin.me","port":80,"cipher":"auto","uuid":"e399873d-06ad-419c-98f7-8c76d77ab02d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@Jeyksatan|🇺🇸|11.43","type":"vmess","server":"159.69.103.73","port":8443,"cipher":"auto","uuid":"111ee5da-59df-4d9e-9a4e-3dbc8c1c3fd0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Jeyksatan|🇺🇸|255.58","type":"vmess","server":"join-bede.vmessorg.fun","port":80,"cipher":"auto","uuid":"2804b648-a5db-45dc-e440-de137d9ea494","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@v2rayvmess|🇺🇸|11.63","type":"vmess","server":"id-lb.vhax.net","port":80,"cipher":"auto","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sshkit/Arsham85231/6347d08022b91/","headers":{"host":"zoom.us"}}}
-  - {"name":"@server01012|🇺🇸|86.01","type":"vmess","server":"185.143.233.221","port":80,"cipher":"auto","uuid":"c166c0c6-03be-491e-8e80-8d0db1e04047","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"158.zirogame-58.site"}}}
-  - {"name":"@server01012|🇺🇸|111.67","type":"vmess","server":"15.143.233.221","port":80,"cipher":"auto","uuid":"c166c0c6-03be-491e-8e80-8d0db1e04047","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"158.zirogame-58.site"}}}
-  - {"name":"@ShadowProxy66|🇺🇸|46.78","type":"vmess","server":"89.116.38.204","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@hashmakvpn|🇺🇸|8.43","type":"vmess","server":"116.203.2.120","port":443,"cipher":"auto","uuid":"dff6e87e-794f-41c5-a896-f925431fd973","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Proxy_PJ|🇺🇸|94.17","type":"vmess","server":"107.167.29.99","port":443,"cipher":"auto","uuid":"465dec1a-e09b-4bb6-9905-70f75d6035c8","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.38926991.xyz","network":"ws","ws-opts":{"path":"/path/1686129180540","headers":{"host":"www.38926991.xyz"}}}
-  - {"name":"@LoRd_uL4mo|🇯🇵|275.78","type":"vmess","server":"azjp253.qweiop.eu.org","port":10002,"cipher":"auto","uuid":"fdc1a965-63f9-4bbf-a933-6188acf890ec","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/azjp253","headers":{"host":"azjp253.qweiop.eu.org"}}}
-  - {"name":"@v2ray1_ng|🇺🇸|41.63","type":"vmess","server":"89.116.38.199","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@vless_vmess|🚩|9.89","type":"vmess","server":"104.31.16.27","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca5.tehme2.fun"}}}
-  - {"name":"@vless_vmess|🇺🇸|9.67","type":"vmess","server":"r-acc3ss.cloud","port":443,"cipher":"auto","uuid":"F0259D88-2331-4109-A540-B240DFA251F2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"little-sound-292f.walidfree22.workers.dev","network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"little-sound-292f.walidfree22.workers.dev"}}}
-  - {"name":"@vless_vmess|🇺🇸|9.91","type":"vmess","server":"dl.v001sssv.pw","port":80,"cipher":"auto","uuid":"a4bb7f93-cee6-43d7-b2dd-fa9c70b88233","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@MTConfig|🇮🇷|268.71","type":"vmess","server":"blackvpn4.anghezi.me","port":54188,"cipher":"auto","uuid":"cfa05f0b-1321-4dbc-de99-c9b44a010e7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@MTConfig|🇮🇷|257.39","type":"vmess","server":"blackvpn4.anghezi.me","port":34408,"cipher":"auto","uuid":"81bd72e2-0289-4fbe-8607-7b8868bd693c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@vmess_vless_v2rayng|🇩🇪|124","type":"vmess","server":"54.38.154.182","port":54902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@vmess_vless_v2rayng|🇺🇸|9.36","type":"vmess","server":"irancell.fxnxs.com","port":2087,"cipher":"auto","uuid":"9f3c008c-72da-4743-a58a-bdcc97bf7030","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"srv.v2ex.skin","network":"ws","ws-opts":{"path":"/","headers":{"host":"srv.v2ex.skin"}}}
-  - {"name":"@ovpn2|🇺🇸|9.57","type":"vmess","server":"45.159.218.145","port":443,"cipher":"chacha20-poly1305","uuid":"9aa6b5ad-c0fc-47f4-a837-f72179d7b662","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"channel3.unlimiteddev.tk","network":"ws","ws-opts":{"path":"/Lsv4s7nS0ErewnEN","headers":{"host":"channel3.unlimiteddev.tk"}}}
-  - {"name":"@ovpn2|🇺🇸|11.25","type":"vmess","server":"support.cloudflare.com","port":80,"cipher":"auto","uuid":"44c467a9-8f0d-41a5-f00b-86569753e5b0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b3.iraniancp.click"}}}
-  - {"name":"@vpn_tehran|🇩🇪|124.03","type":"vmess","server":"51.195.125.16","port":54902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@vpn_tehran|🇳🇱|115.78","type":"vmess","server":"51.15.75.140","port":443,"cipher":"auto","uuid":"4df65f62-99d9-42d1-a4b9-a35b37b26873","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"@v2ray_vpn_ir|🇺🇸|41.92","type":"vmess","server":"89.116.38.194","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@ConfigsHUB|🇺🇸|100.38","type":"vmess","server":"::ffff:88f4:5aca","port":443,"cipher":"auto","uuid":"b7086a50-173b-11ee-b735-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-6.0rd.net","network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"us-6.0rd.net"}}}
-  - {"name":"@ConfigsHUB|🚩|10.63","type":"vmess","server":"45.63.117.116","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_135","type":"vmess","server":"64.32.4.35","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇵🇱PL(AzadNet.t.me)_017","type":"ss","server":"51.77.53.200","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_117","type":"ss","server":"145.239.1.100","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"@oneclickvpnkeys|🚩|2.22","type":"vmess","server":"cloudconebbb.gorgorchicken.one","port":8443,"cipher":"auto","uuid":"aa0c4744-9568-4bee-a08b-73668a9b2a42","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cloudconebbb"}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_1099","type":"vmess","server":"107.167.16.90","port":45689,"cipher":"auto","uuid":"7640a1e7-9701-428e-a4b2-19b3e7dd6f9f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_143","type":"ss","server":"145.239.1.100","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_262","type":"vmess","server":"192.74.228.178","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@yaney_01|🇺🇸|70.21","type":"vmess","server":"142.4.104.202","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_090","type":"ss","server":"145.239.1.100","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_139","type":"vmess","server":"64.32.4.41","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101","type":"vmess","server":"103.21.244.150","port":2086,"cipher":"auto","uuid":"71c070c8-1854-4c61-e471-efc0b753798a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"uxx.vtcss.top"}}}
   - {"name":"@freeconfigv2|🇺🇸|11.17","type":"vmess","server":"mci.saintink.eu.org","port":443,"cipher":"auto","uuid":"62f30709-c9ca-4a79-b132-3878da64ca0f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"4.saintink.eu.org","network":"ws","ws-opts":{"path":"pl1vm.xservs.xyz/vmess","headers":{"host":"4.saintink.eu.org"}}}
-  - {"name":"@freeconfigv2|🇺🇸|11.03","type":"vmess","server":"mci.saintink.eu.org","port":443,"cipher":"auto","uuid":"c226d9fa-b5a7-4f6e-9532-50137c89311d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"4.saintink.eu.org","network":"ws","ws-opts":{"path":"nl1.v2rayserv.com/vmess","headers":{"host":"4.saintink.eu.org"}}}
-  - {"name":"@yaney_01|🇺🇸|40.7_1","type":"vmess","server":"142.4.115.181","port":40123,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@yaney_01|🇺🇸|40.7_2","type":"vmess","server":"142.4.104.202","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@yaney_01|🇺🇸|116.14","type":"vmess","server":"45.199.138.11","port":49123,"cipher":"auto","uuid":"65ea6727-4461-47a7-a5c4-fef2c67f2f79","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@free1_vpn|🇩🇪|128.34","type":"vmess","server":"54.38.154.182","port":54902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@free1_vpn|🚩|9.01","type":"vmess","server":"104.24.161.123","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sandp.blanku.me","network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
-  - {"name":"@free1_vpn|🇫🇷|125.38","type":"vmess","server":"51.195.35.146","port":49982,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@free4allVPN|🇬🇧|109.35","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"@free4allVPN|🇺🇸|40.35","type":"ss","server":"169.197.142.187","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"@free4allVPN|🇬🇧|109.28","type":"ss","server":"212.102.53.198","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"@xrayzxn|🇫🇷|123.27","type":"ss","server":"51.178.87.37","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@xrayzxn|🇫🇷|119.37","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"@xrayzxn|🇫🇷|139.56","type":"ss","server":"54.36.174.181","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"@VmessProtocol|🇩🇪|123.63","type":"ss","server":"145.239.1.100","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"@VmessProtocol|🇩🇪|124.42","type":"ss","server":"145.239.1.100","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"@OutlineVpnOfficial|🇩🇪|162.44","type":"ss","server":"ak1791.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"@OutlineVpnOfficial|🇫🇷|259.84","type":"ss","server":"ak1792.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"@OutlineVpnOfficial|🇬🇧|123.45","type":"ss","server":"ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"@AlienVPN402|🇫🇷|117.89","type":"ss","server":"149.202.82.172","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"@AlienVPN402|🇫🇷|120.6","type":"ss","server":"149.202.82.172","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL(AzadNet.t.me)_013","type":"vmess","server":"51.15.75.140","port":443,"cipher":"auto","uuid":"4df65f62-99d9-42d1-a4b9-a35b37b26873","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"peasoft-16|🇪🇺 欧洲(油管破解资源君) 16","type":"vmess","server":"171.22.134.9","port":53433,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_135","type":"ss","server":"54.36.174.181","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8","type":"vmess","server":"140.99.57.22","port":41912,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_116","type":"ss","server":"149.202.82.172","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178","type":"vmess","server":"104.24.226.79","port":443,"cipher":"auto","uuid":"9ffbb816-b4bb-493f-b558-df527b767456","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ports/10178","headers":{"host":"star-one.cfd"}}}
+  - {"name":"v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1","type":"vmess","server":"45.58.186.81","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_111","type":"ss","server":"145.239.1.100","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_206","type":"vmess","server":"38.40.219.180","port":53362,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇬🇧GB(AzadNet.t.me)_046","type":"ss","server":"51.68.206.229","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_750","type":"vmess","server":"107.167.29.229","port":46321,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46","type":"vmess","server":"bluehost.com","port":443,"cipher":"auto","uuid":"be74ca03-6a7c-4c88-edc2-c6434ead0cfa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/16575","headers":{"host":"cdnca1.digisport.shop"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_1101","type":"vmess","server":"107.167.16.85","port":45689,"cipher":"auto","uuid":"7640a1e7-9701-428e-a4b2-19b3e7dd6f9f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_286","type":"vmess","server":"199.188.110.120","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.54092415.xyz","network":"ws","ws-opts":{"path":"/path/1687165779141","headers":{"host":"www.54092415.xyz"}}}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_094","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_144","type":"vmess","server":"64.32.24.210","port":48659,"cipher":"auto","uuid":"cff9d860-7330-4ee1-b072-7142ddf1571d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_334","type":"vmess","server":"198.2.204.253","port":46902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇮🇳IN(AzadNet.t.me)_001","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vin1.0bad.com","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vin1.0bad.com"}}}
+  - {"name":"🇵🇱PL(AzadNet.t.me)_010","type":"ss","server":"51.77.53.200","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10","type":"vmess","server":"104.24.226.79","port":443,"cipher":"auto","uuid":"9ffbb816-b4bb-493f-b558-df527b767456","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ports/10178","headers":{"host":"star-one.cfd"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_266","type":"vmess","server":"192.74.228.174","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_131","type":"ss","server":"54.36.174.181","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇯🇵JP(AzadNet.t.me)_019","type":"trojan","server":"trs22.bolab.net","port":443,"udp":true,"password":"7a73f1dc97a70905870c0c0484b12145","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@vmess_vless_v2rayng|🇩🇪|124","type":"vmess","server":"54.38.154.182","port":54902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_465","type":"vmess","server":"170.178.167.140","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_128","type":"vmess","server":"67.21.64.84","port":43123,"cipher":"auto","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇪🇬EG(AzadNet.t.me)","type":"vmess","server":"41.215.242.89","port":35679,"cipher":"auto","uuid":"ee442f43-b07a-419d-bd27-2d3456393abc","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_292","type":"vmess","server":"198.41.214.226","port":443,"cipher":"auto","uuid":"824c58b1-65ba-4680-a609-663a000dbb92","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rock.blanku.me","network":"ws","ws-opts":{"path":"/wss13889","headers":{"host":"rock.blanku.me"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_172","type":"vmess","server":"45.58.186.91","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_119","type":"ss","server":"54.36.174.181","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4","type":"vmess","server":"170.178.167.144","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_077","type":"ss","server":"145.239.1.100","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"@vpnfail_v2ray|🇺🇸|39.48","type":"vmess","server":"45.92.160.138","port":53602,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53","type":"vmess","server":"104.24.190.249","port":2086,"cipher":"auto","uuid":"71c070c8-1854-4c61-e471-efc0b753798a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"uxx.vtcss.top"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_547","type":"vmess","server":"142.4.126.42","port":44392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96","type":"vmess","server":"104.27.82.182","port":2052,"cipher":"auto","uuid":"3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"txx.vtcss.top"}}}
+  - {"name":"🇺🇲 peasoft-16|🇺🇸 美国 262 #1","type":"vmess","server":"64.32.24.210","port":48659,"cipher":"auto","uuid":"cff9d860-7330-4ee1-b072-7142ddf1571d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_085","type":"ss","server":"54.36.174.181","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_134","type":"vmess","server":"64.32.4.39","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_071","type":"ss","server":"145.239.1.100","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_122","type":"ss","server":"149.202.82.172","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"@Proxy_PJ|🇺🇸|7.72","type":"vmess","server":"89.116.38.208","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@ConfigsHUB|🇺🇸|1.39","type":"vmess","server":"45.63.116.105","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Lille.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"🇫🇷|@PrivateVPNs|82.08","type":"trojan","server":"13.38.84.247","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5","type":"vmess","server":"104.27.95.22","port":2052,"cipher":"auto","uuid":"3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"txx.vtcss.top"}}}
+  - {"name":"🇵🇱PL(AzadNet.t.me)_034","type":"ss","server":"51.77.53.200","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL(AzadNet.t.me)_013","type":"ss","server":"51.77.53.200","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_130","type":"ss","server":"145.239.1.100","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US(AzadNet.t.me)_143","type":"vmess","server":"64.32.24.211","port":48659,"cipher":"auto","uuid":"cff9d860-7330-4ee1-b072-7142ddf1571d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_138","type":"ss","server":"149.202.82.172","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11","type":"vmess","server":"104.24.192.218","port":2087,"cipher":"auto","uuid":"56236188-c4e3-4933-e0d5-0fe5c0c579ac","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"uxx.vtcss.top"}}}
+  - {"name":"🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2","type":"vmess","server":"107.167.29.235","port":46321,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇲 peasoft-16|🇺🇸 美国 228","type":"vmess","server":"205.185.125.200","port":11451,"cipher":"auto","uuid":"165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"@free4allVPN|🇸🇬|215.55","type":"vmess","server":"sg1.zingfast.vn","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/anti13.zingfast.vn","headers":{"host":"sg1.zingfast.vn"}}}
+  - {"name":"🇵🇱PL(AzadNet.t.me)_044","type":"ss","server":"51.77.53.200","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR(AzadNet.t.me)_087","type":"ss","server":"149.202.82.172","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -482,64 +552,74 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@free4allVPN|🇯🇵|unavailable'
-      - '@free4allVPN|🇸🇬|215.55'
-      - '@free4allVPN|🚩|9.99'
-      - '@v2ray_outlineir|🇩🇪|165.48'
-      - '@oneclickvpnkeys|🇮🇷|352.55'
-      - '@oneclickvpnkeys|🇺🇸|40.03'
-      - '@prrofile_purple|🇺🇸|48.5'
-      - '@prrofile_purple|🇩🇪|172.24'
-      - '@azadi_az_inja_migzare|🇮🇷|233.29'
-      - '@vpnfail_v2ray|🇫🇷|114.85'
-      - '@vpnfail_v2ray|🇺🇸|39.48'
-      - '@vmessorg|🇺🇸|45.91'
-      - '@vmessorg|🇺🇸|41.52'
-      - '@Jeyksatan|🇺🇸|11.43'
-      - '@Jeyksatan|🇺🇸|255.58'
-      - '@v2rayvmess|🇺🇸|11.63'
-      - '@server01012|🇺🇸|86.01'
-      - '@server01012|🇺🇸|111.67'
-      - '@ShadowProxy66|🇺🇸|46.78'
-      - '@hashmakvpn|🇺🇸|8.43'
-      - '@Proxy_PJ|🇺🇸|94.17'
-      - '@LoRd_uL4mo|🇯🇵|275.78'
-      - '@v2ray1_ng|🇺🇸|41.63'
-      - '@vless_vmess|🚩|9.89'
-      - '@vless_vmess|🇺🇸|9.67'
-      - '@vless_vmess|🇺🇸|9.91'
-      - '@MTConfig|🇮🇷|268.71'
-      - '@MTConfig|🇮🇷|257.39'
-      - '@vmess_vless_v2rayng|🇩🇪|124'
-      - '@vmess_vless_v2rayng|🇺🇸|9.36'
-      - '@ovpn2|🇺🇸|9.57'
-      - '@ovpn2|🇺🇸|11.25'
-      - '@vpn_tehran|🇩🇪|124.03'
-      - '@vpn_tehran|🇳🇱|115.78'
-      - '@v2ray_vpn_ir|🇺🇸|41.92'
-      - '@ConfigsHUB|🇺🇸|100.38'
-      - '@ConfigsHUB|🚩|10.63'
+      - 🇺🇸US(AzadNet.t.me)_135
+      - 🇵🇱PL(AzadNet.t.me)_017
+      - 🇫🇷FR(AzadNet.t.me)_117
+      - '@oneclickvpnkeys|🚩|2.22'
+      - 🇺🇸US(AzadNet.t.me)_1099
+      - 🇫🇷FR(AzadNet.t.me)_143
+      - 🇺🇸US(AzadNet.t.me)_262
+      - '@yaney_01|🇺🇸|70.21'
+      - 🇫🇷FR(AzadNet.t.me)_090
+      - 🇺🇸US(AzadNet.t.me)_139
+      - 🇺🇲 peasoft-6,15|美国【付费推荐：https://tt.vg/vip】101
       - '@freeconfigv2|🇺🇸|11.17'
-      - '@freeconfigv2|🇺🇸|11.03'
-      - '@yaney_01|🇺🇸|40.7_1'
-      - '@yaney_01|🇺🇸|40.7_2'
-      - '@yaney_01|🇺🇸|116.14'
-      - '@free1_vpn|🇩🇪|128.34'
-      - '@free1_vpn|🚩|9.01'
-      - '@free1_vpn|🇫🇷|125.38'
-      - '@free4allVPN|🇬🇧|109.35'
-      - '@free4allVPN|🇺🇸|40.35'
-      - '@free4allVPN|🇬🇧|109.28'
-      - '@xrayzxn|🇫🇷|123.27'
-      - '@xrayzxn|🇫🇷|119.37'
-      - '@xrayzxn|🇫🇷|139.56'
-      - '@VmessProtocol|🇩🇪|123.63'
-      - '@VmessProtocol|🇩🇪|124.42'
-      - '@OutlineVpnOfficial|🇩🇪|162.44'
-      - '@OutlineVpnOfficial|🇫🇷|259.84'
-      - '@OutlineVpnOfficial|🇬🇧|123.45'
-      - '@AlienVPN402|🇫🇷|117.89'
-      - '@AlienVPN402|🇫🇷|120.6'
+      - 🇳🇱NL(AzadNet.t.me)_013
+      - peasoft-16|🇪🇺 欧洲(油管破解资源君) 16
+      - 🇫🇷FR(AzadNet.t.me)_135
+      - '🇺🇲 peasoft-1,2,3,4,6,12,16,23|_US_美国 #8'
+      - 🇫🇷FR(AzadNet.t.me)_116
+      - 🇺🇲 peasoft-6,11,13|美国【付费推荐：https://tt.vg/vip】178
+      - v2rayfree.eu.org - 荷兰北荷兰省阿姆斯特丹Sharktech数据中心 1
+      - 🇫🇷FR(AzadNet.t.me)_111
+      - 🇺🇸US(AzadNet.t.me)_206
+      - 🇬🇧GB(AzadNet.t.me)_046
+      - 🇺🇸US(AzadNet.t.me)_750
+      - 🇺🇲 peasoft-6|美国【付费推荐：https://tt.vg/vip】46
+      - 🇺🇸US(AzadNet.t.me)_1101
+      - 🇺🇸US(AzadNet.t.me)_286
+      - 🇫🇷FR(AzadNet.t.me)_094
+      - 🇺🇸US(AzadNet.t.me)_144
+      - 🇺🇸US(AzadNet.t.me)_334
+      - 🇮🇳IN(AzadNet.t.me)_001
+      - 🇵🇱PL(AzadNet.t.me)_010
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 10
+      - 🇺🇸US(AzadNet.t.me)_266
+      - 🇫🇷FR(AzadNet.t.me)_131
+      - 🇯🇵JP(AzadNet.t.me)_019
+      - '@vmess_vless_v2rayng|🇩🇪|124'
+      - 🇺🇸US(AzadNet.t.me)_465
+      - 🇺🇸US(AzadNet.t.me)_128
+      - 🇪🇬EG(AzadNet.t.me)
+      - 🇺🇸US(AzadNet.t.me)_292
+      - 🇺🇸US(AzadNet.t.me)_172
+      - 🇫🇷FR(AzadNet.t.me)_119
+      - '🇺🇲 peasoft-16|🇺🇸US美国(youtube阿伟科技2) #4'
+      - 🇫🇷FR(AzadNet.t.me)_077
+      - '@vpnfail_v2ray|🇺🇸|39.48'
+      - 🇺🇲 peasoft-15|🇺🇸_US_美国_yui科技_53
+      - 🇺🇸US(AzadNet.t.me)_547
+      - 🇺🇲 peasoft-6,15,23|美国【付费推荐：https://tt.vg/vip】96
+      - '🇺🇲 peasoft-16|🇺🇸 美国 262 #1'
+      - 🇫🇷FR(AzadNet.t.me)_085
+      - 🇺🇸US(AzadNet.t.me)_134
+      - 🇫🇷FR(AzadNet.t.me)_071
+      - 🇫🇷FR(AzadNet.t.me)_122
+      - '@Proxy_PJ|🇺🇸|7.72'
+      - '@ConfigsHUB|🇺🇸|1.39'
+      - 🇫🇷|@PrivateVPNs|82.08
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 5
+      - 🇵🇱PL(AzadNet.t.me)_034
+      - 🇵🇱PL(AzadNet.t.me)_013
+      - 🇫🇷FR(AzadNet.t.me)_130
+      - 🇺🇸US(AzadNet.t.me)_143
+      - 🇫🇷FR(AzadNet.t.me)_138
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
+      - 🇺🇲 peasoft-16|🇺🇸 _US_美国 4 2
+      - 🇺🇲 peasoft-16|🇺🇸 美国 228
+      - '@free4allVPN|🇸🇬|215.55'
+      - 🇵🇱PL(AzadNet.t.me)_044
+      - 🇫🇷FR(AzadNet.t.me)_087
 
 rules:
 # 本地/局域网地址
