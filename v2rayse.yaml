@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：29-10-2023 16:01:29
+# 创建时间：09-01-2024 11:06:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：31
+# 节点数量：61
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,256 +21,466 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇫🇷FR(AzadNet.t.me)_217","type":"ss","server":"149.202.82.172","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_211","type":"ss","server":"ak1810.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_206","type":"ss","server":"149.202.82.172","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_081","type":"ss","server":"149.202.82.172","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_210","type":"ss","server":"145.239.1.100","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇰🇿KZ(AzadNet.t.me)","type":"vmess","server":"195.245.221.246","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_133","type":"ss","server":"145.239.1.100","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_147","type":"ss","server":"54.36.174.181","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_014","type":"ss","server":"ak1723.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_039","type":"ss","server":"51.77.53.200","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_125","type":"ss","server":"145.239.1.100","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_030_1","type":"ss","server":"51.77.53.200","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_104","type":"ss","server":"149.202.82.172","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_135","type":"ss","server":"54.36.174.181","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_156","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_008","type":"ss","server":"51.77.53.200","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_023","type":"ss","server":"51.77.53.200","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_109_2","type":"ss","server":"ak1783.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_025","type":"ss","server":"ak1644.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_089","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_146","type":"ss","server":"149.202.82.172","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_129","type":"ss","server":"54.36.174.181","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_053","type":"ss","server":"145.239.1.100","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_071","type":"ss","server":"145.239.1.100","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_088","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_060","type":"ss","server":"54.36.174.181","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_054","type":"ss","server":"54.36.174.181","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_055","type":"ss","server":"54.36.174.181","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_171","type":"ss","server":"145.239.1.100","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL(AzadNet.t.me)_046","type":"ss","server":"51.77.53.200","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR(AzadNet.t.me)_110","type":"ss","server":"54.36.174.181","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧GB-18.171.194.178-0845","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇸IS-89.221.224.92-0916","type":"vmess","server":"is2.xv2ray.net","port":80,"cipher":"auto","uuid":"3f9461ac-51dc-4114-988f-f65f7260edf7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"is2.xv2ray.net"}}}
+  - {"name":"🏁RELAY-188.114.96.58-1748","type":"vmess","server":"188.114.96.58","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"ophelia.mom"}}}
+  - {"name":"🇺🇸US-23.94.76.55-0551","type":"ss","server":"23.94.76.55","port":51981,"password":"06gZKkeC2J","cipher":"aes-256-gcm"}
+  - {"name":"🏁RELAY-104.31.16.28-1340","type":"vmess","server":"104.31.16.28","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca4.tehme2.fun"}}}
+  - {"name":"🏁RELAY-104.21.44.200-0118","type":"vmess","server":"fra.yj2022.gq","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b","headers":{"host":"fra.yj2022.gq"}}}
+  - {"name":"🏁RELAY-104.21.93.92-1855","type":"vmess","server":"mehdi7.mehdimoghaddam.fun","port":2052,"cipher":"auto","uuid":"f4b9203b-78df-425b-ab70-5ab006405884","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"mehdi7.mehdimoghaddam.fun"}}}
+  - {"name":"🏁RELAY-172.67.229.39-0151","type":"vmess","server":"172.67.229.39","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"🏁RELAY-104.21.93.92-0161","type":"vmess","server":"mehdi6.mehdimoghaddam.fun","port":8080,"cipher":"auto","uuid":"69ec0fdb-b959-43d0-9004-45e310147b5a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"mehdi6.mehdimoghaddam.fun"}}}
+  - {"name":"🇬🇧GB-13.43.183.203-1902","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼TW-123.58.197.70-1148","type":"vmess","server":"123.58.197.70","port":443,"cipher":"auto","uuid":"4ca0196c-05e7-45eb-9036-692c201f45fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"%7B%22host%22:%22123.58.197.70%22%7D"}}}
+  - {"name":"🇺🇸US-205.134.180.147-0823","type":"ss","server":"205.134.180.147","port":443,"password":"9Bvkw5aupNy8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇲 peasoft-11|United States","type":"vmess","server":"glweidf.cfd","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....","type":"vmess","server":"104.21.21.88","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"odelia.autos"}}}
+  - {"name":"🇺🇸US-205.134.180.143-7514","type":"ss","server":"205.134.180.143","port":443,"password":"R9Xc4dHXGv3c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏁RELAY-104.21.4.29-3791","type":"vmess","server":"104.21.4.29","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"oliv.beauty","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"oliv.beauty"}}}
+  - {"name":"🇯🇵 peasoft-11|日本vmess②","type":"vmess","server":"v4.cfnode.eu.org","port":80,"cipher":"auto","uuid":"2b0c5996-216f-4933-9aed-92458ff4988f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"oiicjp.yydsii.com"}}}
+  - {"name":"🏁RELAY-104.26.13.8-0154","type":"vmess","server":"web.parspack.com","port":80,"cipher":"auto","uuid":"7fc27c1c-5052-4d6b-8099-1a8c04f1cd7b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"PArspAcK51.eSMAILkOrEA.sHoP"}}}
+  - {"name":"美国CloudFlare节点 8","type":"vmess","server":"hexsen.com","port":443,"cipher":"auto","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/argo-vmess?ed=2048","headers":{"host":"us.king361.cf"}}}
+  - {"name":"🏁RELAY-172.67.217.144-0212","type":"vmess","server":"172.67.217.144","port":80,"cipher":"auto","uuid":"85674552-ce41-44d9-bb2a-50f76450b3d8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"lv1.xv2ray.net"}}}
+  - {"name":"🏁RELAY-172.67.229.13-3774","type":"vmess","server":"172.67.229.13","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"🏁RELAY-172.67.161.77-1758","type":"vmess","server":"linde06.indiavideo.sbs","port":443,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🇮🇸IS-89.221.224.92-0175","type":"vmess","server":"89.221.224.92","port":8080,"cipher":"auto","uuid":"3f9461ac-51dc-4114-988f-f65f7260edf7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
+  - {"name":"🏁RELAY-104.21.75.246-3790","type":"vmess","server":"104.21.75.246","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cf.tonyluk.link","network":"ws","ws-opts":{"path":"/ophelia.mom:443/linkvws","headers":{"host":"cf.tonyluk.link"}}}
+  - {"name":"🇭🇰HK-85.208.104.22-8654","type":"vmess","server":"85.208.104.22","port":40400,"cipher":"auto","uuid":"eb6f75a1-3cee-4935-c76c-115114a36c09","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/eb6f75a1"}}
+  - {"name":"🏁RELAY-162.159.135.108-0230","type":"vmess","server":"scadn.yydsii.com","port":2052,"cipher":"auto","uuid":"2dbeeb76-a71f-493f-bd92-33f0193291c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkyx.651568.xyz"}}}
+  - {"name":"🇫🇷FR-52.47.148.2-0196","type":"trojan","server":"52.47.148.2","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-162.159.138.232-0206","type":"vmess","server":"discord.com","port":8080,"cipher":"auto","uuid":"9ccdd19a-80bf-4f2d-a202-180015ba7893","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn","headers":{"host":"Germany.ircf.eu.org"}}}
+  - {"name":"🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/us.king361.cf:443/argo-vmess?ed=2048","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇸US(AzadNet.t.me)_500","type":"vmess","server":"47.254.89.211","port":80,"cipher":"auto","uuid":"203b2ab2-4994-4193-8193-6631a575edb0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/GSoTl9ZoYG5V2R0k4tUTGI8k"}}
+  - {"name":"🇺🇸US-47.254.16.114-10831","type":"vmess","server":"47.254.16.114","port":80,"cipher":"auto","uuid":"f3464642-f113-4575-aa33-f68aef56b5c0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/mePGXW6SFZZw2QyAqaYK"}}
+  - {"name":"🏁RELAY-104.21.13.125-1604","type":"vmess","server":"upload.ir","port":80,"cipher":"auto","uuid":"7e85049a-2b44-4621-991f-1e10e2210bc9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"lv1-vmess.sshmax.xyz"}}}
+  - {"name":"🇳🇱NL-38.180.98.215-0186","type":"vmess","server":"38.180.98.215","port":8080,"cipher":"auto","uuid":"773ac60d-36d7-45b5-c99e-a0e3903e2e3a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸US-47.89.192.94-10817","type":"vmess","server":"47.89.192.94","port":80,"cipher":"auto","uuid":"301d815f-a02a-4c2c-a424-b16cf0a241ae","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4a5yXsGODBM1cvl9TzyF0SHR3v"}}
+  - {"name":"🇱🇹LT-94.131.13.110-0184","type":"vmess","server":"lt1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"d3e40d59-b53c-4f4e-8867-bb598be864d2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"lt1-vmess.sshmax.xyz"}}}
+  - {"name":"🇻🇳VN-103.75.185.226-0168","type":"vmess","server":"bs5.loadingip.com","port":80,"cipher":"auto","uuid":"9e5999ba-870a-46b1-8500-37c640371ec6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bs","headers":{"host":"bs5.loadingip.com"}}}
+  - {"name":"🏁RELAY-172.67.208.125-0211","type":"vmess","server":"mehdi15.mehdimoghaddam.fun","port":2095,"cipher":"auto","uuid":"f14b7672-1272-437d-8ce1-e9dfff517e47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"mehdi15.mehdimoghaddam.fun"}}}
+  - {"name":"🏁RELAY-172.67.170.75-0213","type":"vmess","server":"us3e-mmnnfr9dop0.v2freevpn.com","port":80,"cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
+  - {"name":"🏁RELAY-172.67.229.25-1447","type":"vmess","server":"14.vmessprotocol.telegram-vmessprotocol-channel.space","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"🇺🇸US-205.134.180.137-0820","type":"ss","server":"205.134.180.137","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇲 peasoft-11|US_youtube@资源分享师_40","type":"vmess","server":"canva.com","port":2096,"cipher":"auto","uuid":"ac0bbbf8-c5b0-468d-b694-9601c29c17d7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"seyyedmt-telegram?ed=2048?ed=2048","headers":{"host":"motivated-silicon-expense-keyboards.trycloudflare.com"}}}
+  - {"name":"mahdibland-🏁RELAY-162.159.129.87-1842","type":"vmess","server":"162.159.129.87","port":2096,"cipher":"auto","uuid":"12009e57-6fd8-46d6-94af-539514a7e7c7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"s1.shargh.shop"}}}
+  - {"name":"🇦🇹AT-212.113.106.243-7453","type":"ss","server":"212.113.106.243","port":13022,"password":"w5drAL7PfCIwQ2ycUuoDsV2Ls","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国CloudFlare公司CDN节点 10","type":"vmess","server":"104.18.140.242","port":2052,"cipher":"auto","uuid":"2dbeeb76-a71f-493f-bd92-33f0193291c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkyx.651568.xyz"}}}
+  - {"name":"🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20","type":"vmess","server":"172.67.185.26","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b","headers":{"host":"fra.yj2022.gq"}}}
+  - {"name":"🇺🇲 peasoft-11|United States-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/glweidf.cfd:443/linkws","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🇺🇸US-154.3.8.151-0933","type":"ss","server":"154.3.8.151","port":30067,"password":"iUB0923RBA","cipher":"aes-256-gcm"}
+  - {"name":"🏁RELAY-172.67.142.191-3758","type":"vmess","server":"172.67.142.191","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"edeen.makeup","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"edeen.makeup"}}}
+  - {"name":"🏁RELAY-172.67.164.184-1760","type":"vmess","server":"172.67.164.184","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"alvvin.click"}}}
+  - {"name":"🇷🇺 peasoft-11|俄罗斯联邦","type":"vmess","server":"89.221.224.92","port":8080,"cipher":"auto","uuid":"3f9461ac-51dc-4114-988f-f65f7260edf7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
+  - {"name":"🏁RELAY-172.67.229.38-1547","type":"vmess","server":"172.67.229.38","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"mahdibland-🏁RELAY-162.159.135.232-0237","type":"vmess","server":"162.159.135.232","port":2087,"cipher":"auto","uuid":"1523c9d0-5e35-4dcb-b652-0bda0c2f7d04","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"new.alooo.site"}}}
+  - {"name":"🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"ce6b901c-a25b-4ab0-8339-a64b13fd329b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/emacs-guilty-traditional-dg.trycloudflare.com:2053/seyyedmt-telegram?ed=2048","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"🏁RELAY-188.114.97.18-1708","type":"vmess","server":"188.114.97.18","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"odelia.autos"}}}
+  - {"name":"🏁RELAY-172.67.161.104-0241","type":"vmess","server":"172.67.161.104","port":2053,"cipher":"auto","uuid":"ce6b901c-a25b-4ab0-8339-a64b13fd329b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"emacs-guilty-traditional-dg.trycloudflare.com","network":"ws","ws-opts":{"path":"seyyedmt-telegram?ed=2048","headers":{"host":"emacs-guilty-traditional-dg.trycloudflare.com"}}}
+  - {"name":"🇻🇳VN-103.75.185.221-5013","type":"vmess","server":"bs4.loadingip.com","port":80,"cipher":"auto","uuid":"9e5999ba-870a-46b1-8500-37c640371ec6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bs","headers":{"host":"bs4.loadingip.com"}}}
+  - {"name":"🏁RELAY-188.114.97.3-1953","type":"vmess","server":"188.114.97.3","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"oliv.beauty"}}}
+  - {"name":"🏁RELAY-188.114.96.2-3784","type":"vmess","server":"188.114.96.2","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"ophelia.mom","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"ophelia.mom"}}}
+  - {"name":"peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip","type":"vmess","server":"104.16.187.92","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/odelia.autos:443/linkvws","headers":{"host":"cfv16.epfereydoon.workers.dev"}}}
+  - {"name":"peasoft-11|加拿大 132","type":"vmess","server":"join4.vmessprotocol.sbs","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"🏁RELAY-104.17.49.177-0245","type":"vmess","server":"104.17.49.177","port":2052,"cipher":"auto","uuid":"2dbeeb76-a71f-493f-bd92-33f0193291c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkyx.651568.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -293,37 +503,67 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷FR(AzadNet.t.me)_217
-      - 🇫🇷FR(AzadNet.t.me)_211
-      - 🇫🇷FR(AzadNet.t.me)_206
-      - 🇫🇷FR(AzadNet.t.me)_081
-      - 🇫🇷FR(AzadNet.t.me)_210
-      - 🇰🇿KZ(AzadNet.t.me)
-      - 🇫🇷FR(AzadNet.t.me)_133
-      - 🇫🇷FR(AzadNet.t.me)_147
-      - 🇵🇱PL(AzadNet.t.me)_014
-      - 🇵🇱PL(AzadNet.t.me)_039
-      - 🇫🇷FR(AzadNet.t.me)_125
-      - 🇵🇱PL(AzadNet.t.me)_030_1
-      - 🇫🇷FR(AzadNet.t.me)_104
-      - 🇫🇷FR(AzadNet.t.me)_135
-      - 🇫🇷FR(AzadNet.t.me)_156
-      - 🇵🇱PL(AzadNet.t.me)_008
-      - 🇵🇱PL(AzadNet.t.me)_023
-      - 🇫🇷FR(AzadNet.t.me)_109_2
-      - 🇵🇱PL(AzadNet.t.me)_025
-      - 🇫🇷FR(AzadNet.t.me)_089
-      - 🇫🇷FR(AzadNet.t.me)_146
-      - 🇫🇷FR(AzadNet.t.me)_129
-      - 🇫🇷FR(AzadNet.t.me)_053
-      - 🇫🇷FR(AzadNet.t.me)_071
-      - 🇫🇷FR(AzadNet.t.me)_088
-      - 🇫🇷FR(AzadNet.t.me)_060
-      - 🇫🇷FR(AzadNet.t.me)_054
-      - 🇫🇷FR(AzadNet.t.me)_055
-      - 🇫🇷FR(AzadNet.t.me)_171
-      - 🇵🇱PL(AzadNet.t.me)_046
-      - 🇫🇷FR(AzadNet.t.me)_110
+      - 🇬🇧GB-18.171.194.178-0845
+      - 🇮🇸IS-89.221.224.92-0916
+      - 🏁RELAY-188.114.96.58-1748
+      - 🇺🇸US-23.94.76.55-0551
+      - 🏁RELAY-104.31.16.28-1340
+      - 🏁RELAY-104.21.44.200-0118
+      - 🏁RELAY-104.21.93.92-1855
+      - 🏁RELAY-172.67.229.39-0151
+      - 🏁RELAY-104.21.93.92-0161
+      - 🇬🇧GB-13.43.183.203-1902
+      - 🇹🇼TW-123.58.197.70-1148
+      - 🇺🇸US-205.134.180.147-0823
+      - 🇺🇲 peasoft-11|United States
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....
+      - 🇺🇸US-205.134.180.143-7514
+      - 🏁RELAY-104.21.4.29-3791
+      - 🇯🇵 peasoft-11|日本vmess②
+      - 🏁RELAY-104.26.13.8-0154
+      - 美国CloudFlare节点 8
+      - 🏁RELAY-172.67.217.144-0212
+      - 🏁RELAY-172.67.229.13-3774
+      - 🏁RELAY-172.67.161.77-1758
+      - 🇮🇸IS-89.221.224.92-0175
+      - 🏁RELAY-104.21.75.246-3790
+      - 🇭🇰HK-85.208.104.22-8654
+      - 🏁RELAY-162.159.135.108-0230
+      - 🇫🇷FR-52.47.148.2-0196
+      - 🏁RELAY-162.159.138.232-0206
+      - 🇺🇲 peasoft-9,10|github.com/freefq - 美国CloudFla...-worker-ip
+      - 🇺🇸US(AzadNet.t.me)_500
+      - 🇺🇸US-47.254.16.114-10831
+      - 🏁RELAY-104.21.13.125-1604
+      - 🇳🇱NL-38.180.98.215-0186
+      - 🇺🇸US-47.89.192.94-10817
+      - 🇱🇹LT-94.131.13.110-0184
+      - 🇻🇳VN-103.75.185.226-0168
+      - 🏁RELAY-172.67.208.125-0211
+      - 🏁RELAY-172.67.170.75-0213
+      - 🏁RELAY-172.67.229.25-1447
+      - 🇺🇸US-205.134.180.137-0820
+      - 🇺🇲 peasoft-11|US_youtube@资源分享师_40
+      - mahdibland-🏁RELAY-162.159.129.87-1842
+      - 🇦🇹AT-212.113.106.243-7453
+      - 美国CloudFlare公司CDN节点 10
+      - 🇺🇲 peasoft-11|🇺🇸♣US♣Fardian0142♣20
+      - 🇺🇲 peasoft-11|United States-worker-ip
+      - 🇺🇸US-154.3.8.151-0933
+      - 🏁RELAY-172.67.142.191-3758
+      - 🏁RELAY-172.67.164.184-1760
+      - 🇷🇺 peasoft-11|俄罗斯联邦
+      - 🏁RELAY-172.67.229.38-1547
+      - mahdibland-🏁RELAY-162.159.135.232-0237
+      - 🇺🇲 peasoft-11|🔒 VM-WS-TLS 🇺🇸 US-172.67.161.1...-worker-ip
+      - 🏁RELAY-188.114.97.18-1708
+      - 🏁RELAY-172.67.161.104-0241
+      - 🇻🇳VN-103.75.185.221-5013
+      - 🏁RELAY-188.114.97.3-1953
+      - 🏁RELAY-188.114.96.2-3784
+      - peasoft-11|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.21....-worker-ip
+      - peasoft-11|加拿大 132
+      - 🏁RELAY-104.17.49.177-0245
 
 rules:
 # 本地/局域网地址
