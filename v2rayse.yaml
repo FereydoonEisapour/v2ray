@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：26-03-2024 13:09:16
+# 创建时间：18-04-2024 13:54:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：18
+# 节点数量：14
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,165 +21,137 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸US-23.94.104.164-0696","type":"vmess","server":"23.94.104.164","port":1194,"cipher":"auto","uuid":"7d309a75-5d7b-409b-f3f6-6f7a45d3f3ec","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"23.94.104.164"}}}
-  - {"name":"🏁RELAY-104.21.46.63-1511","type":"vmess","server":"104.21.46.63","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"marien.motorcycles"}}}
-  - {"name":"🏁RELAY-104.21.66.23-0135","type":"vmess","server":"104.21.66.23","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"kristin.makeup","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"kristin.makeup"}}}
-  - {"name":"🏁RELAY-104.16.217.241-0297","type":"vmess","server":"104.16.217.241","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nelly.homes","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"nelly.homes"}}}
-  - {"name":"🏁RELAY-104.21.51.208-1384","type":"vmess","server":"104.21.51.208","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"nina.bond"}}}
-  - {"name":"🏁RELAY-104.21.11.133-4325","type":"vmess","server":"104.21.11.133","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"inna.cfd","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"inna.cfd"}}}
-  - {"name":"🇺🇸US-103.179.142.44-0462","type":"vmess","server":"103.179.142.44","port":20000,"cipher":"auto","uuid":"1007421d-47a9-4ccf-c30a-2fc815c98dca","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/fat"}}
-  - {"name":"🏁RELAY-172.67.132.209-1420","type":"vmess","server":"172.67.132.209","port":443,"cipher":"auto","uuid":"33653184-91f3-4f3f-b707-2fc21e9adeb8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl1-vmess.sshmax.xyz"}}}
-  - {"name":"🇩🇪DE-217.182.198.219-2922","type":"ss","server":"217.182.198.219","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🏁RELAY-172.67.168.34-1509","type":"vmess","server":"172.67.168.34","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"marien.motorcycles"}}}
-  - {"name":"🏁RELAY-172.67.132.209-1394","type":"vmess","server":"upload.ir","port":443,"cipher":"auto","uuid":"33653184-91f3-4f3f-b707-2fc21e9adeb8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl1-vmess.sshmax.xyz"}}}
-  - {"name":"🇩🇪DE-217.182.198.219-2789","type":"ss","server":"217.182.198.219","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US-192.177.98.73-0668","type":"vmess","server":"192.177.98.73","port":17942,"cipher":"auto","uuid":"5d74355d-5ee8-42e3-94fb-04640b8086f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🏁RELAY-172.67.218.101-4238","type":"vmess","server":"172.67.218.101","port":2053,"cipher":"auto","uuid":"855eb0a7-03de-468d-ab1c-d5a97069e62e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"12k002.nnaotexiongditkgroup.top","network":"ws","ws-opts":{"path":"/12k002","headers":{"host":"12k002.nnaotexiongditkgroup.top"}}}
-  - {"name":"🏁RELAY-172.67.152.214-0199","type":"vmess","server":"irancelll.outline-vpn.cloud","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"meroiy.icu","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"meroiy.icu"}}}
-  - {"name":"🇺🇸US-172.120.13.113-0268","type":"vmess","server":"172.120.13.113","port":58232,"cipher":"auto","uuid":"6a8a8d9f-2c81-48a2-b161-4d74b507b6c6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸US-156.235.89.251-0460","type":"vmess","server":"156.235.89.251","port":16100,"cipher":"auto","uuid":"255b2ba7-3848-4f54-c0b5-68ea3f1a314c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"美国+CloudFlare节点","type":"trojan","server":"172.67.204.84","port":443,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🏁RELAY-172.67.71.160-1427","type":"vmess","server":"172.67.71.160","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🇭🇰HK-182.16.1.194-9365","type":"vmess","server":"hrgdvpn.flycdnedc55.vip","port":80,"cipher":"auto","uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":32,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/opt/video/images","headers":{"host":"hrgdvpn.flycdnedc55.vip"}}}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 2","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-poly1305"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 3","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-poly1305"}
+  - {"name":"🇬🇧GB-13.43.32.93-0771","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US-209.73.143.248-0721","type":"vmess","server":"209.73.143.248","port":12709,"cipher":"auto","uuid":"8d2fe9e0-e09f-4d93-d1a1-d2f821c8cc3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🏁RELAY-172.67.175.56-0264","type":"vmess","server":"obdii.cfd","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"obdii.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🏁RELAY-104.21.55.234-3956","type":"vmess","server":"hms082.gwdef.sbs","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"🇺🇸US-138.197.5.103-1928","type":"trojan","server":"us.blazeppn.info","port":443,"udp":true,"password":"xxoo","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱NL-88.210.6.98-0743","type":"ss","server":"88.210.6.98","port":60869,"password":"lPT3Mi25IXYP3iWzPJaryQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏁RELAY-104.21.80.53-1315","type":"vmess","server":"104.21.80.53","port":2053,"cipher":"auto","uuid":"3ce0722e-1e03-4b05-9875-d7592b6c9f1c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qin20","headers":{"host":"qin20.rong1104.uk"}}}
   - {"name":"🏁RELAY-172.67.175.56-1612","type":"vmess","server":"obdii.cfd","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🇭🇰HK-182.16.1.194-9363","type":"vmess","server":"hrgdvpn.flycdnedc55.vip","port":80,"cipher":"auto","uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/opt/video/images","headers":{"host":"hrgdvpn.flycdnedc55.vip"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,24 +174,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸US-23.94.104.164-0696
-      - 🏁RELAY-104.21.46.63-1511
-      - 🏁RELAY-104.21.66.23-0135
-      - 🏁RELAY-104.16.217.241-0297
-      - 🏁RELAY-104.21.51.208-1384
-      - 🏁RELAY-104.21.11.133-4325
-      - 🇺🇸US-103.179.142.44-0462
-      - 🏁RELAY-172.67.132.209-1420
-      - 🇩🇪DE-217.182.198.219-2922
-      - 🏁RELAY-172.67.168.34-1509
-      - 🏁RELAY-172.67.132.209-1394
-      - 🇩🇪DE-217.182.198.219-2789
-      - 🇺🇸US-192.177.98.73-0668
-      - 🏁RELAY-172.67.218.101-4238
-      - 🏁RELAY-172.67.152.214-0199
-      - 🇺🇸US-172.120.13.113-0268
-      - 🇺🇸US-156.235.89.251-0460
+      - 美国+CloudFlare节点
+      - 🏁RELAY-172.67.71.160-1427
+      - 🇭🇰HK-182.16.1.194-9365
+      - 🇬🇧GB | ss | @forwardv2ray | 2
+      - 🇬🇧GB | ss | @forwardv2ray | 3
+      - 🇬🇧GB-13.43.32.93-0771
+      - 🇺🇸US-209.73.143.248-0721
+      - 🏁RELAY-172.67.175.56-0264
+      - 🏁RELAY-104.21.55.234-3956
+      - 🇺🇸US-138.197.5.103-1928
+      - 🇳🇱NL-88.210.6.98-0743
+      - 🏁RELAY-104.21.80.53-1315
       - 🏁RELAY-172.67.175.56-1612
+      - 🇭🇰HK-182.16.1.194-9363
 
 rules:
 # 本地/局域网地址
