@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：28-04-2024 10:40:28
+# 创建时间：28-04-2024 10:42:24
 # 使用模版：V2RaySE 默认模版
-# 节点数量：30
+# 节点数量：29
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -48,7 +48,6 @@ proxies:
   - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"104.21.44.106","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇨🇿CZ(AzadNet.t.me)","type":"vmess","server":"77.75.230.125","port":8080,"cipher":"auto","uuid":"d466dd36-8b86-48b7-b0f0-67e7d128de6c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"🇺🇸US-205.134.180.145-0585 | 79.009MB","type":"ss","server":"205.134.180.145","port":443,"password":"hgLCgfLRgB6d","cipher":"chacha20-ietf-poly1305"}
   - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vmess","server":"85.159.229.8","port":8443,"cipher":"auto","uuid":"afe57557-df24-43e5-9cea-5d2acc2cad08","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
   - {"name":"@Hope_Net_5","type":"ss","server":"23.157.40.120","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
 proxy-groups:
@@ -84,7 +83,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
   - name: ♻️ 自动选择
@@ -120,7 +118,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
   - name: 🌍 国外媒体
@@ -156,7 +153,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
   - name: 📲 电报信息
@@ -191,7 +187,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
   - name: Ⓜ️ 微软服务
@@ -226,7 +221,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
   - name: 🍎 苹果服务
@@ -261,7 +255,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
   - name: 🎯 全球直连
@@ -313,7 +306,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_9'
       - '@Hope_Net-join-us-on-Telegram_10'
       - 🇨🇿CZ(AzadNet.t.me)
-      - 🇺🇸US-205.134.180.145-0585 | 79.009MB
       - '@Hope_Net-join-us-on-Telegram_11'
       - '@Hope_Net_5'
 
