@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：14-07-2024 14:34:04
+# 创建时间：14-07-2024 14:36:42
 # 使用模版：V2RaySE 默认模版
-# 节点数量：29
+# 节点数量：26
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -48,9 +48,6 @@ proxies:
   - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vless","server":"104.18.12.229","port":8443,"uuid":"da6006c0-254a-4ef2-a77d-91f17b6d0c43","tls":true,"servername":"pardazeshvpn-tg67.pages.dev","network":"ws","ws-opts":{"path":"/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=2048","headers":{"host":"pardazeshvpn-tg67.pages.dev"}},"client-fingerprint":"random"}
   - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vless","server":"104.16.150.214","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV","network":"ws","ws-opts":{"path":"/XPzkbnfuIblVQH2o?ed=2560","headers":{"host":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
   - {"name":"@Hope_Net-join-us-on-Telegram_14","type":"vless","server":"172.64.133.252","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"L/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890","type":"vless","server":"84.47.234.53","port":6890,"uuid":"084e1942-d47d-4c23-859c-71bcabfeddb6","tls":false,"servername":"trello.com","network":"tcp"}
-  - {"name":"🇺🇸US-205.134.180.137-0666","type":"ss","server":"205.134.180.137","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_15","type":"vmess","server":"146.235.223.24","port":25943,"cipher":"auto","uuid":"520c82fe-3e74-43b9-9dfb-87cae71e8cc0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"oracle1.mysupp.com","network":"ws","ws-opts":{"path":"/canada"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -83,9 +80,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -118,9 +112,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -153,9 +144,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -187,9 +175,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -221,9 +206,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -255,9 +237,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -306,9 +285,6 @@ proxy-groups:
       - '@Hope_Net-join-us-on-Telegram_12'
       - '@Hope_Net-join-us-on-Telegram_13'
       - '@Hope_Net-join-us-on-Telegram_14'
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-84.47.234.53:6890
-      - 🇺🇸US-205.134.180.137-0666
-      - '@Hope_Net-join-us-on-Telegram_15'
 
 rules:
 # 本地/局域网地址
