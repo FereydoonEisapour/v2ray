@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：14-07-2024 14:36:42
+# 创建时间：20-07-2024 13:08:24
 # 使用模版：V2RaySE 默认模版
-# 节点数量：26
+# 节点数量：16
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,32 +22,22 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"50.114.243.61","port":43834,"cipher":"auto","uuid":"b246e34d-bbd1-4016-8f74-ea461c37e411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vless","server":"104.17.147.22","port":443,"uuid":"8b7efacf-8e83-4e51-ab55-1263baccd4b2","tls":true,"servername":"7f905f51.garywelch.pages.dev","network":"ws","ws-opts":{"path":"/TELEGRAM-vlees_v2rayng/?ed=2048","headers":{"host":"7f905f51.garywelch.pages.dev"}},"alpn":["h3"],"client-fingerprint":"randomized"}
-  - {"name":"🇧🇾BY-45.87.219.110-2077","type":"ss","server":"45.87.219.110","port":51348,"password":"F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vless","server":"172.64.198.242","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"🇺🇸US-195.88.25.214-0950","type":"ss","server":"195.88.25.214","port":1026,"password":"56INZqMWGt0o8Rv4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vless","server":"172.66.47.151","port":443,"uuid":"a64f0cea-ca89-40e6-b316-b3badff1eb90","tls":true,"servername":"IsaA1.pAGEs.DEV","network":"ws","ws-opts":{"path":"/","headers":{"host":"IsaA1.pAGEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA-134.195.196.178-0767 | 10.34MB","type":"ss","server":"134.195.196.178","port":811,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺RU-77.83.246.74-1453","type":"ss","server":"77.83.246.74","port":33320,"password":"Hd2nY5MZaKGVyoTHcgLpjX","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vless","server":"104.18.26.94","port":80,"uuid":"097e2594-dbbb-4a36-a5c7-6b8c8893c611","tls":false,"servername":"esetsecuritylicense.wixel67553.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"esetsecuritylicense.wixel67553.workers.dev"}}}
-  - {"name":"🏁RELAY-104.17.147.22-0264","type":"vmess","server":"104.17.147.22","port":80,"cipher":"auto","uuid":"cc142606-f36d-4004-bd2d-c5c2aa7efd4d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":"DeV2RaY.IsVpHp.IR."}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vless","server":"104.21.35.20","port":443,"uuid":"64b3cbba-e6ac-495a-9481-976a0493eab9","tls":true,"servername":"esEtSeCUritYLiCEnsE.KMlrv.woRKERs.DeV","network":"ws","ws-opts":{"path":"/","headers":{"host":"esEtSeCUritYLiCEnsE.KMlrv.woRKERs.DeV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"chrome"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vless","server":"172.66.47.126","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"00e463Dc.beSTVPn-4xi.PAgES.dEv","network":"ws","ws-opts":{"path":"/yuyg5ujoovohfscy?ed=2560","headers":{"host":"00e463Dc.beSTVPn-4xi.PAgES.dEv"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vless","server":"172.64.143.172","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/TELEGRAM-MARAMBASHI/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vmess","server":"sareikela.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
-  - {"name":"🇺🇸US-45.158.171.131-0885","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vless","server":"172.64.143.172","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vless","server":"162.159.246.186","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095","type":"vless","server":"31.7.78.81","port":2095,"uuid":"94e1a061-0eb6-4b2f-8d98-b65abe56a3bf","tls":false,"servername":"www.speedtest.net","network":"ws","ws-opts":{"path":"/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------","headers":{"host":"www.speedtest.net"}}}
-  - {"name":"🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80","type":"vless","server":"185.126.9.116","port":80,"uuid":"41bed125-144a-4010-8a1e-2636ba0850ee","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🏁RELAY-172.67.71.160-0244","type":"vmess","server":"172.67.71.160","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"obdii.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"sareikela.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
   - {"name":"🏁RELAY-172.67.164.164-0180","type":"vmess","server":"172.67.164.164","port":443,"cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"afrhms07.xfixedfloat.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms07.xfixedfloat.cfd"}}}
-  - {"name":"🇭🇰HK-182.16.1.194-9365","type":"vmess","server":"hrgdvpn.flycdnedc55.vip","port":80,"cipher":"auto","uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":32,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/opt/video/images","headers":{"host":"hrgdvpn.flycdnedc55.vip"}}}
-  - {"name":"🏁RELAY-172.67.183.220-0207","type":"vmess","server":"jahfkjha.cfd","port":443,"cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vless","server":"104.18.12.229","port":8443,"uuid":"da6006c0-254a-4ef2-a77d-91f17b6d0c43","tls":true,"servername":"pardazeshvpn-tg67.pages.dev","network":"ws","ws-opts":{"path":"/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=2048","headers":{"host":"pardazeshvpn-tg67.pages.dev"}},"client-fingerprint":"random"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vless","server":"104.16.150.214","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV","network":"ws","ws-opts":{"path":"/XPzkbnfuIblVQH2o?ed=2560","headers":{"host":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_14","type":"vless","server":"172.64.133.252","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"L/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vless","server":"172.67.180.12","port":443,"uuid":"66a7609a-2143-465c-b690-78dcfad6299c","tls":true,"servername":"github.vipsmt.Workers.Dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"github.vipsmt.Workers.Dev"}}}
+  - {"name":"🏁RELAY-172.67.203.227-0807","type":"vmess","server":"beyonddbc.sbs","port":443,"cipher":"auto","uuid":"8d90c129-4156-4d6c-9115-24df25f26a02","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddbc.sbs"}}}
+  - {"name":"🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443","type":"vless","server":"185.173.130.24","port":443,"uuid":"32ed7d06-9d3d-4cf5-b58c-b67e8fc4e189","tls":false,"network":"tcp"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"172.67.170.103","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🏁RELAY-172.64.103.211-0214","type":"vmess","server":"172.64.103.211","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vless","server":"104.21.22.228","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"PpAl03.yurIEl-siddhaNtH.worKErs.DeV","network":"ws","ws-opts":{"path":"/4Viq5XHkDINND2Wg?ed=2560","headers":{"host":"PpAl03.yurIEl-siddhaNtH.worKErs.DeV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vless","server":"104.21.42.117","port":2053,"uuid":"228cf460-bb52-4810-b523-e4c0f51f71dd","tls":true,"servername":"uciran66.wogofis519.workers.dev","network":"ws","ws-opts":{"path":"/vless-ws/?ed=2048","headers":{"host":"uciran66.wogofis519.workers.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vless","server":"104.21.92.162","port":8880,"uuid":"e9b29a36-f8dc-48ee-b5f9-e0e5be701d03","tls":false,"servername":"falcunargo-bia-zod.8fcd549b6a.workers.Dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"falcunargo-bia-zod.8fcd549b6a.workers.Dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vless","server":"162.159.246.186","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vless","server":"104.16.150.214","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV","network":"ws","ws-opts":{"path":"/XPzkbnfuIblVQH2o?ed=2560","headers":{"host":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vless","server":"172.66.47.161","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"B458ab02.caa-chaNel-woRKeR-pAge-fREe-jhuiHnujhphJkl-nIhgkJn.PageS.DEv","network":"ws","ws-opts":{"path":"/Tel-proxy_mtm/?ed=2560","headers":{"host":"B458ab02.caa-chaNel-woRKeR-pAge-fREe-jhuiHnujhphJkl-nIhgkJn.PageS.DEv"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vless","server":"172.64.98.219","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vless","server":"172.67.204.84","port":2082,"uuid":"24347e96-912c-4f53-9c67-9cc895fc6fdf","tls":false,"servername":"h5.xn--gmq282ekfhyys3gs.com.","network":"ws","ws-opts":{"path":"/","headers":{"host":"h5.xn--gmq282ekfhyys3gs.com."}}}
+  - {"name":"🏁RELAY-172.67.170.13-0080","type":"vmess","server":"172.67.170.13","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,31 +45,21 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,31 +67,21 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -119,124 +89,84 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,31 +190,21 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - '@Hope_Net-join-us-on-Telegram_1'
+      - 🏁RELAY-172.67.164.164-0180
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🇧🇾BY-45.87.219.110-2077
+      - 🏁RELAY-172.67.203.227-0807
+      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🇺🇸US-195.88.25.214-0950
+      - 🏁RELAY-172.64.103.211-0214
       - '@Hope_Net-join-us-on-Telegram_4'
-      - 🇨🇦CA-134.195.196.178-0767 | 10.34MB
-      - 🇷🇺RU-77.83.246.74-1453
       - '@Hope_Net-join-us-on-Telegram_5'
-      - 🏁RELAY-104.17.147.22-0264
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
-      - 🇺🇸US-45.158.171.131-0885
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🔒 VL-WS-NONE 🇮🇷 IR-31.7.78.81:2095
-      - 🔒 VL-WS-NONE 🇮🇷 IR-185.126.9.116:80
-      - 🏁RELAY-172.67.71.160-0244
-      - 🏁RELAY-172.67.164.164-0180
-      - 🇭🇰HK-182.16.1.194-9365
-      - 🏁RELAY-172.67.183.220-0207
-      - '@Hope_Net-join-us-on-Telegram_12'
-      - '@Hope_Net-join-us-on-Telegram_13'
-      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-172.67.170.13-0080
 
 rules:
 # 本地/局域网地址
