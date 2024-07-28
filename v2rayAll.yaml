@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：20-07-2024 13:08:24
+# 创建时间：28-07-2024 13:22:03
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：54
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,151 +22,417 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vmess","server":"sareikela.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
+  - {"name":"رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣","type":"vless","server":"104.18.30.227","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/SiNABiGO_SiNABiGO_SiNABiGO-SiNABiGO_SiNABiGO_SiNABiGO-SiNABiGO_SiNABiGO_SiNABiGO-SiNABiGO_SiNABiGO_SiNABiGO/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣","type":"vless","server":"zula.ir","port":80,"uuid":"5779d821-693b-4573-b71d-d332199ead38","tls":false,"servername":"www.speedtest.net.ftp.debian.org.xn--ihqvlaa157dbvciyg50okggl0r2f5bcj1a.2.buybikeshop.com.","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"www.speedtest.net.ftp.debian.org.xn--ihqvlaa157dbvciyg50okggl0r2f5bcj1a.2.buybikeshop.com."}}}
+  - {"name":"رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣","type":"vless","server":"172.66.46.251","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bBF9c21A.tECHNeTbpb.paGEs.Dev","network":"ws","ws-opts":{"path":"/telegram-@v2ray_alpha/?ed=2560","headers":{"host":"bBF9c21A.tECHNeTbpb.paGEs.Dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_1","type":"vless","server":"104.18.203.232","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"698aa4aA.SwZ-uuz-316.pagEs.deV","network":"ws","ws-opts":{"path":"/lUC4Ru4KdZZim5l9/NS40Mi43NS4xODM=?ed=2560","headers":{"host":"698aa4aA.SwZ-uuz-316.pagEs.deV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣","type":"ss","server":"23.162.200.28","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣","type":"vless","server":"www.speedtest.net","port":443,"uuid":"1f1a45c5-8d95-40d1-9b1d-3f654c7e63d9","tls":true,"servername":"alecruiz.pages.dev","network":"ws","ws-opts":{"path":"/mrcU9YCPq4GNDHi4?ed=2560","headers":{"host":"alecruiz.pages.dev"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vless","server":"104.18.22.19","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"56897854.pAGES.dEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"56897854.pAGES.dEv"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣","type":"vless","server":"104.16.17.195","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vless","server":"104.19.110.50","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"🏁RELAY-104.21.24.170-0317","type":"vmess","server":"104.21.24.170","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"美国 080","type":"vless","server":"vahem.minusober.com","port":443,"uuid":"2f0b8dcd-8c01-4714-89f0-5a855049cebd","tls":true,"servername":"vahem.minusober.com","network":"ws","ws-opts":{"path":"/vahem"},"client-fingerprint":"chrome"}
   - {"name":"🏁RELAY-172.67.164.164-0180","type":"vmess","server":"172.67.164.164","port":443,"cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"afrhms07.xfixedfloat.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms07.xfixedfloat.cfd"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_2","type":"vless","server":"172.67.180.12","port":443,"uuid":"66a7609a-2143-465c-b690-78dcfad6299c","tls":true,"servername":"github.vipsmt.Workers.Dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"github.vipsmt.Workers.Dev"}}}
+  - {"name":"🇨🇦CA-134.195.196.178-1038","type":"ss","server":"134.195.196.178","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@Hope_Net","type":"ss","server":"15.204.87.222","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
   - {"name":"🏁RELAY-172.67.203.227-0807","type":"vmess","server":"beyonddbc.sbs","port":443,"cipher":"auto","uuid":"8d90c129-4156-4d6c-9115-24df25f26a02","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddbc.sbs"}}}
-  - {"name":"🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443","type":"vless","server":"185.173.130.24","port":443,"uuid":"32ed7d06-9d3d-4cf5-b58c-b67e8fc4e189","tls":false,"network":"tcp"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_3","type":"vmess","server":"172.67.170.103","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🇺🇸US-45.158.171.148-0887","type":"ss","server":"beedoost.org","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443","type":"vless","server":"2.189.59.3","port":443,"uuid":"994c91dd-b282-4c25-a0c5-af76b480c080","tls":true,"servername":"mci-google-bing3164.sdb5j.workers.dev.","network":"ws","ws-opts":{"path":"/","headers":{"host":"mci-google-bing3164.sdb5j.workers.dev."}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vless","server":"172.66.47.151","port":443,"uuid":"a64f0cea-ca89-40e6-b316-b3badff1eb90","tls":true,"servername":"IsaA1.pAGEs.DEV","network":"ws","ws-opts":{"path":"/","headers":{"host":"IsaA1.pAGEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"chrome"}
+  - {"name":"🇸🇬SG-206.238.236.36-2717","type":"vmess","server":"206.238.236.36","port":80,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/gwdef.sbs/linkws","headers":{"host":"mysan2.jaquay22.workers.dev"}}}
+  - {"name":"🇬🇧GB-18.132.140.3-0983","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vless","server":"104.24.196.20","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"936a99B4.vDE5-MLx81LANeO.pAgeS.DEV","network":"ws","ws-opts":{"path":"/KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560","headers":{"host":"936a99B4.vDE5-MLx81LANeO.pAgeS.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vless","server":"172.67.207.142","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"PpAl03.yurIEl-siddhaNtH.worKErs.DeV","network":"ws","ws-opts":{"path":"/4Viq5XHkDINND2Wg?ed=2560","headers":{"host":"PpAl03.yurIEl-siddhaNtH.worKErs.DeV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vless","server":"188.114.96.1","port":2083,"uuid":"ddb00f36-d544-4e35-afbf-64297aa68d03","tls":true,"servername":"sisana.muzres.WORKerS.DeV","network":"ws","ws-opts":{"path":"/vless-ws/?ed=2048","headers":{"host":"sisana.muzres.WORKerS.DeV"}},"alpn":["http/1.1"]}
+  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vless","server":"172.67.180.12","port":443,"uuid":"66a7609a-2143-465c-b690-78dcfad6299c","tls":true,"servername":"github.vipsmt.Workers.Dev","network":"ws","ws-opts":{"path":"/github.com/mhditaheri/?ed=2048","headers":{"host":"github.vipsmt.Workers.Dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vless","server":"188.114.96.3","port":443,"uuid":"1a94747b-8901-4812-ba23-7eb44cc1162f","tls":true,"servername":"kIngOFIRAN.PAGes.DEv","network":"ws","ws-opts":{"path":"/telegram-PROXY_MTM?ed=2560","headers":{"host":"kIngOFIRAN.PAGes.DEv"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣","type":"vmess","server":"104.21.61.197","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"to.tilebani.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"to.tilebani.com"}}}
+  - {"name":"🏁RELAY-104.17.148.22-0156","type":"vmess","server":"www.speedtest.net","port":2082,"cipher":"auto","uuid":"1368893d-58cb-4a25-9105-a5fa3f6a1a88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80","headers":{"host":"2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou."}}}
+  - {"name":"رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣","type":"trojan","server":"1sg04.170203.xyz","port":718,"udp":true,"password":"cfa36789-94aa-4c4c-ad06-ab35a8eb9312","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-104.16.61.8-2051","type":"vmess","server":"104.16.61.8","port":8880,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linde06.indiavideo.sbs/linkws","headers":{"host":"worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"}}}
+  - {"name":"🏁RELAY-104.21.15.36-0153","type":"vmess","server":"linde06.indiavideo.sbs","port":443,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linde06.indiavideo.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vless","server":"104.18.151.170","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"967a6F20.hoSSeinPool.PAGEs.Dev","network":"ws","ws-opts":{"path":"/A59yTXyC06Fljw4V?ed=2560","headers":{"host":"967a6F20.hoSSeinPool.PAGEs.Dev"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vless","server":"172.64.143.172","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/TELEGRAM-MARAMBASHI/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_12","type":"vless","server":"172.64.78.135","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
   - {"name":"🏁RELAY-172.64.103.211-0214","type":"vmess","server":"172.64.103.211","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_4","type":"vless","server":"104.21.22.228","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"PpAl03.yurIEl-siddhaNtH.worKErs.DeV","network":"ws","ws-opts":{"path":"/4Viq5XHkDINND2Wg?ed=2560","headers":{"host":"PpAl03.yurIEl-siddhaNtH.worKErs.DeV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_5","type":"vless","server":"104.21.42.117","port":2053,"uuid":"228cf460-bb52-4810-b523-e4c0f51f71dd","tls":true,"servername":"uciran66.wogofis519.workers.dev","network":"ws","ws-opts":{"path":"/vless-ws/?ed=2048","headers":{"host":"uciran66.wogofis519.workers.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_6","type":"vless","server":"104.21.92.162","port":8880,"uuid":"e9b29a36-f8dc-48ee-b5f9-e0e5be701d03","tls":false,"servername":"falcunargo-bia-zod.8fcd549b6a.workers.Dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"falcunargo-bia-zod.8fcd549b6a.workers.Dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_7","type":"vless","server":"162.159.246.186","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_8","type":"vless","server":"104.16.150.214","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV","network":"ws","ws-opts":{"path":"/XPzkbnfuIblVQH2o?ed=2560","headers":{"host":"b458AB02.CaA-ChANEl-WOrkEr-pAge-frEE-JhuIHNujHpHJKL-NIHgkjn.PAgEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_9","type":"vless","server":"172.66.47.161","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"B458ab02.caa-chaNel-woRKeR-pAge-fREe-jhuiHnujhphJkl-nIhgkJn.PageS.DEv","network":"ws","ws-opts":{"path":"/Tel-proxy_mtm/?ed=2560","headers":{"host":"B458ab02.caa-chaNel-woRKeR-pAge-fREe-jhuiHnujhphJkl-nIhgkJn.PageS.DEv"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
-  - {"name":"@Hope_Net-join-us-on-Telegram_10","type":"vless","server":"172.64.98.219","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"@Hope_Net-join-us-on-Telegram_11","type":"vless","server":"172.67.204.84","port":2082,"uuid":"24347e96-912c-4f53-9c67-9cc895fc6fdf","tls":false,"servername":"h5.xn--gmq282ekfhyys3gs.com.","network":"ws","ws-opts":{"path":"/","headers":{"host":"h5.xn--gmq282ekfhyys3gs.com."}}}
-  - {"name":"🏁RELAY-172.67.170.13-0080","type":"vmess","server":"172.67.170.13","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣","type":"vless","server":"151.101.131.1","port":80,"uuid":"cefffd1d-cc58-4560-b4d1-44f1af528f30","tls":false,"servername":"fraud.chase","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"fraud.chase"}}}
+  - {"name":"رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣","type":"vmess","server":"s.marktred.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"aveiror.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"aveiror.com"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_13","type":"vmess","server":"104.16.67.38","port":80,"cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_14","type":"vmess","server":"172.67.183.220","port":443,"cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jahfkjha.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"🏁RELAY-104.21.95.165-0125","type":"vmess","server":"104.21.95.165","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
+  - {"name":"رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣","type":"vless","server":"104.22.25.85","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"gU-2r-E35m-eO-2rTT-3f-b-CDq-2G4t-t5-Hdr4-6Yvd-35gH-dwE64-w.pAGes.Dev","network":"ws","ws-opts":{"path":"/TSBgGkLqaxnignSz/NjIuMy4xMi4xODU=?ed=2560","headers":{"host":"gU-2r-E35m-eO-2rTT-3f-b-CDq-2G4t-t5-Hdr4-6Yvd-35gH-dwE64-w.pAGes.Dev"}},"alpn":["h3","h2"],"client-fingerprint":"chrome"}
+  - {"name":"🏁RELAY-104.21.52.103-0693","type":"vmess","server":"s.marktred.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"aveiror.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"aveiror.com"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_15","type":"vless","server":"104.18.41.138","port":8443,"uuid":"1142470b-d8de-4e9d-99f9-dfefbbdb39e0","tls":true,"servername":"pardazeshvpn-tg27.pages.dev","network":"ws","ws-opts":{"path":"/?=2048","headers":{"host":"pardazeshvpn-tg27.pages.dev"}},"client-fingerprint":"random"}
+  - {"name":"🇺🇸US-205.134.180.139-0948","type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣","type":"vless","server":"zula.ir","port":80,"uuid":"87d803c7-f879-478e-e1f2-738d804de98e","tls":false,"servername":"DIGI-029-bdz43GbSz5VB1B5oGzqNYu3E.BEsTholDHypErionblog-100.ORG","network":"ws","ws-opts":{"path":"/2FF4sNFEEm2rBDKp42yuiT3j1BVZCca79h2wzV","headers":{"host":"DIGI-029-bdz43GbSz5VB1B5oGzqNYu3E.BEsTholDHypErionblog-100.ORG"}}}
+  - {"name":"رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣","type":"vmess","server":"104.21.94.64","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣","type":"vless","server":"104.21.34.74","port":443,"uuid":"d6f79630-aa94-4536-b2ef-899b5acb3b49","tls":true,"servername":"unmanliest.appreviewcenter.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"unmanliest.appreviewcenter.com"}},"client-fingerprint":"chrome"}
+  - {"name":"@Hope_Net-join-us-on-Telegram_16","type":"vless","server":"104.18.5.250","port":443,"uuid":"a64f0cea-ca89-40e6-b316-b3badff1eb90","tls":true,"servername":"iSAA1.paGEs.DEV","network":"ws","ws-opts":{"path":"/BDwnEtVwG7BS0S9f?ed=2560","headers":{"host":"iSAA1.paGEs.DEV"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"🏁RELAY-104.21.82.17-0543","type":"vmess","server":"104.21.82.17","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣","type":"vless","server":"172.67.156.27","port":443,"uuid":"f5a78514-1a94-486e-92a7-3bc9817095a6","tls":true,"servername":"nitriding.appreviewcenter.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"nitriding.appreviewcenter.com"}}}
+  - {"name":"🏁RELAY-172.67.175.56-1612","type":"vmess","server":"obdii.cfd","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣","type":"vless","server":"188.114.97.141","port":443,"uuid":"d7bbfe83-b037-48ae-996c-b98ed0441ba2","tls":true,"servername":"e10c0e4b.oodaeq2.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"e10c0e4b.oodaeq2.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"🏁RELAY-172.67.183.220-0207","type":"vmess","server":"jahfkjha.cfd","port":443,"cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"@Hope_Net-join-us-on-Telegram_17","type":"vless","server":"104.18.27.94","port":80,"uuid":"bab80a7b-6a7f-42c1-bf95-f0734ce80a1e","tls":false,"servername":"esetsecuritylicense.jadod45099.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"esetsecuritylicense.jadod45099.workers.dev"}}}
+  - {"name":"🇺🇸US-45.158.171.131-0885","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,22 +455,60 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - رایگان | VLESS | @sinabigo | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
       - '@Hope_Net-join-us-on-Telegram_1'
-      - 🏁RELAY-172.67.164.164-0180
+      - رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣5️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣
       - '@Hope_Net-join-us-on-Telegram_2'
-      - 🏁RELAY-172.67.203.227-0807
-      - 🔒 VL-TCP-NONE 🇮🇷 IR-185.173.130.24:443
+      - رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣3️⃣
       - '@Hope_Net-join-us-on-Telegram_3'
-      - 🏁RELAY-172.64.103.211-0214
+      - 🏁RELAY-104.21.24.170-0317
+      - 美国 080
+      - 🏁RELAY-172.67.164.164-0180
+      - 🇨🇦CA-134.195.196.178-1038
+      - '@Hope_Net'
+      - 🏁RELAY-172.67.203.227-0807
+      - 🇺🇸US-45.158.171.148-0887
+      - 🔒 VL-WS-TLS 🇮🇷 IR-2.189.59.3:443
       - '@Hope_Net-join-us-on-Telegram_4'
+      - 🇸🇬SG-206.238.236.36-2717
+      - 🇬🇧GB-18.132.140.3-0983
       - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net-join-us-on-Telegram_6'
       - '@Hope_Net-join-us-on-Telegram_7'
       - '@Hope_Net-join-us-on-Telegram_8'
       - '@Hope_Net-join-us-on-Telegram_9'
+      - رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.17.148.22-0156
+      - رایگان | TROJAN | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣
+      - 🏁RELAY-104.16.61.8-2051
+      - 🏁RELAY-104.21.15.36-0153
       - '@Hope_Net-join-us-on-Telegram_10'
       - '@Hope_Net-join-us-on-Telegram_11'
-      - 🏁RELAY-172.67.170.13-0080
+      - '@Hope_Net-join-us-on-Telegram_12'
+      - 🏁RELAY-172.64.103.211-0214
+      - رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣
+      - رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣
+      - '@Hope_Net-join-us-on-Telegram_13'
+      - '@Hope_Net-join-us-on-Telegram_14'
+      - 🏁RELAY-104.21.95.165-0125
+      - رایگان | VLESS | @Miner_V2ray | US🇺🇸 | 0️⃣3️⃣
+      - 🏁RELAY-104.21.52.103-0693
+      - '@Hope_Net-join-us-on-Telegram_15'
+      - 🇺🇸US-205.134.180.139-0948
+      - رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣6️⃣
+      - رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣
+      - '@Hope_Net-join-us-on-Telegram_16'
+      - 🏁RELAY-104.21.82.17-0543
+      - رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣
+      - 🏁RELAY-172.67.175.56-1612
+      - رایگان | VLESS | @v2rayng_vpnrog | US🇺🇸 | 0️⃣7️⃣
+      - 🏁RELAY-172.67.183.220-0207
+      - '@Hope_Net-join-us-on-Telegram_17'
+      - 🇺🇸US-45.158.171.131-0885
 
 rules:
 # 本地/局域网地址
