@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-11 18:38:14
+# 生成时间：2024-10-11 18:41:18
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -87,6 +87,67 @@ proxies:
       path: /6b777a91
       headers:
         host: jobscareerforstudent.com
+  - name: "@Hope_Net-join-us-on-Telegram_2"
+    port: 443
+    server: 188.114.98.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: BPB-WorkER-paneL1-e4P.PaGEs.deV
+    skip-cert-verify: true
+    ws-opts:
+      path: /r6JxYhM7twpPzdOc/ZGUucmFkaWNhbGx5LnBybw==
+      headers:
+        host: bpb-worker-panel1-e4p.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 4045e84e-5e3c-4f70-8ff5-c1097882a55a
+    client-fingerprint: randomized
+  - name: "@Hope_Net-join-us-on-Telegram_3"
+    port: 443
+    server: speedtest.net
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: Speedtest.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
+      headers:
+        host: sobip.ir
+    uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
+  - name: "@Hope_Net-join-us-on-Telegram_4"
+    port: 443
+    server: 162.159.192.106
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: BPB-WorkER-paneL1-e4P.PaGEs.deV
+    skip-cert-verify: true
+    ws-opts:
+      path: /r6JxYhM7twpPzdOc/ZGUucmFkaWNhbGx5LnBybw==
+      headers:
+        host: bpb-worker-panel1-e4p.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 4045e84e-5e3c-4f70-8ff5-c1097882a55a
+    client-fingerprint: randomized
+  - name: "@Hope_Net-join-us-on-Telegram_5"
+    port: 2096
+    server: 104.17.148.22
+    type: vless
+    network: httpupgrade
+    tls: true
+    udp: true
+    servername: downloadz3mapk.tellactive.ir
+    skip-cert-verify: true
+    alpn:
+      - h2,http/1.1
+    uuid: 70b2843a-ba6b-4d11-9915-214598db8480
+    client-fingerprint: chrome
   - name: "@Hope_Net-join-us-on-Telegram_6"
     port: 443
     server: 162.159.152.2
@@ -120,6 +181,40 @@ proxies:
       path: /6b777a91
       headers:
         host: jobscareertoday.com
+  - name: "@Hope_Net-join-us-on-Telegram_8"
+    port: 443
+    server: 172.66.47.103
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: 20fB0424.bpB-WORkER-pANeL-1Xd.pAGES.dEv
+    skip-cert-verify: true
+    ws-opts:
+      path: "@Azarakhsh_Proxy?ed=2560"
+      headers:
+        host: 20fb0424.bpb-worker-panel-1xd.pages.dev
+    alpn:
+      - h2,http/1.1
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    client-fingerprint: randomized
+  - name: "@Hope_Net-join-us-on-Telegram_9"
+    port: 443
+    server: 172.66.47.103
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: 20fB0424.bpB-WORkER-pANeL-1Xd.pAGES.dEv
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: 20fb0424.bpb-worker-panel-1xd.pages.dev
+    alpn:
+      - h2,http/1.1
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    client-fingerprint: chrome
   - name: RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
     port: 443
     server: 104.18.22.235
@@ -214,6 +309,23 @@ proxies:
     udp: true
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
+  - name: "@Hope_Net-join-us-on-Telegram_11"
+    port: 443
+    server: 172.66.44.75
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: bpb-wORKer-paNeL-3JC.pAgeS.DeV
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net/?ed=2048
+      headers:
+        host: bpb-worker-panel-3jc.pages.dev
+    alpn:
+      - h2,http/1.1
+    uuid: c2c8a201-09b9-47a7-b336-fcf1657f54a8
+    client-fingerprint: randomized
   - name: "@Hope_Net_5"
     port: 5500
     server: 23.150.152.16
@@ -228,6 +340,39 @@ proxies:
     udp: true
     password: lGqs95QkFHo2NV
     cipher: aes-256-gcm
+  - name: "@Hope_Net-join-us-on-Telegram_12"
+    port: 443
+    server: 172.66.47.61
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: 23sPT.pAGEs.dEV
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram@V2ray_Alpha/?ed=2560
+      headers:
+        host: 23spt.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    client-fingerprint: randomized
+  - name: "@Hope_Net-join-us-on-Telegram_13"
+    port: 2053
+    server: 188.114.99.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: bPB-v.paGeS.Dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /2L33jdhi5qfxGSGH/MTI5LjE1OS4yNDEuMTcy
+      headers:
+        host: Bpb-V.pAges.DeV
+    alpn:
+      - http/1.1
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   - name: "@Hope_Net_7"
     port: 8008
     server: 23.157.40.103
@@ -242,6 +387,23 @@ proxies:
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
+  - name: "@Hope_Net-join-us-on-Telegram_14"
+    port: 443
+    server: 172.66.47.200
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: midsUMmER-Bpb.pAgES.DEV
+    skip-cert-verify: true
+    ws-opts:
+      path: /StDNeNqkbQxrj6Xy?ed=2560
+      headers:
+        host: mIDsuMMer-bpb.PAgEs.DeV
+    alpn:
+      - h2
+    uuid: c6d299d4-db0b-4444-8b56-b23bbdcbcd67
+    client-fingerprint: randomized
   - name: "@Hope_Net_9"
     port: 2375
     server: 23.150.152.16
@@ -291,9 +453,15 @@ proxy-groups:
       - DIRECT
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -302,10 +470,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
@@ -317,9 +489,15 @@ proxy-groups:
     proxies:
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -328,10 +506,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
@@ -343,9 +525,15 @@ proxy-groups:
       - 🎯 全球直连
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -354,10 +542,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
@@ -368,9 +560,15 @@ proxy-groups:
       - 🎯 全球直连
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -379,10 +577,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
@@ -393,9 +595,15 @@ proxy-groups:
       - 🚀 节点选择
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -404,10 +612,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
@@ -418,9 +630,15 @@ proxy-groups:
       - 🎯 全球直连
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -429,10 +647,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
@@ -460,9 +682,15 @@ proxy-groups:
       - ♻️ 自动选择
       - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
       - "@Hope_Net-join-us-on-Telegram_1"
+      - "@Hope_Net-join-us-on-Telegram_2"
+      - "@Hope_Net-join-us-on-Telegram_3"
+      - "@Hope_Net-join-us-on-Telegram_4"
+      - "@Hope_Net-join-us-on-Telegram_5"
       - "@Hope_Net-join-us-on-Telegram_6"
       - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
       - "@Hope_Net-join-us-on-Telegram_7"
+      - "@Hope_Net-join-us-on-Telegram_8"
+      - "@Hope_Net-join-us-on-Telegram_9"
       - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
       - "@Hope_Net_1"
       - "@Hope_Net-join-us-on-Telegram_10"
@@ -471,10 +699,14 @@ proxy-groups:
       - "@Hope_Net_2"
       - "@Hope_Net_3"
       - "@Hope_Net_4"
+      - "@Hope_Net-join-us-on-Telegram_11"
       - "@Hope_Net_5"
       - "@Hope_Net_6"
+      - "@Hope_Net-join-us-on-Telegram_12"
+      - "@Hope_Net-join-us-on-Telegram_13"
       - "@Hope_Net_7"
       - "@Hope_Net_8"
+      - "@Hope_Net-join-us-on-Telegram_14"
       - "@Hope_Net_9"
       - 🏁RELAY-104.21.24.170-0317
       - "@Hope_Net-join-us-on-Telegram_15"
