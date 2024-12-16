@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-11 18:41:43
+# 生成时间：2024-12-16 21:19:34
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,200 +58,93 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-    port: 443
-    server: 185.238.228.6
-    type: trojan
+  - name: 4Kian-13174
+    port: 80
+    server: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv
-    password: bpb-trojan
-    skip-cert-verify: false
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
     ws-opts:
-      path: /trLb1imnrxPEhfzfwk?ed=2560
+      path: /vmess
       headers:
-        host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "@Hope_Net-join-us-on-Telegram_1"
-    port: 443
-    server: 104.18.22.19
-    type: trojan
+        host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    cipher: auto
+    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+    alterId: 0
+  - name: 4Kian-13172
+    port: 80
+    server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: jobscareerforstudent.com
-    password: 2cba4104747d49d18319e5ade1b93ab5
-    skip-cert-verify: false
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
     ws-opts:
-      path: /6b777a91
+      path: /opt/video/images
       headers:
-        host: jobscareerforstudent.com
-  - name: "@Hope_Net-join-us-on-Telegram_6"
+        host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    cipher: auto
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+    alterId: 64
+  - name: 4Kian-3
     port: 443
-    server: 162.159.152.2
-    type: trojan
-    network: ws
-    udp: true
-    sni: jobscareerforlawyers.com
-    password: 242a3d8eee5e4ed1a6bfa4141d549a25
-    skip-cert-verify: false
-    ws-opts:
-      path: /6b777a91
-      headers:
-        host: jobscareerforlawyers.com
-  - name: RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-    port: 8080
-    server: 45.158.171.19
+    server: ak1724.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     type: ss
     udp: true
-    password: a8bt9fY0QsLS6eLnXUe0Ym
+    password: 4Hub2f9JyhECyAq2Opm0NS
     cipher: chacha20-ietf-poly1305
-  - name: "@Hope_Net-join-us-on-Telegram_7"
+  - name: 4Kian-4
     port: 443
-    server: 104.19.159.12
-    type: trojan
-    network: ws
+    server: ak1803.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    type: ss
     udp: true
-    sni: jobscareertoday.com
-    password: 242a3d8eee5e4ed1a6bfa4141d549a25
-    skip-cert-verify: false
-    ws-opts:
-      path: /6b777a91
-      headers:
-        host: jobscareertoday.com
-  - name: RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-    port: 443
-    server: 104.18.22.235
-    type: trojan
-    network: ws
+    password: 4Hub2f9JyhECyAq2Opm0NS
+    cipher: chacha20-ietf-poly1305
+  - name: 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+    port: 80
+    server: 176.124.202.137
+    type: hysteria2
     udp: true
-    sni: 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev
-    password: bpb-trojan
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr1ZwekOpUrc0os2rS?ed=2560
-      headers:
-        host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "@Hope_Net_1"
+    password: 8b2693fb-8739-46bd-b184-5e7c1778c597
+    skip-cert-verify: true
+  - name: 4Kian-1758
+    port: 7001
+    server: 142.202.48.83
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 4Kian-1730
     port: 8090
-    server: 23.157.40.95
+    server: 38.91.100.27
     type: ss
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: "@Hope_Net-join-us-on-Telegram_10"
-    port: 443
-    server: 104.16.67.38
-    type: vmess
-    network: ws
-    tls: true
+  - name: 4Kian-1731
+    port: 8091
+    server: 38.91.100.27
+    type: ss
     udp: true
-    version: "2"
-    servername: us3e-mmnnfr9dop0.v2freevpn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /v118-fccxmxm35
-      headers:
-        host: us3e-mmnnfr9dop0.v2freevpn.com
-    cipher: auto
-    uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-    alterId: 0
-  - name: RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 4Kian-5456
     port: 443
-    server: 185.176.24.2
+    server: de.tjvpn.org
     type: trojan
-    network: ws
+    network: tcp
     udp: true
-    sni: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
-    password: bpb-trojan
+    password: c60fbf90-4b55-11ed-b935-225401db9d57
     skip-cert-verify: false
-    ws-opts:
-      path: /tr9vfP2lflALkJrNsQ?ed=2560
-      headers:
-        host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
+  - name: 4Kian-13203
     port: 443
-    server: 172.67.219.194
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: adenc36v.xtooltech.cfd
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: adenc36v.xtooltech.cfd
-    cipher: auto
-    uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
-    alterId: 0
-  - name: "@Hope_Net_2"
-    port: 7001
-    server: 23.150.152.112
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_3"
-    port: 7002
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_4"
-    port: 9102
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_5"
-    port: 5500
-    server: 23.150.152.16
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_6"
-    port: 5498
-    server: 69.50.95.179
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_7"
-    port: 8008
-    server: 23.157.40.103
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_8"
-    port: 3306
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: "@Hope_Net_9"
-    port: 2375
-    server: 23.150.152.16
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🏁RELAY-104.21.24.170-0317
-    port: 443
-    server: 104.21.24.170
+    server: www.kernels.bid
     type: vmess
     network: ws
     tls: true
@@ -260,182 +153,3819 @@ proxies:
     servername: ""
     skip-cert-verify: true
     ws-opts:
-      path: /linkws
+      path: /
       headers:
-        host: adenc36v.xtooltech.cfd
+        host: /ws
     cipher: auto
-    uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+    uuid: 6c7c5e3a-73ad-467a-1241-206987daa04f
     alterId: 0
-  - name: "@Hope_Net-join-us-on-Telegram_15"
+  - name: 4Kian-13204
+    port: 80
+    server: www.kernels.bid
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: /ws
+    cipher: auto
+    uuid: 25ec39f7-7cdd-4c3c-bc3c-60e9a8927b4a
+    alterId: 0
+  - name: 4Kian-3582
     port: 443
-    server: 104.21.74.239
+    server: uk.stablize.top
+    type: trojan
+    network: tcp
+    udp: true
+    password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
+    skip-cert-verify: false
+  - name: 4Kian-13206
+    port: 80
+    server: www.sttlink.cc
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /ASFHLASHFO
+      headers:
+        host: www.sttlink.cc
+    cipher: auto
+    uuid: d3a24be8-c847-4c7f-ba32-8dd6e79e52b2
+    alterId: 0
+  - name: 4Kian-5874
+    port: 22222
+    server: 18.133.105.230
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 4Kian-4107
+    port: 443
+    server: fr.test3.net
+    type: trojan
+    network: tcp
+    udp: true
+    sni: zula.ir
+    password: 9498f3a0-2992-11ee-a4c7-1239d0255272
+    skip-cert-verify: false
+  - name: 4Kian-5770
+    port: 443
+    server: 217.110.20.141
+    type: trojan
+    network: ws
+    udp: true
+    sni: qmsdh.com.877774.xyz
+    password: qmsdh_com
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: qmsdh.com.877774.xyz
+  - name: 4Kian-5748
+    port: 443
+    server: 172.67.204.84
+    type: trojan
+    network: tcp
+    udp: true
+    sni: cdn-21.gsmxreality.com
+    password: qj1Dz1CJmFQRhWr1SP80aA
+    skip-cert-verify: true
+  - name: 4Kian-4038
+    port: 443
+    server: swejs.stablize.top
+    type: trojan
+    network: tcp
+    udp: true
+    password: 8008b06e-2d1d-421c-9cdc-20af1f59093a
+    skip-cert-verify: true
+  - name: 4Kian-4034
+    port: 443
+    server: brjs.stablize.top
+    type: trojan
+    network: tcp
+    udp: true
+    password: 8008b06e-2d1d-421c-9cdc-20af1f59093a
+    skip-cert-verify: true
+  - name: 4Kian-12877
+    port: 443
+    server: fullaccesstohongkongnet.azurewebsites.net
     type: vmess
     network: ws
     tls: true
     udp: true
     version: "2"
-    servername: afrhms07.xfixedfloat.cfd
+    servername: fullaccesstohongkongnet.azurewebsites.net
     skip-cert-verify: true
     ws-opts:
-      path: /linkws
+      path: /ws
       headers:
-        host: afrhms07.xfixedfloat.cfd
+        host: fullaccesstohongkongnet.azurewebsites.net
+    cipher: auto
+    uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+    alterId: 0
+  - name: 4Kian-4037
+    port: 443
+    server: itjs.stablize.top
+    type: trojan
+    network: tcp
+    udp: true
+    password: 8008b06e-2d1d-421c-9cdc-20af1f59093a
+    skip-cert-verify: true
+  - name: 4Kian-13270
+    port: 80
+    server: v2line.telegram.channel.1321.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: v2line.telegram.channel.1321.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    cipher: auto
+    uuid: 9d5e69d2-46cf-4865-95fe-a2ee8c52a013
+    alterId: 0
+  - name: 4Kian-13029
+    port: 2086
+    server: mizban.arzonhost.ir
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: mizban.arzonhost.ir
+    cipher: auto
+    uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+    alterId: 0
+  - name: 4Kian-13018
+    port: 443
+    server: martina.quest
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: martina.quest
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: martina.quest
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+  - name: 4Kian-13013
+    port: 443
+    server: maxin.beauty
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: maxin.beauty
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: maxin.beauty
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+  - name: 4Kian-4485
+    port: 443
+    server: 185.135.9.137
+    type: trojan
+    network: tcp
+    udp: true
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+  - name: 4Kian-4487
+    port: 443
+    server: 185.148.104.114
+    type: trojan
+    network: ws
+    udp: true
+    sni: za.ylks.xyz
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: za.ylks.xyz
+  - name: 4Kian-11934
+    port: 443
+    server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: linkvws
+      headers:
+        host: odelia.autos
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+  - name: 4Kian-5742
+    port: 14491
+    server: 65.75.193.154
+    type: trojan
+    network: ws
+    udp: true
+    sni: tr.koiok.us.kg
+    password: ouo
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: tr.koiok.us.kg
+  - name: RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+    port: 443
+    server: comicabc.com
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanmz.pages.dev
+    password: auto
+    skip-cert-verify: false
+    ws-opts:
+      path: /trojanmz.pages.dev/?ed=2560
+      headers:
+        host: trojanmz.pages.dev
+    client-fingerprint: randomized
+  - name: 4Kian-4373
+    port: 443
+    server: 104.26.12.193
+    type: trojan
+    network: tcp
+    udp: true
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+  - name: 4Kian-5423
+    port: 443
+    server: visa.cn
+    type: trojan
+    network: ws
+    udp: true
+    sni: bpbpanel.ac.cn.eu.org
+    password: bpb-trojan
+    skip-cert-verify: false
+    ws-opts:
+      path: /tr
+      headers:
+        host: bpbpanel.ac.cn.eu.org
+  - name: 4Kian-13257
+    port: 80
+    server: usnew.lbxjc.site
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: chunchuan.kejixiaoqi666.store
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: usnew.lbxjc.site
+    cipher: auto
+    uuid: e6543319-0574-42ac-b778-1c4325d626f5
+    alterId: 0
+  - name: 4Kian-4469
+    port: 443
+    server: 172.67.58.58
+    type: trojan
+    network: tcp
+    udp: true
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+  - name: RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+    port: 443
+    server: benedict.ns.cloudflare.com
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanmz.pages.dev
+    password: auto
+    skip-cert-verify: false
+    ws-opts:
+      path: /trojanmz.pages.dev/?ed=2560
+      headers:
+        host: trojanmz.pages.dev
+    client-fingerprint: randomized
+  - name: 4Kian-4365
+    port: 443
+    server: 104.25.37.16
+    type: trojan
+    network: tcp
+    udp: true
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+  - name: 4Kian-3719
+    port: 443
+    server: pqawsjp4.aiopen.cfd
+    type: trojan
+    network: tcp
+    udp: true
+    sni: 18-140-66-207.nhost.00cdn.com
+    password: 3ddbffcb-bdbb-49c0-a7fe-5c3b0c58e9be
+    skip-cert-verify: true
+  - name: 4Kian-5424
+    port: 443
+    server: www.vpslook.com
+    type: trojan
+    network: ws
+    udp: true
+    sni: bpb-hd.aaronchin.xyz
+    password: bpb-trojan
+    skip-cert-verify: false
+    ws-opts:
+      path: /tr?ed=2560
+      headers:
+        host: bpb-hd.aaronchin.xyz
+    alpn:
+      - h3
+    client-fingerprint: randomized
+  - name: 4Kian-13234
+    port: 443
+    server: tw02.nttkk.com
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: tw02.nttkk.com
+    cipher: auto
+    uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
+    alterId: 0
+  - name: 4Kian-4457
+    port: 443
+    server: 172.67.216.159
+    type: trojan
+    network: tcp
+    udp: true
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+  - name: 4Kian-4351
+    port: 443
+    server: 104.25.101.27
+    type: trojan
+    network: tcp
+    udp: true
+    password: NISHIKUITAN111
+    skip-cert-verify: false
+  - name: 4Kian-12994
+    port: 2052
+    server: lol.ps
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /afrhms16v.bestxray.buzz/linkws
+      headers:
+        host: mysan2.jaquay22.workers.dev
+    cipher: auto
+    uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+    alterId: 0
+  - name: 4Kian-12995
+    port: 2052
+    server: lol.ps
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: mysan2.jaquay22.workers.dev
+    cipher: auto
+    uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+    alterId: 0
+  - name: 4Kian-1405
+    port: 7306
+    server: 38.91.100.27
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 4Kian-13145
+    port: 443
+    server: powerservice.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: uk2.v2rayserv.com
+    cipher: auto
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+  - name: 4Kian-13146
+    port: 443
+    server: powerservice.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: powerservice.com
+    cipher: auto
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+  - name: RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+    port: 2087
+    server: 104.25.254.4
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanmz.pages.dev
+    password: auto
+    skip-cert-verify: false
+    ws-opts:
+      path: /trojanmz.pages.dev/?ed=2560
+      headers:
+        host: trojanmz.pages.dev
+    client-fingerprint: randomized
+  - name: RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+    port: 443
+    server: craig.ns.cloudflare.com
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanmz.pages.dev
+    password: auto
+    skip-cert-verify: false
+    ws-opts:
+      path: /trojanmz.pages.dev/?ed=2560
+      headers:
+        host: trojanmz.pages.dev
+    client-fingerprint: randomized
+  - name: RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+    port: 443
+    server: 172.64.201.25
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanmz.pages.dev
+    password: auto
+    skip-cert-verify: false
+    ws-opts:
+      path: /trojanmz.pages.dev/?ed=2560
+      headers:
+        host: trojanmz.pages.dev
+    client-fingerprint: randomized
+  - name: 4Kian-2677
+    port: 2376
+    server: 142.202.48.58
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2678
+    port: 2376
+    server: 142.202.48.74
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2267
+    port: 3389
+    server: 38.107.226.48
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 4Kian-3706
+    port: 443
+    server: kbawsjp2.aiopen.cfd
+    type: trojan
+    network: tcp
+    udp: true
+    sni: 4-193-105-141.nhost.00cdn.com
+    password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d
+    skip-cert-verify: true
+  - name: 4Kian-2266
+    port: 3306
+    server: 38.107.226.48
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 4Kian-4809
+    port: 80
+    server: uk1.trojanvh.xyz
+    type: trojan
+    network: tcp
+    udp: true
+    password: b640d791-ff83-4300-b509-c2a02f97f167
+    skip-cert-verify: false
+  - name: 4Kian-5004
+    port: 443
+    server: 104.19.253.28
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-5010
+    port: 443
+    server: 104.20.198.59
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5009
+    port: 443
+    server: 104.20.18.41
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5007
+    port: 443
+    server: 104.19.90.210
+    type: trojan
+    network: ws
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: hb.lii2010.us.kg
+  - name: 4Kian-5008
+    port: 443
+    server: 104.20.159.193
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-5203
+    port: 443
+    server: 172.64.35.209
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5002
+    port: 443
+    server: 104.19.251.164
+    type: trojan
+    network: ws
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+  - name: 4Kian-5005
+    port: 443
+    server: 104.19.54.222
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5202
+    port: 443
+    server: 172.64.35.207
+    type: trojan
+    network: ws
+    udp: true
+    sni: tb.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: tb.promote.icu
+  - name: 4Kian-13195
+    port: 443
+    server: www.bzfmc.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: yelan.thelastronin.cloudns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws/hms03.dongfeng.cfd
+      headers:
+        host: yelan.thelastronin.cloudns.org
+    cipher: auto
+    uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+    alterId: 0
+  - name: 4Kian-2675
+    port: 2376
+    server: 142.202.48.52
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2676
+    port: 2375
+    server: 142.202.48.58
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-5000
+    port: 443
+    server: 104.19.243.142
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-5001
+    port: 443
+    server: 104.19.243.93
+    type: trojan
+    network: tcp
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-12617
+    port: 2082
+    server: Tokyo.Mfa.EE
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /aries?ed=2048
+      headers:
+        host: scw-fr.iiio.wiki
+    cipher: auto
+    uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+    alterId: 0
+  - name: 4Kian-4997
+    port: 443
+    server: 104.19.234.198
+    type: trojan
+    network: ws
+    udp: true
+    sni: ha.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed
+      headers:
+        host: ha.lii2010.us.kg
+  - name: 4Kian-4999
+    port: 443
+    server: 104.19.242.185
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-5003
+    port: 443
+    server: 104.19.251.206
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-5200
+    port: 443
+    server: 172.64.35.203
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-1356
+    port: 7307
+    server: 38.107.226.241
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 4Kian-2206
+    port: 3389
+    server: 23.134.94.168
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 4Kian-2679
+    port: 2375
+    server: 142.202.48.7
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-4998
+    port: 443
+    server: 104.19.238.216
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5011
+    port: 443
+    server: 104.20.2.145
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-5199
+    port: 443
+    server: 172.64.35.202
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-4996
+    port: 443
+    server: 104.19.223.79
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5198
+    port: 443
+    server: 172.64.35.199
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-2091
+    port: 3389
+    server: 142.202.48.83
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 4Kian-4994
+    port: 443
+    server: 104.19.216.63
+    type: trojan
+    network: tcp
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-4995
+    port: 443
+    server: 104.19.222.79
+    type: trojan
+    network: tcp
+    udp: true
+    sni: tb.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5197
+    port: 443
+    server: 172.64.35.194
+    type: trojan
+    network: tcp
+    udp: true
+    sni: tc.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-2090
+    port: 3306
+    server: 142.202.48.83
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 4Kian-2681
+    port: 2375
+    server: 142.202.48.83
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-4993
+    port: 443
+    server: 104.19.214.179
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+    client-fingerprint: randomized
+  - name: 4Kian-2089
+    port: 3389
+    server: 142.202.48.7
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 4Kian-2674
+    port: 2376
+    server: 142.202.48.34
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2680
+    port: 2376
+    server: 142.202.48.7
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-4992
+    port: 443
+    server: 104.19.190.86
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-12991
+    port: 443
+    server: oz.moonfree.top
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: oz.moonfree.top
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: oz.moonfree.top
+    cipher: auto
+    uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d
+    alterId: 0
+  - name: 4Kian-4990
+    port: 443
+    server: 104.19.185.248
+    type: trojan
+    network: tcp
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-4991
+    port: 443
+    server: 104.19.187.2
+    type: trojan
+    network: tcp
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-2740
+    port: 2376
+    server: 38.107.226.132
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2741
+    port: 2375
+    server: 38.107.226.146
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-4988
+    port: 443
+    server: 104.19.174.68
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-4989
+    port: 443
+    server: 104.19.175.73
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+    client-fingerprint: randomized
+  - name: 4Kian-4987
+    port: 443
+    server: 104.19.174.207
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5012
+    port: 443
+    server: 104.20.249.155
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-11394
+    port: 2095
+    server: 172.67.7.236
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+  - name: 4Kian-11393
+    port: 2095
+    server: 172.67.7.186
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+  - name: 4Kian-2682
+    port: 2376
+    server: 142.202.48.83
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-5188
+    port: 443
+    server: 172.64.35.110
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5187
+    port: 443
+    server: 172.64.33.52
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-11392
+    port: 80
+    server: 172.67.7.166
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /shirker
+      headers:
+        host: lv2.scproxy.top
+    cipher: auto
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+  - name: 4Kian-12179
+    port: 80
+    server: 7cRom.c6tu5uwk9.buzz
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: sg03.d9ab-22af-fc39ef1d39a0.cfd
+    cipher: auto
+    uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+    alterId: 0
+  - name: 4Kian-5185
+    port: 443
+    server: 172.64.233.44
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+    client-fingerprint: randomized
+  - name: 4Kian-3871
+    port: 443
+    server: sajs.stablize.top
+    type: trojan
+    network: tcp
+    udp: true
+    password: 5e65f547-15ec-49f0-9fe6-2340cf1aa2e0
+    skip-cert-verify: true
+  - name: 4Kian-12615
+    port: 2086
+    server: RACKNERD.COM
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /aries
+      headers:
+        host: RACKNERD.COM
+    cipher: auto
+    uuid: c2a55def-e91e-4132-c504-0f276c4c3a1e
+    alterId: 0
+  - name: 4Kian-12616
+    port: 2086
+    server: RACKNERD.COM
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /aries
+      headers:
+        host: br.cloudflare.quest
+    cipher: auto
+    uuid: c2a55def-e91e-4132-c504-0f276c4c3a1e
+    alterId: 0
+  - name: 4Kian-5181
+    port: 443
+    server: 172.64.201.25
+    type: trojan
+    network: ws
+    udp: true
+    sni: tb.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: tb.promote.icu
+  - name: 4Kian-5182
+    port: 443
+    server: 172.64.205.94
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-5180
+    port: 443
+    server: 172.64.174.37
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-13224
+    port: 443
+    server: tls.84.node-for-bigairport.win
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: tls.84.node-for-bigairport.win
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: tls.84.node-for-bigairport.win
+    cipher: auto
+    uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+    alterId: 0
+  - name: 4Kian-2746
+    port: 2375
+    server: 38.107.226.241
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2742
+    port: 2376
+    server: 38.107.226.146
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2743
+    port: 2376
+    server: 38.107.226.159
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2744
+    port: 2375
+    server: 38.107.226.238
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-2745
+    port: 2376
+    server: 38.107.226.238
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 4Kian-13269
+    port: 80
+    server: v2line.telegram.channel.1381.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: il1.xv2ray.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /vmess
+      headers:
+        host: il1.xv2ray.net
+    cipher: auto
+    uuid: 224a1664-6b67-4a57-9cb3-d8e9139dbb38
+    alterId: 0
+  - name: 4Kian-4750
+    port: 443
+    server: t5.teslacdn2.live
+    type: trojan
+    network: tcp
+    udp: true
+    sni: t5.teslacdn2.live
+    password: af6a3685-c423-4579-bfea-784c453d5e23
+    skip-cert-verify: true
+  - name: 4Kian-4985
+    port: 443
+    server: 104.19.168.73
+    type: trojan
+    network: ws
+    udp: true
+    sni: ha.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed
+      headers:
+        host: ha.lii2010.us.kg
+  - name: 4Kian-4986
+    port: 443
+    server: 104.19.173.68
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 🇮🇷IR_7_@Surfboardv2ray
+    port: 6060
+    server: app2.demo313.top
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 0803b285-7d20-422c-a26d-080ad0611d70
+    alterId: 0
+  - name: 4Kian-3737
+    port: 443
+    server: jp.mjt001.com
+    type: trojan
+    network: tcp
+    udp: true
+    sni: jp.mjt001.com
+    password: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+    skip-cert-verify: false
+  - name: 4Kian-9055
+    port: 80
+    server: 3L6E2.c6tu5uwk9.buzz
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: sg02.knt6y4bjx.buzz
+    cipher: auto
+    uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+    alterId: 0
+  - name: 4Kian-4982
+    port: 443
+    server: 104.19.156.145
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-4733
+    port: 48777
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hk12.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-4732
+    port: 46758
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hk12.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-12992
+    port: 80
+    server: lms.uin-antasari.ac.id
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: exa.nextvpn.cc
+    cipher: auto
+    uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+    alterId: 0
+  - name: 4Kian-4731
+    port: 46259
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 🇨🇦CA_6_@Surfboardv2ray
+    port: 80
+    server: www.speedtest.net
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 5c93aa1f-3de3-427b-8249-9e8dec956953
+    alterId: 0
+  - name: 4Kian-4726
+    port: 42264
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-4727
+    port: 42264
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hk12.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-4729
+    port: 44629
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hk12.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-4730
+    port: 46259
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hk12.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-13131
+    port: 80
+    server: sun.prxpro.cc
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /p3573l6m92h1ham3q23t
+      headers:
+        host: sun.prxpro.cc
+    cipher: auto
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+  - name: 4Kian-13036
+    port: 443
+    server: mtn.bamarambash.monster
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
+      headers:
+        host: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    cipher: auto
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+  - name: 4Kian-13037
+    port: 443
+    server: mtn.bamarambash.monster
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
+      headers:
+        host: mtn.bamarambash.monster
+    cipher: auto
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+  - name: 4Kian-13115
+    port: 2082
+    server: singapore.com
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: ip26.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+    port: 80
+    server: zula.ir
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /@CHANGE_IP1
+      headers:
+        host: speedtest.net.zula.ir.www.anymath.ir
+    cipher: auto
+    uuid: 3fee0930-e510-4027-d7d2-20fbd74b5eb3
+    alterId: 0
+  - name: 4Kian-13102
+    port: 443
+    server: sgp.kapok.buzz
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /4befdd8a6/
+      headers:
+        host: sgp.kapok.buzz
+    cipher: auto
+    uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+    alterId: 0
+  - name: 4Kian-13114
+    port: 2095
+    server: singapore.com
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip11.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 4Kian-482
+    port: 40003
+    server: soonjp.soon.guru
+    type: ss
+    udp: true
+    password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
+    cipher: chacha20-ietf-poly1305
+  - name: 4Kian-13101
+    port: 443
+    server: sgp.kapok.buzz
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /4befdd8a6/
+      headers:
+        host: sgp.kapok.buzz
+    cipher: auto
+    uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+    alterId: 0
+  - name: RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+    port: 80
+    server: cdn.anymath.ir
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /@CHANGE_IP1
+      headers:
+        host: speedtest.net.zula.ir.www.anymath.ir
+    cipher: auto
+    uuid: 3fee0930-e510-4027-d7d2-20fbd74b5eb3
+    alterId: 0
+  - name: 4Kian-5098
+    port: 443
+    server: 108.162.195.192
+    type: trojan
+    network: ws
+    udp: true
+    sni: tb.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: tb.promote.icu
+  - name: 4Kian-5099
+    port: 443
+    server: 108.162.195.194
+    type: trojan
+    network: tcp
+    udp: true
+    sni: tc.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5100
+    port: 443
+    server: 108.162.195.199
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-5101
+    port: 443
+    server: 108.162.195.202
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-13207
+    port: 443
+    server: www.teletrans.ro
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: nezuko.raidenshogun.cloudns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws/obdii.cfd
+      headers:
+        host: nezuko.raidenshogun.cloudns.org
+    cipher: auto
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+  - name: 4Kian-5097
+    port: 443
+    server: 108.162.195.187
+    type: trojan
+    network: ws
+    udp: true
+    sni: tc.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed
+      headers:
+        host: tc.promote.icu
+  - name: 4Kian-5102
+    port: 443
+    server: 108.162.195.203
+    type: trojan
+    network: ws
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: td.promote.icu
+  - name: 4Kian-5103
+    port: 443
+    server: 108.162.195.205
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5095
+    port: 443
+    server: 108.162.195.168
+    type: trojan
+    network: ws
+    udp: true
+    sni: tc.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed
+      headers:
+        host: tc.promote.icu
+  - name: 4Kian-5096
+    port: 443
+    server: 108.162.195.169
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5104
+    port: 443
+    server: 108.162.195.207
+    type: trojan
+    network: ws
+    udp: true
+    sni: tb.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: tb.promote.icu
+  - name: 4Kian-5105
+    port: 443
+    server: 108.162.195.209
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5106
+    port: 443
+    server: 108.162.195.217
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5107
+    port: 443
+    server: 108.162.195.83
+    type: trojan
+    network: ws
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: ta.promote.icu
+  - name: 4Kian-5108
+    port: 443
+    server: 108.162.196.53
+    type: trojan
+    network: ws
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: hb.lii2010.us.kg
+  - name: 4Kian-3629
+    port: 443
+    server: kaizen-jp-11.mielink-dns2.com
+    type: trojan
+    network: tcp
+    udp: true
+    sni: paydiu.com
+    password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+    skip-cert-verify: false
+  - name: 4Kian-5094
+    port: 443
+    server: 108.162.195.161
+    type: trojan
+    network: tcp
+    udp: true
+    sni: tc.promote.icu
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-457
+    port: 443
+    server: ak1808.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    type: ss
+    udp: true
+    password: YUWX6COLZYmaHlUGiKwDaN
+    cipher: chacha20-ietf-poly1305
+  - name: 4Kian-5109
+    port: 443
+    server: 108.162.198.150
+    type: trojan
+    network: tcp
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5218
+    port: 443
+    server: 172.67.122.48
+    type: trojan
+    network: ws
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: hb.lii2010.us.kg
+  - name: 4Kian-5217
+    port: 443
+    server: 172.67.109.39
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-13202
+    port: 80
+    server: www.gco.gov.qa
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: luodi.5468936.xyz
+    cipher: auto
+    uuid: be9cf152-7cf1-46f9-88ed-a55b343c927b
+    alterId: 0
+  - name: 4Kian-5216
+    port: 443
+    server: 172.67.109.241
+    type: trojan
+    network: ws
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: hb.lii2010.us.kg
+  - name: 4Kian-3596
+    port: 50001
+    server: bgroup.node1.t.nodelist-airport.com
+    type: trojan
+    network: tcp
+    udp: true
+    password: 2155145a-b1b5-443a-8977-670f6bd10f02
+    skip-cert-verify: false
+  - name: 4Kian-3630
+    port: 443
+    server: kaizen-ru-2.mielink-dns2.com
+    type: trojan
+    network: tcp
+    udp: true
+    sni: $paydiu.com
+    password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+    skip-cert-verify: false
+  - name: 4Kian-5214
+    port: 443
+    server: 172.66.44.129
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5215
+    port: 443
+    server: 172.66.45.162
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5213
+    port: 443
+    server: 172.66.166.255
+    type: trojan
+    network: ws
+    udp: true
+    sni: hb.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: hb.lii2010.us.kg
+  - name: 4Kian-4734
+    port: 49364
+    server: hgc.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: hk12.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-5211
+    port: 443
+    server: 172.64.90.183
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5212
+    port: 443
+    server: 172.66.0.179
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5210
+    port: 443
+    server: 172.64.84.113
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-5209
+    port: 443
+    server: 172.64.83.38
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: true
+  - name: 4Kian-5219
+    port: 443
+    server: 172.67.130.85
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5208
+    port: 443
+    server: 172.64.50.50
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-446
+    port: 443
+    server: series-a1.samanehha.co
+    type: ss
+    udp: true
+    password: W74XFALLLuw6m5IA
+    cipher: chacha20-ietf-poly1305
+  - name: 4Kian-5206
+    port: 443
+    server: 172.64.38.133
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-5207
+    port: 443
+    server: 172.64.48.88
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-13151
+    port: 2053
+    server: qin12.rong1104.uk
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: qin12.rong1104.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /qin12
+      headers:
+        host: qin12.rong1104.uk
+    cipher: auto
+    uuid: e317a3a9-4e15-4792-d11d-b4b08df85803
+    alterId: 0
+  - name: 4Kian-5472
+    port: 443
+    server: uk01.trojanyyds.xyz
+    type: trojan
+    network: tcp
+    udp: true
+    password: cd41b9d7-df15-46ad-a778-257b0851525a
+    skip-cert-verify: false
+  - name: 4Kian-117
+    port: 443
+    server: series-a2-mec.samanehha.co
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
+  - name: 4Kian-5222
+    port: 443
+    server: 172.67.142.60
+    type: trojan
+    network: tcp
+    udp: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-4724
+    port: 49905
+    server: eeaa7ed9a53f5bb5260e79cd2bbd9823.v1.cac.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: de1.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-13200
+    port: 443
+    server: www.digitalocean.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /111111.online
+      headers:
+        host: by.6111.online
+    cipher: auto
+    uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+    alterId: 0
+  - name: 4Kian-13201
+    port: 443
+    server: www.digitalocean.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /111111.online
+      headers:
+        host: www.digitalocean.com
+    cipher: auto
+    uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+    alterId: 0
+  - name: 4Kian-5221
+    port: 443
+    server: 172.67.138.10
+    type: trojan
+    network: ws
+    udp: true
+    sni: ha.lii2010.us.kg
+    password: blue2024
+    skip-cert-verify: false
+    ws-opts:
+      path: /?ed
+    client-fingerprint: chrome
+  - name: 4Kian-13155
+    port: 2053
+    server: qin19.rong1104.uk
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: qin19.rong1104.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /qin19
+      headers:
+        host: qin19.rong1104.uk
+    cipher: auto
+    uuid: a666aad7-b148-44fb-93e9-46e103307236
+    alterId: 0
+  - name: 4Kian-5220
+    port: 443
+    server: 172.67.135.57
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
+  - name: 4Kian-12626
+    port: 443
+    server: cooing-luxuriant-blue.glitch.me
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /api
+      headers:
+        host: cooing-luxuriant-blue.glitch.me
+    cipher: auto
+    uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+    alterId: 0
+  - name: 4Kian-12762
+    port: 443
+    server: btbu996.icu
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: btbu996.icu
+    cipher: auto
+    uuid: 16702ec2-3808-46e6-a7b5-582c062be13d
+    alterId: 0
+  - name: 4Kian-13205
+    port: 80
+    server: www.parsvds.ir
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /T,E,L,E,G,R,A,M,X,V,2,R,A,Y
+      headers:
+        host: rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw101.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net.
+    cipher: auto
+    uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+    alterId: 0
+  - name: 4Kian-4723
+    port: 49905
+    server: e4c1bc175d6f9a37ba43483b3d008728.v1.cac.node-is.green
+    type: trojan
+    network: tcp
+    udp: true
+    sni: de1.bilibili.com
+    password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+    skip-cert-verify: false
+  - name: 4Kian-13152
+    port: 2053
+    server: qin14.rong1104.uk
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: qin14.rong1104.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /qin14
+      headers:
+        host: qin14.rong1104.uk
+    cipher: auto
+    uuid: f8d2fd33-ab8e-4004-f97d-10dde80af010
+    alterId: 0
+  - name: BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+    port: 443
+    server: series-a2-me.samanehha.co
+    type: ss
+    udp: true
+    password: "Bog0ELmMM9DSxDdQ\r��"
+    cipher: chacha20-poly1305
+  - name: RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+    port: 80
+    server: www.speedtest.net
+    type: vmess
+    network: httpupgrade
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 5c93aa1f-3de3-427b-8249-9e8dec956953
+    alterId: 0
+  - name: AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+    port: 443
+    server: api.namasha.co
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
+  - name: 4Kian-6006
+    port: 443
+    server: aws-in-mumbai-1.f1cflinea.com
+    type: trojan
+    network: ws
+    udp: true
+    sni: aws-in-mumbai-1.f1cflinea.com
+    password: your_password
+    skip-cert-verify: false
+    ws-opts:
+      path: /f1rocket
+      headers:
+        host: aws-in-mumbai-1.f1cflinea.com
+    client-fingerprint: chrome
+  - name: 4Kian-9321
+    port: 443
+    server: 104.18.7.138
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: 104.18.7.138
+    cipher: auto
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+  - name: 4Kian-9323
+    port: 443
+    server: 104.18.71.193
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        host: ""
+    cipher: auto
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+  - name: 4Kian-9314
+    port: 443
+    server: 104.18.53.172
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        host: ""
+    cipher: auto
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+  - name: 4Kian-9315
+    port: 8880
+    server: 104.18.64.251
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /GdtYWlsLmNvbSJ9LCJjb3V
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 4b5e4565-322f-4223-a891-78a84f189726
+    alterId: 0
+  - name: 4Kian-9316
+    port: 8880
+    server: 104.18.64.251
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /GdtYWlsLmNvbSJ9LCJjb3V
+      headers:
+        host: newyork.yj2022.gq
+    cipher: auto
+    uuid: 4b5e4565-322f-4223-a891-78a84f189726
+    alterId: 0
+  - name: 4Kian-9317
+    port: 443
+    server: 104.18.6.138
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: 104.18.6.138
+    cipher: auto
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+  - name: 4Kian-9318
+    port: 443
+    server: 104.18.6.138
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: cdnde.irteyz.today
+    cipher: auto
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+  - name: 4Kian-9319
+    port: 443
+    server: 104.18.6.82
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: jp.binghe.design
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35
+    alterId: 0
+  - name: 4Kian-9320
+    port: 2086
+    server: 104.18.62.204
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: vpnsupportfast.vpnsuortfast.workers.dev
     cipher: auto
     uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
     alterId: 0
+  - name: 4Kian-13304
+    port: 443
+    server: vus5.0bad.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /chat
+      headers:
+        host: vus5.0bad.com
+    cipher: auto
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+  - name: RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+    port: 443
+    server: www.digitalocean.com
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanmz.pages.dev
+    password: auto
+    skip-cert-verify: false
+    ws-opts:
+      path: /trojanmz.pages.dev/?ed=2560
+      headers:
+        host: trojanmz.pages.dev
+    client-fingerprint: randomized
+  - name: 4Kian-4035
+    port: 443
+    server: cljs.stablize.top
+    type: trojan
+    network: tcp
+    udp: true
+    password: 8008b06e-2d1d-421c-9cdc-20af1f59093a
+    skip-cert-verify: true
+  - name: 4Kian-5184
+    port: 443
+    server: 172.64.232.162
+    type: trojan
+    network: tcp
+    udp: true
+    sni: ta.promote.icu
+    password: blue2024
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -458,26 +3988,225 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RELAY🚩 | 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv-443 | 2.02ms
-      - "@Hope_Net-join-us-on-Telegram_1"
-      - "@Hope_Net-join-us-on-Telegram_6"
-      - RELAY🚩+|+45.158.171.19-8080+|+85.71ms
-      - "@Hope_Net-join-us-on-Telegram_7"
-      - RELAY🚩 | 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev-443 | 2.04ms
-      - "@Hope_Net_1"
-      - "@Hope_Net-join-us-on-Telegram_10"
-      - RELAY🚩 | 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV-443 | 2.48ms
-      - رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣
-      - "@Hope_Net_2"
-      - "@Hope_Net_3"
-      - "@Hope_Net_4"
-      - "@Hope_Net_5"
-      - "@Hope_Net_6"
-      - "@Hope_Net_7"
-      - "@Hope_Net_8"
-      - "@Hope_Net_9"
-      - 🏁RELAY-104.21.24.170-0317
-      - "@Hope_Net-join-us-on-Telegram_15"
+      - 4Kian-13174
+      - 4Kian-13172
+      - 4Kian-3
+      - 4Kian-4
+      - 🔒 HYSTERIA-UDP 🇸🇪 SE-176.124.202.137:80
+      - 4Kian-1758
+      - 4Kian-1730
+      - 4Kian-1731
+      - 4Kian-5456
+      - 4Kian-13203
+      - 4Kian-13204
+      - 4Kian-3582
+      - 4Kian-13206
+      - 4Kian-5874
+      - 4Kian-4107
+      - 4Kian-5770
+      - 4Kian-5748
+      - 4Kian-4038
+      - 4Kian-4034
+      - 4Kian-12877
+      - 4Kian-4037
+      - 4Kian-13270
+      - 4Kian-13029
+      - 4Kian-13018
+      - 4Kian-13013
+      - 4Kian-4485
+      - 4Kian-4487
+      - 4Kian-11934
+      - 4Kian-5742
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.06ms
+      - 4Kian-4373
+      - 4Kian-5423
+      - 4Kian-13257
+      - 4Kian-4469
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.11ms
+      - 4Kian-4365
+      - 4Kian-3719
+      - 4Kian-5424
+      - 4Kian-13234
+      - 4Kian-4457
+      - 4Kian-4351
+      - 4Kian-12994
+      - 4Kian-12995
+      - 4Kian-1405
+      - 4Kian-13145
+      - 4Kian-13146
+      - RELAY🚩 | trojanmz.pages.dev-2087 | 6.38ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.33ms
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.2ms
+      - 4Kian-2677
+      - 4Kian-2678
+      - 4Kian-2267
+      - 4Kian-3706
+      - 4Kian-2266
+      - 4Kian-4809
+      - 4Kian-5004
+      - 4Kian-5010
+      - 4Kian-5009
+      - 4Kian-5007
+      - 4Kian-5008
+      - 4Kian-5203
+      - 4Kian-5002
+      - 4Kian-5005
+      - 4Kian-5202
+      - 4Kian-13195
+      - 4Kian-2675
+      - 4Kian-2676
+      - 4Kian-5000
+      - 4Kian-5001
+      - 4Kian-12617
+      - 4Kian-4997
+      - 4Kian-4999
+      - 4Kian-5003
+      - 4Kian-5200
+      - 4Kian-1356
+      - 4Kian-2206
+      - 4Kian-2679
+      - 4Kian-4998
+      - 4Kian-5011
+      - 4Kian-5199
+      - 4Kian-4996
+      - 4Kian-5198
+      - 4Kian-2091
+      - 4Kian-4994
+      - 4Kian-4995
+      - 4Kian-5197
+      - 4Kian-2090
+      - 4Kian-2681
+      - 4Kian-4993
+      - 4Kian-2089
+      - 4Kian-2674
+      - 4Kian-2680
+      - 4Kian-4992
+      - 4Kian-12991
+      - 4Kian-4990
+      - 4Kian-4991
+      - 4Kian-2740
+      - 4Kian-2741
+      - 4Kian-4988
+      - 4Kian-4989
+      - 4Kian-4987
+      - 4Kian-5012
+      - 4Kian-11394
+      - 4Kian-11393
+      - 4Kian-2682
+      - 4Kian-5188
+      - 4Kian-5187
+      - 4Kian-11392
+      - 4Kian-12179
+      - 4Kian-5185
+      - 4Kian-3871
+      - 4Kian-12615
+      - 4Kian-12616
+      - 4Kian-5181
+      - 4Kian-5182
+      - 4Kian-5180
+      - 4Kian-13224
+      - 4Kian-2746
+      - 4Kian-2742
+      - 4Kian-2743
+      - 4Kian-2744
+      - 4Kian-2745
+      - 4Kian-13269
+      - 4Kian-4750
+      - 4Kian-4985
+      - 4Kian-4986
+      - 🇮🇷IR_7_@Surfboardv2ray
+      - 4Kian-3737
+      - 4Kian-9055
+      - 4Kian-4982
+      - 4Kian-4733
+      - 4Kian-4732
+      - 4Kian-12992
+      - 4Kian-4731
+      - 🇨🇦CA_6_@Surfboardv2ray
+      - 4Kian-4726
+      - 4Kian-4727
+      - 4Kian-4729
+      - 4Kian-4730
+      - 4Kian-13131
+      - 4Kian-13036
+      - 4Kian-13037
+      - 4Kian-13115
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 6.66ms
+      - 4Kian-13102
+      - 4Kian-13114
+      - 4Kian-482
+      - 4Kian-13101
+      - RELAY🚩 | speedtest.net.zula.ir.www.anymath.ir-80 | 186.89ms
+      - 4Kian-5098
+      - 4Kian-5099
+      - 4Kian-5100
+      - 4Kian-5101
+      - 4Kian-13207
+      - 4Kian-5097
+      - 4Kian-5102
+      - 4Kian-5103
+      - 4Kian-5095
+      - 4Kian-5096
+      - 4Kian-5104
+      - 4Kian-5105
+      - 4Kian-5106
+      - 4Kian-5107
+      - 4Kian-5108
+      - 4Kian-3629
+      - 4Kian-5094
+      - 4Kian-457
+      - 4Kian-5109
+      - 4Kian-5218
+      - 4Kian-5217
+      - 4Kian-13202
+      - 4Kian-5216
+      - 4Kian-3596
+      - 4Kian-3630
+      - 4Kian-5214
+      - 4Kian-5215
+      - 4Kian-5213
+      - 4Kian-4734
+      - 4Kian-5211
+      - 4Kian-5212
+      - 4Kian-5210
+      - 4Kian-5209
+      - 4Kian-5219
+      - 4Kian-5208
+      - 4Kian-446
+      - 4Kian-5206
+      - 4Kian-5207
+      - 4Kian-13151
+      - 4Kian-5472
+      - 4Kian-117
+      - 4Kian-5222
+      - 4Kian-4724
+      - 4Kian-13200
+      - 4Kian-13201
+      - 4Kian-5221
+      - 4Kian-13155
+      - 4Kian-5220
+      - 4Kian-12626
+      - 4Kian-12762
+      - 4Kian-13205
+      - 4Kian-4723
+      - 4Kian-13152
+      - BH🇧🇭+|+series-a2-me.samanehha.co-443+|+309.76ms
+      - RELAY🚩 | shup-usa.karajipets.ir-80 | 176.22ms
+      - AE🇦🇪+|+api.namasha.co-443+|+332.19ms
+      - 4Kian-6006
+      - 4Kian-9321
+      - 4Kian-9323
+      - 4Kian-9314
+      - 4Kian-9315
+      - 4Kian-9316
+      - 4Kian-9317
+      - 4Kian-9318
+      - 4Kian-9319
+      - 4Kian-9320
+      - 4Kian-13304
+      - RELAY🚩 | trojanmz.pages.dev-443 | 6.35ms
+      - 4Kian-4035
+      - 4Kian-5184
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
