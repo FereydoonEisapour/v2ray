@@ -124,3 +124,18 @@ rules:
 - DOMAIN-SUFFIX,facebook.com,Proxy
 - GEOIP,CN,Direct
 - MATCH,Proxy
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+  fallback:
+  - 1.0.0.1
+  - 8.8.4.4
+tunnel:
+  enable: false
+  proxy: Proxy
+  bind-address: 127.0.0.1
+  port: 1080
