@@ -38,12 +38,292 @@ dns:
   - localhost.ptlogin2.qq.com
   - +.msftconnecttest.com
 proxies:
-- name: '@v2ray_market11'
+- name: D-BROWN-1025
   type: vmess
-  server: 103.180.236.96
-  port: 4050
-  uuid: c0722d32-162b-46fc-961c-8c90b661e0d7
-  alterId: 0
+  server: 157.245.4.170
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: YEEY5712
+  type: vmess
+  server: 170.187.163.89
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-WINGED-2537
+  type: vmess
+  server: 159.203.114.222
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-FOX-2088
+  type: vmess
+  server: 138.197.1.222
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-BROWN-8258
+  type: vmess
+  server: 157.245.4.52
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-YELLOW-434
+  type: vmess
+  server: 159.65.44.98
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-FAITH-3425
+  type: vmess
+  server: 142.93.68.147
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-FOX-9812
+  type: vmess
+  server: 165.227.65.40
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-BROWN-1025
+  type: vmess
+  server: 157.245.4.170
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: Argoon8766
+  type: vmess
+  server: 143.42.7.63
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-FAITH-6227
+  type: vmess
+  server: 167.71.250.115
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-BIG-5765
+  type: vmess
+  server: 167.172.158.100
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-BLUE-8699
+  type: vmess
+  server: 138.197.9.115
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: D-FAITH-3425
+  type: vmess
+  server: 142.93.68.147
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-BROWN-9754
+  type: vmess
+  server: 209.97.154.241
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-WEALTH-2386
+  type: vmess
+  server: 143.198.18.35
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-YELLOW-4976
+  type: vmess
+  server: 165.22.47.62
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-FOX-204
+  type: vmess
+  server: 165.227.65.158
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-FOX-9812
+  type: vmess
+  server: 165.227.65.40
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: /
+  alpn: null
+- name: D-BROWN-3281
+  type: vmess
+  server: 167.172.232.63
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: mihanwebhost.com
+    path: /
+  alpn: null
+- name: "\uD83D\uDD04 LATEST-UPDATE \uD83D\uDCC5 TUE-23-BAHMAN-1403 \uD83D\uDD51 10:31"
+  type: vmess
+  server: 127.0.0.1
+  port: 1080
+  uuid: cacabba-acab-aacb-badc-cabcaabcbacb
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -51,155 +331,12 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@asliveepn_1'
+- name: "\uD83E\uDD16 JOIN-TELEGRAM-CHANNEL \uD83D\uDCA1 @NEUROVANCE \uD83E\uDDE0"
   type: vmess
-  server: 104.19.45.203
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@Asliveepn_1'
-  type: vmess
-  server: us-21.hihu.net
-  port: 80
-  uuid: 6385d460-609f-11ef-b936-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@Asliveepn_2'
-  type: vmess
-  server: 104.21.28.62
-  port: 443
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@asliveepn_2'
-  type: vmess
-  server: hms24.ivideos.sbs
-  port: 443
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@asliveepn_3'
-  type: vmess
-  server: 172.67.196.112
-  port: 443
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@asliveepn_4'
-  type: vmess
-  server: 172.67.219.194
-  port: 443
-  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@asliveepn_5'
-  type: vmess
-  server: 104.21.54.209
-  port: 2053
-  uuid: a04001f3-2dba-40ed-8c2e-d0c765d9afaa
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@asliveepn_6'
-  type: vmess
-  server: 104.21.83.108
-  port: 443
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@Asliveepn_3'
-  type: vmess
-  server: slime-rhinestone-spy.glitch.me
-  port: 80
-  uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@asliveepn_7'
-  type: vmess
-  server: 172.67.174.42
-  port: 443
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@Asliveepn_4'
-  type: vmess
-  server: 104.21.4.6
-  port: 443
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@Asliveepn_5'
-  type: vmess
-  server: a.networklearnzero.shop
-  port: 23527
-  uuid: 1ce35839-d639-478b-add8-bee76c85b73d
-  alterId: 0
+  server: 127.0.0.1
+  port: 2080
+  uuid: abacacb-baac-caba-dbca-baaccbcabbac
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -207,38 +344,12 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@asliveepn_8'
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-183.236.51.36:59003"
   type: vmess
-  server: 104.19.235.1
-  port: 80
-  uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@Asliveepn_6'
-  type: vmess
-  server: 172.67.204.84
-  port: 443
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@ATOVPN نامحدود فقط ۱۱۵ تومان 😍'
-  type: vmess
-  server: 87.248.155.205
-  port: 8081
-  uuid: 333aad79-f576-40b1-865e-a1e121e1ae58
-  alterId: 0
+  server: 183.236.51.36
+  port: '59003'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -246,12 +357,26 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: نامحدود فقط ۹۸ تومن [حجمی گیگی ۲۵۰۰] تست موجوده-@ATOVPN⚡️.🤯
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-198.41.209.70:8880"
   type: vmess
-  server: 5.42.100.206
-  port: 58933
-  uuid: e4f60c1c-50e5-4d4a-b087-47ab29a46eed
-  alterId: 0
+  server: 198.41.209.70
+  port: '8880'
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF3 IN-94.136.184.156:38872"
+  type: vmess
+  server: 94.136.184.156
+  port: '38872'
+  uuid: 220732cc-9e43-4453-83f1-c9435be25b5b
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -259,12 +384,12 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: Buffalo
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDEA DE-159.69.120.98:41391"
   type: vmess
-  server: 181.214.147.202
-  port: 6565
-  uuid: 82fd7d74-8055-41a0-9f5d-9a56ef302563
-  alterId: 0
+  server: 159.69.120.98
+  port: '41391'
+  uuid: b5c3e2e8-dfb6-4a0a-b656-87e997610785
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -272,725 +397,10 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@config_proxy_ir کانال تلگرام_1'
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-38.33.19.71:41400"
   type: vmess
-  server: rafav2ray.rafalion.ir
-  port: 8443
-  uuid: 7add5a08-b01a-4962-8931-f6b6c495189d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@config_proxy_ir کانال تلگرام_2'
-  type: vmess
-  server: 104.19.44.241
-  port: 2087
-  uuid: e3a464d7-ad51-42ee-8059-220154797b50
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: grpc
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: MOFTINET
-  type: vmess
-  server: 195.211.45.34
-  port: 13174
-  uuid: edbb7504-02ce-4533-bbf8-46ca819b152d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@vemessvpn'
-  type: vmess
-  server: 62.233.57.38
-  port: 443
-  uuid: c66d1c03-ef5e-4994-a7a4-d41855867f13
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: GetAFreeNode.com-Paris
-  type: vmess
-  server: v2ray.online
-  port: 443
-  uuid: 857C792F-D16A-4BF3-BD18-77EE4E5B1DF4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'سرورهای رایگان و پرسرعت : vpn_Sra@'
-  type: vmess
-  server: 172.64.103.211
-  port: 443
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: SSRTOOL.COM_1
-  type: vmess
-  server: ddns-tw02.plnode.xyz
-  port: 8901
-  uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: SSRTOOL.COM_2
-  type: vmess
-  server: 37.143.129.238
-  port: 6616
-  uuid: 003f1279-c55d-427c-8327-9f71f8b1cc0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: SSRTOOL.COM_3
-  type: vmess
-  server: 5.182.36.199
-  port: 6616
-  uuid: 003f1279-c55d-427c-8327-9f71f8b1cc0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: SSRTOOL.COM_4
-  type: vmess
-  server: 163.172.220.71
-  port: 6616
-  uuid: 003f1279-c55d-427c-8327-9f71f8b1cc0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: SSRTOOL.COM_5
-  type: vmess
-  server: twipv4.useipv6now.com
-  port: 6617
-  uuid: 003f1279-c55d-427c-8327-9f71f8b1cc0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: cloud2-4
-  type: vmess
-  server: si.1808.site
-  port: 30002
-  uuid: d3d8b781-f30d-4902-8eb0-58b1ca936bec
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🇰🇷 KR>加拿大 多伦多
-  type: vmess
-  server: si.1808.site
-  port: 30002
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانفیگ vmess رایگان @freevmess_1
-  type: vmess
-  server: 167.235.204.122
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانفیگ vmess رایگان @freevmess_2
-  type: vmess
-  server: 78.46.143.16
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانفیگ vmess رایگان @freevmess_3
-  type: vmess
-  server: 65.108.252.6
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانفیگ vmess رایگان @freevmess_4
-  type: vmess
-  server: 5.75.135.60
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🇩🇪https://t.me/vpn_iossعضو شو
-  type: vmess
-  server: sale.irankhodro.site
-  port: 65535
-  uuid: 95178631-0e58-49df-a91d-00ac90afa8fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🇨🇦https://t.me/vpn_iossعضو شو
-  type: vmess
-  server: 54.179.209.232
-  port: 23344
-  uuid: ebfcf2c4-9320-40ad-97fe-6264dc3e1bd0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@injectormconf'
-  type: vmess
-  server: v2-1.dontlysnow.com
-  port: 10842
-  uuid: 4c588686-92f6-4da4-915a-c3a9eb6ebcfd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@IRAN_MEHR_VPN🇺🇸'
-  type: vmess
-  server: 188.114.99.183
-  port: 443
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: kaystuhv
-  type: vmess
-  server: 188.245.100.168
-  port: 18926
-  uuid: 7ff9d116-95a9-4272-acc8-0db83168f4d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: JETUPNET
-  type: vmess
-  server: 46.38.146.68
-  port: 38585
-  uuid: e3cc1286-8401-4b1f-b110-dac3a2b15050
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: Napsternetv-m51ou942
-  type: vmess
-  server: ime4.istorevpn.tk
-  port: 31168
-  uuid: a4714547-091b-461e-f4c7-d730d54e8a37
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: kcp-wnl7hbox
-  type: vmess
-  server: www.evilshdmroh.ir
-  port: 38641
-  uuid: 467d06f1-d555-4519-aa6e-6470a6dfcaaa
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2ray313 کانالمون 🥰'
-  type: vmess
-  server: 49.12.188.222
-  port: 18344
-  uuid: 0851edda-3e31-4a5f-b56b-27b182baab39
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '‎🇩🇪 dTUGOt #3319 [🇮🇷]'
-  type: vmess
-  server: kjkxri.smrfy.online
-  port: 46293
-  uuid: 85dec3e7-5593-4f47-baf3-e6aa7130d5aa
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: vmess-8993
-  type: vmess
-  server: iran.ir12sky.top
-  port: 27173
-  uuid: 11419989-d14e-42e3-9b42-3870a78545bd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🌵 @MeliVPNN Vmess Germany 1
-  type: vmess
-  server: ip.zarnet.xyz
-  port: 8080
-  uuid: 3859a35a-d79e-44ae-9bb6-6327b26c301f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_1
-  type: vmess
-  server: mehdi6.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  port: 80
-  uuid: 30fa4867-e81d-41df-bb60-716d9444dbfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_2
-  type: vmess
-  server: 104.238.179.141
-  port: 39679
-  uuid: fc04d75c-ba76-48ea-a3f9-37b552e181b2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_3
-  type: vmess
-  server: adenc35.fixedlfoat.top
-  port: 443
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_4
-  type: vmess
-  server: 172.234.17.31
-  port: 48771
-  uuid: f1c2be64-961b-407a-c4e0-b8919ca1253b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_5
-  type: vmess
-  server: 38.180.33.136
-  port: 50104
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: Canada
-  type: vmess
-  server: 142.171.229.164
-  port: 13469
-  uuid: 3b77a115-0e8a-4939-e64c-f13994942c2e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_6
-  type: vmess
-  server: 104.238.182.29
-  port: 50706
-  uuid: 74cc82ff-e398-4a0e-df94-e5e9d66abbb3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_7
-  type: vmess
-  server: 162.159.192.244
-  port: 443
-  uuid: 673ba378-840f-4928-81f2-203148d07350
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_8
-  type: vmess
-  server: hexsen.com
-  port: 443
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_9
-  type: vmess
-  server: sg01.baiyunxray.top
-  port: 443
-  uuid: 4d59f07b-1f9a-4ca6-94c2-64e0595e2295
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_10
-  type: vmess
-  server: 144.202.84.47
-  port: 57848
-  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_11
-  type: vmess
-  server: 96.30.198.36
-  port: 54809
-  uuid: e6f6b464-2a3f-491f-d5df-35fd1d426212
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: United States_12
-  type: vmess
-  server: mehdi9.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  port: 2052
-  uuid: d68585a6-fb62-4f8e-96ee-0131bb4d5865
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@SHconfig_1'
-  type: vmess
-  server: 172.67.71.160
-  port: 443
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@SHconfig_2'
-  type: vmess
-  server: 172.67.207.26
-  port: 443
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@SHconfig_3'
-  type: vmess
-  server: 172.67.170.103
-  port: 443
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: Relay_🇨🇳CN-🇯🇵JP_927 | 5.01Mb
-  type: vmess
-  server: jpzn.sttcloud.xyz
-  port: 40003
-  uuid: 9b0b39ca-b594-3b7f-902d-d1344ebf02e7
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🇯🇵_[WireGuard]CONTABO
-  type: vmess
-  server: 162.159.152.153
-  port: 8880
-  uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: KR
-  type: vmess
-  server: 162.159.136.75
-  port: 8443
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2ray_n'
-  type: vmess
-  server: bot.bypassfil.ml
-  port: 80
-  uuid: f9f85a8e-1099-56e3-ac45-1c7b7a0b254d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: /@Bypass_Filter
-  alpn: null
-- name: '@v2rayng_147_1'
-  type: vmess
-  server: 104.26.6.65
-  port: 443
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_147_2'
-  type: vmess
-  server: caretaker.com
-  port: 443
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: India🇮🇳 (2)
-  type: vmess
-  server: dll30.hellomybro.info
-  port: 8030
-  uuid: 486cbdac-582f-42f8-ad81-f02d6b0e0bb2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانال:V2RAY_VMES@_1
-  type: vmess
-  server: cpanel.tajsub.com
-  port: 2082
-  uuid: 1ff4a26a-9c7d-4dcc-8497-cfce50499852
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانال:V2RAY_VMES@_2
-  type: vmess
-  server: 20.203.98.167
-  port: 8080
-  uuid: 552b1f03-371a-4fb5-d512-2844a477a4b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانال:V2RAY_VMES@_3
-  type: vmess
-  server: sobix.ddns.net
-  port: 52927
-  uuid: 2f9141ba-8507-4af8-e34c-1646ed73b6b8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: کانال:V2RAY_VMES@_4
-  type: vmess
-  server: 51.89.74.241
-  port: 51102
+  server: 38.33.19.71
+  port: 41400
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -1000,11 +410,24 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: t.me/v2Line | (1474) FR
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF3\uD83C\uDDF1 NL-154.47.21.27:8099"
   type: vmess
-  server: 146.59.17.58
-  port: 12960
-  uuid: 48a86563-63c5-4218-e887-d752f801ae82
+  server: 154.47.21.27
+  port: '8099'
+  uuid: fa1897db-1925-4c86-a495-939a959af900
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-154.26.129.247:57143"
+  type: vmess
+  server: 154.26.129.247
+  port: 57143
+  uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
   alterId: 0
   cipher: auto
   tls: false
@@ -1013,24 +436,571 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@wearestand کانال ما_1'
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDED CH-23.166.88.183:22324"
   type: vmess
-  server: 5.75.139.201
+  server: 23.166.88.183
+  port: '22324'
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDEB\uD83C\uDDF7 FR-163.5.159.231:443"
+  type: vmess
+  server: 163.5.159.231
+  port: '443'
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-172.99.190.207:55577"
+  type: vmess
+  server: 172.99.190.207
+  port: 55577
+  uuid: e922d485-98a7-475a-9a47-cde3722ac82e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEB\uD83C\uDDF7 FR-5.196.29.123:2082"
+  type: vmess
+  server: 5.196.29.123
+  port: '2082'
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDEA DE-91.107.176.76:100"
+  type: vmess
+  server: 91.107.176.76
+  port: '100'
+  uuid: 1889d9ef-9d58-4427-bb3e-a08810c214eb
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-GRPC-NA \uD83C\uDDF9\uD83C\uDDF7 TR-185.226.92.130:24341"
+  type: vmess
+  server: 185.226.92.130
+  port: '24341'
+  uuid: f1974b56-6ad5-4b54-b0a5-d5f1e3c928ac
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: grpc
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDF0\uD83C\uDDF7 KR-220.123.48.124:30002"
+  type: vmess
+  server: 220.123.48.124
+  port: '30002'
+  uuid: d3d8b781-f30d-4902-8eb0-58b1ca936bec
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: cc2.1808.site
+    path: /hgqqvws
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-45.76.60.123:8881"
+  type: vmess
+  server: 45.76.60.123
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: moi.ir
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF7\uD83C\uDDFA RU-46.29.166.237:47555"
+  type: vmess
+  server: 46.29.166.237
+  port: '47555'
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.16.155.10:2052"
+  type: vmess
+  server: 104.16.155.10
+  port: 2052
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-102-247-92.s1.db-link02.top
+    path: /dabai.in104.25.175.137
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEB\uD83C\uDDF7 FR-38.109.228.113:21809"
+  type: vmess
+  server: 38.109.228.113
+  port: 21809
+  uuid: a6179475-489c-4bcc-b05c-481386295b93
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE6\uD83C\uDDFA AU-20.213.20.185:17718"
+  type: vmess
+  server: 20.213.20.185
+  port: '17718'
+  uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.112:36712"
+  type: vmess
+  server: 62.146.233.112
+  port: 36712
+  uuid: 9266df42-0830-48c2-8509-4c57b30fe29d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-31.184.172.87:26763"
+  type: vmess
+  server: 31.184.172.87
+  port: '26763'
+  uuid: 5d74df68-8e43-4e9e-b16d-241e61b464f9
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: telewebion.com
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-GRPC-TLS \uD83C\uDFF4‍☠️ NA-104.21.25.65:2087"
+  type: vmess
+  server: 104.21.25.65
+  port: '2087'
+  uuid: 864112a6-ceeb-4126-b7e2-509c2a203d20
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: grpc
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: h2,http/1.1
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.17.213.241:2086"
+  type: vmess
+  server: 104.17.213.241
+  port: '2086'
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-171-104-238.s2.db-link02.top
+    path: /dabai.in172.64.43.14
+  alpn: null
+- name: "\uD83D\uDD12 VM-HTTPUPGRADE-NA \uD83C\uDFF4‍☠️ NA-104.19.150.10:2095"
+  type: vmess
+  server: 104.19.150.10
+  port: '2095'
+  uuid: 94f332b0-c5d3-4531-a1d6-6e6358cc6c72
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: httpupgrade
+  ws-opts:
+    headers:
+      Host: mci.mtn.ir.com.org.net.om2.musicfa123.ir.
+    path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.115:38324"
+  type: vmess
+  server: 62.146.233.115
+  port: 38324
+  uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-142.4.104.33:52143"
+  type: vmess
+  server: 142.4.104.33
+  port: '52143'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-206.206.80.66:23423"
+  type: vmess
+  server: 206.206.80.66
+  port: '23423'
+  uuid: 8825fd04-9005-4410-b48c-d2f345ec7fee
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF8\uD83C\uDDEC SG-140.245.52.71:23452"
+  type: vmess
+  server: 140.245.52.71
+  port: '23452'
+  uuid: a8c12d0d-76f9-4b78-a030-3776944a01e8
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25775"
+  type: vmess
+  server: 1.162.142.80
+  port: 25775
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-85.133.253.183:1409"
+  type: vmess
+  server: 85.133.253.183
+  port: '1409'
+  uuid: abb0b05d-4683-42f1-981f-f3537026ac2d
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers:
+      Host: rubika.ir,igap.net,splus.ir,skyroom.online
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDFA\uD83C\uDDF8 US-2.58.87.221:12269"
+  type: vmess
+  server: 2.58.87.221
+  port: '12269'
+  uuid: db85ff0e-c33f-401d-c415-4c7cce135704
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF2\uD83C\uDDFD MX-79.127.229.54:18000"
+  type: vmess
+  server: 79.127.229.54
+  port: '18000'
+  uuid: fa1897db-1925-4c86-a495-939a959af900
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDE9\uD83C\uDDEA DE-88.198.172.25:15145"
+  type: vmess
+  server: 88.198.172.25
+  port: '15145'
+  uuid: e7eb472e-dc83-49d5-be5e-82a79a2124ee
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: grpc
+  ws-opts:
+    headers: {}
+    path: JbiB8V66V78Hf5bivfsis8vH
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDED\uD83C\uDDF0 HK-103.149.183.178:54675"
+  type: vmess
+  server: 103.149.183.178
+  port: '54675'
+  uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEE\uD83C\uDDF7 IR-185.113.10.40:56060"
+  type: vmess
+  server: 185.113.10.40
+  port: '56060'
+  uuid: f60af146-6c9c-4148-b4fa-2ae62305d424
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEF\uD83C\uDDF5 JP-156.246.94.94:433"
+  type: vmess
+  server: 156.246.94.94
+  port: '433'
+  uuid: bebdb5c1-e0cb-4319-b614-a0581fdd3158
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEF\uD83C\uDDF5 JP-13.112.49.171:48897"
+  type: vmess
+  server: 13.112.49.171
+  port: '48897'
+  uuid: 3374de7b-61ca-4ef4-ae94-ad0e0e759db0
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEE\uD83C\uDDF7 IR-85.133.253.183:1408"
+  type: vmess
+  server: 85.133.253.183
+  port: '1408'
+  uuid: abb0b05d-4683-42f1-981f-f3537026ac2d
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDE8\uD83C\uDDE6 CA-23.162.200.91:20182"
+  type: vmess
+  server: 23.162.200.91
+  port: 20182
+  uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEE\uD83C\uDDF3 IN-4.240.73.55:14118"
+  type: vmess
+  server: 4.240.73.55
+  port: 14118
+  uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDF0 DK-193.29.107.234:49020"
+  type: vmess
+  server: 193.29.107.234
+  port: 49020
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDED\uD83C\uDDF0 HK-20.6.155.159:2080"
+  type: vmess
+  server: 20.6.155.159
+  port: '2080'
+  uuid: 63769deb-4153-4b98-aba3-31bc07e53a2d
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: hk4.556855.xyz
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-46.250.253.232:46617"
+  type: vmess
+  server: 46.250.253.232
+  port: 46617
+  uuid: 55b88b14-0ff3-4f25-8983-e73d1f9f3a0a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDE9\uD83C\uDDEA DE-91.107.247.219:19387"
+  type: vmess
+  server: 91.107.247.219
+  port: 19387
+  uuid: 18f70052-c876-4bd0-9eb1-770e7685168f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: grpc
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDF7\uD83C\uDDFA RU-213.241.198.57:8443"
+  type: vmess
+  server: 213.241.198.57
+  port: '8443'
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+  alpn: null
+- name: "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDEB\uD83C\uDDEE FI-95.216.170.50:23237"
+  type: vmess
+  server: 95.216.170.50
+  port: 23237
+  uuid: 3236458b-14b2-4ce0-830f-8578bfa5ef75
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: grpc
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-107.148.207.249:48712"
+  type: vmess
+  server: 107.148.207.249
+  port: '48712'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.17.221.248:80"
+  type: vmess
+  server: 104.17.221.248
   port: 80
-  uuid: 5e334049-1973-4bb6-82b0-3ec33e25aae2
-  alterId: 0
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: '0'
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
   alpn: null
-- name: '@IraneAzad_Net کانال تلگرام ما🇺🇸_1'
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25777"
   type: vmess
-  server: 47.243.176.147
-  port: 54519
-  uuid: a8c577b3-1069-41eb-92e2-5599302af067
+  server: 1.162.142.80
+  port: '25777'
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-68.168.31.184:26924"
+  type: vmess
+  server: 68.168.31.184
+  port: 26924
+  uuid: 9f8b16a8-369d-4b79-af82-201c089dadd2
   alterId: 0
   cipher: auto
   tls: false
@@ -1039,37 +1009,11 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@wearestand کانال ما_2'
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-20.205.176.167:54550"
   type: vmess
-  server: 188.34.199.94
-  port: 80
-  uuid: ae901c0e-c5d4-4b00-ab45-a39e0c277ed4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@wearestand کانال ما_3'
-  type: vmess
-  server: 195.201.24.247
-  port: 80
-  uuid: 4c3fb737-de59-4b78-a66f-5f4f039252a4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@IraneAzad_Net کانال تلگرام ما🇺🇸_2'
-  type: vmess
-  server: 47.243.200.183
-  port: 40128
-  uuid: 99971419-8734-4530-9b62-17b2516508b5
+  server: 20.205.176.167
+  port: 54550
+  uuid: e696df27-62cc-4ca7-9a39-007c93cdaa46
   alterId: 0
   cipher: auto
   tls: false
@@ -1078,50 +1022,143 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: 1119(@Outline_Vpn)
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEE\uD83C\uDDE9 ID-103.67.79.157:45365"
   type: vmess
-  server: 5.75.132.207
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  server: 103.67.79.157
+  port: 45365
+  uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89
   alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.159:43763"
+  type: vmess
+  server: 62.146.233.159
+  port: 43763
+  uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDFA\uD83C\uDDF8 US-15.204.248.92:30562"
+  type: vmess
+  server: 15.204.248.92
+  port: 30562
+  uuid: 82466715-6a58-4046-a363-a0d18e5b2ab4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDED\uD83C\uDDF0 HK-103.149.183.178:27512"
+  type: vmess
+  server: 103.149.183.178
+  port: '27512'
+  uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDFF UZ-92.223.44.168:20118"
+  type: vmess
+  server: 92.223.44.168
+  port: '20118'
+  uuid: e9f666fb-12d9-4f1b-e9e6-3e48e615e714
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-194.233.72.228:27575"
+  type: vmess
+  server: 194.233.72.228
+  port: 27575
+  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDE8\uD83C\uDDF3 CN-113.56.219.34:8888"
+  type: vmess
+  server: 113.56.219.34
+  port: '8888'
+  uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
+  alterId: '0'
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: tms.dingtalk.com
+    path: /?ed=2048
   alpn: null
-- name: '@IraneAzad_Net کانال تلگرام ما🇺🇸_3'
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEF\uD83C\uDDF5 JP-150.230.61.110:23451"
   type: vmess
-  server: 47.242.4.244
-  port: 55324
-  uuid: 425b68df-af14-45c5-864c-11444734d7b5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@wearestand کانال ما_4'
-  type: vmess
-  server: 5.75.187.85
-  port: 80
-  uuid: 71e4b75c-0cad-4de6-a721-8a567e6427bc
-  alterId: 0
+  server: 150.230.61.110
+  port: '23451'
+  uuid: 7318bc15-4bff-4e22-aac3-4d9f849930db
+  alterId: '0'
   cipher: auto
   tls: false
   network: ws
   ws-opts:
+    headers:
+      Host: 1-osaka-p.aboutanime.eu.org
+    path: /
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-112.132.212.19:50004"
+  type: vmess
+  server: 112.132.212.19
+  port: '50004'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
     headers: {}
     path: ''
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_1'
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-120.26.55.225:50002"
   type: vmess
-  server: 5.75.168.124
-  port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  server: 120.26.55.225
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '0'
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-opts:
+    headers: {}
+    path: ''
+  alpn: null
+- name: "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDE9\uD83C\uDDEA DE-193.108.118.136:15713"
+  type: vmess
+  server: 193.108.118.136
+  port: 15713
+  uuid: f74e277e-84b3-46a2-8abd-2777fa5e4af9
   alterId: 0
   cipher: auto
   tls: false
@@ -1130,12 +1167,12 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_2'
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF8\uD83C\uDDEC SG-20.188.117.201:32995"
   type: vmess
-  server: 65.109.128.177
-  port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-  alterId: 0
+  server: 20.188.117.201
+  port: '32995'
+  uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -1143,116 +1180,55 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@vpn_irane❣️'
+- name: "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25780"
   type: vmess
-  server: 46.249.58.14
-  port: 39889
-  uuid: 6df5b287-d454-4ada-d569-29261daeeaf9
-  alterId: 0
+  server: 1.162.142.80
+  port: '25780'
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  alterId: '0'
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_3'
+- name: "\uD83D\uDD12 VM-WS-TLS \uD83C\uDFF4‍☠️ NA-104.16.239.254:2096"
   type: vmess
-  server: 85.17.5.150
-  port: 36306
-  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_4'
-  type: vmess
-  server: 91.107.167.205
-  port: 443
-  uuid: 979e07cc-ccd8-4013-c355-26c0bf9e066b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🪬@v2Rez♠️(Papaverine)
-  type: vmess
-  server: z23.zirogame23.pw
-  port: 16346
-  uuid: 575cc135-adbb-4d5d-f149-1fb4dbb17094
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@hashmakvpn اگه قطع شدی بیا اینجا'
-  type: vmess
-  server: 65.109.134.191
-  port: 80
-  uuid: 91698747-92b3-4a07-b5da-22694edbea82
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: KbmPng-@King7serverbot
-  type: vmess
-  server: 37.152.179.88
-  port: 27131
-  uuid: e57e5f8d-7206-1b11-0561-c686c2fc17b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@V2rayNGV_1'
-  type: vmess
-  server: zula.ir
-  port: 443
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  server: 104.16.239.254
+  port: 2096
+  uuid: 75de8443-8efe-429c-c5ef-a51f38592f03
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: ck.htg8866.us.kg
+    path: /3tq4ttrw
   alpn: null
-- name: '@V2rayNGV_2'
+- name: "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-5.160.144.12:2058"
   type: vmess
-  server: 108.162.192.63
-  port: 80
-  uuid: b2413a5a-d5d0-4447-b6d7-6dbcd2989a35
-  alterId: 0
+  server: 5.160.144.12
+  port: '2058'
+  uuid: 0f22d882-8098-4792-a80e-b87fa0b314b7
+  alterId: '0'
   cipher: auto
   tls: false
-  network: ws
+  network: tcp
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: carvanage.ir
+    path: /api/register/new/name/dav/response/cmV0aXJlZCBoZWxsbyBob3cgYXJlIHlvdSB0aGlzIGlzIG15IG5ldyBoZWFkZXIgd
   alpn: null
-- name: '@V2rayNGV_3'
+- name: "\uD83D\uDC68\uD83C\uDFFB‍\uD83D\uDCBB DEVELOPED-BY SOROUSH-MIRZAEI \uD83D\
+    \uDCCC FOLLOW-CONTACT SYDSRSMRZ"
   type: vmess
-  server: 45.154.156.178
-  port: 32648
-  uuid: bc8e1235-6cef-4bdd-f3f2-0b4f3c8a7b70
-  alterId: 0
+  server: 127.0.0.1
+  port: 8080
+  uuid: bcaabca-acba-aabc-badc-acabcbcacbba
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -1260,77 +1236,12 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_5'
+- name: 💀😎 Project By ALIILAPRO
   type: vmess
-  server: 5.75.178.227
-  port: 80
-  uuid: 34d517a0-adc4-4039-bc6d-85168e3f1b9d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_6'
-  type: vmess
-  server: 135.181.198.255
-  port: 10000
-  uuid: 7636ed4f-47ca-481e-88c8-a6a3223f2ae5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_7'
-  type: vmess
-  server: 65.108.245.131
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_8'
-  type: vmess
-  server: 5.75.175.201
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_9'
-  type: vmess
-  server: 5.75.247.179
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_10'
-  type: vmess
-  server: 142.132.184.211
-  port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-  alterId: 0
+  server: https://github.com/ALIILAPRO/v2rayNG-Config
+  port: '433'
+  uuid: Free
+  alterId: '0'
   cipher: auto
   tls: false
   network: tcp
@@ -1338,191 +1249,107 @@ proxies:
     headers: {}
     path: ''
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_11'
+- name: '[🇫🇷]t.me/ConfigsHub'
   type: vmess
-  server: 5.75.174.136
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  server: 146.19.168.161
+  port: '443'
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+  alpn: null
+- name: 🎲11@oneclickvpnkeys
+  type: vmess
+  server: cdncdncdn.aikunapp.com
+  port: '443'
+  uuid: 69dd9741-0ae4-4bd2-bb32-46ca96d05128
+  alterId: '0'
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: cdn-ca.sm-node.com
+    path: /vmess_ws/smjc/index?ed=8192
+  alpn: null
+- name: '@Hope_Net-join-us-on-Telegram'
+  type: vmess
+  server: s4.db-link01.top
+  port: 2095
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: 100-114-107-221.s4.db-link01.top
+    path: /dabai.in104.17.28.240
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_12'
+- name: '@Hope_Net-join-us-on-Telegram'
   type: vmess
-  server: 65.109.137.157
+  server: 104.17.213.241
   port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_13'
+- name: '@Hope_Net-join-us-on-Telegram'
   type: vmess
-  server: 65.21.56.190
-  port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  server: s1.cn-db.top
+  port: 2082
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   alterId: 0
   cipher: auto
   tls: false
-  network: tcp
+  network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: 100-150-51-99.s1.cn-db.top
+    path: /dabai.in172.64.27.73
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_14'
+- name: 🇨🇦CA-134.195.198.147-8251
   type: vmess
-  server: 95.216.211.189
-  port: 10000
-  uuid: 7636ed4f-47ca-481e-88c8-a6a3223f2ae5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_15'
-  type: vmess
-  server: news.microsoft.com
+  server: 134.195.198.147
   port: 443
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: inna.cfd
+    path: /linkvws
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_16'
+- name: 🇨🇦CA-23.162.200.227-0818
   type: vmess
-  server: 152.228.217.34
-  port: 80
-  uuid: 1392c17a-3787-4144-aec9-74ce6f50682a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_17'
-  type: vmess
-  server: 162.55.174.135
-  port: 80
-  uuid: 4d9aa6db-705a-4bfa-b05b-8f442c839557
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_18'
-  type: vmess
-  server: 49.12.10.209
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_19'
-  type: vmess
-  server: 85.208.253.141
-  port: 31341
-  uuid: e7ddab9e-6a80-4d76-8839-c8fac8145474
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_20'
-  type: vmess
-  server: 159.69.180.34
+  server: 23.162.200.227
   port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_21'
-  type: vmess
-  server: 162.55.32.62
-  port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_vpnn ارسلان_22'
-  type: vmess
-  server: 162.19.226.84
-  port: 80
-  uuid: a4025f5a-3beb-435d-895d-f89209c3b2de
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: 23.162.200.227
+    path: /linkvws
   alpn: null
-- name: '@v2rayng_vpnn ارسلان_23'
+- name: 🇨🇦CA-23.162.200.227-8263
   type: vmess
-  server: 116.203.73.136
-  port: 80
-  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: نامحدود 39 تومانی
-  type: vmess
-  server: v2r.pixpix6.ir
-  port: 8484
-  uuid: 4ef23863e2b440048b2d4cea30ab8af0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 🇺🇸 United States
-  type: vmess
-  server: 104.21.44.64
+  server: 23.162.200.227
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -1531,414 +1358,198 @@ proxies:
   network: ws
   ws-opts:
     headers: {}
-    path: ''
+    path: /linkvws
   alpn: null
-- name: '🇧🇪telegram: @v2rayspeed'
+- name: 🏁RELAY-172.67.135.62-5773
   type: vmess
-  server: 8.218.63.184
-  port: 20113
-  uuid: cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '🇺🇸telegram: @v2rayspeed'
-  type: vmess
-  server: 65.109.128.177
+  server: hknbyivfffj.site
   port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '🇦🇺telegram: @v2rayspeed'
-  type: vmess
-  server: 188.121.120.76
-  port: 9009
-  uuid: 8078b525-b877-4aff-a43e-74aced6c4827
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '🇬🇧telegram: @v2rayspeed'
-  type: vmess
-  server: 51.68.196.72
-  port: 80
-  uuid: 26440efd-3624-4f9a-9067-352a1d946939
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
   alpn: null
-- name: 'telegram: @v2rayspeed 🇫🇷'
+- name: 🏁RELAY-104.21.42.243-0764
   type: vmess
-  server: 65.109.128.177
+  server: sgfqkqmltcy.site
   port: 443
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '🇫🇮telegram: @v2rayspeed_1'
-  type: vmess
-  server: api.way-of-freedom.com
-  port: 80
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
   alpn: null
-- name: '🇨🇦telegram: @v2rayspeed'
+- name: 🇺🇸US-38.14.107.226-5789
   type: vmess
-  server: 192.46.232.247
-  port: 443
-  uuid: 2c0b70b9-c068-4b24-d2d3-422ecb0f8620
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '🇫🇮telegram: @v2rayspeed_2'
-  type: vmess
-  server: server1.internetgateway.website
-  port: 443
-  uuid: 33f27e84-cca3-423c-b4bc-1b189a6639b7
+  server: 38.14.107.226
+  port: 38003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
   tls: true
   network: ws
   ws-opts:
     headers: {}
-    path: ''
+    path: /path/340434130032
   alpn: null
-- name: '🇩🇪telegram: @v2rayspeed'
+- name: 🏁RELAY-104.21.77.29-8275
   type: vmess
-  server: 8.210.234.189
-  port: 46644
-  uuid: c25a1c9a-1c71-4c58-afba-66eed738b22b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 𝗝𝗼𝗶𝗻 ➪ @V2range_1
-  type: vmess
-  server: ping1.yebrahimi.ir
+  server: 104.21.77.29
   port: 443
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: beyonddbc.sbs
+    path: /linkws
   alpn: null
-- name: 𝗝𝗼𝗶𝗻 ➪ @V2range_2
+- name: 🇫🇷FR-51.77.20.137-8266
   type: vmess
-  server: uniquenett1.duckdns.org
+  server: 51.77.20.137
   port: 443
-  uuid: b15348c9-f092-4c52-bc14-2e74cfec04cc
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: tilebani.com
+    path: /linkvws
   alpn: null
-- name: 𝗝𝗼𝗶𝗻 ➪ @V2range_3
+- name: 🇺🇸US-198.200.48.229-6055
   type: vmess
-  server: z16.zirogame16.pw
-  port: 23876
-  uuid: 8a06651d-1bc8-4d51-88d4-7cdd8d35aa72
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'کانفینگ های بیشتر : V2rayNGi@_1'
-  type: vmess
-  server: my.v2-ray.com
-  port: 80
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayng_persian 🫁'
-  type: vmess
-  server: id-lb.vhax.net
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'کانفینگ های بیشتر : V2rayNGi@_2'
-  type: vmess
-  server: sg-lb.vhax.net
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@V2rayng_persian 💝 المان'
-  type: vmess
-  server: 164.92.174.127
-  port: 555
-  uuid: a7207fa7-1719-4ad4-8ff7-38ff2e0a69d5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayNG_persian 🤵'
-  type: vmess
-  server: sg2-ctb.v2rayserv.com
-  port: 80
-  uuid: 4733ee4d-c0c6-46f9-9b01-7c7850a3d19b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'کانفینگ های بیشتر : V2rayNGi@_3'
-  type: vmess
-  server: sg-lb.vhax.net
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'کانفینگ های بیشتر : V2rayNGi@_4'
-  type: vmess
-  server: my.v2-ray.com
-  port: 80
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@v2rayNG_VPNN  کانال رفع فیلتر'
-  type: vmess
-  server: sg2-ctb.v2rayserv.com
-  port: 80
-  uuid: 4733ee4d-c0c6-46f9-9b01-7c7850a3d19b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'کانفینگ های بیشتر : V2rayNGi@_5'
-  type: vmess
-  server: sg-lb.vhax.net
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@V2rayng_persian 🐐 سنگاپور'
-  type: vmess
-  server: sg2-ctb.v2rayserv.com
-  port: 80
-  uuid: 4733ee4d-c0c6-46f9-9b01-7c7850a3d19b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'کانفینگ های بیشتر : V2rayNGi@_6'
-  type: vmess
-  server: sg-lb.vhax.net
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: 'Channel id: @ShadowProxy66 🇩🇪'
-  type: vmess
-  server: 195.201.2.27
-  port: 25761
-  uuid: de746cfd-c2db-4618-83c2-9bd1d763cc25
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: Relay_🇺🇸US-🇺🇸US_548
-  type: vmess
-  server: 47.89.192.94
-  port: 80
-  uuid: 301d815f-a02a-4c2c-a424-b16cf0a241ae
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: Relay_🇺🇸US-🇺🇸US_493
-  type: vmess
-  server: 104.17.210.229
-  port: 443
-  uuid: 9F858CE1-7E02-4863-AA24-D90F8D3437D7
-  alterId: 0
+  server: 198.200.48.229
+  port: 37006
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: true
   network: ws
   ws-opts:
     headers: {}
-    path: ''
+    path: /path/1739017407418
   alpn: null
-- name: Relay_🇺🇸US-🇺🇸US_457
+- name: 🇺🇸US-137.175.21.181-5785
   type: vmess
-  server: 47.89.211.175
-  port: 80
-  uuid: 6cc722d0-f6b5-4179-be13-c15cb9e75dd9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: Relay_🇺🇸US-🇺🇸US_458
-  type: vmess
-  server: 47.88.89.106
-  port: 80
-  uuid: 86f8f25d-9d26-41a6-a75b-e0ef992cc74a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@V2RAYNGNET بیا کانال_1'
-  type: vmess
-  server: uniquenet2.interstellar2023.site
-  port: 80
-  uuid: 4d57b46d-cd2f-46fa-89bc-c3acd6e116bf
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    headers: {}
-    path: ''
-  alpn: null
-- name: '@V2RAYNGNET بیا کانال_2'
-  type: vmess
-  server: mtn.heydas.store
-  port: 443
-  uuid: c01a2b0f-0bfe-4ade-858e-6e83b1842ccc
-  alterId: 0
+  server: 137.175.21.181
+  port: 38001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: true
   network: ws
   ws-opts:
     headers: {}
-    path: ''
+    path: /path/1739036985733
   alpn: null
-- name: '@V2RAYNG_FA2'
+- name: 🇺🇸US-137.175.21.180-6044
   type: vmess
-  server: id.artunnel57.host
-  port: 443
-  uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
-  alterId: 0
+  server: 137.175.21.180
+  port: 38001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: true
   network: ws
   ws-opts:
     headers: {}
-    path: ''
+    path: /path/1738432110766
   alpn: null
-- name: 16|加拿大 014-worker
+- name: 🇺🇸US-199.180.101.27-6038
   type: vmess
-  server: sinaazizpor.cozwao.worKERs.dEv
+  server: 199.180.101.27
+  port: 38004
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /path/1739017407418
+  alpn: null
+- name: 🇺🇸US-38.11.50.66-5793
+  type: vmess
+  server: 38.11.50.66
+  port: 31005
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /path/1738317438731
+  alpn: null
+- name: 🇺🇸US-38.33.44.11-6043
+  type: vmess
+  server: 38.33.44.11
+  port: 38003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /path/1738317438731
+  alpn: null
+- name: 🇺🇸US-38.33.34.38-6058
+  type: vmess
+  server: 38.33.34.38
+  port: 36002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /path/1738432110766
+  alpn: null
+- name: 🏁RELAY-104.19.48.236-0791
+  type: vmess
+  server: s5.db-link01.top
+  port: 2095
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-107-157-212.s5.db-link01.top
+    path: /dabai.in172.67.60.136
+  alpn: null
+- name: 🇺🇸US-137.175.41.105-6056
+  type: vmess
+  server: 137.175.41.105
+  port: 38005
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers: {}
+    path: /path/1739017407418
+  alpn: null
+- name: 🇩🇪DE-57.129.24.141-5566
+  type: vmess
+  server: 57.129.24.141
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -1947,341 +1558,820 @@ proxies:
   network: ws
   ws-opts:
     headers: {}
-    path: ''
+    path: /linkvws
   alpn: null
-- name: Cdn_http_WS_direct_vmess
+- name: 🇩🇪DE-57.129.24.142-0817
   type: vmess
-  server: amin.karkas1.ir
-  port: 80
-  uuid: 11ae0edd-2f63-4495-8683-037abbda9986
+  server: 57.129.24.142
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: 57.129.24.142
+    path: /linkvws
   alpn: null
-- name: 🇺🇸_US_美国_17
+- name: 🇺🇸US-38.14.107.225-8281
   type: vmess
-  server: 45.199.138.217
-  port: 41000
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
+  server: 38.14.107.225
+  port: 38003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
   tls: true
   network: ws
   ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
+  alpn: null
+- name: 🇩🇪DE-57.129.25.20-0794
+  type: vmess
+  server: 57.129.25.20
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: 57.129.25.20
+    path: linkvws
+  alpn: null
+- name: 🏁RELAY-198.41.209.70-0853
+  type: vmess
+  server: s5.cn-db.top
+  port: 2082
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-219-162-241.s5.cn-db.top
+    path: /dabai.in172.64.23.14
+  alpn: null
+- name: 🇩🇪DE-57.129.24.125-8289
+  type: vmess
+  server: 57.129.24.125
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+  alpn: null
+- name: 🇺🇸US-38.14.107.228-8246
+  type: vmess
+  server: 38.14.107.228
+  port: 38003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
+  alpn: null
+- name: 🇩🇪DE-57.129.25.25-0888
+  type: vmess
+  server: 57.129.25.25
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: f.khilei.com
+    path: /linkvws
+  alpn: null
+- name: 🏁RELAY-104.21.16.1-6112
+  type: vmess
+  server: tokyo.899994.xyz
+  port: 443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: tokyo.899994.xyz
+    path: /index
+  alpn: null
+- name: 🏁RELAY-104.17.147.22-0395
+  type: vmess
+  server: www.speedtest.net
+  port: 80
+  uuid: e6afaf50-e32d-11ef-b534-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: us-21.hihu.net
+    path: /
+  alpn: null
+- name: 🇺🇸US-38.14.107.233-8259
+  type: vmess
+  server: 38.14.107.233
+  port: 38003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/340434130032
+  alpn: null
+- name: 🏁RELAY-104.21.81.115-6088
+  type: vmess
+  server: northflank.107421.xyz
+  port: 443
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: northflank.107421.xyz
+    path: /vmess
+  alpn: null
+- name: 🏁RELAY-104.16.155.10-1374
+  type: vmess
+  server: s1.db-link01.top
+  port: 8880
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-250-32-53.s1.db-link01.top
+    path: /dabai.in172.67.95.35
+  alpn: null
+- name: 🏁RELAY-104.16.155.10-1373
+  type: vmess
+  server: 104.16.155.10
+  port: 2082
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-38-62-25.s5.db-link02.top
+    path: /dabai.in104.18.42.172
+  alpn: null
+- name: 🏁RELAY-104.21.112.1-6105
+  type: vmess
+  server: br.899994.xyz
+  port: 443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: br.899994.xyz
+    path: /index
+  alpn: null
+- name: 🏁RELAY-198.41.209.70-1362
+  type: vmess
+  server: s5.cn-db.top
+  port: 80
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-116-186-216.s5.cn-db.top
+    path: /dabai.in104.25.66.1
+  alpn: null
+- name: 🇫🇷FR-163.5.159.231-8262
+  type: vmess
+  server: irvideo.cfd
+  port: 443
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+  alpn: null
+- name: 🏁RELAY-198.41.209.70-0781
+  type: vmess
+  server: s1.db-link01.top
+  port: 2095
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-105-92-158.s1.db-link01.top
+    path: /dabai.in104.24.89.11
+  alpn: null
+- name: 🏁RELAY-104.21.80.1-6072
+  type: vmess
+  server: portland.899994.xyz
+  port: 8443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: portland.899994.xyz
+    path: /index
+  alpn: null
+- name: 🏁RELAY-104.17.213.241-1343
+  type: vmess
+  server: 104.17.213.241
+  port: 80
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+  alpn: null
+- name: 🏁RELAY-104.16.155.10-0249
+  type: vmess
+  server: 104.16.155.10
+  port: 80
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+  alpn: null
+- name: 🏁RELAY-104.19.48.236-0250
+  type: vmess
+  server: 104.19.48.236
+  port: 80
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+  alpn: null
+- name: 🏁RELAY-104.19.48.236-0778
+  type: vmess
+  server: s2.cn-db.top
+  port: 80
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-110-239-147.s2.cn-db.top
+    path: /dabai.in172.67.81.78
+  alpn: null
+- name: 🏁RELAY-104.16.155.10-0777
+  type: vmess
+  server: s2.db-link01.top
+  port: 2086
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-110-189-146.s2.db-link01.top
+    path: /dabai.in104.21.112.58
+  alpn: null
+- name: 🏁RELAY-104.17.221.248-0904
+  type: vmess
+  server: 104.17.221.248
+  port: 80
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+  alpn: null
+- name: 🏁RELAY-198.41.209.70-1345
+  type: vmess
+  server: 198.41.209.70
+  port: 80
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+  alpn: null
+- name: 🏁RELAY-104.17.221.248-1368
+  type: vmess
+  server: s1.db-link02.top
+  port: 2082
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-113-212-3.s1.db-link02.top
+    path: /dabai.in172.67.79.231
+  alpn: null
+- name: 🇩🇪DE-158.180.48.19-0760
+  type: vmess
+  server: frankfurt.faforex.eu.org
+  port: 23451
+  uuid: f16b60f9-562c-46af-b420-5a8d71a9267b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: us-new03.daluquan.top
+    path: /itdog?ed=2560
+  alpn: null
+- name: 🏁RELAY-104.19.48.236-1359
+  type: vmess
+  server: s1.cn-db.top
+  port: 2086
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-47-154-9.s1.cn-db.top
+    path: /dabai.in104.24.181.189
+  alpn: null
+- name: 🏁RELAY-162.159.152.2-0520
+  type: vmess
+  server: visa.com
+  port: 443
+  uuid: 3e125fac-2e5e-44f4-bd5b-5de5712fdbff
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: hanguo.daluquan.top
+    path: /
+  alpn: null
+- name: 🇺🇸US-38.54.94.122-5774
+  type: vmess
+  server: 38.54.94.122
+  port: 2053
+  uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
     headers: {}
-    path: ''
+    path: /L0229-16
+  alpn: null
+- name: 🏁RELAY-104.16.155.10-0780
+  type: vmess
+  server: s1.db-link01.top
+  port: 2082
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-39-195-198.s1.db-link01.top
+    path: /dabai.in104.16.26.37
+  alpn: null
+- name: 🏁RELAY-104.21.80.1-0765
+  type: vmess
+  server: ca0.899994.xyz
+  port: 443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: ca0.899994.xyz
+    path: /index
+  alpn: null
+- name: 🏁RELAY-104.21.80.1-0917
+  type: vmess
+  server: nl.899994.xyz
+  port: 8443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: nl.899994.xyz
+    path: /index
+  alpn: null
+- name: 🏁RELAY-104.21.64.1-0898
+  type: vmess
+  server: it0.899994.xyz
+  port: 8443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: it0.899994.xyz
+    path: /index
+  alpn: null
+- name: 🏁RELAY-104.16.155.10-1375
+  type: vmess
+  server: s2.db-link02.top
+  port: 80
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-66-201-35.s2.db-link02.top
+    path: /dabai.in104.20.76.67
+  alpn: null
+- name: 🏁RELAY-198.41.209.70-0776
+  type: vmess
+  server: s1.cn-db.top
+  port: 8080
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 100-174-159-210.s1.cn-db.top
+    path: /dabai.in104.21.156.105
   alpn: null
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - '@v2ray_market11'
-  - '@asliveepn_1'
-  - '@Asliveepn_1'
-  - '@Asliveepn_2'
-  - '@asliveepn_2'
-  - '@asliveepn_3'
-  - '@asliveepn_4'
-  - '@asliveepn_5'
-  - '@asliveepn_6'
-  - '@Asliveepn_3'
-  - '@asliveepn_7'
-  - '@Asliveepn_4'
-  - '@Asliveepn_5'
-  - '@asliveepn_8'
-  - '@Asliveepn_6'
-  - '@ATOVPN نامحدود فقط ۱۱۵ تومان 😍'
-  - نامحدود فقط ۹۸ تومن [حجمی گیگی ۲۵۰۰] تست موجوده-@ATOVPN⚡️.🤯
-  - Buffalo
-  - '@config_proxy_ir کانال تلگرام_1'
-  - '@config_proxy_ir کانال تلگرام_2'
-  - MOFTINET
-  - '@vemessvpn'
-  - GetAFreeNode.com-Paris
-  - 'سرورهای رایگان و پرسرعت : vpn_Sra@'
-  - SSRTOOL.COM_1
-  - SSRTOOL.COM_2
-  - SSRTOOL.COM_3
-  - SSRTOOL.COM_4
-  - SSRTOOL.COM_5
-  - cloud2-4
-  - 🇰🇷 KR>加拿大 多伦多
-  - کانفیگ vmess رایگان @freevmess_1
-  - کانفیگ vmess رایگان @freevmess_2
-  - کانفیگ vmess رایگان @freevmess_3
-  - کانفیگ vmess رایگان @freevmess_4
-  - 🇩🇪https://t.me/vpn_iossعضو شو
-  - 🇨🇦https://t.me/vpn_iossعضو شو
-  - '@injectormconf'
-  - '@IRAN_MEHR_VPN🇺🇸'
-  - kaystuhv
-  - JETUPNET
-  - Napsternetv-m51ou942
-  - kcp-wnl7hbox
-  - '@v2ray313 کانالمون 🥰'
-  - '‎🇩🇪 dTUGOt #3319 [🇮🇷]'
-  - vmess-8993
-  - 🌵 @MeliVPNN Vmess Germany 1
-  - United States_1
-  - United States_2
-  - United States_3
-  - United States_4
-  - United States_5
-  - Canada
-  - United States_6
-  - United States_7
-  - United States_8
-  - United States_9
-  - United States_10
-  - United States_11
-  - United States_12
-  - '@SHconfig_1'
-  - '@SHconfig_2'
-  - '@SHconfig_3'
-  - Relay_🇨🇳CN-🇯🇵JP_927 | 5.01Mb
-  - 🇯🇵_[WireGuard]CONTABO
-  - KR
-  - '@v2ray_n'
-  - '@v2rayng_147_1'
-  - '@v2rayng_147_2'
-  - India🇮🇳 (2)
-  - کانال:V2RAY_VMES@_1
-  - کانال:V2RAY_VMES@_2
-  - کانال:V2RAY_VMES@_3
-  - کانال:V2RAY_VMES@_4
-  - t.me/v2Line | (1474) FR
-  - '@wearestand کانال ما_1'
-  - '@IraneAzad_Net کانال تلگرام ما🇺🇸_1'
-  - '@wearestand کانال ما_2'
-  - '@wearestand کانال ما_3'
-  - '@IraneAzad_Net کانال تلگرام ما🇺🇸_2'
-  - 1119(@Outline_Vpn)
-  - '@IraneAzad_Net کانال تلگرام ما🇺🇸_3'
-  - '@wearestand کانال ما_4'
-  - '@v2rayng_vpnn ارسلان_1'
-  - '@v2rayng_vpnn ارسلان_2'
-  - '@vpn_irane❣️'
-  - '@v2rayng_vpnn ارسلان_3'
-  - '@v2rayng_vpnn ارسلان_4'
-  - 🪬@v2Rez♠️(Papaverine)
-  - '@hashmakvpn اگه قطع شدی بیا اینجا'
-  - KbmPng-@King7serverbot
-  - '@V2rayNGV_1'
-  - '@V2rayNGV_2'
-  - '@V2rayNGV_3'
-  - '@v2rayng_vpnn ارسلان_5'
-  - '@v2rayng_vpnn ارسلان_6'
-  - '@v2rayng_vpnn ارسلان_7'
-  - '@v2rayng_vpnn ارسلان_8'
-  - '@v2rayng_vpnn ارسلان_9'
-  - '@v2rayng_vpnn ارسلان_10'
-  - '@v2rayng_vpnn ارسلان_11'
-  - '@v2rayng_vpnn ارسلان_12'
-  - '@v2rayng_vpnn ارسلان_13'
-  - '@v2rayng_vpnn ارسلان_14'
-  - '@v2rayng_vpnn ارسلان_15'
-  - '@v2rayng_vpnn ارسلان_16'
-  - '@v2rayng_vpnn ارسلان_17'
-  - '@v2rayng_vpnn ارسلان_18'
-  - '@v2rayng_vpnn ارسلان_19'
-  - '@v2rayng_vpnn ارسلان_20'
-  - '@v2rayng_vpnn ارسلان_21'
-  - '@v2rayng_vpnn ارسلان_22'
-  - '@v2rayng_vpnn ارسلان_23'
-  - نامحدود 39 تومانی
-  - 🇺🇸 United States
-  - '🇧🇪telegram: @v2rayspeed'
-  - '🇺🇸telegram: @v2rayspeed'
-  - '🇦🇺telegram: @v2rayspeed'
-  - '🇬🇧telegram: @v2rayspeed'
-  - 'telegram: @v2rayspeed 🇫🇷'
-  - '🇫🇮telegram: @v2rayspeed_1'
-  - '🇨🇦telegram: @v2rayspeed'
-  - '🇫🇮telegram: @v2rayspeed_2'
-  - '🇩🇪telegram: @v2rayspeed'
-  - 𝗝𝗼𝗶𝗻 ➪ @V2range_1
-  - 𝗝𝗼𝗶𝗻 ➪ @V2range_2
-  - 𝗝𝗼𝗶𝗻 ➪ @V2range_3
-  - 'کانفینگ های بیشتر : V2rayNGi@_1'
-  - '@v2rayng_persian 🫁'
-  - 'کانفینگ های بیشتر : V2rayNGi@_2'
-  - '@V2rayng_persian 💝 المان'
-  - '@v2rayNG_persian 🤵'
-  - 'کانفینگ های بیشتر : V2rayNGi@_3'
-  - 'کانفینگ های بیشتر : V2rayNGi@_4'
-  - '@v2rayNG_VPNN  کانال رفع فیلتر'
-  - 'کانفینگ های بیشتر : V2rayNGi@_5'
-  - '@V2rayng_persian 🐐 سنگاپور'
-  - 'کانفینگ های بیشتر : V2rayNGi@_6'
-  - 'Channel id: @ShadowProxy66 🇩🇪'
-  - Relay_🇺🇸US-🇺🇸US_548
-  - Relay_🇺🇸US-🇺🇸US_493
-  - Relay_🇺🇸US-🇺🇸US_457
-  - Relay_🇺🇸US-🇺🇸US_458
-  - '@V2RAYNGNET بیا کانال_1'
-  - '@V2RAYNGNET بیا کانال_2'
-  - '@V2RAYNG_FA2'
-  - 16|加拿大 014-worker
-  - Cdn_http_WS_direct_vmess
-  - 🇺🇸_US_美国_17
+  - D-BROWN-1025
+  - YEEY5712
+  - D-WINGED-2537
+  - D-FOX-2088
+  - D-BROWN-8258
+  - D-YELLOW-434
+  - D-FAITH-3425
+  - D-FOX-9812
+  - D-BROWN-1025
+  - Argoon8766
+  - D-FAITH-6227
+  - D-BIG-5765
+  - D-BLUE-8699
+  - D-FAITH-3425
+  - D-BROWN-9754
+  - D-WEALTH-2386
+  - D-YELLOW-4976
+  - D-FOX-204
+  - D-FOX-9812
+  - D-BROWN-3281
+  - "\uD83D\uDD04 LATEST-UPDATE \uD83D\uDCC5 TUE-23-BAHMAN-1403 \uD83D\uDD51 10:31"
+  - "\uD83E\uDD16 JOIN-TELEGRAM-CHANNEL \uD83D\uDCA1 @NEUROVANCE \uD83E\uDDE0"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-183.236.51.36:59003"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-198.41.209.70:8880"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF3 IN-94.136.184.156:38872"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDEA DE-159.69.120.98:41391"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-38.33.19.71:41400"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF3\uD83C\uDDF1 NL-154.47.21.27:8099"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-154.26.129.247:57143"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDED CH-23.166.88.183:22324"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDEB\uD83C\uDDF7 FR-163.5.159.231:443"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-172.99.190.207:55577"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEB\uD83C\uDDF7 FR-5.196.29.123:2082"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDEA DE-91.107.176.76:100"
+  - "\uD83D\uDD12 VM-GRPC-NA \uD83C\uDDF9\uD83C\uDDF7 TR-185.226.92.130:24341"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDF0\uD83C\uDDF7 KR-220.123.48.124:30002"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-45.76.60.123:8881"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF7\uD83C\uDDFA RU-46.29.166.237:47555"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.16.155.10:2052"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEB\uD83C\uDDF7 FR-38.109.228.113:21809"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE6\uD83C\uDDFA AU-20.213.20.185:17718"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.112:36712"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-31.184.172.87:26763"
+  - "\uD83D\uDD12 VM-GRPC-TLS \uD83C\uDFF4‍☠️ NA-104.21.25.65:2087"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.17.213.241:2086"
+  - "\uD83D\uDD12 VM-HTTPUPGRADE-NA \uD83C\uDFF4‍☠️ NA-104.19.150.10:2095"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.115:38324"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-142.4.104.33:52143"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-206.206.80.66:23423"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF8\uD83C\uDDEC SG-140.245.52.71:23452"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25775"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-85.133.253.183:1409"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDFA\uD83C\uDDF8 US-2.58.87.221:12269"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF2\uD83C\uDDFD MX-79.127.229.54:18000"
+  - "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDE9\uD83C\uDDEA DE-88.198.172.25:15145"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDED\uD83C\uDDF0 HK-103.149.183.178:54675"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEE\uD83C\uDDF7 IR-185.113.10.40:56060"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEF\uD83C\uDDF5 JP-156.246.94.94:433"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEF\uD83C\uDDF5 JP-13.112.49.171:48897"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEE\uD83C\uDDF7 IR-85.133.253.183:1408"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDE8\uD83C\uDDE6 CA-23.162.200.91:20182"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEE\uD83C\uDDF3 IN-4.240.73.55:14118"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDF0 DK-193.29.107.234:49020"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDED\uD83C\uDDF0 HK-20.6.155.159:2080"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-46.250.253.232:46617"
+  - "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDE9\uD83C\uDDEA DE-91.107.247.219:19387"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDF7\uD83C\uDDFA RU-213.241.198.57:8443"
+  - "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDEB\uD83C\uDDEE FI-95.216.170.50:23237"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-107.148.207.249:48712"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.17.221.248:80"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25777"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-68.168.31.184:26924"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-20.205.176.167:54550"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEE\uD83C\uDDE9 ID-103.67.79.157:45365"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.159:43763"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDFA\uD83C\uDDF8 US-15.204.248.92:30562"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDED\uD83C\uDDF0 HK-103.149.183.178:27512"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDFF UZ-92.223.44.168:20118"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-194.233.72.228:27575"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDE8\uD83C\uDDF3 CN-113.56.219.34:8888"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEF\uD83C\uDDF5 JP-150.230.61.110:23451"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-112.132.212.19:50004"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-120.26.55.225:50002"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDE9\uD83C\uDDEA DE-193.108.118.136:15713"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF8\uD83C\uDDEC SG-20.188.117.201:32995"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25780"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDFF4‍☠️ NA-104.16.239.254:2096"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-5.160.144.12:2058"
+  - "\uD83D\uDC68\uD83C\uDFFB‍\uD83D\uDCBB DEVELOPED-BY SOROUSH-MIRZAEI \uD83D\uDCCC\
+    \ FOLLOW-CONTACT SYDSRSMRZ"
+  - 💀😎 Project By ALIILAPRO
+  - '[🇫🇷]t.me/ConfigsHub'
+  - 🎲11@oneclickvpnkeys
+  - '@Hope_Net-join-us-on-Telegram'
+  - '@Hope_Net-join-us-on-Telegram'
+  - '@Hope_Net-join-us-on-Telegram'
+  - 🇨🇦CA-134.195.198.147-8251
+  - 🇨🇦CA-23.162.200.227-0818
+  - 🇨🇦CA-23.162.200.227-8263
+  - 🏁RELAY-172.67.135.62-5773
+  - 🏁RELAY-104.21.42.243-0764
+  - 🇺🇸US-38.14.107.226-5789
+  - 🏁RELAY-104.21.77.29-8275
+  - 🇫🇷FR-51.77.20.137-8266
+  - 🇺🇸US-198.200.48.229-6055
+  - 🇺🇸US-137.175.21.181-5785
+  - 🇺🇸US-137.175.21.180-6044
+  - 🇺🇸US-199.180.101.27-6038
+  - 🇺🇸US-38.11.50.66-5793
+  - 🇺🇸US-38.33.44.11-6043
+  - 🇺🇸US-38.33.34.38-6058
+  - 🏁RELAY-104.19.48.236-0791
+  - 🇺🇸US-137.175.41.105-6056
+  - 🇩🇪DE-57.129.24.141-5566
+  - 🇩🇪DE-57.129.24.142-0817
+  - 🇺🇸US-38.14.107.225-8281
+  - 🇩🇪DE-57.129.25.20-0794
+  - 🏁RELAY-198.41.209.70-0853
+  - 🇩🇪DE-57.129.24.125-8289
+  - 🇺🇸US-38.14.107.228-8246
+  - 🇩🇪DE-57.129.25.25-0888
+  - 🏁RELAY-104.21.16.1-6112
+  - 🏁RELAY-104.17.147.22-0395
+  - 🇺🇸US-38.14.107.233-8259
+  - 🏁RELAY-104.21.81.115-6088
+  - 🏁RELAY-104.16.155.10-1374
+  - 🏁RELAY-104.16.155.10-1373
+  - 🏁RELAY-104.21.112.1-6105
+  - 🏁RELAY-198.41.209.70-1362
+  - 🇫🇷FR-163.5.159.231-8262
+  - 🏁RELAY-198.41.209.70-0781
+  - 🏁RELAY-104.21.80.1-6072
+  - 🏁RELAY-104.17.213.241-1343
+  - 🏁RELAY-104.16.155.10-0249
+  - 🏁RELAY-104.19.48.236-0250
+  - 🏁RELAY-104.19.48.236-0778
+  - 🏁RELAY-104.16.155.10-0777
+  - 🏁RELAY-104.17.221.248-0904
+  - 🏁RELAY-198.41.209.70-1345
+  - 🏁RELAY-104.17.221.248-1368
+  - 🇩🇪DE-158.180.48.19-0760
+  - 🏁RELAY-104.19.48.236-1359
+  - 🏁RELAY-162.159.152.2-0520
+  - 🇺🇸US-38.54.94.122-5774
+  - 🏁RELAY-104.16.155.10-0780
+  - 🏁RELAY-104.21.80.1-0765
+  - 🏁RELAY-104.21.80.1-0917
+  - 🏁RELAY-104.21.64.1-0898
+  - 🏁RELAY-104.16.155.10-1375
+  - 🏁RELAY-198.41.209.70-0776
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - '@v2ray_market11'
-  - '@asliveepn_1'
-  - '@Asliveepn_1'
-  - '@Asliveepn_2'
-  - '@asliveepn_2'
-  - '@asliveepn_3'
-  - '@asliveepn_4'
-  - '@asliveepn_5'
-  - '@asliveepn_6'
-  - '@Asliveepn_3'
-  - '@asliveepn_7'
-  - '@Asliveepn_4'
-  - '@Asliveepn_5'
-  - '@asliveepn_8'
-  - '@Asliveepn_6'
-  - '@ATOVPN نامحدود فقط ۱۱۵ تومان 😍'
-  - نامحدود فقط ۹۸ تومن [حجمی گیگی ۲۵۰۰] تست موجوده-@ATOVPN⚡️.🤯
-  - Buffalo
-  - '@config_proxy_ir کانال تلگرام_1'
-  - '@config_proxy_ir کانال تلگرام_2'
-  - MOFTINET
-  - '@vemessvpn'
-  - GetAFreeNode.com-Paris
-  - 'سرورهای رایگان و پرسرعت : vpn_Sra@'
-  - SSRTOOL.COM_1
-  - SSRTOOL.COM_2
-  - SSRTOOL.COM_3
-  - SSRTOOL.COM_4
-  - SSRTOOL.COM_5
-  - cloud2-4
-  - 🇰🇷 KR>加拿大 多伦多
-  - کانفیگ vmess رایگان @freevmess_1
-  - کانفیگ vmess رایگان @freevmess_2
-  - کانفیگ vmess رایگان @freevmess_3
-  - کانفیگ vmess رایگان @freevmess_4
-  - 🇩🇪https://t.me/vpn_iossعضو شو
-  - 🇨🇦https://t.me/vpn_iossعضو شو
-  - '@injectormconf'
-  - '@IRAN_MEHR_VPN🇺🇸'
-  - kaystuhv
-  - JETUPNET
-  - Napsternetv-m51ou942
-  - kcp-wnl7hbox
-  - '@v2ray313 کانالمون 🥰'
-  - '‎🇩🇪 dTUGOt #3319 [🇮🇷]'
-  - vmess-8993
-  - 🌵 @MeliVPNN Vmess Germany 1
-  - United States_1
-  - United States_2
-  - United States_3
-  - United States_4
-  - United States_5
-  - Canada
-  - United States_6
-  - United States_7
-  - United States_8
-  - United States_9
-  - United States_10
-  - United States_11
-  - United States_12
-  - '@SHconfig_1'
-  - '@SHconfig_2'
-  - '@SHconfig_3'
-  - Relay_🇨🇳CN-🇯🇵JP_927 | 5.01Mb
-  - 🇯🇵_[WireGuard]CONTABO
-  - KR
-  - '@v2ray_n'
-  - '@v2rayng_147_1'
-  - '@v2rayng_147_2'
-  - India🇮🇳 (2)
-  - کانال:V2RAY_VMES@_1
-  - کانال:V2RAY_VMES@_2
-  - کانال:V2RAY_VMES@_3
-  - کانال:V2RAY_VMES@_4
-  - t.me/v2Line | (1474) FR
-  - '@wearestand کانال ما_1'
-  - '@IraneAzad_Net کانال تلگرام ما🇺🇸_1'
-  - '@wearestand کانال ما_2'
-  - '@wearestand کانال ما_3'
-  - '@IraneAzad_Net کانال تلگرام ما🇺🇸_2'
-  - 1119(@Outline_Vpn)
-  - '@IraneAzad_Net کانال تلگرام ما🇺🇸_3'
-  - '@wearestand کانال ما_4'
-  - '@v2rayng_vpnn ارسلان_1'
-  - '@v2rayng_vpnn ارسلان_2'
-  - '@vpn_irane❣️'
-  - '@v2rayng_vpnn ارسلان_3'
-  - '@v2rayng_vpnn ارسلان_4'
-  - 🪬@v2Rez♠️(Papaverine)
-  - '@hashmakvpn اگه قطع شدی بیا اینجا'
-  - KbmPng-@King7serverbot
-  - '@V2rayNGV_1'
-  - '@V2rayNGV_2'
-  - '@V2rayNGV_3'
-  - '@v2rayng_vpnn ارسلان_5'
-  - '@v2rayng_vpnn ارسلان_6'
-  - '@v2rayng_vpnn ارسلان_7'
-  - '@v2rayng_vpnn ارسلان_8'
-  - '@v2rayng_vpnn ارسلان_9'
-  - '@v2rayng_vpnn ارسلان_10'
-  - '@v2rayng_vpnn ارسلان_11'
-  - '@v2rayng_vpnn ارسلان_12'
-  - '@v2rayng_vpnn ارسلان_13'
-  - '@v2rayng_vpnn ارسلان_14'
-  - '@v2rayng_vpnn ارسلان_15'
-  - '@v2rayng_vpnn ارسلان_16'
-  - '@v2rayng_vpnn ارسلان_17'
-  - '@v2rayng_vpnn ارسلان_18'
-  - '@v2rayng_vpnn ارسلان_19'
-  - '@v2rayng_vpnn ارسلان_20'
-  - '@v2rayng_vpnn ارسلان_21'
-  - '@v2rayng_vpnn ارسلان_22'
-  - '@v2rayng_vpnn ارسلان_23'
-  - نامحدود 39 تومانی
-  - 🇺🇸 United States
-  - '🇧🇪telegram: @v2rayspeed'
-  - '🇺🇸telegram: @v2rayspeed'
-  - '🇦🇺telegram: @v2rayspeed'
-  - '🇬🇧telegram: @v2rayspeed'
-  - 'telegram: @v2rayspeed 🇫🇷'
-  - '🇫🇮telegram: @v2rayspeed_1'
-  - '🇨🇦telegram: @v2rayspeed'
-  - '🇫🇮telegram: @v2rayspeed_2'
-  - '🇩🇪telegram: @v2rayspeed'
-  - 𝗝𝗼𝗶𝗻 ➪ @V2range_1
-  - 𝗝𝗼𝗶𝗻 ➪ @V2range_2
-  - 𝗝𝗼𝗶𝗻 ➪ @V2range_3
-  - 'کانفینگ های بیشتر : V2rayNGi@_1'
-  - '@v2rayng_persian 🫁'
-  - 'کانفینگ های بیشتر : V2rayNGi@_2'
-  - '@V2rayng_persian 💝 المان'
-  - '@v2rayNG_persian 🤵'
-  - 'کانفینگ های بیشتر : V2rayNGi@_3'
-  - 'کانفینگ های بیشتر : V2rayNGi@_4'
-  - '@v2rayNG_VPNN  کانال رفع فیلتر'
-  - 'کانفینگ های بیشتر : V2rayNGi@_5'
-  - '@V2rayng_persian 🐐 سنگاپور'
-  - 'کانفینگ های بیشتر : V2rayNGi@_6'
-  - 'Channel id: @ShadowProxy66 🇩🇪'
-  - Relay_🇺🇸US-🇺🇸US_548
-  - Relay_🇺🇸US-🇺🇸US_493
-  - Relay_🇺🇸US-🇺🇸US_457
-  - Relay_🇺🇸US-🇺🇸US_458
-  - '@V2RAYNGNET بیا کانال_1'
-  - '@V2RAYNGNET بیا کانال_2'
-  - '@V2RAYNG_FA2'
-  - 16|加拿大 014-worker
-  - Cdn_http_WS_direct_vmess
-  - 🇺🇸_US_美国_17
+  - D-BROWN-1025
+  - YEEY5712
+  - D-WINGED-2537
+  - D-FOX-2088
+  - D-BROWN-8258
+  - D-YELLOW-434
+  - D-FAITH-3425
+  - D-FOX-9812
+  - D-BROWN-1025
+  - Argoon8766
+  - D-FAITH-6227
+  - D-BIG-5765
+  - D-BLUE-8699
+  - D-FAITH-3425
+  - D-BROWN-9754
+  - D-WEALTH-2386
+  - D-YELLOW-4976
+  - D-FOX-204
+  - D-FOX-9812
+  - D-BROWN-3281
+  - "\uD83D\uDD04 LATEST-UPDATE \uD83D\uDCC5 TUE-23-BAHMAN-1403 \uD83D\uDD51 10:31"
+  - "\uD83E\uDD16 JOIN-TELEGRAM-CHANNEL \uD83D\uDCA1 @NEUROVANCE \uD83E\uDDE0"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-183.236.51.36:59003"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-198.41.209.70:8880"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF3 IN-94.136.184.156:38872"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDEA DE-159.69.120.98:41391"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-38.33.19.71:41400"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF3\uD83C\uDDF1 NL-154.47.21.27:8099"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-154.26.129.247:57143"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDED CH-23.166.88.183:22324"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDEB\uD83C\uDDF7 FR-163.5.159.231:443"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-172.99.190.207:55577"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEB\uD83C\uDDF7 FR-5.196.29.123:2082"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDEA DE-91.107.176.76:100"
+  - "\uD83D\uDD12 VM-GRPC-NA \uD83C\uDDF9\uD83C\uDDF7 TR-185.226.92.130:24341"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDF0\uD83C\uDDF7 KR-220.123.48.124:30002"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-45.76.60.123:8881"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF7\uD83C\uDDFA RU-46.29.166.237:47555"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.16.155.10:2052"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEB\uD83C\uDDF7 FR-38.109.228.113:21809"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE6\uD83C\uDDFA AU-20.213.20.185:17718"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.112:36712"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-31.184.172.87:26763"
+  - "\uD83D\uDD12 VM-GRPC-TLS \uD83C\uDFF4‍☠️ NA-104.21.25.65:2087"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.17.213.241:2086"
+  - "\uD83D\uDD12 VM-HTTPUPGRADE-NA \uD83C\uDFF4‍☠️ NA-104.19.150.10:2095"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.115:38324"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-142.4.104.33:52143"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-206.206.80.66:23423"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF8\uD83C\uDDEC SG-140.245.52.71:23452"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25775"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-85.133.253.183:1409"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDFA\uD83C\uDDF8 US-2.58.87.221:12269"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF2\uD83C\uDDFD MX-79.127.229.54:18000"
+  - "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDE9\uD83C\uDDEA DE-88.198.172.25:15145"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDED\uD83C\uDDF0 HK-103.149.183.178:54675"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEE\uD83C\uDDF7 IR-185.113.10.40:56060"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEF\uD83C\uDDF5 JP-156.246.94.94:433"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEF\uD83C\uDDF5 JP-13.112.49.171:48897"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEE\uD83C\uDDF7 IR-85.133.253.183:1408"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDE8\uD83C\uDDE6 CA-23.162.200.91:20182"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEE\uD83C\uDDF3 IN-4.240.73.55:14118"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE9\uD83C\uDDF0 DK-193.29.107.234:49020"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDED\uD83C\uDDF0 HK-20.6.155.159:2080"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-46.250.253.232:46617"
+  - "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDE9\uD83C\uDDEA DE-91.107.247.219:19387"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDDF7\uD83C\uDDFA RU-213.241.198.57:8443"
+  - "\uD83D\uDD12 VM-GRPC-NONE \uD83C\uDDEB\uD83C\uDDEE FI-95.216.170.50:23237"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDF8 US-107.148.207.249:48712"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDFF4‍☠️ NA-104.17.221.248:80"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25777"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEC\uD83C\uDDE7 GB-68.168.31.184:26924"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-20.205.176.167:54550"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDEE\uD83C\uDDE9 ID-103.67.79.157:45365"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-62.146.233.159:43763"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDFA\uD83C\uDDF8 US-15.204.248.92:30562"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDED\uD83C\uDDF0 HK-103.149.183.178:27512"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDFA\uD83C\uDDFF UZ-92.223.44.168:20118"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDF8\uD83C\uDDEC SG-194.233.72.228:27575"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDE8\uD83C\uDDF3 CN-113.56.219.34:8888"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDEF\uD83C\uDDF5 JP-150.230.61.110:23451"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-112.132.212.19:50004"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDE8\uD83C\uDDF3 CN-120.26.55.225:50002"
+  - "\uD83D\uDD12 VM-TCP-NONE \uD83C\uDDE9\uD83C\uDDEA DE-193.108.118.136:15713"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDF8\uD83C\uDDEC SG-20.188.117.201:32995"
+  - "\uD83D\uDD12 VM-WS-NA \uD83C\uDDF9\uD83C\uDDFC TW-1.162.142.80:25780"
+  - "\uD83D\uDD12 VM-WS-TLS \uD83C\uDFF4‍☠️ NA-104.16.239.254:2096"
+  - "\uD83D\uDD12 VM-TCP-NA \uD83C\uDDEE\uD83C\uDDF7 IR-5.160.144.12:2058"
+  - "\uD83D\uDC68\uD83C\uDFFB‍\uD83D\uDCBB DEVELOPED-BY SOROUSH-MIRZAEI \uD83D\uDCCC\
+    \ FOLLOW-CONTACT SYDSRSMRZ"
+  - 💀😎 Project By ALIILAPRO
+  - '[🇫🇷]t.me/ConfigsHub'
+  - 🎲11@oneclickvpnkeys
+  - '@Hope_Net-join-us-on-Telegram'
+  - '@Hope_Net-join-us-on-Telegram'
+  - '@Hope_Net-join-us-on-Telegram'
+  - 🇨🇦CA-134.195.198.147-8251
+  - 🇨🇦CA-23.162.200.227-0818
+  - 🇨🇦CA-23.162.200.227-8263
+  - 🏁RELAY-172.67.135.62-5773
+  - 🏁RELAY-104.21.42.243-0764
+  - 🇺🇸US-38.14.107.226-5789
+  - 🏁RELAY-104.21.77.29-8275
+  - 🇫🇷FR-51.77.20.137-8266
+  - 🇺🇸US-198.200.48.229-6055
+  - 🇺🇸US-137.175.21.181-5785
+  - 🇺🇸US-137.175.21.180-6044
+  - 🇺🇸US-199.180.101.27-6038
+  - 🇺🇸US-38.11.50.66-5793
+  - 🇺🇸US-38.33.44.11-6043
+  - 🇺🇸US-38.33.34.38-6058
+  - 🏁RELAY-104.19.48.236-0791
+  - 🇺🇸US-137.175.41.105-6056
+  - 🇩🇪DE-57.129.24.141-5566
+  - 🇩🇪DE-57.129.24.142-0817
+  - 🇺🇸US-38.14.107.225-8281
+  - 🇩🇪DE-57.129.25.20-0794
+  - 🏁RELAY-198.41.209.70-0853
+  - 🇩🇪DE-57.129.24.125-8289
+  - 🇺🇸US-38.14.107.228-8246
+  - 🇩🇪DE-57.129.25.25-0888
+  - 🏁RELAY-104.21.16.1-6112
+  - 🏁RELAY-104.17.147.22-0395
+  - 🇺🇸US-38.14.107.233-8259
+  - 🏁RELAY-104.21.81.115-6088
+  - 🏁RELAY-104.16.155.10-1374
+  - 🏁RELAY-104.16.155.10-1373
+  - 🏁RELAY-104.21.112.1-6105
+  - 🏁RELAY-198.41.209.70-1362
+  - 🇫🇷FR-163.5.159.231-8262
+  - 🏁RELAY-198.41.209.70-0781
+  - 🏁RELAY-104.21.80.1-6072
+  - 🏁RELAY-104.17.213.241-1343
+  - 🏁RELAY-104.16.155.10-0249
+  - 🏁RELAY-104.19.48.236-0250
+  - 🏁RELAY-104.19.48.236-0778
+  - 🏁RELAY-104.16.155.10-0777
+  - 🏁RELAY-104.17.221.248-0904
+  - 🏁RELAY-198.41.209.70-1345
+  - 🏁RELAY-104.17.221.248-1368
+  - 🇩🇪DE-158.180.48.19-0760
+  - 🏁RELAY-104.19.48.236-1359
+  - 🏁RELAY-162.159.152.2-0520
+  - 🇺🇸US-38.54.94.122-5774
+  - 🏁RELAY-104.16.155.10-0780
+  - 🏁RELAY-104.21.80.1-0765
+  - 🏁RELAY-104.21.80.1-0917
+  - 🏁RELAY-104.21.64.1-0898
+  - 🏁RELAY-104.16.155.10-1375
+  - 🏁RELAY-198.41.209.70-0776
 rules:
 - GEOIP,CN,DIRECT
 - MATCH,🐟 漏网之鱼
