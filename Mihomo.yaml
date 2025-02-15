@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 12:52:37
-# 配置生成日期：2025-02-15 11:10:26
+# 配置生成日期：2025-02-15 11:13:36
 
 mixed-port: 7890
 allow-lan: false
@@ -64,20 +64,6 @@ proxies:
       headers: {}
     ip-version: dual
     udp: true
-  - name: '@Artemisvpn1  🇨🇦vless'
-    type: vless
-    server: 104.21.32.1
-    port: 2087
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    network: ws
-    tls: true
-    servername: HASti.FReeAirlAINEs.cOm
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /n9VBBKoNzJpkUcnO
-    ip-version: dual
-    udp: true
   - name: 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
     type: ss
     server: 45.87.175.164
@@ -87,40 +73,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: '@Hope_Net-join-us-on-Telegram_1'
-    type: vless
-    server: 135.148.174.211
-    port: 443
-    uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    network: tcp
-    tls: true
-    servername: 147135011033.sec21org.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ip-version: dual
-    udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-    type: vless
-    server: 185.153.183.198
-    port: 3237
-    uuid: 1d86846c-5a27-43c8-8981-57bb75c82195
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: '@Vipoutline 🇨🇦'
-    type: vless
-    server: 104.21.43.145
-    port: 443
-    uuid: c4258f50-fe5d-4b6c-9f09-5a193b7d34ef
-    network: ws
-    tls: false
-    servername: sinavm_sinavm.sinabigo.ir
-    client-fingerprint: firefox
-    ws-opts:
-      path: /@ln2ray
-    ip-version: dual
-    udp: true
   - name: 👉🆔@m3hdio1🛜🇷🇺Russia
     type: ss
     server: 45.151.62.54
@@ -130,29 +82,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-    type: vless
-    server: 104.21.112.1
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: '@Hope_Net-join-us-on-Telegram_2'
-    type: vless
-    server: 45.81.35.52
-    port: 80
-    uuid: 1c44c35b-5e3e-4756-bbfa-8c88f60258c2
-    network: grpc
-    tls: true
-    servername: zula.ir
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: V8ty3KjLbOkmJvCWfRjDeRyuR7TUn0sn2WTgDwXa9BI
-      short-id: 2c4fcb60
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: '@Hope_Net_1'
     type: ss
     server: 77.83.246.74
@@ -162,102 +91,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-    type: vless
-    server: 37.27.249.129
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-    type: vless
-    server: 104.17.148.22
-    port: 80
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    network: ws
-    tls: false
-    ws-opts:
-      path: /LwW5jwrnymnOdqki
-    ip-version: dual
-    udp: true
-  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-    type: vless
-    server: 104.21.96.1
-    port: 443
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    network: ws
-    tls: true
-    servername: hastI.FrEeAIRLAInEs.CoM
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
-    client-fingerprint: randomized
-    ws-opts:
-      path: /MTMVPN
-    ip-version: dual
-    udp: true
-  - name: '@Hope_Net-join-us-on-Telegram_3'
-    type: vless
-    server: 151.101.65.6
-    port: 80
-    uuid: 7f97027a-6f60-5723-b101-eef62aab17db
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        host: JoinBede-mosiv2.ir
-    ip-version: dual
-    udp: true
-  - name: '@Hope_Net-join-us-on-Telegram_4'
-    type: vless
-    server: 151.101.129.6
-    port: 80
-    uuid: 7f97027a-6f60-5723-b101-eef62aab17db
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        host: JoinBede-mosiv2.ir
-    ip-version: dual
-    udp: true
-  - name: '@vless'
-    type: vless
-    server: 135.148.152.107
-    port: 443
-    uuid: ea286109-d20f-415e-849e-4af20ab04b65
-    network: tcp
-    tls: true
-    servername: 147135001195.sec22org.com
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-    type: vless
-    server: 185.153.183.101
-    port: 3237
-    uuid: 1d86846c-5a27-43c8-8981-57bb75c82195
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: '@Hope_Net-join-us-on-Telegram_5'
-    type: vless
-    server: 151.101.194.219
-    port: 80
-    uuid: 958ff940-467a-4d51-b00c-9e3370b97bd3
-    network: ws
-    tls: false
-    ws-opts:
-      path: /olem/ws
-    ip-version: dual
-    udp: true
   - name: '@Hope_Net_2'
     type: ss
     server: 35.176.197.229
@@ -276,24 +109,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-    type: vless
-    server: 172.67.73.163
-    port: 80
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    tls: false
-    ws-opts:
-      path: /MTMVPN
-    ip-version: dual
-    udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
-    type: vless
-    server: 104.21.32.1
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    tls: false
-    ip-version: dual
-    udp: true
   - name: Matteo-GetAFreeNode
     type: hysteria2
     server: 212.115.124.224
@@ -325,16 +140,6 @@ proxies:
     udp: true
     alterId: 0
     cipher: auto
-  - name: 'Channel id: @shokhmiplus 🇫🇮ss'
-    type: vless
-    server: 37.27.249.94
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: 🇺🇸US(AzadNet.t.me)_552
     type: ss
     server: 23.134.94.168
@@ -353,13 +158,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
-  - name: '@proxy_v2box'
-    type: vless
-    server: 104.20.129.2
-    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-    tls: false
-    ip-version: dual
-    udp: true
   - name: '@Hope_Net_6'
     type: ss
     server: 23.157.40.115
@@ -369,20 +167,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
-  - name: '@Vipoutline🇺🇸'
-    type: vless
-    server: 51.81.36.78
-    port: 443
-    uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    network: tcp
-    tls: true
-    servername: 147135011033.sec21org.com
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
   - name: '@Hope_Net_7'
     type: ss
     server: 23.157.40.115
@@ -392,13 +176,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
-  - name: '@Hope_Net-join-us-on-Telegram_6'
-    type: vless
-    server: 104.17.147.22
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    tls: false
-    ip-version: dual
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -406,38 +183,18 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -445,38 +202,18 @@ proxy-groups:
     tolerance: 5000
     proxies:
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -484,152 +221,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -653,38 +310,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - IR-@proxy_v2box
-      - '@Artemisvpn1  🇨🇦vless'
       - 🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.164:8080
-      - '@Hope_Net-join-us-on-Telegram_1'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_1
-      - '@Vipoutline 🇨🇦'
       - 👉🆔@m3hdio1🛜🇷🇺Russia
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_2
-      - '@Hope_Net-join-us-on-Telegram_2'
       - '@Hope_Net_1'
-      - '@vmesskhodam @vmesskhodam @vmesskhodam @vmesskhodamvmess'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص ایرانسل و رایتل✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥ MciFree service👇👇👇👇👇✅ @vmesc
-      - '@Hope_Net-join-us-on-Telegram_3'
-      - '@Hope_Net-join-us-on-Telegram_4'
-      - '@vless'
-      - Cyprus(🇨🇾)Jᴏɪɴ »» @FarahVPN - @FarahProxy
-      - '@Hope_Net-join-us-on-Telegram_5'
       - '@Hope_Net_2'
       - '@Hope_Net_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_3
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص همراه اول و وایفای✅حتما به اشتراک بزارید ✅@vmess_ir🚀🚀💬💬💬📷📷💬📺📺💬😍در صورت اتصال حتما در ریکشن ها شرکت کنید😍_4
       - Matteo-GetAFreeNode
       - '@Hope_Net_4'
       - '@meli_proxyyسرورای‌بیشتر'
-      - 'Channel id: @shokhmiplus 🇫🇮ss'
       - 🇺🇸US(AzadNet.t.me)_552
       - '@Hope_Net_5'
-      - '@proxy_v2box'
       - '@Hope_Net_6'
-      - '@Vipoutline🇺🇸'
       - '@Hope_Net_7'
-      - '@Hope_Net-join-us-on-Telegram_6'
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
