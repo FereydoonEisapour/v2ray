@@ -1,0 +1,133 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+dns:
+  enable: true
+  ipv6: true
+  respect-rules: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  proxy-server-nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  nameserver-policy:
+    geosite:cn,private:
+      - https://120.53.53.53/dns-query
+      - https://223.5.5.5/dns-query
+    geosite:geolocation-!cn:
+      - https://dns.cloudflare.com/dns-query
+      - https://dns.google/dns-query
+proxies:
+  - name: '@Hope_Net-join-us-on-Telegram'
+    type: vmess
+    server: 38.114.120.12
+    port: 47567
+    uuid: cda5dfaa-99e8-42d6-9f0b-6ef30f76e92c
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: ''
+    network: tcp
+  - name: '@meli_proxyyسرورای‌بیشتر'
+    type: vmess
+    server: 193.108.117.143
+    port: 24164
+    uuid: aa3c5c18-6578-4de3-b890-2fd25c3a8f35
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: ''
+    network: tcp
+proxy-groups:
+  - type: select
+    name: 🚀 节点选择
+    proxies:
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - name: ⚡ 自动选择
+    type: url-test
+    proxies:
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    lazy: false
+  - type: select
+    name: 💬 AI 服务
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - type: select
+    name: 📹 油管视频
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - type: select
+    name: 🔍 谷歌服务
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - type: select
+    name: 🏠 私有网络
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - type: select
+    name: 📲 电报消息
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - type: select
+    name: 🌐 非中国
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+  - type: select
+    name: 🐟 漏网之鱼
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - '@Hope_Net-join-us-on-Telegram'
+      - '@meli_proxyyسرورای‌بیشتر'
+rules:
+  - GEOSITE,category-ai-chat-!cn,💬 AI 服务
+  - GEOSITE,youtube,📹 油管视频
+  - GEOSITE,google,🔍 谷歌服务
+  - GEOIP,google,🔍 谷歌服务,no-resolve
+  - GEOIP,private,🏠 私有网络,no-resolve
+  - GEOIP,telegram,📲 电报消息,no-resolve
+  - GEOSITE,geolocation-!cn,🌐 非中国
+  - MATCH,🐟 漏网之鱼
