@@ -24,7 +24,7 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 443
+    port: 2087
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
@@ -37,39 +37,13 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2083
+    port: 2053
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: chrome
+    fp: randomized
   - name: 3-vless-worker-127.0.0.1
-    server: 127.0.0.1
-    type: vless
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2087
-    sni: 127.0.0.1
-    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: vless-ws/?ed=2048
-    fp: android
-  - name: 4-vless-worker-127.0.0.1
-    server: 127.0.0.1
-    type: vless
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2083
-    sni: 127.0.0.1
-    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: vless-ws/?ed=2048
-    fp: android
-  - name: 5-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
     tls: true
@@ -82,33 +56,7 @@ proxies:
     host: 127.0.0.1
     path: vless-ws/?ed=2048
     fp: chrome
-  - name: 6-vless-worker-127.0.0.1
-    server: 127.0.0.1
-    type: vless
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2083
-    sni: 127.0.0.1
-    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: vless-ws/?ed=2048
-    fp: chrome
-  - name: 7-vless-worker-127.0.0.1
-    server: 127.0.0.1
-    type: vless
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2096
-    sni: 127.0.0.1
-    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: vless-ws/?ed=2048
-    fp: android
-  - name: 8-vless-worker-127.0.0.1
+  - name: 4-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
     tls: true
@@ -121,6 +69,58 @@ proxies:
     host: 127.0.0.1
     path: vless-ws/?ed=2048
     fp: chrome
+  - name: 5-vless-worker-127.0.0.1
+    server: 127.0.0.1
+    type: vless
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2083
+    sni: 127.0.0.1
+    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: vless-ws/?ed=2048
+    fp: firefox
+  - name: 6-vless-worker-127.0.0.1
+    server: 127.0.0.1
+    type: vless
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2087
+    sni: 127.0.0.1
+    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: vless-ws/?ed=2048
+    fp: safari
+  - name: 7-vless-worker-127.0.0.1
+    server: 127.0.0.1
+    type: vless
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2053
+    sni: 127.0.0.1
+    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: vless-ws/?ed=2048
+    fp: firefox
+  - name: 8-vless-worker-127.0.0.1
+    server: 127.0.0.1
+    type: vless
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2053
+    sni: 127.0.0.1
+    uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: vless-ws/?ed=2048
+    fp: safari
   - name: 9-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -146,7 +146,7 @@ proxies:
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: chrome
+    fp: randomized
   - name: 11-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -154,12 +154,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 8443
+    port: 2083
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: chrome
+    fp: edge
   - name: 12-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -167,12 +167,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2096
+    port: 8443
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: randomized
+    fp: android
   - name: 13-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -180,12 +180,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 8443
+    port: 2083
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: ios
+    fp: chrome
   - name: 14-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -193,12 +193,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2087
+    port: 2083
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: chrome
+    fp: randomized
   - name: 15-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -211,7 +211,7 @@ proxies:
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: randomized
+    fp: safari
   - name: 16-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -224,7 +224,7 @@ proxies:
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: chrome
+    fp: randomized
   - name: 17-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -232,7 +232,7 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 443
+    port: 2096
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
@@ -245,12 +245,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2053
+    port: 443
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: randomized
+    fp: firefox
   - name: 19-vless-worker-127.0.0.1
     server: 127.0.0.1
     type: vless
@@ -258,7 +258,7 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2053
+    port: 2083
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
@@ -271,12 +271,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 8443
+    port: 443
     sni: 127.0.0.1
     uuid: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: vless-ws/?ed=2048
-    fp: ios
+    fp: chrome
   - name: 21-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
@@ -284,12 +284,12 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2096
+    port: 8443
     sni: 127.0.0.1
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
-    fp: randomized
+    fp: chrome
   - name: 22-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
@@ -302,7 +302,7 @@ proxies:
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
-    fp: chrome
+    fp: firefox
   - name: 23-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
@@ -310,104 +310,13 @@ proxies:
     cipher: auto
     security: tls
     network: ws
-    port: 2053
+    port: 8443
     sni: 127.0.0.1
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
-    fp: ios
+    fp: firefox
   - name: 24-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2053
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: chrome
-  - name: 25-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2053
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: ios
-  - name: 26-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2087
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: ios
-  - name: 27-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2096
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: safari
-  - name: 28-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2087
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: ios
-  - name: 29-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2083
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: randomized
-  - name: 30-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2096
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: randomized
-  - name: 31-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
@@ -420,46 +329,20 @@ proxies:
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
     fp: randomized
-  - name: 32-trojan-worker-127.0.0.1
+  - name: 25-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
     cipher: auto
     security: tls
     network: ws
-    port: 2096
+    port: 8443
     sni: 127.0.0.1
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
-    fp: edge
-  - name: 33-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2083
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: chrome
-  - name: 34-trojan-worker-127.0.0.1
-    server: 127.0.0.1
-    type: trojan
-    tls: true
-    cipher: auto
-    security: tls
-    network: ws
-    port: 2083
-    sni: 127.0.0.1
-    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
-    host: 127.0.0.1
-    path: trojan-ws/?ed=2048
-    fp: chrome
-  - name: 35-trojan-worker-127.0.0.1
+    fp: randomized
+  - name: 26-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
@@ -472,20 +355,20 @@ proxies:
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
     fp: android
-  - name: 36-trojan-worker-127.0.0.1
+  - name: 27-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
     cipher: auto
     security: tls
     network: ws
-    port: 2096
+    port: 443
     sni: 127.0.0.1
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
-    fp: safari
-  - name: 37-trojan-worker-127.0.0.1
+    fp: ios
+  - name: 28-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
@@ -498,20 +381,72 @@ proxies:
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
     fp: randomized
-  - name: 38-trojan-worker-127.0.0.1
+  - name: 29-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
     cipher: auto
     security: tls
     network: ws
-    port: 2096
+    port: 2083
     sni: 127.0.0.1
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
     fp: ios
-  - name: 39-trojan-worker-127.0.0.1
+  - name: 30-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2087
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: randomized
+  - name: 31-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2053
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: firefox
+  - name: 32-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2083
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: android
+  - name: 33-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2087
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: firefox
+  - name: 34-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
@@ -523,8 +458,21 @@ proxies:
     password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
-    fp: edge
-  - name: 40-trojan-worker-127.0.0.1
+    fp: randomized
+  - name: 35-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2053
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: safari
+  - name: 36-trojan-worker-127.0.0.1
     server: 127.0.0.1
     type: trojan
     tls: true
@@ -537,6 +485,100 @@ proxies:
     host: 127.0.0.1
     path: trojan-ws/?ed=2048
     fp: chrome
+  - name: 37-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2087
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: android
+  - name: 38-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2087
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: safari
+  - name: 39-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 8443
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: edge
+  - name: 40-trojan-worker-127.0.0.1
+    server: 127.0.0.1
+    type: trojan
+    tls: true
+    cipher: auto
+    security: tls
+    network: ws
+    port: 2096
+    sni: 127.0.0.1
+    password: 7fe89467-e2d7-5c37-9a7b-d356cad86846
+    host: 127.0.0.1
+    path: trojan-ws/?ed=2048
+    fp: chrome
+  - name: 41-@Hope_Net-join-us-on-Telegram
+    server: 38.114.120.12
+    type: vmess
+    tls: false
+    cipher: auto
+    port: 47567
+    uuid: cda5dfaa-99e8-42d6-9f0b-6ef30f76e92c
+    alterId: '0'
+    security: auto
+    network: none
+    host: ''
+    path: ''
+    sni: ''
+    fp: ios
+  - name: 42-@meli_proxyyسرورای‌بیشتر
+    server: 193.108.117.143
+    type: vmess
+    tls: false
+    cipher: auto
+    port: 24164
+    uuid: aa3c5c18-6578-4de3-b890-2fd25c3a8f35
+    alterId: '0'
+    security: auto
+    network: none
+    host: ''
+    path: ''
+    sni: ''
+    fp: android
+  - name: 43-@Hope_Net-join-us-on-Telegram
+    server: 15.204.248.92
+    type: vmess
+    tls: false
+    cipher: auto
+    port: 30562
+    uuid: 82466715-6a58-4046-a363-a0d18e5b2ab4
+    alterId: '0'
+    security: auto
+    network: none
+    host: ''
+    path: ''
+    sni: ''
+    fp: ios
 proxy-groups:
   - name: All
     type: select
@@ -588,6 +630,9 @@ proxy-groups:
       - 38-trojan-worker-127.0.0.1
       - 39-trojan-worker-127.0.0.1
       - 40-trojan-worker-127.0.0.1
+      - 41-@Hope_Net-join-us-on-Telegram
+      - 42-@meli_proxyyسرورای‌بیشتر
+      - 43-@Hope_Net-join-us-on-Telegram
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
@@ -633,6 +678,9 @@ proxy-groups:
       - 38-trojan-worker-127.0.0.1
       - 39-trojan-worker-127.0.0.1
       - 40-trojan-worker-127.0.0.1
+      - 41-@Hope_Net-join-us-on-Telegram
+      - 42-@meli_proxyyسرورای‌بیشتر
+      - 43-@Hope_Net-join-us-on-Telegram
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
@@ -704,7 +752,10 @@ proxy-groups:
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
-    proxies: []
+    proxies:
+      - 41-@Hope_Net-join-us-on-Telegram
+      - 42-@meli_proxyyسرورای‌بیشتر
+      - 43-@Hope_Net-join-us-on-Telegram
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
