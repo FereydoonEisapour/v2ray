@@ -1,0 +1,3028 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "proxyDns",
+        "address": "8.8.8.8",
+        "detour": "select"
+      },
+      {
+        "tag": "localDns",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "ghproxy.com",
+          "cdn.jsdelivr.net",
+          "testingcf.jsdelivr.net"
+        ],
+        "server": "localDns"
+      },
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "server": "block"
+      },
+      {
+        "server": "localDns",
+        "outbound": "any",
+        "disable_cache": true
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "server": "localDns"
+      },
+      {
+        "server": "localDns",
+        "clash_mode": "direct"
+      },
+      {
+        "server": "proxyDns",
+        "clash_mode": "global"
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
+        "server": "proxyDns"
+      }
+    ],
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081
+    },
+    {
+      "stack": "system",
+      "auto_route": true,
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 9000,
+      "sniff": true,
+      "strict_route": true,
+      "type": "tun",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 1081
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "tag": "🤖 OpenAI",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🌌 Google",
+      "type": "selector",
+      "outbounds": [
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "📟 Telegram",
+      "type": "selector",
+      "outbounds": [
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🐦 Twitter",
+      "type": "selector",
+      "outbounds": [
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "👤 Facebook",
+      "type": "selector",
+      "outbounds": [
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🛍️ Amazon",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🍎 Apple",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🧩 Microsoft",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🎮 Game",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "📺 Bilibili",
+      "type": "selector",
+      "outbounds": [
+        "direct"
+      ]
+    },
+    {
+      "tag": "🎬 MediaVideo",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🌏 !cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "t.me/NTGreen+👽تمامی",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+        "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+        "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+        "🇨🇦TM-@AZAFBAYJAB1",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+        "فیلترشکن رایگان👈vpnowl@",
+        "TM@AZAFBAYJB1⚙️",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+        "TM-@AZARBAYJAB1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+        "WedBaZ_1",
+        "@V2aryng_vpn_1",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+        "WedBaZ_2",
+        "@v2ray_best_iran 🇩🇪 1",
+        "@V2ry_Proxy +✅+عضو+شوید⭕️",
+        "[🇨🇦]t.me/ConfigsHub_1",
+        "All تا فردا ظهر",
+        "WedbaZ",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+        "[🇨🇦]t.me/ConfigsHubϟ",
+        "@meli_proxyy_1",
+        "https://t.me/AZARBAYJAB1+|🇹🇷",
+        "🇳🇱 9694V2rayNG",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+        "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+        "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+        "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+        "🇰🇷|KR|@wxgqlfx|17",
+        "[🏁]t.me/ConfigsHub",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+        "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+        "TG:@v2ray_sub_1",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+        "NTGreen 👽_1",
+        "@V2rayNG3_1",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+        "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "@V2aryng_vpn_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+        "Free 155 (@Outline_Vpn)",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+        "TG:@v2ray_sub_2",
+        "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+        "Channel id: @ShadowProxy66🇱🇹",
+        "برای اتصال دائمی جوین شو🍦@Outline_ir",
+        "9830",
+        "All تا فردا ظهرV2rayNG",
+        "@V2rayNG3_2",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+        "🇦🇪@vpn_ioss ♻️ عضو شو",
+        "@V2ray1_Ng ALL",
+        "Kurdistan_Vpnکپی",
+        "🇺🇾@vpn_ioss ♻️ عضو شو",
+        "[🇨🇦]t.me/ConfigsHub_2",
+        "@Golestan_VPN - 👈 خرید کانفیگ",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+        "@meli_proxyy_2",
+        "Kurdistan_Van",
+        "@V2rayNG3_3",
+        "سرور رایگان پرسرعت🌊 @vmess_ir",
+        "Free 75 (@Outline_Vpn)🚀",
+        "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+        "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+        "Channel id: @ShadowProxy66🇬🇧",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+        "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+        "@@v2ryorg",
+        "Telegram @V_2rayng0نامحدود",
+        "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+        "Free 777 @Outline_Vpn🚀",
+        "@V2rayNG3_4",
+        "@Selincوصل",
+        "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+        "@meli_proxyy_3",
+        "NTGreen 👽_2",
+        "Free By Tharuwa",
+        "WedBaz🇨🇭",
+        "🇺🇸|US|@wxgqlfx|129",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+        "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+        "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+        "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+        "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+        "@meli_proxyy_4"
+      ]
+    },
+    {
+      "tag": "🌏 cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "select"
+      ]
+    },
+    {
+      "tag": "🛑 AdBlock",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "server": "162.159.152.2",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "aparat.ir.rubika.ir.google.com.xn--cr8haaa.xn--cr8haaaaa.29.a.apaspeedtest.netrat.com.eu.com.shw914.ir.xn--cr8ha.vpncustomize.V2ryng01.ru:0"
+      },
+      "transport": {
+        "path": "/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=2560",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "50e2cab1-c919-434d-a7d4-78dcd42fe963",
+      "tag": "t.me/NTGreen+👽تمامی",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 8080,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.net.a.6.salatinmaccv.ir."
+      },
+      "transport": {
+        "path": "/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "telegram-id-ArV2ray",
+      "tag": "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_1",
+      "type": "vless"
+    },
+    {
+      "server": "88.216.187.144",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "برای اتصال دائمی جوین شو🍦@Outline_irمخصوص",
+      "type": "vless"
+    },
+    {
+      "server": "104.16.209.110",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "masaleini.mahsaamini.dpdns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+      "tag": "کانال+ما+در+تلگرام+@Asak_Vpn+🔷",
+      "type": "vless"
+    },
+    {
+      "server": "tabrizm137.owner.workers.dev",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "masaleini.mahsaamini.dpdns.org"
+      },
+      "transport": {
+        "path": "/TM@AZAFBAYJAB1",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+      "tag": "🇨🇦TM-@AZAFBAYJAB1",
+      "type": "vless"
+    },
+    {
+      "server": "638817026935097685.amsterdam-shledrc-accc.info",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "کانفیگ پرسرعت رایگان🌋@vmesc_1",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
+      },
+      "transport": {
+        "path": "/Vb2kRpQSrEqsUKCX?ed=2560",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "tag": "فیلترشکن رایگان👈vpnowl@",
+      "type": "vless"
+    },
+    {
+      "server": "tabrizm137.owner.pages.dev",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "masaleini.mahsaamini.dpdns.org"
+      },
+      "transport": {
+        "path": "/TM@AZAFBAYJAB1",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+      "tag": "TM@AZAFBAYJB1⚙️",
+      "type": "vless"
+    },
+    {
+      "server": "104.16.41.28",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "d5.medicaltreatment.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/sinavm-sinavm/?ed=2560flow=-udp443",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "15298f41-e80b-463a-b85b-0c903258a1c8",
+      "tag": "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1",
+      "type": "vless"
+    },
+    {
+      "server": "103.160.204.37",
+      "server_port": 2086,
+      "tls": {
+        "enabled": true,
+        "server_name": "masaleini.mahsaamini.dpdns.org"
+      },
+      "transport": {
+        "path": "/TM-@AZARBAYJAB1",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+      "tag": "TM-@AZARBAYJAB1",
+      "type": "vless"
+    },
+    {
+      "server": "o.soskom.ir",
+      "server_port": 26528,
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2FrbyUtv6Ajh0Ufmst5Tw0ch_aeF3tXw0kDcfOrvGTk",
+          "short_id": "8f9d4d9a"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "1350de53-c423-4b49-a683-b27f292f07a3",
+      "flow": "xtls-rprx-vision",
+      "tag": "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما_2",
+      "type": "vless"
+    },
+    {
+      "server": "151.101.64.155",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "Irancellman.net"
+      },
+      "transport": {
+        "path": "/WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "f3cdd808-a562-4c9d-c895-99dcaa9aaaf8",
+      "tag": "WedBaZ_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.18.12.149",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "d1.medicaldream.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "ccff34b1-44fd-478d-bc0e-5111cb11f5be",
+      "tag": "@V2aryng_vpn_1",
+      "type": "vless"
+    },
+    {
+      "server": "162.159.7.226",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "d4.medicaldream.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "ccff34b1-44fd-478d-bc0e-5111cb11f5be",
+      "tag": "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.17.148.22",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "DrOt0Ai1Oq.DeRaKhT.iNfO"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
+      "tag": "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1",
+      "type": "vless"
+    },
+    {
+      "server": "151.101.64.155",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "Irancellman.net"
+      },
+      "transport": {
+        "path": "/WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "4814b676-7c20-4fe2-ecdf-552f814c472c",
+      "tag": "WedBaZ_2",
+      "type": "vless"
+    },
+    {
+      "server": "best1.bestshop10.ir",
+      "server_port": 16072,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "3dd846db-2349-40d5-9c56-f945dc06bd46",
+      "tag": "@v2ray_best_iran 🇩🇪 1",
+      "type": "vless"
+    },
+    {
+      "server": "104.21.69.44",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cr77.hedieh.dpdns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "f12977e6-d296-4d94-9aaf-d31770b70f84",
+      "tag": "@V2ry_Proxy +✅+عضو+شوید⭕️",
+      "type": "vless"
+    },
+    {
+      "server": "python.org",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "bia_to_vmessorg.ir"
+      },
+      "transport": {
+        "type": "xhttp"
+      },
+      "uuid": "0b565e9b-667a-4a9f-8472-b7ccda739cb7",
+      "tag": "[🇨🇦]t.me/ConfigsHub_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.17.147.22",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "ScKzAhYz14.qUiCkOrA.OrG"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "All تا فردا ظهر",
+      "type": "vless"
+    },
+    {
+      "server": "151.101.64.155",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "wwwaparataternos.com"
+      },
+      "transport": {
+        "path": "/WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "62053f65-104c-43e6-d88b-ad99fdfb582e",
+      "tag": "WedbaZ",
+      "type": "vless"
+    },
+    {
+      "server": "194.182.79.252",
+      "server_port": 10785,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048"
+      },
+      "uuid": "0b872dc1-d11c-4a33-8c30-370cb42faafa",
+      "tag": "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_1",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "GxVpOnLl13.pRiMeXaD.OrG"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "[🇨🇦]t.me/ConfigsHubϟ",
+      "type": "vless"
+    },
+    {
+      "server": "185.146.173.39",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true,
+        "server_name": "Search.DigiKala.CYoU."
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "Parsashonam-232",
+      "tag": "@meli_proxyy_1",
+      "type": "vless"
+    },
+    {
+      "server": "103.231.73.214",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "lv01.abvpn.ru"
+      },
+      "transport": {
+        "path": "/websocket",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tag": "https://t.me/AZARBAYJAB1+|🇹🇷",
+      "type": "vless"
+    },
+    {
+      "server": "78.47.141.72",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "🇳🇱 9694V2rayNG",
+      "type": "vless"
+    },
+    {
+      "server": "95.164.3.121",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XY8doX6twfJ6qzioiuOzQCxHyiLWiv8YpKA-lD01AjI",
+          "short_id": "9c"
+        }
+      },
+      "uuid": "11576d1e-f610-4000-9811-b618928966a2",
+      "flow": "xtls-rprx-vision",
+      "tag": "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.17.148.22",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "MdLoXlYg.rIcKtMoUsE.InFo",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tag": "Free 119 (@Outline_Vpn)vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJrYXBlbGxlbmcuY29tIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkZyZWUgMTIwIChAT3V0bGluZV9WcG4pIiwic2N5IjoiYXV0byIsInNuaSI6ImthcGVsbGVuZy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+      "type": "vless"
+    },
+    {
+      "server": "193.9.49.147",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "NuWoLcZn28.qUiCkOrA.OrG",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام➖➖➖➖➖➖➖🔅آموزش",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "gpt.smatiz.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "salaam",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "6babb657-1524-43bb-b421-11bda27bc9de",
+      "tag": "کانال ما در تلگرام: @V2aryng_vpn@V2aryng_vpn",
+      "type": "vless"
+    },
+    {
+      "server": "89.23.118.93",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "ru01.abvpn.ru"
+      },
+      "transport": {
+        "path": "/websocket",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tag": "🇰🇷|KR|@wxgqlfx|17",
+      "type": "vless"
+    },
+    {
+      "server": "194.182.79.119",
+      "server_port": 17958,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048"
+      },
+      "uuid": "faf51e77-ee0f-4089-a490-b45a1ccdc09f",
+      "tag": "[🏁]t.me/ConfigsHub",
+      "type": "vless"
+    },
+    {
+      "server": "lv01.abvpn.ru",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "lv01.abvpn.ru"
+      },
+      "transport": {
+        "path": "/websocket",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tag": "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_2",
+      "type": "vless"
+    },
+    {
+      "server": "p5.punchline.ir",
+      "server_port": 15844,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YDC-dhEfJzgMPt87r21AJX2axZzlPzR5CB33V0XBRxU",
+          "short_id": "5aaf9a1f2a"
+        }
+      },
+      "transport": {
+        "type": "xhttp"
+      },
+      "uuid": "82bc4728-fac4-4b68-ac99-0335c0e48ca0",
+      "flow": "xtls-rprx-vision",
+      "tag": "𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما🎞_2",
+      "type": "vless"
+    },
+    {
+      "server": "45.131.208.62",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "LhCgBjGr29.vElTrIxS.OrG",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h3",
+          "h2"
+        ]
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "TG:@v2ray_sub_1",
+      "type": "vless"
+    },
+    {
+      "server": "37.156.46.44",
+      "server_port": 59536,
+      "tls": {
+        "enabled": true,
+        "server_name": "/JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A",
+          "short_id": "d6d54c08fbbf895f"
+        }
+      },
+      "uuid": "d2a6d095-e897-1c16-8fde-b96d5892d515",
+      "flow": "xtls-rprx-vision",
+      "tag": "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_2",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "QtTjVrWp21.nExOpOiNt.oRg",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "NTGreen 👽_1",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.31",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "@V2rayNG3_1",
+      "type": "vless"
+    },
+    {
+      "server": "5.182.86.128",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "nl07.abvpn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/websocket",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tag": "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.52",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_1",
+      "type": "vless"
+    },
+    {
+      "server": "146.59.239.223",
+      "server_port": 2052,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless-grpc"
+      },
+      "uuid": "1e3a393f-00fd-48f0-af0e-33e0f34e0c21",
+      "tag": "9868vmess://eyJhZGQiOiIxNDIuNC4xMTYuMTc3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjUwMDA5IiwicHMiOiI5ODY5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "type": "vless"
+    },
+    {
+      "server": "172.67.204.84",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "ipsycho.suex12.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/re5IzbZ9IZZMddtw?ed=2560",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "tag": "@V2aryng_vpn_2",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.37",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪✅️تا",
+      "type": "vless"
+    },
+    {
+      "server": "104.17.148.22",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "Free 155 (@Outline_Vpn)",
+      "type": "vless"
+    },
+    {
+      "server": "194.182.79.46",
+      "server_port": 14888,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048"
+      },
+      "uuid": "378d5714-5101-4740-85eb-f42b59ee763d",
+      "tag": "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_3",
+      "type": "vless"
+    },
+    {
+      "server": "209.208.227.229",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "TG:@v2ray_sub_2",
+      "type": "vless"
+    },
+    {
+      "server": "104.21.112.1",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "masaleini.mahsaamini.dpdns.org"
+      },
+      "transport": {
+        "path": "/Tel-@V2ray_Alpha",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+      "tag": "کانفیگ پرسرعت رایگان🌋@vmesc───────❥",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.44",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "Channel id: @ShadowProxy66🇱🇹",
+      "type": "vless"
+    },
+    {
+      "server": "45.82.251.149",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true,
+        "server_name": "pqh33v3.vetdomok.shop"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "tag": "برای اتصال دائمی جوین شو🍦@Outline_ir",
+      "type": "vless"
+    },
+    {
+      "server": "141.101.122.211",
+      "server_port": 2052,
+      "tls": {
+        "enabled": true,
+        "server_name": "sPeedtest2.sbs.za.v2vless.sitespeedtest.net"
+      },
+      "transport": {
+        "path": "/vless",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "d3719117-f720-583d-9ac4-53b9caf69e78",
+      "tag": "9830",
+      "type": "vless"
+    },
+    {
+      "server": "2a01:4f8:c010:6ca3::1",
+      "server_port": 27094,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "tag": "All تا فردا ظهرV2rayNG",
+      "type": "vless"
+    },
+    {
+      "server": "15.204.150.39",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "147135001178.sec22org.com"
+      },
+      "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
+      "tag": "@V2rayNG3_2",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.46",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪_2",
+      "type": "vless"
+    },
+    {
+      "server": "pqh32v1.film32western.shop",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "tag": "🇦🇪@vpn_ioss ♻️ عضو شو",
+      "type": "vless"
+    },
+    {
+      "server": "172.82.67.154",
+      "server_port": 11476,
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dHyiM189GsudgANJT4X9fxzsTnBUvoEUAjrJFnPGp2I",
+          "short_id": "eeb3b8"
+        }
+      },
+      "uuid": "2fd823dd-767b-4245-b56e-4790ca8c1a93",
+      "flow": "xtls-rprx-vision",
+      "tag": "@V2ray1_Ng ALL",
+      "type": "vless"
+    },
+    {
+      "server": "pqh44v1.whatstrue.shop",
+      "server_port": 1001,
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
+          "short_id": "5fab0deb"
+        }
+      },
+      "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
+      "flow": "xtls-rprx-vision",
+      "tag": "Kurdistan_Vpnکپی",
+      "type": "vless"
+    },
+    {
+      "server": "45.82.251.114",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "tag": "🇺🇾@vpn_ioss ♻️ عضو شو",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "redfree8mahsang6.redfree8.ir"
+      },
+      "transport": {
+        "path": "/ Telegram-mtmvpn---Telegram-mtmvpn---Telegram-mtmvpn/?ed=2560",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "tag": "[🇨🇦]t.me/ConfigsHub_2",
+      "type": "vless"
+    },
+    {
+      "server": "154.92.9.2",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "txmt.conetcdata.dpdns.org"
+      },
+      "transport": {
+        "path": "/?ed",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "de537efd-4d7c-4f3c-aea5-19d3f36c7b1b",
+      "tag": "@Golestan_VPN - 👈 خرید کانفیگ",
+      "type": "vless"
+    },
+    {
+      "server": "188.119.112.3",
+      "server_port": 2052,
+      "tls": {
+        "enabled": true,
+        "server_name": "vkvd127.mycdn.me"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tag": "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_3",
+      "type": "vless"
+    },
+    {
+      "server": "website.acveo.ir",
+      "server_port": 8080,
+      "tls": {
+        "enabled": true,
+        "server_name": "website.acveo.ir"
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "4b270bff-0f7e-428e-9fab-a4d96c068e8b",
+      "tag": "@meli_proxyy_2",
+      "type": "vless"
+    },
+    {
+      "server": "172.82.67.154",
+      "server_port": 53938,
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9C3BPgYGPsyQMqV0dWY4c_j-g22zq0dx3MjSp0-Dnjw",
+          "short_id": "fc9a6350400b"
+        }
+      },
+      "uuid": "25dad544-f470-460c-a3f7-0dca4bd90168",
+      "flow": "xtls-rprx-vision",
+      "tag": "Kurdistan_Van",
+      "type": "vless"
+    },
+    {
+      "server": "147135001195.sec22org.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
+      "tag": "@V2rayNG3_3",
+      "type": "vless"
+    },
+    {
+      "server": "usa01.abvpn.ru",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "usa01.abvpn.ru"
+      },
+      "transport": {
+        "path": "/websocket",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tag": "سرور رایگان پرسرعت🌊 @vmess_ir",
+      "type": "vless"
+    },
+    {
+      "server": "162.55.36.107",
+      "server_port": 577,
+      "tls": {
+        "enabled": true,
+        "server_name": "stackoverflow.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8",
+          "short_id": "9b28132c703433"
+        }
+      },
+      "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
+      "flow": "xtls-rprx-vision",
+      "tag": "Free 75 (@Outline_Vpn)🚀",
+      "type": "vless"
+    },
+    {
+      "server": "135.148.163.90",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "147135001178.sec22org.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
+      "tag": "Free 135 (@filterking1)vmess://eyJhZGQiOiIxNS4yMDQuMjQ4LjkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNDY2NzE1LTZhNTgtNDA0Ni1hMzYzLWEwZDE4ZTViMmFiNCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA1NjIiLCJwcyI6IkZyZWUgMTM2IChAZmlsdGVya2luZzEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==کار",
+      "type": "vless"
+    },
+    {
+      "server": "172.82.67.154",
+      "server_port": 58236,
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pL-OG-swF1oA_ogetFCr4zfGUoxFdeUYIu7bhmDZn3s",
+          "short_id": "00337819a82d"
+        }
+      },
+      "uuid": "73384fd8-2b99-497f-add8-a62e962f518a",
+      "flow": "xtls-rprx-vision",
+      "tag": "Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "type": "vless"
+    },
+    {
+      "server": "45.89.111.198",
+      "server_port": 2052,
+      "tls": {
+        "enabled": true,
+        "server_name": "omidyzvg2.kamaleriz.info"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tag": "Channel id: @ShadowProxy66🇬🇧",
+      "type": "vless"
+    },
+    {
+      "server": "162.159.153.2",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "aparat.ir.rubika.ir.google.com.xn--cr8haaa.xn--cr8haaaaa.29.a.apaspeedtest.netrat.com.eu.com.shw914.ir.xn--cr8ha.vpncustomize.V2ryng01.ru:0"
+      },
+      "transport": {
+        "path": "/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=2560",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "50e2cab1-c919-434d-a7d4-78dcd42fe963",
+      "tag": "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG⭕️عملکرد",
+      "type": "vless"
+    },
+    {
+      "server": "15.204.151.74",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "147135010072.sec21org.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "uuid": "c4fa89d4-fcb9-48ba-adbc-665181cc817f",
+      "tag": "🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.13",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "@@v2ryorg",
+      "type": "vless"
+    },
+    {
+      "server": "45.80.111.10",
+      "server_port": 2052,
+      "tls": {
+        "enabled": true,
+        "server_name": "sPeedtest2.sbs.br.vless.sitespeedtest.net"
+      },
+      "transport": {
+        "path": "/vless",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "45f01712-2893-53e3-8e6a-6b7c925021da",
+      "tag": "Telegram @V_2rayng0نامحدود",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.23",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "(@VmessProtocol)برای خرید و اتصال د%D8%…",
+      "type": "vless"
+    },
+    {
+      "server": "167.235.238.146",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "Free 777 @Outline_Vpn🚀",
+      "type": "vless"
+    },
+    {
+      "server": "147135004002.sec20org.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
+      "tag": "@V2rayNG3_4",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.17",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "@Selincوصل",
+      "type": "vless"
+    },
+    {
+      "server": "84.32.9.24",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "@@v2ryorgvmess://eyJhZGQiOiIxMDMuMTQ5LjE4My4xNzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiM2E5MDc5NTYtZjY2OC00ZTZiLWVhMDMtMDk0OWYwYzljMGE1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDY3NSIsInBzIjoiQFYycmF5TkdWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "type": "vless"
+    },
+    {
+      "server": "whatismyipaddress.com",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "Frall.sabinhosting.ir"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "a685b264-42b6-4ecd-92e2-d8dd402e5f6b",
+      "tag": "@meli_proxyy_3",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "QtTjVrWp29.nExOpOiNt.oRg",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tag": "NTGreen 👽_2",
+      "type": "vless"
+    },
+    {
+      "server": "152.42.238.214",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.us"
+      },
+      "transport": {
+        "path": "/FREE By Tharuwa (0767597317)",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "dc23d6df-4a97-4da7-81a1-f67a4bedc6d8",
+      "tag": "Free By Tharuwa",
+      "type": "vless"
+    },
+    {
+      "server": "www.speedtest.net",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.net.Friedtop.iR."
+      },
+      "transport": {
+        "type": "httpupgrade"
+      },
+      "uuid": "6626b750-a087-489c-c98c-9ccab3b16a77",
+      "tag": "WedBaz🇨🇭",
+      "type": "vless"
+    },
+    {
+      "server": "5.104.75.130",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "txmt.conetcdata.dpdns.org"
+      },
+      "transport": {
+        "path": "/?ed",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "de537efd-4d7c-4f3c-aea5-19d3f36c7b1b",
+      "tag": "🇺🇸|US|@wxgqlfx|129",
+      "type": "vless"
+    },
+    {
+      "server": "94.131.9.172",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_4",
+      "type": "vless"
+    },
+    {
+      "server": "194.182.79.218",
+      "server_port": 19608,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048"
+      },
+      "uuid": "7338a824-7335-486b-b05c-8d8962239350",
+      "tag": "[🏁]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ:_4",
+      "type": "vless"
+    },
+    {
+      "server": "5.181.171.10",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y"
+        }
+      },
+      "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+      "flow": "xtls-rprx-vision",
+      "tag": "🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry_3",
+      "type": "vless"
+    },
+    {
+      "server": "103.175.79.10",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI"
+        }
+      },
+      "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+      "flow": "xtls-rprx-vision",
+      "tag": "سرور رایگان پرسرعت🌊 @vmess_irمخصوص_5",
+      "type": "vless"
+    },
+    {
+      "server": "45.82.251.83",
+      "server_port": 1001,
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
+          "short_id": "5fab0deb"
+        }
+      },
+      "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
+      "flow": "xtls-rprx-vision",
+      "tag": "کانفیگ پرسرعت رایگان🌋@vmesc_2",
+      "type": "vless"
+    },
+    {
+      "server": "88.216.187.57",
+      "server_port": 8880,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tag": "@meli_proxyy_4",
+      "type": "vless"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
+      "download_detour": "select"
+    },
+    "geosite": {
+      "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
+      "download_detour": "select"
+    },
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "block"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "domain": [
+          "v2rayse.com",
+          "cfmem.com",
+          "vpnse.org",
+          "cff.pw",
+          "tt.vg"
+        ],
+        "outbound": "select"
+      },
+      {
+        "domain": [
+          "clash.razord.top",
+          "yacd.metacubex.one",
+          "yacd.haishan.me",
+          "d.metacubex.one"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "openai"
+        ],
+        "outbound": "🤖 OpenAI"
+      },
+      {
+        "geosite": [
+          "google",
+          "github"
+        ],
+        "geoip": [
+          "google"
+        ],
+        "outbound": "🌌 Google"
+      },
+      {
+        "geosite": [
+          "telegram"
+        ],
+        "geoip": [
+          "telegram"
+        ],
+        "outbound": "📟 Telegram"
+      },
+      {
+        "geosite": [
+          "twitter"
+        ],
+        "geoip": [
+          "twitter"
+        ],
+        "outbound": "🐦 Twitter"
+      },
+      {
+        "geosite": [
+          "facebook",
+          "instagram"
+        ],
+        "geoip": [
+          "facebook"
+        ],
+        "outbound": "👤 Facebook"
+      },
+      {
+        "geosite": [
+          "amazon"
+        ],
+        "outbound": "🛍️ Amazon"
+      },
+      {
+        "geosite": [
+          "apple-cn",
+          "apple"
+        ],
+        "outbound": "🍎 Apple"
+      },
+      {
+        "geosite": [
+          "microsoft"
+        ],
+        "outbound": "🧩 Microsoft"
+      },
+      {
+        "geosite": [
+          "category-games"
+        ],
+        "outbound": "🎮 Game"
+      },
+      {
+        "geosite": [
+          "bilibili"
+        ],
+        "outbound": "📺 Bilibili"
+      },
+      {
+        "geosite": [
+          "tiktok",
+          "netflix",
+          "hbo",
+          "disney",
+          "primevideo"
+        ],
+        "geoip": [
+          "netflix"
+        ],
+        "outbound": "🎬 MediaVideo"
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
+        "outbound": "🌏 !cn"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "geoip": [
+          "private",
+          "cn"
+        ],
+        "outbound": "🌏 cn"
+      },
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "🛑 AdBlock"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db"
+    }
+  }
+}
