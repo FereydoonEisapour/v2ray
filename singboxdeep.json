@@ -1,0 +1,313 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "google",
+        "address": "tls://8.8.8.8",
+        "detour": "proxy"
+      },
+      {
+        "tag": "local",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  },
+  "inbounds": [
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "127.0.0.1",
+      "listen_port": 10808,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "F09F87B9F09F87B77CTR7C40wxgqlf",
+        "F09F87B7F09F87BA7CRU7C40wxgqlf",
+        "F09D979DF09D97BCF09D97B6F09D97",
+        "40Vpn_Tehran2BF09F92962BDAA9D8",
+        "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+        "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+        "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+        "40V2ry_ProxyC2A02BE29C852BD8B9",
+        "TG3A40v2ray_subvless3A2F2Fbf46",
+        "TG3A40v2ray_subvmess3A2F2Few0K"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "F09F87B9F09F87B77CTR7C40wxgqlf",
+        "F09F87B7F09F87BA7CRU7C40wxgqlf",
+        "F09D979DF09D97BCF09D97B6F09D97",
+        "40Vpn_Tehran2BF09F92962BDAA9D8",
+        "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+        "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+        "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+        "40V2ry_ProxyC2A02BE29C852BD8B9",
+        "TG3A40v2ray_subvless3A2F2Fbf46",
+        "TG3A40v2ray_subvmess3A2F2Few0K"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "vless",
+      "tag": "F09F87B9F09F87B77CTR7C40wxgqlf",
+      "server": "5.104.75.130",
+      "server_port": 8443,
+      "uuid": "de537efd-4d7c-4f3c-aea5-19d3f36c7b1b",
+      "tls": {
+        "enabled": true,
+        "server_name": "txmt.conetcdata.dpdns.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "F09F87B7F09F87BA7CRU7C40wxgqlf",
+      "server": "89.23.118.93",
+      "server_port": 443,
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru01.abvpn.ru",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket",
+        "headers": {
+          "Host": "ru01.abvpn.ru"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "F09D979DF09D97BCF09D97B6F09D97",
+      "server": "162.159.7.226",
+      "server_port": 443,
+      "uuid": "ccff34b1-44fd-478d-bc0e-5111cb11f5be",
+      "tls": {
+        "enabled": true,
+        "server_name": "d4.medicaldream.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d4.medicaldream.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "40Vpn_Tehran2BF09F92962BDAA9D8",
+      "server": "193.9.49.147",
+      "server_port": 8443,
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "NuWoLcZn28.qUiCkOrA.OrG",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "NuWoLcZn28.qUiCkOrA.OrG"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+      "server": "104.17.148.22",
+      "server_port": 2096,
+      "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
+      "tls": {
+        "enabled": true,
+        "server_name": "DrOt0Ai1Oq.DeRaKhT.iNfO",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "DrOt0Ai1Oq.DeRaKhT.iNfO"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+      "server": "usa01.abvpn.ru",
+      "server_port": 443,
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tls": {
+        "enabled": true,
+        "server_name": "usa01.abvpn.ru",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket",
+        "headers": {
+          "Host": "usa01.abvpn.ru"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "D8B3D8B1D988D8B120D8B1D8A7DB8C",
+      "server": "5.182.86.128",
+      "server_port": 443,
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl07.abvpn.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket",
+        "headers": {
+          "Host": "nl07.abvpn.ru"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "40V2ry_ProxyC2A02BE29C852BD8B9",
+      "server": "104.21.69.44",
+      "server_port": 443,
+      "uuid": "f12977e6-d296-4d94-9aaf-d31770b70f84",
+      "tls": {
+        "enabled": true,
+        "server_name": "cr77.hedieh.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cr77.hedieh.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "TG3A40v2ray_subvless3A2F2Fbf46",
+      "server": "209.208.227.229",
+      "server_port": 2096,
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "TG3A40v2ray_subvmess3A2F2Few0K",
+      "server": "45.131.208.62",
+      "server_port": 2096,
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "LhCgBjGr29.vElTrIxS.OrG",
+        "insecure": false,
+        "alpn": [
+          "h3",
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "LhCgBjGr29.vElTrIxS.OrG"
+        }
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "geoip": [
+          "private",
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": "cn",
+        "outbound": "direct"
+      }
+    ],
+    "final": "proxy"
+  }
+}
