@@ -3,13 +3,6 @@
     "level": "info",
     "timestamp": true
   },
-  "experimental": {
-    "clash_api": {
-      "external_controller": "127.0.0.1:9090",
-      "secret": "",
-      "default_mode": "rule"
-    }
-  },
   "dns": {
     "servers": [
       {
@@ -55,18 +48,13 @@
       "server_port": 8443,
       "uuid": "de537efd-4d7c-4f3c-aea5-19d3f36c7b1b",
       "tls": {
-        "enabled": true,
-        "server_name": "txmt.conetcdata.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "5.104.75.130",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/?ed",
-        "service_name": ""
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -76,21 +64,13 @@
       "server_port": 443,
       "uuid": "588f094b-431b-422c-b80b-007945037072",
       "tls": {
-        "enabled": true,
-        "server_name": "ru01.abvpn.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "89.23.118.93",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/websocket",
-        "service_name": "",
-        "headers": {
-          "Host": "ru01.abvpn.ru"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -100,21 +80,13 @@
       "server_port": 443,
       "uuid": "ccff34b1-44fd-478d-bc0e-5111cb11f5be",
       "tls": {
-        "enabled": true,
-        "server_name": "d4.medicaldream.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "162.159.7.226",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "service_name": "",
-        "headers": {
-          "Host": "d4.medicaldream.ir"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -124,21 +96,13 @@
       "server_port": 8443,
       "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
       "tls": {
-        "enabled": true,
-        "server_name": "NuWoLcZn28.qUiCkOrA.OrG",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "193.9.49.147",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "service_name": "",
-        "headers": {
-          "Host": "NuWoLcZn28.qUiCkOrA.OrG"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -148,21 +112,13 @@
       "server_port": 2096,
       "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
       "tls": {
-        "enabled": true,
-        "server_name": "DrOt0Ai1Oq.DeRaKhT.iNfO",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "104.17.148.22",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "service_name": "",
-        "headers": {
-          "Host": "DrOt0Ai1Oq.DeRaKhT.iNfO"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -172,21 +128,13 @@
       "server_port": 443,
       "uuid": "588f094b-431b-422c-b80b-007945037072",
       "tls": {
-        "enabled": true,
+        "enabled": false,
         "server_name": "usa01.abvpn.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/websocket",
-        "service_name": "",
-        "headers": {
-          "Host": "usa01.abvpn.ru"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -196,21 +144,13 @@
       "server_port": 443,
       "uuid": "588f094b-431b-422c-b80b-007945037072",
       "tls": {
-        "enabled": true,
-        "server_name": "nl07.abvpn.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "5.182.86.128",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/websocket",
-        "service_name": "",
-        "headers": {
-          "Host": "nl07.abvpn.ru"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -220,21 +160,13 @@
       "server_port": 443,
       "uuid": "f12977e6-d296-4d94-9aaf-d31770b70f84",
       "tls": {
-        "enabled": true,
-        "server_name": "cr77.hedieh.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "104.21.69.44",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "service_name": "",
-        "headers": {
-          "Host": "cr77.hedieh.dpdns.org"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -244,21 +176,13 @@
       "server_port": 2096,
       "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
       "tls": {
-        "enabled": true,
-        "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "209.208.227.229",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "service_name": "",
-        "headers": {
-          "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -268,21 +192,13 @@
       "server_port": 2096,
       "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
       "tls": {
-        "enabled": true,
-        "server_name": "LhCgBjGr29.vElTrIxS.OrG",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false,
+        "server_name": "45.131.208.62",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "service_name": "",
-        "headers": {
-          "Host": "LhCgBjGr29.vElTrIxS.OrG"
-        }
+        "type": "tcp",
+        "path": "/"
       }
     },
     {
@@ -348,5 +264,12 @@
         "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs"
       }
     ]
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "secret": "",
+      "default_mode": "rule"
+    }
   }
 }
