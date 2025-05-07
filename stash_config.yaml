@@ -3,12 +3,13 @@ general:
   dns-server:
   - 223.5.5.5
   - 8.8.8.8
+  - 1.1.1.1
   proxy-test-url: http://www.gstatic.com/generate_204
+  always-real-ip:
+  - '*.apple.com'
+  - '*.icloud.com'
+  - '*.microsoft.com'
 proxies:
-- name: DIRECT
-  type: direct
-- name: REJECT
-  type: reject
 - name: کانفیگ پرسرعت رایگان🌋@vmesc
   type: vless
   server: 104.24.219.219
@@ -1077,6 +1078,7 @@ proxy-groups:
   - 'Channel id: @ShadowProxy66🇬🇧'
   - 'Channel id: @ShadowProxy66🇱🇹-1'
   - DIRECT
+  - REJECT
 - name: Auto
   type: url-test
   proxies:
@@ -1247,6 +1249,5 @@ rules:
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-KEYWORD,microsoft,DIRECT
 - DOMAIN-SUFFIX,cdn.jsdelivr.net,DIRECT
-- DOMAIN-SUFFIX,cn,DIRECT
 - GEOIP,CN,DIRECT
 - FINAL,PROXY
