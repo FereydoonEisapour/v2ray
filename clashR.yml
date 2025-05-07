@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 20:52:37
-# 配置生成日期：2025-05-07 21:41:08
+# 配置生成日期：2025-05-07 21:50:40
 
 mixed-port: 7890
 allow-lan: false
@@ -135,16 +135,6 @@ proxies:
         host: MdLoXlYg.rIcKtMoUsE.InFo
     ip-version: dual
     udp: true
-  - name: '@meli_proxyyvless'
-    type: vless
-    server: 88.216.187.57
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: Kurdistan_Vpnvmess
     type: vless
     server: 172.66.168.209
@@ -193,16 +183,6 @@ proxies:
       path: /FREE By Tharuwa (0767597317)
       headers:
         host: zoom.us
-    ip-version: dual
-    udp: true
-  - name: '[🇺🇸]t.me/ConfigsHubϟ'
-    type: vless
-    server: 45.82.251.163
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    tls: false
-    grpc-opts: {}
     ip-version: dual
     udp: true
   - name: TM-@AZARBAYJAB1
@@ -311,16 +291,6 @@ proxies:
       path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel
     ip-version: dual
     udp: true
-  - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
-    type: vless
-    server: 84.32.9.52
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: '@Hope_Net-join-us-on-Telegramvless_1'
     type: vless
     server: 104.17.148.22
@@ -394,16 +364,6 @@ proxies:
       - http/1.1
     ip-version: dual
     udp: true
-  - name: 'Channel id: @ShadowProxy66🇱🇹_1'
-    type: vless
-    server: 84.32.9.31
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: 🟣🔥+کانال+سرور+رایگان+@FarahVPN
     type: vless
     server: 199.34.228.178
@@ -465,16 +425,6 @@ proxies:
         host: MdLoXlYg.rIcKtMoUsE.InFo
     ip-version: dual
     udp: true
-  - name: Free 90 (@Outline_Vpn)vless
-    type: vless
-    server: 167.235.238.146
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: Free 151 (@Outline_Vpn)vless
     type: vless
     server: 104.17.148.22
@@ -489,26 +439,6 @@ proxies:
       path: /
       headers:
         host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
-    ip-version: dual
-    udp: true
-  - name: 9788vless
-    type: vless
-    server: pqh27v3.nature27.shop
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: 🇩🇪 9685vless
-    type: vless
-    server: 78.47.141.72
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
     ip-version: dual
     udp: true
   - name: 9831vless
@@ -647,17 +577,7 @@ proxies:
         host: vkvd127.mycdn.me
     ip-version: dual
     udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-    type: vless
-    server: 94.131.9.172
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص
     type: vless
     server: usa01.abvpn.ru
     port: 443
@@ -672,27 +592,7 @@ proxies:
         host: usa01.abvpn.ru
     ip-version: dual
     udp: true
-  - name: 🇧🇷@vpn_ioss ♻️ عضو شو
-    type: vless
-    server: 45.82.251.114
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-    type: vless
-    server: 638817026935097685.amsterdam-shledrc-accc.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥
     type: vless
     server: 104.21.112.1
     port: 80
@@ -731,26 +631,6 @@ proxies:
         host: sPeedtest2.sbs.br.vless.sitespeedtest.net
     ip-version: dual
     udp: true
-  - name: '@@v2ryorgvmess'
-    type: vless
-    server: 84.32.9.13
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: '@@v2ryorgss'
-    type: vless
-    server: 84.32.9.24
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
   - name: "@V2ry_Proxy\_+✅+عضو+شویدvless"
     type: vless
     server: 104.21.69.44
@@ -765,36 +645,6 @@ proxies:
       path: /
       headers:
         host: cr77.hedieh.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-    type: vless
-    server: 84.32.9.46
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-    type: vless
-    server: 84.32.9.37
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
-  - name: '@Selincvless'
-    type: vless
-    server: 84.32.9.17
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
     ip-version: dual
     udp: true
   - name: TG:@v2ray_subvless
@@ -825,16 +675,6 @@ proxies:
         host: omidyzvg2.kamaleriz.info
     ip-version: dual
     udp: true
-  - name: 'Channel id: @ShadowProxy66🇱🇹_2'
-    type: vless
-    server: 84.32.9.44
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -847,12 +687,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -861,22 +699,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -888,22 +721,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -916,12 +740,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -930,22 +752,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -957,22 +774,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -985,12 +793,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -999,22 +805,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -1026,22 +827,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1053,12 +845,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -1067,22 +857,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -1094,22 +879,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1121,12 +897,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -1135,22 +909,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -1162,22 +931,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1189,12 +949,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -1203,22 +961,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -1230,22 +983,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1274,12 +1018,10 @@ proxy-groups:
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
       - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@meli_proxyyvless'
       - Kurdistan_Vpnvmess
       - Free 130 (@filterking1)
       - '@V2ray1_Ngvless'
       - Free By Tharuwa☄️
-      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
       - 🇨🇦TM-@AZAFBAYJAB1vless
       - TM@AZAFBAYJB1
@@ -1288,22 +1030,17 @@ proxy-groups:
       - 🇦🇪TM-@AZARBAYJAB1
       - WedBaZ_1
       - WedBaZ_2
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
       - '@Hope_Net-join-us-on-Telegramvless_1'
       - '@Argo_VPN1🇩🇪vless'
       - Mtn-@V2ray_Raha-12vmess
       - '@V2rayNG3_1'
       - '@V2rayNG3_2'
       - '@V2rayNG3_3'
-      - 'Channel id: @ShadowProxy66🇱🇹_1'
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
       - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
       - '@V2aryng_vpn✅'
       - Free 116 (@Outline_Vpn)vless
-      - Free 90 (@Outline_Vpn)vless
       - Free 151 (@Outline_Vpn)vless
-      - 9788vless
-      - 🇩🇪 9685vless
       - 9831vless
       - 🇨🇦 9891trojan
       - 🇿🇦 9817vless
@@ -1315,22 +1052,13 @@ proxy-groups:
       - 🇷🇺|RU|@wxgqlfx|1vmess
       - فیلترشکن رایگان👈vpnowl@vless
       - سرور رایگان پرسرعت🌊 @vmess_ir
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
-      - 🇧🇷@vpn_ioss ♻️ عضو شو
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
       - '@@v2ryorgvless'
       - Telegram @V_2rayng0vless
-      - '@@v2ryorgvmess'
-      - '@@v2ryorgss'
       - "@V2ry_Proxy\_+✅+عضو+شویدvless"
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
-      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
-      - '@Selincvless'
       - TG:@v2ray_subvless
       - 'Channel id: @ShadowProxy66🇬🇧'
-      - 'Channel id: @ShadowProxy66🇱🇹_2'
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
