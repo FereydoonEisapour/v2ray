@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 20:52:37
-# 配置生成日期：2025-05-07 21:25:18
+# 配置生成日期：2025-05-07 21:41:08
 
 mixed-port: 7890
 allow-lan: false
@@ -50,306 +50,41 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: '@Argo_VPN1🇩🇪'
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc
     type: vless
-    server: speedtest.net
+    server: 104.24.219.219
+    port: 443
+    uuid: 690e09cb-dd0a-48ee-aaf0-398fd1d127bc
+    network: ws
+    tls: true
+    servername: vpn.6662221.xyz
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: vpn.6662221.xyz
+    ip-version: dual
+    udp: true
+  - name: 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+    type: vless
+    server: fastaly.dollardoon.com
     port: 80
-    uuid: b26e6aca-66c8-491f-8389-b33ac192ffe8
-    network: ws
+    uuid: 8fe4923c-8624-45f8-8ef9-03927d4523f8
     tls: false
-    ws-opts:
-      path: /olem/ws
-      headers:
-        host: foffmelo.com
     ip-version: dual
     udp: true
-  - name: TG:@v2ray_sub
+  - name: 🇺🇸|US|@wxgqlfx|2vless
     type: vless
-    server: 209.208.227.229
-    port: 2096
-    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
-    network: ws
-    tls: true
-    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
-    skip-cert-verify: true
-    ws-opts:
-      path: /#TG:@v2ray_subvless://bf4631cc-27eb-4b8e-ab85-5db1ddab6125@162.55.36.107:577
-      headers:
-        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
-    ip-version: dual
-    udp: true
-  - name: TM@AZAFBAYJB1
-    type: vless
-    server: tabrizm137.owner.pages.dev
-    port: 80
-    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-    network: ws
-    tls: true
-    servername: masaleini.mahsaamini.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /TM@AZAFBAYJAB1
-      headers:
-        host: masaleini.mahsaamini.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: 'Channel id: @ShadowProxy66🇬🇧'
-    type: vless
-    server: 45.89.111.198
-    port: 2052
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        host: omidyzvg2.kamaleriz.info
-    ip-version: dual
-    udp: true
-  - name: 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-    type: vless
-    server: 199.34.228.178
-    port: 2096
-    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
-    network: ws
-    tls: true
-    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
-    ip-version: dual
-    udp: true
-  - name: WedBaZ_1
-    type: vless
-    server: 151.101.64.155
-    port: 80
-    uuid: f3cdd808-a562-4c9d-c895-99dcaa9aaaf8
-    network: ws
-    tls: false
-    ws-opts:
-      path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel
-      headers:
-        host: Irancellman.net
-    ip-version: dual
-    udp: true
-  - name: WedBaZ_2
-    type: vless
-    server: 151.101.64.155
-    port: 80
-    uuid: 4814b676-7c20-4fe2-ecdf-552f814c472c
-    network: ws
-    tls: false
-    ws-opts:
-      path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel
-      headers:
-        host: Irancellman.net
-    ip-version: dual
-    udp: true
-  - name: https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-    type: vless
-    server: 103.231.73.214
+    server: 160.79.104.113
     port: 443
-    uuid: 588f094b-431b-422c-b80b-007945037072
+    uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
     network: ws
     tls: true
-    servername: lv01.abvpn.ru
+    servername: 0229.patterdeng.pp.ua
     skip-cert-verify: true
     ws-opts:
-      path: /websocket
+      path: /security
       headers:
-        host: lv01.abvpn.ru
-    ip-version: dual
-    udp: true
-  - name: '@V2rayNG3_1'
-    type: vless
-    server: 147135001195.sec22org.com
-    port: 443
-    uuid: ea286109-d20f-415e-849e-4af20ab04b65
-    network: tcp
-    tls: false
-    alpn:
-      - h2
-      - http/1.1
-    ip-version: dual
-    udp: true
-  - name: '@V2rayNG3_2'
-    type: vless
-    server: 147135004002.sec20org.com
-    port: 443
-    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: Telegram @V_2rayng0
-    type: vless
-    server: 45.80.111.10
-    port: 2052
-    uuid: 45f01712-2893-53e3-8e6a-6b7c925021da
-    network: ws
-    tls: false
-    ws-opts:
-      path: /vless#Telegram-mtmvpn---Telegram-mtmvpn#Telegram @V_2rayng0vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.150.117.51:8880
-      headers:
-        host: sPeedtest2.sbs.br.vless.sitespeedtest.net
-    ip-version: dual
-    udp: true
-  - name: Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-    type: vless
-    server: 104.16.209.110
-    port: 443
-    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-    network: ws
-    tls: true
-    servername: masaleini.mahsaamini.dpdns.org
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        host: masaleini.mahsaamini.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: Free 130 (@filterking1)
-    type: vless
-    server: 135.148.163.90
-    port: 443
-    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-    network: tcp
-    tls: true
-    servername: 147135001178.sec22org.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ip-version: dual
-    udp: true
-  - name: سرور های رایگان در کانال satellitenewspersian@✅
-    type: vless
-    server: www.speedtest.net
-    port: 8443
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-    network: ws
-    tls: true
-    servername: MdLoXlYg.rIcKtMoUsE.InFo
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        host: MdLoXlYg.rIcKtMoUsE.InFo
-    ip-version: dual
-    udp: true
-  - name: '@Hope_Net-join-us-on-Telegram'
-    type: vless
-    server: 104.17.148.22
-    port: 2052
-    uuid: d8e9a9b7-13df-5979-b1b8-da32ab451a10
-    network: ws
-    tls: false
-    ws-opts:
-      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL#@Hope_Net-join-us-on-Telegramvless://bbcacaa-aacb-cbaa-cdab-cbbcaabacbac@127.0.0.1:8080
-      headers:
-        host: sPeedtest2.sbs.lu.vless.sitespeedtest.net
-    ip-version: dual
-    udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_ir
-    type: vless
-    server: 188.119.112.3
-    port: 2052
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        host: vkvd127.mycdn.me
-    ip-version: dual
-    udp: true
-  - name: '@V2rayNG3_3'
-    type: vless
-    server: 15.204.150.39
-    port: 443
-    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-    network: tcp
-    tls: true
-    servername: 147135001178.sec22org.com
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-    type: vless
-    server: usa01.abvpn.ru
-    port: 443
-    uuid: 588f094b-431b-422c-b80b-007945037072
-    network: ws
-    tls: true
-    servername: usa01.abvpn.ru
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: usa01.abvpn.ru
-    ip-version: dual
-    udp: true
-  - name: 🇨🇦TM-@AZAFBAYJAB1⚙️
-    type: vless
-    server: tabrizm137.owner.workers.dev
-    port: 80
-    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-    network: ws
-    tls: true
-    servername: masaleini.mahsaamini.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /TM@AZAFBAYJAB1#🇨🇦TM-@AZAFBAYJAB1vless://10d9df89-9a20-4110-9711-bca119490ee9@tabrizm137.owner.pages.dev:80
-      headers:
-        host: masaleini.mahsaamini.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-    type: vless
-    server: 104.21.69.44
-    port: 443
-    uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
-    network: ws
-    tls: true
-    servername: cr77.hedieh.dpdns.org
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/#@V2ry_Proxy\_ ✅ عضو شویدvless://ccff34b1-44fd-478d-bc0e-5111cb11f5be@162.159.7.226:443"
-      headers:
-        host: cr77.hedieh.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: TM-@AZARBAYJAB1⚙️
-    type: vless
-    server: 103.160.204.37
-    port: 2086
-    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-    network: ws
-    tls: false
-    ws-opts:
-      path: /TM-@AZARBAYJAB1
-      headers:
-        host: masaleini.mahsaamini.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: Free 155 (@Outline_Vpn)
-    type: vless
-    server: 104.17.148.22
-    port: 2096
-    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
-    network: ws
-    tls: true
-    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /#Free 151 (@Outline_Vpn)vless://2a219df1-a04b-4424-bfd2-cb37aeb10b2c@germanmel.mehrdadsadaf.com:7594
-      headers:
-        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+        host: 0229.patterdeng.pp.ua
     ip-version: dual
     udp: true
   - name: 🇨🇦@vpn_ioss ♻️ عضو شو
@@ -384,6 +119,163 @@ proxies:
         host: QtRkJtLt27.pRiMeXaD.OrG
     ip-version: dual
     udp: true
+  - name: سرور های رایگان در کانال satellitenewspersian@✅
+    type: vless
+    server: www.speedtest.net
+    port: 8443
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    network: ws
+    tls: true
+    servername: MdLoXlYg.rIcKtMoUsE.InFo
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        host: MdLoXlYg.rIcKtMoUsE.InFo
+    ip-version: dual
+    udp: true
+  - name: '@meli_proxyyvless'
+    type: vless
+    server: 88.216.187.57
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: Kurdistan_Vpnvmess
+    type: vless
+    server: 172.66.168.209
+    port: 443
+    uuid: 84630ddd-b04a-4494-aa3a-b831a9873b81
+    network: ws
+    tls: false
+    ws-opts:
+      path: /linkws
+      headers:
+        host: maxnetvipaP-us4.NetKh3.sItE
+    ip-version: dual
+    udp: true
+  - name: Free 130 (@filterking1)
+    type: vless
+    server: 135.148.163.90
+    port: 443
+    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    network: tcp
+    tls: true
+    servername: 147135001178.sec22org.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ip-version: dual
+    udp: true
+  - name: '@V2ray1_Ngvless'
+    type: vless
+    server: www.speedtest.net
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        host: redfree8mahsang6.redfree8.ir
+    ip-version: dual
+    udp: true
+  - name: Free By Tharuwa☄️
+    type: vless
+    server: 152.42.238.214
+    port: 80
+    uuid: dc23d6df-4a97-4da7-81a1-f67a4bedc6d8
+    network: ws
+    tls: false
+    ws-opts:
+      path: /FREE By Tharuwa (0767597317)
+      headers:
+        host: zoom.us
+    ip-version: dual
+    udp: true
+  - name: '[🇺🇸]t.me/ConfigsHubϟ'
+    type: vless
+    server: 45.82.251.163
+    port: 8880
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: TM-@AZARBAYJAB1
+    type: vless
+    server: 104.24.229.98
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: false
+    ws-opts:
+      path: /TM@AZAFBAYJAB1
+      headers:
+        host: REEdfREe8MahSaNg2.rEDOrG.IR
+    ip-version: dual
+    udp: true
+  - name: 🇨🇦TM-@AZAFBAYJAB1vless
+    type: vless
+    server: tabrizm137.owner.workers.dev
+    port: 80
+    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+    network: ws
+    tls: true
+    servername: masaleini.mahsaamini.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /TM@AZAFBAYJAB1
+      headers:
+        host: masaleini.mahsaamini.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: TM@AZAFBAYJB1
+    type: vless
+    server: tabrizm137.owner.pages.dev
+    port: 80
+    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+    network: ws
+    tls: true
+    servername: masaleini.mahsaamini.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /TM@AZAFBAYJAB1
+      headers:
+        host: masaleini.mahsaamini.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: TM-@AZARBAYJAB1⚙️
+    type: vless
+    server: 103.160.204.37
+    port: 2086
+    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+    network: ws
+    tls: false
+    ws-opts:
+      path: /TM-@AZARBAYJAB1
+      headers:
+        host: masaleini.mahsaamini.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+    type: vless
+    server: 103.231.73.214
+    port: 443
+    uuid: 588f094b-431b-422c-b80b-007945037072
+    network: ws
+    tls: true
+    servername: lv01.abvpn.ru
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: lv01.abvpn.ru
+    ip-version: dual
+    udp: true
   - name: 🇦🇪TM-@AZARBAYJAB1
     type: vless
     server: 94.140.0.0
@@ -397,28 +289,148 @@ proxies:
         host: masaleini.mahsaamini.dpdns.org
     ip-version: dual
     udp: true
-  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥
+  - name: WedBaZ_1
     type: vless
-    server: 104.21.112.1
+    server: 151.101.64.155
     port: 80
+    uuid: f3cdd808-a562-4c9d-c895-99dcaa9aaaf8
+    network: ws
+    tls: false
+    ws-opts:
+      path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel
+    ip-version: dual
+    udp: true
+  - name: WedBaZ_2
+    type: vless
+    server: 151.101.64.155
+    port: 80
+    uuid: 4814b676-7c20-4fe2-ecdf-552f814c472c
+    network: ws
+    tls: false
+    ws-opts:
+      path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel
+    ip-version: dual
+    udp: true
+  - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+    type: vless
+    server: 84.32.9.52
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: '@Hope_Net-join-us-on-Telegramvless_1'
+    type: vless
+    server: 104.17.148.22
+    port: 2052
+    uuid: d8e9a9b7-13df-5979-b1b8-da32ab451a10
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      headers:
+        host: sPeedtest2.sbs.lu.vless.sitespeedtest.net
+    ip-version: dual
+    udp: true
+  - name: '@Argo_VPN1🇩🇪vless'
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: b26e6aca-66c8-491f-8389-b33ac192ffe8
+    network: ws
+    tls: false
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: Mtn-@V2ray_Raha-12vmess
+    type: vless
+    server: 104.16.209.110
+    port: 443
     uuid: 10d9df89-9a20-4110-9711-bca119490ee9
     network: ws
     tls: true
     servername: masaleini.mahsaamini.dpdns.org
     skip-cert-verify: true
+    client-fingerprint: chrome
     ws-opts:
-      path: /Tel-@V2ray_Alpha
       headers:
         host: masaleini.mahsaamini.dpdns.org
     ip-version: dual
     udp: true
-  - name: 🇬🇧@FreakConfig🟥
+  - name: '@V2rayNG3_1'
     type: vless
-    server: 94.131.108.195
-    port: 53221
-    uuid: 90efad13-d266-4d10-a914-bc40028ec469
+    server: 147135004002.sec20org.com
+    port: 443
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
     network: tcp
     tls: false
+    ip-version: dual
+    udp: true
+  - name: '@V2rayNG3_2'
+    type: vless
+    server: 15.204.150.39
+    port: 443
+    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    network: tcp
+    tls: true
+    servername: 147135001178.sec22org.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: '@V2rayNG3_3'
+    type: vless
+    server: 147135001195.sec22org.com
+    port: 443
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    network: tcp
+    tls: false
+    alpn:
+      - h2
+      - http/1.1
+    ip-version: dual
+    udp: true
+  - name: 'Channel id: @ShadowProxy66🇱🇹_1'
+    type: vless
+    server: 84.32.9.31
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+    type: vless
+    server: 199.34.228.178
+    port: 2096
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    network: ws
+    tls: true
+    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    ip-version: dual
+    udp: true
+  - name: 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+    type: vless
+    server: 5.180.45.70
+    port: 12000
+    uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+    network: ws
+    tls: true
+    servername: 0229.patterdeng.pp.ua
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: 0229.patterdeng.pp.ua
     ip-version: dual
     udp: true
   - name: '@V2aryng_vpn✅'
@@ -437,7 +449,7 @@ proxies:
         host: d1.medicaldream.ir
     ip-version: dual
     udp: true
-  - name: Free 073 @Outline_Vpn🚀
+  - name: Free 116 (@Outline_Vpn)vless
     type: vless
     server: 104.17.148.22
     port: 8443
@@ -448,12 +460,58 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     ws-opts:
-      path: /#Free 116 (@Outline_Vpn)vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.247:8880
+      path: /
       headers:
         host: MdLoXlYg.rIcKtMoUsE.InFo
     ip-version: dual
     udp: true
-  - name: 🇳🇱 9846V2rayNG
+  - name: Free 90 (@Outline_Vpn)vless
+    type: vless
+    server: 167.235.238.146
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: Free 151 (@Outline_Vpn)vless
+    type: vless
+    server: 104.17.148.22
+    port: 2096
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    network: ws
+    tls: true
+    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    ip-version: dual
+    udp: true
+  - name: 9788vless
+    type: vless
+    server: pqh27v3.nature27.shop
+    port: 8880
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: 🇩🇪 9685vless
+    type: vless
+    server: 78.47.141.72
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: 9831vless
     type: vless
     server: 104.21.80.1
     port: 80
@@ -461,35 +519,320 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-      path: /Telegram-@V2ray_Alpha#9831vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@188.119.112.3:2052
+      path: /Telegram-@V2ray_Alpha
       headers:
         host: masaleini.mahsaamini.dpdns.org
     ip-version: dual
     udp: true
-  - name: 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+  - name: 🇨🇦 9891trojan
     type: vless
-    server: fastaly.dollardoon.com
-    port: 80
-    uuid: 8fe4923c-8624-45f8-8ef9-03927d4523f8
-    network: ws
+    server: cloudgetservice.mcloudservice.site
+    port: 443
+    uuid: 84630ddd-b04a-4494-aa3a-b831a9873b81
     tls: false
-    ws-opts:
-      path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-      headers:
-        host: vipfast_7.com
     ip-version: dual
     udp: true
-  - name: TM-@AZARBAYJAB1
+  - name: 🇿🇦 9817vless
     type: vless
-    server: 104.24.229.98
-    port: 80
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    server: 141.101.122.211
+    port: 2052
+    uuid: d3719117-f720-583d-9ac4-53b9caf69e78
     network: ws
     tls: false
     ws-opts:
-      path: /TM@AZAFBAYJAB1
+      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
       headers:
-        host: REEdfREe8MahSaNg2.rEDOrG.IR
+        host: sPeedtest2.sbs.za.v2vless.sitespeedtest.net
+    ip-version: dual
+    udp: true
+  - name: 🇨🇦 9910vmess
+    type: vless
+    server: 104.17.147.22
+    port: 2096
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    network: ws
+    tls: true
+    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    ip-version: dual
+    udp: true
+  - name: '@Hope_Net-join-us-on-Telegramvless_2'
+    type: vless
+    server: 151.101.130.133
+    port: 80
+    uuid: 2ce4da59-28c7-41fa-9411-7dfde437c1cb
+    network: ws
+    tls: false
+    ws-opts:
+      path: /TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray
+      headers:
+        host: namehmain.com
+    ip-version: dual
+    udp: true
+  - name: 🇰🇿 9772vless
+    type: vless
+    server: 86.38.214.22
+    port: 2052
+    uuid: 7f70f43a-f44f-53b5-825a-465be8c5e3a4
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      headers:
+        host: sPeedtest2.sbs.kz.v2vless.sitespeedtest.net
+    ip-version: dual
+    udp: true
+  - name: 🇹🇷@FreakConfigss
+    type: vless
+    server: 94.131.108.195
+    port: 53221
+    uuid: 90efad13-d266-4d10-a914-bc40028ec469
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: 🇳🇱|NL|@wxgqlfx|37vmess
+    type: vless
+    server: 185.133.35.115
+    port: 443
+    uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+    network: ws
+    tls: true
+    servername: 0229.patterdeng.pp.ua
+    skip-cert-verify: true
+    ws-opts:
+      path: /proxyip
+      headers:
+        host: 0229.patterdeng.pp.ua
+    ip-version: dual
+    udp: true
+  - name: 🇷🇺|RU|@wxgqlfx|1vmess
+    type: vless
+    server: 89.23.118.93
+    port: 443
+    uuid: 588f094b-431b-422c-b80b-007945037072
+    network: ws
+    tls: true
+    servername: ru01.abvpn.ru
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: ru01.abvpn.ru
+    ip-version: dual
+    udp: true
+  - name: فیلترشکن رایگان👈vpnowl@vless
+    type: vless
+    server: www.speedtest.net
+    port: 80
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: سرور رایگان پرسرعت🌊 @vmess_ir
+    type: vless
+    server: 188.119.112.3
+    port: 2052
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        host: vkvd127.mycdn.me
+    ip-version: dual
+    udp: true
+  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+    type: vless
+    server: 94.131.9.172
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+    type: vless
+    server: usa01.abvpn.ru
+    port: 443
+    uuid: 588f094b-431b-422c-b80b-007945037072
+    network: ws
+    tls: true
+    servername: usa01.abvpn.ru
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: usa01.abvpn.ru
+    ip-version: dual
+    udp: true
+  - name: 🇧🇷@vpn_ioss ♻️ عضو شو
+    type: vless
+    server: 45.82.251.114
+    port: 8880
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+    type: vless
+    server: 638817026935097685.amsterdam-shledrc-accc.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+    type: vless
+    server: 104.21.112.1
+    port: 80
+    uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+    network: ws
+    tls: true
+    servername: masaleini.mahsaamini.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /Tel-@V2ray_Alpha
+      headers:
+        host: masaleini.mahsaamini.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: '@@v2ryorgvless'
+    type: vless
+    server: 51.81.37.20
+    port: 443
+    uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+    network: tcp
+    tls: true
+    servername: 147135010072.sec21org.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: Telegram @V_2rayng0vless
+    type: vless
+    server: 45.80.111.10
+    port: 2052
+    uuid: 45f01712-2893-53e3-8e6a-6b7c925021da
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vless#Telegram-mtmvpn---Telegram-mtmvpn
+      headers:
+        host: sPeedtest2.sbs.br.vless.sitespeedtest.net
+    ip-version: dual
+    udp: true
+  - name: '@@v2ryorgvmess'
+    type: vless
+    server: 84.32.9.13
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: '@@v2ryorgss'
+    type: vless
+    server: 84.32.9.24
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: "@V2ry_Proxy\_+✅+عضو+شویدvless"
+    type: vless
+    server: 104.21.69.44
+    port: 443
+    uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
+    network: ws
+    tls: true
+    servername: cr77.hedieh.dpdns.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        host: cr77.hedieh.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+    type: vless
+    server: 84.32.9.46
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+    type: vless
+    server: 84.32.9.37
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: '@Selincvless'
+    type: vless
+    server: 84.32.9.17
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: TG:@v2ray_subvless
+    type: vless
+    server: 209.208.227.229
+    port: 2096
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    network: ws
+    tls: true
+    servername: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: LgUoZjGr14.hAmEcHiRuHaVaSt.cOm
+    ip-version: dual
+    udp: true
+  - name: 'Channel id: @ShadowProxy66🇬🇧'
+    type: vless
+    server: 45.89.111.198
+    port: 2052
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        host: omidyzvg2.kamaleriz.info
+    ip-version: dual
+    udp: true
+  - name: 'Channel id: @ShadowProxy66🇱🇹_2'
+    type: vless
+    server: 84.32.9.44
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
     ip-version: dual
     udp: true
 proxy-groups:
@@ -498,225 +841,411 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -739,38 +1268,69 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@Argo_VPN1🇩🇪'
-      - TG:@v2ray_sub
-      - TM@AZAFBAYJB1
-      - 'Channel id: @ShadowProxy66🇬🇧'
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - WedBaZ_1
-      - WedBaZ_2
-      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
-      - '@V2rayNG3_1'
-      - '@V2rayNG3_2'
-      - Telegram @V_2rayng0
-      - Mtn-@V2ray_Raha-12vmess://eyJhZGQiOiIxNS4yMDQuMjQ5LjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWIxMTNjMTItNGRkNC00YmI1LTljMDEtY2ZmMDkyYjU1OWUzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0ODE2MCIsInBzIjoiTXRuLUBWMnJheV9SYWhhLTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==⚡️حجم
-      - Free 130 (@filterking1)
-      - سرور های رایگان در کانال satellitenewspersian@✅
-      - '@Hope_Net-join-us-on-Telegram'
-      - سرور رایگان پرسرعت🌊 @vmess_ir
-      - '@V2rayNG3_3'
-      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص
-      - 🇨🇦TM-@AZAFBAYJAB1⚙️
-      - "@V2ry_Proxy\_+✅+عضو+شوید⭕️"
-      - TM-@AZARBAYJAB1⚙️
-      - Free 155 (@Outline_Vpn)
+      - کانفیگ پرسرعت رایگان🌋@vmesc
+      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - 🇺🇸|US|@wxgqlfx|2vless
       - 🇨🇦@vpn_ioss ♻️ عضو شو
       - 🇺🇾@vpn_ioss ♻️ عضو شو
-      - 🇦🇪TM-@AZARBAYJAB1
-      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥
-      - 🇬🇧@FreakConfig🟥
-      - '@V2aryng_vpn✅'
-      - Free 073 @Outline_Vpn🚀
-      - 🇳🇱 9846V2rayNG
-      - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+      - سرور های رایگان در کانال satellitenewspersian@✅
+      - '@meli_proxyyvless'
+      - Kurdistan_Vpnvmess
+      - Free 130 (@filterking1)
+      - '@V2ray1_Ngvless'
+      - Free By Tharuwa☄️
+      - '[🇺🇸]t.me/ConfigsHubϟ'
       - TM-@AZARBAYJAB1
+      - 🇨🇦TM-@AZAFBAYJAB1vless
+      - TM@AZAFBAYJB1
+      - TM-@AZARBAYJAB1⚙️
+      - https://t.me/AZARBAYJAB1+|🇹🇷⚙️
+      - 🇦🇪TM-@AZARBAYJAB1
+      - WedBaZ_1
+      - WedBaZ_2
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vless
+      - '@Hope_Net-join-us-on-Telegramvless_1'
+      - '@Argo_VPN1🇩🇪vless'
+      - Mtn-@V2ray_Raha-12vmess
+      - '@V2rayNG3_1'
+      - '@V2rayNG3_2'
+      - '@V2rayNG3_3'
+      - 'Channel id: @ShadowProxy66🇱🇹_1'
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPNCountry
+      - '@V2aryng_vpn✅'
+      - Free 116 (@Outline_Vpn)vless
+      - Free 90 (@Outline_Vpn)vless
+      - Free 151 (@Outline_Vpn)vless
+      - 9788vless
+      - 🇩🇪 9685vless
+      - 9831vless
+      - 🇨🇦 9891trojan
+      - 🇿🇦 9817vless
+      - 🇨🇦 9910vmess
+      - '@Hope_Net-join-us-on-Telegramvless_2'
+      - 🇰🇿 9772vless
+      - 🇹🇷@FreakConfigss
+      - 🇳🇱|NL|@wxgqlfx|37vmess
+      - 🇷🇺|RU|@wxgqlfx|1vmess
+      - فیلترشکن رایگان👈vpnowl@vless
+      - سرور رایگان پرسرعت🌊 @vmess_ir
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_1
+      - سرور رایگان پرسرعت🌊 @vmess_irمخصوص_2
+      - 🇧🇷@vpn_ioss ♻️ عضو شو
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_1
+      - کانفیگ پرسرعت رایگان🌋@vmesc───────❥_2
+      - '@@v2ryorgvless'
+      - Telegram @V_2rayng0vless
+      - '@@v2ryorgvmess'
+      - '@@v2ryorgss'
+      - "@V2ry_Proxy\_+✅+عضو+شویدvless"
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪vmess
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪ss
+      - '@Selincvless'
+      - TG:@v2ray_subvless
+      - 'Channel id: @ShadowProxy66🇬🇧'
+      - 'Channel id: @ShadowProxy66🇱🇹_2'
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
