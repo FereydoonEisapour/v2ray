@@ -155,8 +155,7 @@ proxy-groups:
       - VLESS-vpn_ioss_1
       - VLESS-vpn_ioss_2
       - VLESS-vpn_ioss_3
-      - ss1
-      - vmess-example
+
     interval: 300
     url: 'http://cp.cloudflare.com/'
     tolerance: 100 
@@ -168,8 +167,7 @@ proxy-groups:
       - VLESS-vpn_ioss_1
       - VLESS-vpn_ioss_2
       - VLESS-vpn_ioss_3
-      - ss1
-      - vmess-example
+
     interval: 300
     url: 'http://cp.cloudflare.com/'
 
@@ -184,8 +182,6 @@ proxy-groups:
       - VLESS-vpn_ioss_1
       - VLESS-vpn_ioss_2
       - VLESS-vpn_ioss_3
-      - ss1
-      - vmess-example
 
   - name: ssid-group
     type: select
