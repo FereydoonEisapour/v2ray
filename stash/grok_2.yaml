@@ -1,75 +1,38 @@
-cron:
-  script:
-  - argument: ''
-    cron: '* * * * *'
-    debug: false
-    name: weather-us-aqi
-    timeout: 10
+allow-lan: false
 dns:
   default-nameserver:
   - 223.5.5.5
   - 114.114.114.114
-  - system
+  enable: true
+  enhanced-mode: fake-ip
   fake-ip-filter:
-  - +.stun.*.*
-  - +.stun.*.*.*
-  - +.stun.*.*.*.*
-  - +.stun.*.*.*.*.*
-  - lens.l.google.com
-  - '*.n.n.srv.nintendo.net'
-  - +.stun.playstation.net
-  - xbox.*.*.microsoft.com
-  - '*.*.xboxlive.com'
-  - '*.msftncsi.com'
-  - '*.msftconnecttest.com'
-  - '*.mcdn.bilivideo.cn'
+  - '*.lan'
+  - '*.localdomain'
+  - '*.example'
+  - '*.invalid'
+  - '*.localhost'
+  - '*.test'
+  - '*.local'
+  - '*.home.arpa'
+  - router.asus.com
+  - localhost.sec.qq.com
+  - localhost.ptlogin2.qq.com
+  - +.msftconnecttest.com
+  fake-ip-range: 198.18.0.1/16
+  ipv6: false
+  listen: 0.0.0.0:53
   nameserver:
-  - https://doh.pub/dns-query
-  - https://dns.alidns.com/dns-query
-  - quic://dns.adguard.com:853
-  - doq://test.dns.nextdns.io:853
-  - system
-  nameserver-policy:
-    +.internal.crop.com: system
-    www.baidu.com: 114.114.114.114
-  skip-cert-verify: true
-hosts:
-  '*.clash.dev': 127.0.0.1
-  .dev: 127.0.0.1
-  alpha.clash.dev: ::1
-http:
-  ca: ''
-  ca-passphrase: ''
-  force-http-engine:
-  - '*:80'
-  - '*:4480'
-  - '*:9102'
-  mitm:
-  - g.cn
-  - '*.google.cn'
-  - weather-data.apple.com
-  - weather-data.apple.com:*
-  - '*.weather-data.apple.com'
-  - -exclude.weather-data.apple.com
-  script:
-  - argument: ''
-    binary-mode: false
-    debug: false
-    match: https://weather-data.apple.com/v2/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?
-    max-size: 1048576
-    name: weather-us-aqi
-    require-body: true
-    timeout: 10
-    type: response
-  url-rewrite:
-  - ^http://g\.cn http://www.google.com header
-  - ^https?://www\.google\.cn https://www.google.com 302
-  - ^https?://ad\.example - reject
+  - 223.5.5.5
+  - 114.114.114.114
+  - 119.29.29.29
+  - 180.76.76.76
+external-controller: 0.0.0.0:9090
+ipv6: false
 log-level: info
+mixed-port: 7890
 mode: rule
 proxies:
-- grpc-opts: null
-  name: کانفیگ پرسرعت رایگان
+- name: کانفیگ پرسرعت رایگان
   network: ws
   port: 443
   server: 104.24.219.219
@@ -79,19 +42,17 @@ proxies:
   type: vless
   uuid: 690e09cb-dd0a-48ee-aaf0-398fd1d127bc
   ws-opts: null
-- grpc-opts: null
-  name: 𝗝𝗼𝗶𝗻    کانال ما
+- name: 𝗝𝗼𝗶𝗻    کانال ما
   network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
   port: 80
   server: fastaly.dollardoon.com
-  servername: ''
+  servername: vipfast_7.com
   skip-cert-verify: true
   tls: false
   type: vless
   uuid: 8fe4923c-8624-45f8-8ef9-03927d4523f8
   ws-opts: null
-- grpc-opts: null
-  name: JP
+- name: JP
   network: ws
   port: 443
   server: 160.79.104.113
@@ -104,8 +65,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /security
-- grpc-opts: null
-  name: عضو شو
+- name: عضو شو
   network: ws
   port: 8443
   server: 104.17.148.22
@@ -118,8 +78,7 @@ proxies:
     headers:
       Host: GxVpOnLl13.pRiMeXaD.OrG
     path: /
-- grpc-opts: null
-  name: عضو شو 1
+- name: عضو شو 1
   network: ws
   port: 2053
   server: 104.16.12.247
@@ -132,8 +91,7 @@ proxies:
     headers:
       Host: txmt.conetcdata.dpdns.org
     path: /?ed=2560security=tls
-- grpc-opts: null
-  name: عضو شو 2
+- name: عضو شو 2
   network: ws
   port: 8443
   server: 45.131.5.252
@@ -146,8 +104,7 @@ proxies:
     headers:
       Host: QtRkJtLt27.pRiMeXaD.OrG
     path: /
-- grpc-opts: null
-  name: KR
+- name: KR
   network: ws
   port: 12202
   server: 14.56.226.68
@@ -160,8 +117,7 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed
-- grpc-opts: null
-  name: CN
+- name: CN
   network: ws
   port: 81
   server: 95.164.18.132
@@ -174,19 +130,17 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed
-- grpc-opts: null
-  name: 𝗝𝗼𝗶𝗻    کانال ما 1
+- name: 𝗝𝗼𝗶𝗻    کانال ما 1
   network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
   port: 8880
   server: zula.ir
-  servername: ''
+  servername: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
   skip-cert-verify: true
   tls: false
   type: vless
   uuid: 8f58c111-ff7f-4543-9907-ed2c9aff3e49
   ws-opts: null
-- grpc-opts: null
-  name: سرور های رایگان در کانال satellitenewspersian
+- name: سرور های رایگان در کانال satellitenewspersian
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -200,7 +154,7 @@ proxies:
       Host: MdLoXlYg.rIcKtMoUsE.InFo
     path: /
 proxy-groups:
-- name: Proxy
+- name: 🚀 节点选择
   proxies:
   - کانفیگ پرسرعت رایگان
   - 𝗝𝗼𝗶𝗻    کانال ما
@@ -212,41 +166,91 @@ proxy-groups:
   - CN
   - 𝗝𝗼𝗶𝗻    کانال ما 1
   - سرور های رایگان در کانال satellitenewspersian
+  - ♻️ 自动选择
+  - DIRECT
   type: select
-rule-providers:
-  apple-direct:
-    behavior: classical
-    interval: 3600
-    url: https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/Apple-direct.yaml
-  ip-cidr-text:
-    behavior: ipcidr-text
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt
-  lan-cidr:
-    behavior: ipcidr
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-  proxy-domain:
-    behavior: domain
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
-  proxy-domain-text:
-    behavior: domain-text
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - کانفیگ پرسرعت رایگان
+  - 𝗝𝗼𝗶𝗻    کانال ما
+  - JP
+  - عضو شو
+  - عضو شو 1
+  - عضو شو 2
+  - KR
+  - CN
+  - 𝗝𝗼𝗶𝗻    کانال ما 1
+  - سرور های رایگان در کانال satellitenewspersian
+  tolerance: 5000
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🌍 国外媒体
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - کانفیگ پرسرعت رایگان
+  - 𝗝𝗼𝗶𝗻    کانال ما
+  - JP
+  - عضو شو
+  - عضو شو 1
+  - عضو شو 2
+  - KR
+  - CN
+  - 𝗝𝗼𝗶𝗻    کانال ما 1
+  - سرور های رایگان در کانال satellitenewspersian
+  type: select
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - کانفیگ پرسرعت رایگان
+  - 𝗝𝗼𝗶𝗻    کانال ما
+  - JP
+  - عضو شو
+  - عضو شو 1
+  - عضو شو 2
+  - KR
+  - CN
+  - 𝗝𝗼𝗶𝗻    کانال ما 1
+  - سرور های رایگان در کانال satellitenewspersian
+  type: select
 rules:
-- SCRIPT,quic,REJECT,no-track
-- RULE-SET,proxy-domain,Proxy
-- RULE-SET,apple-direct,DIRECT
-- RULE-SET,lan-cidr,DIRECT
-- RULE-SET,ip-cidr-text,DIRECT
-- GEOIP,CN,DIRECT
-- MATCH,Proxy
-script:
-  shortcuts:
-    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port ==
-      9305)
-script-providers:
-  weather-us-aqi:
-    interval: 86400
-    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-example/main/script/iOS15_Weather_AQI_Standard.js
+- DOMAIN-SUFFIX,lan,🎯 全球直连
+- DOMAIN-SUFFIX,local,🎯 全球直连
+- DOMAIN-SUFFIX,localhost,🎯 全球直连
+- IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
+- IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+- IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+- IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+- DOMAIN-KEYWORD,ad,🛑 全球拦截
+- DOMAIN-SUFFIX,adservice.com,🛑 全球拦截
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼
+tun:
+  auto-detect-interface: true
+  auto-route: true
+  dns-hijack:
+  - 114.114.114.114
+  - 180.76.76.76
+  - 119.29.29.29
+  - 223.5.5.5
+  - 8.8.8.8
+  - 8.8.4.4
+  - 1.1.1.1
+  - 1.0.0.1
+  enable: true
+  stack: system
