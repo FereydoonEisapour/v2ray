@@ -119,7 +119,7 @@ proxies:
       Host: GxVpOnLl13.pRiMeXaD.OrG
     path: /
 - grpc-opts: null
-  name: عضو شو
+  name: عضو شو 1
   network: ws
   port: 2053
   server: 104.16.12.247
@@ -133,7 +133,7 @@ proxies:
       Host: txmt.conetcdata.dpdns.org
     path: /?ed=2560security=tls
 - grpc-opts: null
-  name: عضو شو
+  name: عضو شو 2
   network: ws
   port: 8443
   server: 45.131.5.252
@@ -175,7 +175,7 @@ proxies:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed
 - grpc-opts: null
-  name: 𝗝𝗼𝗶𝗻    کانال ما
+  name: 𝗝𝗼𝗶𝗻    کانال ما 1
   network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
   port: 8880
   server: zula.ir
@@ -206,11 +206,11 @@ proxy-groups:
   - 𝗝𝗼𝗶𝗻    کانال ما
   - JP
   - عضو شو
-  - عضو شو
-  - عضو شو
+  - عضو شو 1
+  - عضو شو 2
   - KR
   - CN
-  - 𝗝𝗼𝗶𝗻    کانال ما
+  - 𝗝𝗼𝗶𝗻    کانال ما 1
   - سرور های رایگان در کانال satellitenewspersian
   type: select
 rule-providers:
