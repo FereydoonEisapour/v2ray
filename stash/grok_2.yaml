@@ -67,10 +67,151 @@ http:
   - ^https?://ad\.example - reject
 log-level: info
 mode: rule
-proxies: []
+proxies:
+- grpc-opts: null
+  name: کانفیگ پرسرعت رایگان🌋
+  network: ws
+  port: 443
+  server: 104.24.219.219
+  servername: vpn.6662221.xyz#کانفیگ پرسرعت رایگان🌋@vmesc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 690e09cb-dd0a-48ee-aaf0-398fd1d127bc
+  ws-opts: null
+- grpc-opts: null
+  name: 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+  port: 80
+  server: fastaly.dollardoon.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 8fe4923c-8624-45f8-8ef9-03927d4523f8
+  ws-opts: null
+- grpc-opts: null
+  name: 🇯🇵|JP|
+  network: ws
+  port: 443
+  server: 160.79.104.113
+  servername: 0229.patterdeng.pp.ua#🇺🇸|US|@wxgqlfx|2vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@188.42.88.45:443?path=/
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /security
+- grpc-opts: null
+  name: 🇨🇦 ♻️ عضو شو
+  network: ws
+  port: 8443
+  server: 104.17.148.22
+  servername: GxVpOnLl13.pRiMeXaD.OrG#🇨🇦@vpn_ioss ♻️ عضو شو
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+  ws-opts:
+    headers:
+      Host: GxVpOnLl13.pRiMeXaD.OrG
+    path: /
+- grpc-opts: null
+  name: 🇬🇱 ♻️ عضو شو
+  network: ws
+  port: 2053
+  server: 104.16.12.247
+  servername: txmt.conetcdata.dpdns.org#🇬🇱@vpn_ioss ♻️ عضو شو
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /?ed=2560security=tls
+- grpc-opts: null
+  name: 🇺🇾 ♻️ عضو شو
+  network: ws
+  port: 8443
+  server: 45.131.5.252
+  servername: QtRkJtLt27.pRiMeXaD.OrG#🇺🇾@vpn_ioss ♻️ عضو شو
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+  ws-opts:
+    headers:
+      Host: QtRkJtLt27.pRiMeXaD.OrG
+    path: /
+- grpc-opts: null
+  name: 🇰🇷|KR|
+  network: ws
+  port: 12202
+  server: 14.56.226.68
+  servername: miku.mikuru.ip-ddns.com#🇰🇷|KR|@wxgqlfx|128vless://5543ae5c-c24f-405a-9266-597cbc43c818@121.129.91.180:12456?path=/?ed
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed
+- grpc-opts: null
+  name: 🇨🇳|CN|
+  network: ws
+  port: 81
+  server: 95.164.18.132
+  servername: miku.mikuru.ip-ddns.com#🇺🇦|UA|@wxgqlfx|85vless://de537efd-4d7c-4f3c-aea5-19d3f36c7b1b@154.92.9.1:8443?path=/
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed
+- grpc-opts: null
+  name: 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
+  port: 8880
+  server: zula.ir
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 8f58c111-ff7f-4543-9907-ed2c9aff3e49
+  ws-opts: null
+- grpc-opts: null
+  name: سرور های رایگان در کانال satellitenewspersian
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: MdLoXlYg.rIcKtMoUsE.InFo#سرور های رایگان در کانال satellitenewspersian@✅
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: MdLoXlYg.rIcKtMoUsE.InFo
+    path: /
 proxy-groups:
 - name: Proxy
-  proxies: []
+  proxies:
+  - کانفیگ پرسرعت رایگان🌋
+  - 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  - 🇯🇵|JP|
+  - 🇨🇦 ♻️ عضو شو
+  - 🇬🇱 ♻️ عضو شو
+  - 🇺🇾 ♻️ عضو شو
+  - 🇰🇷|KR|
+  - 🇨🇳|CN|
+  - 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  - سرور های رایگان در کانال satellitenewspersian
   type: select
 rule-providers:
   apple-direct:
