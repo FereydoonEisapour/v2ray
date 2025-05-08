@@ -1,111 +1,167 @@
-cron:
-  script:
-  - argument: ''
-    cron: '* * * * *'
-    debug: false
-    name: weather-us-aqi
-    timeout: 10
-dns:
-  default-nameserver:
-  - 223.5.5.5
-  - 114.114.114.114
-  - system
-  fake-ip-filter:
-  - +.stun.*.*
-  - +.stun.*.*.*
-  - +.stun.*.*.*.*
-  - +.stun.*.*.*.*.*
-  - lens.l.google.com
-  - '*.n.n.srv.nintendo.net'
-  - +.stun.playstation.net
-  - xbox.*.*.microsoft.com
-  - '*.*.xboxlive.com'
-  - '*.msftncsi.com'
-  - '*.msftconnecttest.com'
-  - '*.mcdn.bilivideo.cn'
-  nameserver:
-  - https://doh.pub/dns-query
-  - https://dns.alidns.com/dns-query
-  - quic://dns.adguard.com:853
-  - doq://test.dns.nextdns.io:853
-  - system
-  nameserver-policy:
-    +.internal.crop.com: system
-    www.baidu.com: 114.114.114.114
-  skip-cert-verify: true
-hosts:
-  '*.clash.dev': 127.0.0.1
-  .dev: 127.0.0.1
-  alpha.clash.dev: ::1
+# پیکربندی مشابه https://stash.wiki/en/configuration/example-config
+# بهینه‌سازی‌شده برای ایران با استفاده از https://github.com/Chocolate4U/Iran-sing-box-rules
+
+# حالت: rule (قوانین) / global (پروکسی جهانی) / direct (اتصال مستقیم جهانی)
+mode: rule
+
+# سطح لاگ
+log-level: info
+
+# تنظیمات HTTP
 http:
+  force-http-engine:
+    - '*:80'
+    - '*:443' # برای اطمینان از پردازش HTTPS
   ca: ''
   ca-passphrase: ''
-  force-http-engine:
-  - '*:80'
-  - '*:4480'
-  - '*:9102'
   mitm:
-  - g.cn
-  - '*.google.cn'
-  - weather-data.apple.com
-  - weather-data.apple.com:*
-  - '*.weather-data.apple.com'
-  - -exclude.weather-data.apple.com
-  script:
-  - argument: ''
-    binary-mode: false
-    debug: false
-    match: https://weather-data.apple.com/v2/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?
-    max-size: 1048576
-    name: weather-us-aqi
-    require-body: true
-    timeout: 10
-    type: response
-  url-rewrite:
-  - ^http://g\.cn http://www.google.com header
-  - ^https?://www\.google\.cn https://www.google.com 302
-  - ^https?://ad\.example - reject
-log-level: info
-mode: rule
-proxies: []
+    - '*.ir' # برای دامنه‌های ایرانی که نیاز به بررسی دارند
+    - '-exclude.banking.ir' # مستثنی کردن دامنه‌های بانکی
+
+# تنظیمات DNS
+dns:
+  default-nameserver:
+    - 178.22.122.100  # Shecan DNS
+    - 185.51.200.2    # Shecan DNS
+  nameserver:
+    - https://dns.shecan.ir/dns-query
+    - https://dns.adguard.com/dns-query
+  skip-cert-verify: true
+  fake-ip-filter:
+    - '+.stun.*.*'
+    - '*.ir' # اطمینان از دریافت IP واقعی برای دامنه‌های ایرانی
+  nameserver-policy:
+    '*.ir': https://dns.shecan.ir/dns-query
+
+# پروکسی‌ها
+proxies:
+  - name: 'vless1'
+    type: vless
+    server: www.speedtest.net
+    port: 8443
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    cipher: none
+    tls: true
+    servername: MdLoXlYg.rIcKtMoUsE.InFo
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: MdLoXlYg.rIcKtMoUsE.InFo
+    benchmark-url: http://www.gstatic.com/generate_204
+    benchmark-timeout: 5
+
+  - name: 'vless2'
+    type: vless
+    server: 45.131.5.252
+    port: 8443
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    cipher: none
+    tls: true
+    servername: QtRkJtLt27.pRiMeXaD.OrG
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: QtRkJtLt27.pRiMeXaD.OrG
+    benchmark-url: http://www.gstatic.com/generate_204
+    benchmark-timeout: 5
+
+  - name: 'vless3'
+    type: vless
+    server: 104.17.148.22
+    port: 8443
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    cipher: none
+    tls: true
+    servername: GxVpOnLl13.pRiMeXaD.OrG
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: GxVpOnLl13.pRiMeXaD.OrG
+    benchmark-url: http://www.gstatic.com/generate_204
+    benchmark-timeout: 5
+
+  - name: 'vless4'
+    type: vless
+    server: 104.16.12.247
+    port: 2053
+    uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+    cipher: none
+    tls: true
+    servername: txmt.conetcdata.dpdns.org
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: txmt.conetcdata.dpdns.org
+    benchmark-url: http://www.gstatic.com/generate_204
+    benchmark-timeout: 5
+
+# گروه‌های پروکسی
 proxy-groups:
-- name: Proxy
-  proxies: []
-  type: select
+  - name: 'Proxy'
+    type: select
+    proxies:
+      - vless1
+      - vless2
+      - vless3
+      - vless4
+      - Auto
+      - DIRECT
+
+  - name: 'Auto'
+    type: url-test
+    proxies:
+      - vless1
+      - vless2
+      - vless3
+      - vless4
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: 'Fallback'
+    type: fallback
+    proxies:
+      - vless1
+      - vless2
+      - vless3
+      - vless4
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+# ارائه‌دهندگان قوانین
 rule-providers:
-  apple-direct:
-    behavior: classical
-    interval: 3600
-    url: https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/Apple-direct.yaml
-  ip-cidr-text:
-    behavior: ipcidr-text
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt
-  lan-cidr:
-    behavior: ipcidr
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-  proxy-domain:
+  iran-domain:
     behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/master/rule-set/geosite-ir.srs
     interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
-  proxy-domain-text:
-    behavior: domain-text
+
+  iran-ip:
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/master/rule-set/geoip-ir.srs
     interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt
+
+  ads-domain:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/master/rule-set/geosite-category-ads-all.srs
+    interval: 86400
+
+  malware-domain:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/master/rule-set/geosite-malware.srs
+    interval: 86400
+
+# قوانین مسیریابی
 rules:
-- SCRIPT,quic,REJECT,no-track
-- RULE-SET,proxy-domain,Proxy
-- RULE-SET,apple-direct,DIRECT
-- RULE-SET,lan-cidr,DIRECT
-- RULE-SET,ip-cidr-text,DIRECT
-- GEOIP,CN,DIRECT
-- MATCH,Proxy
-script:
-  shortcuts:
-    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port ==
-      9305)
-script-providers:
-  weather-us-aqi:
-    interval: 86400
-    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-example/main/script/iOS15_Weather_AQI_Standard.js
+  - RULE-SET,ads-domain,REJECT
+  - RULE-SET,malware-domain,REJECT
+  - RULE-SET,iran-domain,DIRECT
+  - RULE-SET,iran-ip,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,Proxy
