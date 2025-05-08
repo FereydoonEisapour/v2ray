@@ -1,0 +1,50 @@
+mode: rule
+log-level: info
+http:
+  force-http-engine:
+  - '*:80'
+  - '*:4480'
+  - '*:9102'
+  mitm:
+  - g.cn
+  - '*.google.cn'
+  - weather-data.apple.com
+  url-rewrite:
+  - ^http://g\.cn: http://www.google.com header
+  - ^https?://www\.google\.cn: https://www.google.com 302
+  - ^https?://ad\.example: '- reject'
+  script:
+  - match: https://weather-data.apple.com/v2/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?
+    name: weather-us-aqi
+    type: response
+    require-body: true
+    max-size: 1048576
+dns:
+  default-nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  - system
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - system
+  skip-cert-verify: true
+  fake-ip-filter:
+  - '*.n.n.srv.nintendo.net'
+  - xbox.*.*.microsoft.com
+  - '*.msftncsi.com'
+  - '*.mcdn.bilivideo.cn'
+proxy-groups:
+- name: auto
+  type: url-test
+  proxies: []
+  interval: 300
+- name: Proxy
+  type: select
+  proxies:
+  - auto
+rules:
+- RULE-SET,proxy-domain,Proxy
+- GEOIP,CN,DIRECT
+- MATCH,Proxy
+proxies: []

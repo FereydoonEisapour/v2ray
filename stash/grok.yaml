@@ -1,0 +1,111 @@
+cron:
+  script:
+  - argument: ''
+    cron: '* * * * *'
+    debug: false
+    name: weather-us-aqi
+    timeout: 10
+dns:
+  default-nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  - system
+  fake-ip-filter:
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - lens.l.google.com
+  - '*.n.n.srv.nintendo.net'
+  - +.stun.playstation.net
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
+  - '*.msftncsi.com'
+  - '*.msftconnecttest.com'
+  - '*.mcdn.bilivideo.cn'
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - quic://dns.adguard.com:853
+  - doq://test.dns.nextdns.io:853
+  - system
+  nameserver-policy:
+    +.internal.crop.com: system
+    www.baidu.com: 114.114.114.114
+  skip-cert-verify: true
+hosts:
+  '*.clash.dev': 127.0.0.1
+  .dev: 127.0.0.1
+  alpha.clash.dev: ::1
+http:
+  ca: ''
+  ca-passphrase: ''
+  force-http-engine:
+  - '*:80'
+  - '*:4480'
+  - '*:9102'
+  mitm:
+  - g.cn
+  - '*.google.cn'
+  - weather-data.apple.com
+  - weather-data.apple.com:*
+  - '*.weather-data.apple.com'
+  - -exclude.weather-data.apple.com
+  script:
+  - argument: ''
+    binary-mode: false
+    debug: false
+    match: https://weather-data.apple.com/v2/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?
+    max-size: 1048576
+    name: weather-us-aqi
+    require-body: true
+    timeout: 10
+    type: response
+  url-rewrite:
+  - ^http://g\.cn http://www.google.com header
+  - ^https?://www\.google\.cn https://www.google.com 302
+  - ^https?://ad\.example - reject
+log-level: info
+mode: rule
+proxies: []
+proxy-groups:
+- name: Proxy
+  proxies: []
+  type: select
+rule-providers:
+  apple-direct:
+    behavior: classical
+    interval: 3600
+    url: https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/Apple-direct.yaml
+  ip-cidr-text:
+    behavior: ipcidr-text
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt
+  lan-cidr:
+    behavior: ipcidr
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+  proxy-domain:
+    behavior: domain
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+  proxy-domain-text:
+    behavior: domain-text
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt
+rules:
+- SCRIPT,quic,REJECT,no-track
+- RULE-SET,proxy-domain,Proxy
+- RULE-SET,apple-direct,DIRECT
+- RULE-SET,lan-cidr,DIRECT
+- RULE-SET,ip-cidr-text,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,Proxy
+script:
+  shortcuts:
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port ==
+      9305)
+script-providers:
+  weather-us-aqi:
+    interval: 86400
+    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-example/main/script/iOS15_Weather_AQI_Standard.js

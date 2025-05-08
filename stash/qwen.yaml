@@ -1,0 +1,69 @@
+mode: rule
+log-level: info
+http:
+  force-http-engine:
+  - '*:80'
+  - '*:4480'
+  - '*:9102'
+  mitm:
+  - g.cn
+  - '*.google.cn'
+  - weather-data.apple.com
+  - weather-data.apple.com:*
+  - '*.weather-data.apple.com'
+  - -exclude.weather-data.apple.com
+  url-rewrite:
+  - ^http://g\.cn http://www.google.com header
+  - ^https?://www\.google\.cn https://www.google.com 302
+  - ^https?://ad\.example - reject
+  script:
+  - match: https://weather-data.apple.com/v2/weather/.*
+    name: weather-us-aqi
+    type: response
+    require-body: true
+    debug: false
+dns:
+  default-nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  - system
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - lens.l.google.com
+  - '*.n.n.srv.nintendo.net'
+  - +.stun.playstation.net
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
+  - '*.msftncsi.com'
+  - '*.msftconnecttest.com'
+  - '*.mcdn.bilivideo.cn'
+proxies: []
+proxy-groups:
+- name: auto
+  type: url-test
+  proxies: []
+  interval: 300
+- name: Proxy
+  type: select
+  proxies:
+  - DIRECT
+rule-providers:
+  proxy-domain:
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    interval: 86400
+  ip-cidr-text:
+    behavior: ipcidr-text
+    url: https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt
+    interval: 86400
+rules:
+- SCRIPT,quic,REJECT,no-track
+- RULE-SET,proxy-domain,Proxy
+- GEOIP,CN,DIRECT
+- MATCH,Proxy
