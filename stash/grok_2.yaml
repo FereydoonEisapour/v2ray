@@ -69,7 +69,7 @@ log-level: info
 mode: rule
 proxies:
 - grpc-opts: null
-  name: کانفیگ پرسرعت رایگان🌋
+  name: کانفیگ پرسرعت رایگان
   network: ws
   port: 443
   server: 104.24.219.219
@@ -80,7 +80,7 @@ proxies:
   uuid: 690e09cb-dd0a-48ee-aaf0-398fd1d127bc
   ws-opts: null
 - grpc-opts: null
-  name: 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  name: 𝗝𝗼𝗶𝗻    کانال ما
   network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
   port: 80
   server: fastaly.dollardoon.com
@@ -91,7 +91,7 @@ proxies:
   uuid: 8fe4923c-8624-45f8-8ef9-03927d4523f8
   ws-opts: null
 - grpc-opts: null
-  name: 🇯🇵|JP|
+  name: JP
   network: ws
   port: 443
   server: 160.79.104.113
@@ -105,7 +105,7 @@ proxies:
       Host: 0229.patterdeng.pp.ua
     path: /security
 - grpc-opts: null
-  name: 🇨🇦 ♻️ عضو شو
+  name: عضو شو
   network: ws
   port: 8443
   server: 104.17.148.22
@@ -119,7 +119,7 @@ proxies:
       Host: GxVpOnLl13.pRiMeXaD.OrG
     path: /
 - grpc-opts: null
-  name: 🇬🇱 ♻️ عضو شو
+  name: عضو شو
   network: ws
   port: 2053
   server: 104.16.12.247
@@ -133,7 +133,7 @@ proxies:
       Host: txmt.conetcdata.dpdns.org
     path: /?ed=2560security=tls
 - grpc-opts: null
-  name: 🇺🇾 ♻️ عضو شو
+  name: عضو شو
   network: ws
   port: 8443
   server: 45.131.5.252
@@ -147,7 +147,7 @@ proxies:
       Host: QtRkJtLt27.pRiMeXaD.OrG
     path: /
 - grpc-opts: null
-  name: 🇰🇷|KR|
+  name: KR
   network: ws
   port: 12202
   server: 14.56.226.68
@@ -161,7 +161,7 @@ proxies:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed
 - grpc-opts: null
-  name: 🇨🇳|CN|
+  name: CN
   network: ws
   port: 81
   server: 95.164.18.132
@@ -175,7 +175,7 @@ proxies:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed
 - grpc-opts: null
-  name: 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  name: 𝗝𝗼𝗶𝗻    کانال ما
   network: ws#𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما
   port: 8880
   server: zula.ir
@@ -202,15 +202,15 @@ proxies:
 proxy-groups:
 - name: Proxy
   proxies:
-  - کانفیگ پرسرعت رایگان🌋
-  - 𝗝𝗼𝗶𝗻 ➠  | کانال ما
-  - 🇯🇵|JP|
-  - 🇨🇦 ♻️ عضو شو
-  - 🇬🇱 ♻️ عضو شو
-  - 🇺🇾 ♻️ عضو شو
-  - 🇰🇷|KR|
-  - 🇨🇳|CN|
-  - 𝗝𝗼𝗶𝗻 ➠  | کانال ما
+  - کانفیگ پرسرعت رایگان
+  - 𝗝𝗼𝗶𝗻    کانال ما
+  - JP
+  - عضو شو
+  - عضو شو
+  - عضو شو
+  - KR
+  - CN
+  - 𝗝𝗼𝗶𝗻    کانال ما
   - سرور های رایگان در کانال satellitenewspersian
   type: select
 rule-providers:
