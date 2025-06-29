@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 20:52:37
-# 配置生成日期：2025-06-29 13:34:09
+# 配置生成日期：2025-06-29 13:40:00
 
 mixed-port: 7890
 allow-lan: false
@@ -50,187 +50,22 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 'Channel id: @ShadowProxy66🇩🇪_1'
+  - name: 🌐|UN|@wxgqlfx|56
     type: vless
-    server: 91.99.202.155
-    port: 443
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-    type: vless
-    server: 91.99.203.69
-    port: 51615
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: 'Channel id: @ShadowProxy66🇩🇪_2'
-    type: vless
-    server: 91.99.203.65
-    port: 443
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: '@appsooner کانال تلگرام 💔 موقت'
-    type: vless
-    server: blog.zanbori.ir
-    port: 24989
-    uuid: c92794ee-7c70-4faa-8f07-e7cec2cb14c9
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: TG:@v2ray_sub
-    type: vless
-    server: 217.144.186.49
-    port: 38231
-    uuid: 2b2219ab-707a-4773-af6c-539de4a76c89
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: DefaultName_1
-    type: vless
-    server: 45.145.43.219
-    port: 7022
-    uuid: 651de6cb-df22-45cd-8842-438fdbef87fb
-    network: tcp
+    server: 104.21.79.134
+    port: 2083
+    uuid: ec7a6b6d-94b6-45df-9d62-491f53a508be
+    network: ws
     tls: true
-    servername: refersion.com
+    servername: frEeDoM.PAnotOsu.SToRe
+    alpn:
+      - http/1.1
     skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: vj5pvcr-2G1kK7hKp937WrwAPtVg4p94HpqeCAuauD4
-    ip-version: dual
-    udp: true
-  - name: '@orangevpns_bot @orangevpns_bot_1'
-    type: vmess
-    server: '::ffff:9471:cfe0'
-    port: 3001
-    uuid: cd9fdee6-8905-4da9-9eef-a1a18b298a65
-    network: kcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: DefaultName_2
-    type: vless
-    server: ver2.tcod008.info
-    port: 59761
-    uuid: ae9539b5-70dd-41b5-9666-11a29559a840
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-    type: vless
-    server: 92.60.78.221
-    port: 443
-    uuid: 6897c181-24b1-4880-8660-e6c5c7ee13c7
-    network: tcp
-    tls: true
-    servername: www.tradingview.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
-      short-id: 9917d2350096
-    ip-version: dual
-    udp: true
-  - name: 'Channel id: @ShadowProxy66🇮🇷'
-    type: vless
-    server: 85.133.194.83
-    port: 3333
-    uuid: 7d283c1a-3a5b-4b2a-a924-0bd256e89726
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-    type: vless
-    server: 47.251.95.178
-    port: 443
-    uuid: ea286109-d20f-415e-849e-4af20ab04b65
-    network: tcp
-    tls: true
-    servername: 147135001195.sec22org.com
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: T.me/Vpn_Mafia🇺🇸 | 1.32s
-    type: vless
-    server: 47.251.95.178
-    port: 443
-    uuid: ea286109-d20f-415e-849e-4af20ab04b65
-    network: tcp
-    tls: true
-    servername: 147135001195.sec22org.com
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: 🇲🇪@vpn_ioss ♻️ عضو شو
-    type: vmess
-    server: '::ffff:33c3:65de'
-    port: 3001
-    uuid: a7c264bd-a2c5-43db-8a5b-a2c3bd19b9ae
-    network: kcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-    type: vmess
-    server: 84.247.150.177
-    port: 36141
-    uuid: d31ee52f-b6e4-4db8-9c95-98855ec823cc
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: '@skiVpn🏂¹'
-    type: vmess
-    server: 78.39.9.134
-    port: 8090
-    uuid: 891e1d1c-5fbc-40cb-9256-58b016b6b600
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: '@Selinc'
-    type: vless
-    server: test.yoyohihi.com
-    port: 57107
-    uuid: 600eae54-5014-40a2-99f3-215ff340c26d
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: '@v2raying'
-    type: vless
-    server: mar13t.rasmar1400.com
-    port: 2080
-    uuid: bea34b73-3244-475b-b914-7bb80e1cda91
-    network: tcp
-    tls: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L3lJWdU7mHijSkNaNt-m29OYnKnHvHYRxg2Y8XXFdng
-      short-id: bf517367267685
+    client-fingerprint: randomized
+    ws-opts:
+      path: /jqsYbhRXJVI8L7m2/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=
+      headers:
+        host: freedom.panotosu.store
     ip-version: dual
     udp: true
   - name: v2ray_phoenix
@@ -249,29 +84,251 @@ proxies:
       short-id: 58bae6ff
     ip-version: dual
     udp: true
-  - name: https://t.me/V2ry_Proxy
-    type: vmess
-    server: '::ffff:9471:cfe0'
-    port: 3001
-    uuid: cd9fdee6-8905-4da9-9eef-a1a18b298a65
-    network: kcp
+  - name: 🌐|UN|@wxgqlfx|354 | 5.13s
+    type: vless
+    server: cleanv2itech1.freesdns.info
+    port: 443
+    uuid: 329d8863-42ce-4015-b9b9-8417499cc174
+    network: ws
+    tls: false
+    servername: m1.freesdns.info.
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        host: m1.freesdns.info.
+    ip-version: dual
+    udp: true
+  - name: 'Channel id: @ARGO_VPN1 | 2.89s'
+    type: vless
+    server: 81.12.30.51
+    port: 58045
+    uuid: 9deda4f9-a9b9-4614-b840-ece9998ec6db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+    ip-version: dual
+    udp: true
+  - name: '@Selinc'
+    type: vless
+    server: 172.67.60.197
+    port: 80
+    uuid: cba0b35b-8943-4c70-a864-9f78145b7897
+    network: ws
+    tls: true
+    servername: agolna.mahsaamini.dpdns.org
+    skip-cert-verify: true
+    client-fingerprint: random
+    ws-opts:
+      path: /BaRAyeIran
+      headers:
+        host: agolna.mahsaamini.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+    type: vless
+    server: arv.vipmehspd.ir
+    port: 981
+    uuid: cccb0647-df95-4b57-9ea1-8cf97a9af8cc
+    network: tcp
     tls: false
     ip-version: dual
     udp: true
-    alterId: 0
-    cipher: auto
-  - name: TG:@v2ray_sub | 1.70s
+  - name: 🇺🇸|US|@wxgqlfx|187 | 0.56s
     type: vless
-    server: 8.210.29.68
-    port: 443
-    uuid: ea286109-d20f-415e-849e-4af20ab04b65
-    network: tcp
-    tls: true
-    servername: 147135001195.sec22org.com
-    skip-cert-verify: true
+    server: speedtest.net
+    port: 80
+    uuid: c01c6d74-d096-4e03-bd99-96977add9593
+    network: ws
+    tls: false
+    ws-opts:
+      path: /--@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG
+      headers:
+        host: hqhq.ir
     ip-version: dual
     udp: true
-  - name: '@orangevpns_bot @orangevpns_bot_2'
+  - name: 'Telegram : @Netaccount'
+    type: vless
+    server: add.ski1plag.ir
+    port: 80
+    uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
+    network: ws
+    tls: false
+    ws-opts:
+      path: /upload
+      headers:
+        host: my.ski1plag.ir
+    ip-version: dual
+    udp: true
+  - name: TG:@v2ray_sub | 0.20s
+    type: vless
+    server: 92.53.188.36
+    port: 443
+    uuid: 401374e6-df77-41fb-f638-dad8184f175b
+    network: grpc
+    tls: true
+    servername: pqh23v4.hiddendom.shop
+    alpn:
+      - h2
+    skip-cert-verify: true
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|210 | 1.48s
+    type: vless
+    server: 104.17.147.22
+    port: 80
+    uuid: e2635cef-7bed-4647-b6aa-8c059c9f316c
+    network: ws
+    tls: false
+    ws-opts:
+      path: /--@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG
+      headers:
+        host: WWW.webSOCAT.pro.pOWer.liNk.hQhQ.xYz.
+    ip-version: dual
+    udp: true
+  - name: 🔰@fast_2ray 👈سرورهای‌بیشتر_1
+    type: vless
+    server: 92.60.78.221
+    port: 443
+    uuid: 6897c181-24b1-4880-8660-e6c5c7ee13c7
+    network: tcp
+    tls: true
+    servername: www.tradingview.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
+      short-id: 9917d2350096
+    ip-version: dual
+    udp: true
+  - name: '@meli_proxyy'
+    type: vless
+    server: 91.99.190.38
+    port: 51615
+    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|153 | 0.26s
+    type: vless
+    server: ddcvvbhyu78.852224.dpdns.org
+    port: 443
+    uuid: f108e0e2-5f12-42b6-9e67-1b2f073ffb2b
+    network: ws
+    tls: true
+    servername: DDCvVbhyu78.852224.DpDns.ORG
+    skip-cert-verify: true
+    ws-opts:
+      path: /DB8W1KX5xnNGIhMum8sDKRwvFCJq
+      headers:
+        host: ddcvvbhyu78.852224.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|156 | 0.39s
+    type: vless
+    server: 172.67.135.37
+    port: 443
+    uuid: cf8c791e-9d0b-4e90-aaf6-41ac62468416
+    network: ws
+    tls: true
+    servername: IiIIIiiIIIiiO.459.pp.uA
+    skip-cert-verify: true
+    ws-opts:
+      path: /dtBdvnoJO8180gomOew3d
+      headers:
+        host: iiiiiiiiiiiio.459.pp.ua
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|145 | 1.35s
+    type: vless
+    server: 172.67.191.140
+    port: 443
+    uuid: c7f423b7-ced8-43da-a9ae-e906cb4a222c
+    network: ws
+    tls: true
+    servername: SSssSSsssSsSsswwweR.999824.XYz
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /wU3lZaUTRQTqot0LE
+      headers:
+        host: sssssssssssssswwwer.999824.xyz
+    ip-version: dual
+    udp: true
+  - name: telegram | 1.91s
+    type: vless
+    server: whatismyipaddress.com
+    port: 2096
+    uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
+    network: ws
+    tls: true
+    servername: wwwspeedtestnetwhiteberinsistomd6625996s02.gatesriver.ir
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: wwwspeedtestnetwhiteberinsistomd6625996s02.gatesriver.ir
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|150 | 0.43s
+    type: vless
+    server: 172.67.162.50
+    port: 443
+    uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+    network: ws
+    tls: true
+    servername: 444RRrt5.7777155.xYZ
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /6OWLjRc26b0nHYr5hYXD
+      headers:
+        host: 444rrrt5.7777155.xyz
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|176 | 1.21s
+    type: vless
+    server: 104.21.73.150
+    port: 443
+    uuid: a7b22c05-27fd-4a76-8896-2aebaf4cf3a1
+    network: ws
+    tls: true
+    servername: 000000u.931.Pp.uA
+    skip-cert-verify: true
+    ws-opts:
+      path: /wWnnVP6dmy903WCeD85F1b
+      headers:
+        host: 000000u.931.pp.ua
+    ip-version: dual
+    udp: true
+  - name: '@Asak_Vpn🇸🇬 | 1.91s'
+    type: vless
+    server: 43.156.217.68
+    port: 41283
+    uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: 'Channel id: @ShadowProxy66🇩🇪_1'
+    type: vless
+    server: 91.99.203.65
+    port: 443
+    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: '@orangevpns_bot @orangevpns_bot_1'
     type: vmess
     server: '::ffff:33c3:65de'
     port: 3001
@@ -282,6 +339,59 @@ proxies:
     udp: true
     alterId: 0
     cipher: auto
+  - name: 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+    type: vless
+    server: 185.208.77.113
+    port: 14040
+    uuid: a2691bdd-7989-4e7e-9c44-302e360c021f
+    network: ws
+    tls: false
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|141 | 0.84s
+    type: vless
+    server: 104.21.63.135
+    port: 443
+    uuid: cb1d2f45-1af3-4bab-a308-7c0c27bac24a
+    network: ws
+    tls: true
+    servername: 333r.8906004.Xyz
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /YkFQqkZ9vqpDooparWRe5wKJ0R
+      headers:
+        host: 333r.8906004.xyz
+    ip-version: dual
+    udp: true
+  - name: DefaultName_1
+    type: vless
+    server: 45.145.43.219
+    port: 7022
+    uuid: 651de6cb-df22-45cd-8842-438fdbef87fb
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: vj5pvcr-2G1kK7hKp937WrwAPtVg4p94HpqeCAuauD4
+    ip-version: dual
+    udp: true
+  - name: Channel id%3A %40ShadowProxy66🇺🇸_1
+    type: ss
+    server: 144.126.146.38
+    port: 30789
+    tls: false
+    password: ''
+    ip-version: dual
+    udp: true
+    cipher: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZDczZTA4OC1kYzVhLTRkZmUtODkyNy01NjM1MWVlODA0MDc%3D@144.126.146.38
   - name: T.me/Vpn_Mafia🇸🇬
     type: vmess
     server: 84.247.147.67
@@ -293,295 +403,796 @@ proxies:
     udp: true
     alterId: 0
     cipher: auto
-  - name: '@meli_proxyy'
+  - name: https://t.me/V2ry_Proxy | 10.07s
     type: vless
-    server: 91.99.190.38
+    server: arv.vipmehspd.ir
+    port: 981
+    uuid: 6fcb287e-1b92-4c03-b5ca-aa668dad2f51
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: Channel id%3A %40ShadowProxy66🇺🇸_2
+    type: ss
+    server: 144.126.146.38
+    port: 30100
+    tls: false
+    password: ''
+    ip-version: dual
+    udp: true
+    cipher: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDFkZGNlZC1lNmVlLTQxNzUtOWMxYS1lNTI0MDA5ZjkwNDU%3D@144.126.146.38
+  - name: DefaultName_2
+    type: vless
+    server: ver2.tcod008.info
+    port: 59761
+    uuid: ae9539b5-70dd-41b5-9666-11a29559a840
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: '@V2range'
+    type: vless
+    server: 172.67.60.197
+    port: 80
+    uuid: cba0b35b-8943-4c70-a864-9f78145b7897
+    network: ws
+    tls: false
+    ws-opts:
+      path: /BaRAyeIran
+      headers:
+        host: agolna.mahsaamini.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: '@orangevpns_bot @orangevpns_bot_2'
+    type: vmess
+    server: '::ffff:9471:cfe0'
+    port: 3001
+    uuid: cd9fdee6-8905-4da9-9eef-a1a18b298a65
+    network: kcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+    type: vless
+    server: 91.107.157.118
+    port: 8880
+    uuid: 28b97b15-ccd8-40f9-a02a-d0ecd44ac556
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: Telegram @V_2rayng0
+    type: vless
+    server: 104.21.56.44
+    port: 443
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: true
+    servername: redfree8.pooriashop.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /join---MTMVPN---join
+      headers:
+        host: redfree8.pooriashop.ir
+    ip-version: dual
+    udp: true
+  - name: سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+    type: vless
+    server: 95.164.45.90
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+    type: vless
+    server: 45.140.167.59
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+    udp: true
+  - name: TG:@v2ray_sub | 1.85s
+    type: vless
+    server: 8.210.29.68
+    port: 443
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    network: tcp
+    tls: true
+    servername: 147135001195.sec22org.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: '@meli_proxyy | 4.50s'
+    type: vless
+    server: 94.182.142.16
+    port: 2020
+    uuid: c27e0180-7b4a-49ba-a862-a62f5e2bc17d
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|137 | 0.47s
+    type: vless
+    server: 104.21.94.69
+    port: 443
+    uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+    network: ws
+    tls: true
+    servername: dDDDvvbHY7.000890604.xYz
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /WfxcqrR5ycVpIit2OdWk0KwirdY
+      headers:
+        host: ddddvvbhy7.000890604.xyz
+    ip-version: dual
+    udp: true
+  - name: 🌐|UN|@wxgqlfx|149 | 1.49s
+    type: vless
+    server: 172.67.206.152
+    port: 443
+    uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+    network: ws
+    tls: true
+    servername: EDfrT.frEEvPNatm2025.DPdNS.oRG
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /O9jlBCbIm3xr1D40NK
+      headers:
+        host: edfrt.freevpnatm2025.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+    type: vless
+    server: 172.67.161.129
+    port: 443
+    uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+    network: ws
+    tls: true
+    servername: eeEEEeR.666470.xYZ
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
+      headers:
+        host: eeeeeer.666470.xyz
+    ip-version: dual
+    udp: true
+  - name: T.me/Vpn_Mafia🇳🇱 | 1.93s
+    type: vless
+    server: 104.17.148.22
+    port: 2096
+    uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+    network: ws
+    tls: true
+    servername: HkPk6Cd2Kj.9PeSc.CoM
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: HkPk6Cd2Kj.9PeSc.CoM
+    ip-version: dual
+    udp: true
+  - name: 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+    type: vless
+    server: 91.99.203.69
     port: 51615
     uuid: 2eaef053-5fd6-4def-b234-d760690355ff
     network: tcp
     tls: false
     ip-version: dual
     udp: true
-  - name: IRAN 7 (@Outline_Vpn)
+  - name: '%40Asak_Vpn'
+    type: ss
+    server: 172.233.128.126
+    port: 1866
+    tls: false
+    password: oXGp1+ihlfKg826H
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 'Channel id: @ShadowProxy66🇩🇪_2'
+    type: vless
+    server: 91.99.202.155
+    port: 443
+    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+    type: vless
+    server: tgju.org
+    port: 8080
+    uuid: 56652249-2e67-4429-b86c-3df8b838ad85
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        host: 4j.QBAo1g5z6k.ZulaIR.org.
+    ip-version: dual
+    udp: true
+  - name: 🇲🇪@vpn_ioss ♻️ عضو شو
     type: vmess
-    server: 84.247.148.192
-    port: 44396
-    uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
+    server: '::ffff:33c3:65de'
+    port: 3001
+    uuid: a7c264bd-a2c5-43db-8a5b-a2c3bd19b9ae
+    network: kcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🌐|UN|@wxgqlfx|152 | 0.34s
+    type: vless
+    server: 104.21.26.17
+    port: 443
+    uuid: cf8c791e-9d0b-4e90-aaf6-41ac62468416
+    network: ws
+    tls: true
+    servername: IiIIIiiIIIiiO.459.pp.uA
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    ws-opts:
+      path: /dtBdvnoJO8180gomOew3d
+      headers:
+        host: iiiiiiiiiiiio.459.pp.ua
+    ip-version: dual
+    udp: true
+  - name: 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+    type: vmess
+    server: 84.247.150.177
+    port: 36141
+    uuid: d31ee52f-b6e4-4db8-9c95-98855ec823cc
     network: tcp
     tls: false
     ip-version: dual
     udp: true
     alterId: 0
     cipher: auto
-  - name: 🇺🇸|US|@wxgqlfx|168
+  - name: '@meli_proxyy | 0.93s'
     type: vless
-    server: 199.34.229.57
-    port: 443
-    uuid: 9ca79e0a-2c5c-4ac8-90e6-6642e41e6189
-    network: httpupgrade
+    server: whatismyipaddress.com
+    port: 2096
+    uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
+    network: ws
     tls: true
-    servername: uk1.blackismyfavorite.ir
-    alpn:
-      - h3
-      - h2
-      - http/1.1
+    servername: wwwspeedtestnetwhiteberinsistomd6625996s07.gatesriver.ir
     skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: wwwspeedtestnetwhiteberinsistomd6625996s07.gatesriver.ir
     ip-version: dual
     udp: true
-  - name: 🇺🇸|US|@wxgqlfx|161
+  - name: 🌐|UN|@wxgqlfx|342 | 0.18s
     type: vless
-    server: 199.34.230.125
+    server: 172.67.149.202
     port: 443
-    uuid: 9ca79e0a-2c5c-4ac8-90e6-6642e41e6189
-    network: httpupgrade
+    uuid: c03d1bce-e54c-4cc0-a0fa-d83e22f15620
+    network: ws
     tls: true
-    servername: uk1.blackismyfavorite.ir
+    servername: SSSSSX.222560.xyZ
     alpn:
-      - h3
-      - h2
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
+    ws-opts:
+      path: /Rlwi0HmjSrgeQA6Y34zWUk6JUQ
+      headers:
+        host: sssssx.222560.xyz
     ip-version: dual
     udp: true
-  - name: '@Anty_VPN سرورای بیشتر'
+  - name: T.me/Vpn_Mafia🇺🇸 | 1.03s
     type: vless
-    server: 78.111.84.142
-    port: 8443
-    uuid: 3f24ba6f-7546-41e3-b97f-69f6cb101493
+    server: 47.251.95.178
+    port: 443
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
     network: tcp
-    tls: false
+    tls: true
+    servername: 147135001195.sec22org.com
+    skip-cert-verify: true
     ip-version: dual
     udp: true
-  - name: IRAN 6 (@Outline_Vpn)
-    type: vmess
-    server: 84.247.147.243
-    port: 51566
-    uuid: ae6ae977-17f2-43fd-a336-20b3b3a9e791
+  - name: '@gh_v2rayng'
+    type: trojan
+    server: 104.248.18.1
+    port: 1935
     network: tcp
+    tls: true
+    password: 6gZh2JbfhQ
+    sni: x1-germany-digitalocean-v2.devefun.org
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: telegram | 1.20s
+    type: vless
+    server: whatismyipaddress.com
+    port: 2096
+    uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
+    network: ws
+    tls: true
+    servername: wwwspeedtestnetwhiteberinsistomd6625996s02.gatesriver.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: wwwspeedtestnetwhiteberinsistomd6625996s02.gatesriver.ir
+    ip-version: dual
+    udp: true
+  - name: T.me/Vpn_Mafia🇸🇬 | 1.66s
+    type: vless
+    server: 104.17.242.183
+    port: 443
+    uuid: 00026cc2-d2a5-41b2-86a0-2c5fb2e5018d
+    network: ws
+    tls: true
+    servername: sg.xyxy.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /00026cc2
+      headers:
+        host: sg.xyxy.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+    type: vless
+    server: 188.114.97.3
+    port: 443
+    uuid: 08c41e17-9d1c-4d4a-9edc-242d3d71c1ac
+    network: ws
+    tls: true
+    servername: oRdEr.fortGIFT.ir
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: randomized
+    ws-opts:
+      path: /B7tnDeiaEFHTS0Li
+      headers:
+        host: order.fortgift.ir
+    ip-version: dual
+    udp: true
+  - name: https://t.me/V2ry_Proxy
+    type: vmess
+    server: '::ffff:9471:cfe0'
+    port: 3001
+    uuid: cd9fdee6-8905-4da9-9eef-a1a18b298a65
+    network: kcp
     tls: false
     ip-version: dual
     udp: true
     alterId: 0
     cipher: auto
-  - name: '@Lazarus2050🚩🙋‍♂️'
-    type: vmess
-    server: 93.115.172.175
-    port: 12540
-    uuid: 056d3d35-a729-4ab4-bbae-d71d8458af19
-    network: tcp
-    tls: false
+  - name: '@meli_proxyy | 0.76s'
+    type: vless
+    server: whatismyipaddress.com
+    port: 2096
+    uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
+    network: ws
+    tls: true
+    servername: wwwspeedtestnetwhiteberinsistomd6625996s03.gatesriver.ir
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: wwwspeedtestnetwhiteberinsistomd6625996s03.gatesriver.ir
     ip-version: dual
     udp: true
-    alterId: 0
-    cipher: auto
+  - name: 🌐|UN|@wxgqlfx|57
+    type: vless
+    server: 172.67.145.189
+    port: 2087
+    uuid: ec7a6b6d-94b6-45df-9d62-491f53a508be
+    network: ws
+    tls: true
+    servername: fReedoM.pAnotOSU.STorE
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: randomized
+    ws-opts:
+      path: /fOcrKJa0xLVhd8XU/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=
+      headers:
+        host: freedom.panotosu.store
+    ip-version: dual
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -604,35 +1215,64 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 'Channel id: @ShadowProxy66🇩🇪_1'
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
-      - 'Channel id: @ShadowProxy66🇩🇪_2'
-      - '@appsooner کانال تلگرام 💔 موقت'
-      - TG:@v2ray_sub
-      - DefaultName_1
-      - '@orangevpns_bot @orangevpns_bot_1'
-      - DefaultName_2
-      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
-      - 'Channel id: @ShadowProxy66🇮🇷'
-      - 'Channel id: @ShadowProxy66🇺🇸 | 0.24s'
-      - T.me/Vpn_Mafia🇺🇸 | 1.32s
-      - 🇲🇪@vpn_ioss ♻️ عضو شو
-      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
-      - '@skiVpn🏂¹'
-      - '@Selinc'
-      - '@v2raying'
+      - 🌐|UN|@wxgqlfx|56
       - v2ray_phoenix
-      - https://t.me/V2ry_Proxy
-      - TG:@v2ray_sub | 1.70s
-      - '@orangevpns_bot @orangevpns_bot_2'
-      - T.me/Vpn_Mafia🇸🇬
+      - 🌐|UN|@wxgqlfx|354 | 5.13s
+      - 'Channel id: @ARGO_VPN1 | 2.89s'
+      - '@Selinc'
+      - برای اتصال دائمی جوین شو🍦@Outline_ir | 10.47s
+      - 🇺🇸|US|@wxgqlfx|187 | 0.56s
+      - 'Telegram : @Netaccount'
+      - TG:@v2ray_sub | 0.20s
+      - 🌐|UN|@wxgqlfx|210 | 1.48s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_1
       - '@meli_proxyy'
-      - IRAN 7 (@Outline_Vpn)
-      - 🇺🇸|US|@wxgqlfx|168
-      - 🇺🇸|US|@wxgqlfx|161
-      - '@Anty_VPN سرورای بیشتر'
-      - IRAN 6 (@Outline_Vpn)
-      - '@Lazarus2050🚩🙋‍♂️'
+      - 🌐|UN|@wxgqlfx|153 | 0.26s
+      - 🌐|UN|@wxgqlfx|156 | 0.39s
+      - 🌐|UN|@wxgqlfx|145 | 1.35s
+      - telegram | 1.91s
+      - 🌐|UN|@wxgqlfx|150 | 0.43s
+      - 🌐|UN|@wxgqlfx|176 | 1.21s
+      - '@Asak_Vpn🇸🇬 | 1.91s'
+      - 'Channel id: @ShadowProxy66🇩🇪_1'
+      - '@orangevpns_bot @orangevpns_bot_1'
+      - 'Channel id: @ShadowProxy66🇮🇷 | 6.95s'
+      - 🌐|UN|@wxgqlfx|141 | 0.84s
+      - DefaultName_1
+      - Channel id%3A %40ShadowProxy66🇺🇸_1
+      - T.me/Vpn_Mafia🇸🇬
+      - https://t.me/V2ry_Proxy | 10.07s
+      - Channel id%3A %40ShadowProxy66🇺🇸_2
+      - DefaultName_2
+      - '@V2range'
+      - '@orangevpns_bot @orangevpns_bot_2'
+      - 🇩🇪|DE|@wxgqlfx|180 | 0.46s
+      - Telegram @V_2rayng0
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 1.10s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.95s
+      - TG:@v2ray_sub | 1.85s
+      - '@meli_proxyy | 4.50s'
+      - 🌐|UN|@wxgqlfx|137 | 0.47s
+      - 🌐|UN|@wxgqlfx|149 | 1.49s
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.19s
+      - T.me/Vpn_Mafia🇳🇱 | 1.93s
+      - 🔰@fast_2ray 👈سرورهای‌بیشتر_2
+      - '%40Asak_Vpn'
+      - 'Channel id: @ShadowProxy66🇩🇪_2'
+      - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
+      - 🇲🇪@vpn_ioss ♻️ عضو شو
+      - 🌐|UN|@wxgqlfx|152 | 0.34s
+      - 🟣🔥+کانال+سرور+رایگان+@FarahVPN
+      - '@meli_proxyy | 0.93s'
+      - 🌐|UN|@wxgqlfx|342 | 0.18s
+      - T.me/Vpn_Mafia🇺🇸 | 1.03s
+      - '@gh_v2rayng'
+      - telegram | 1.20s
+      - T.me/Vpn_Mafia🇸🇬 | 1.66s
+      - 🚀 میخوای پرواز کنی؟ کانفیگ از ما بگیر! Expreset@ 🌟
+      - https://t.me/V2ry_Proxy
+      - '@meli_proxyy | 0.76s'
+      - 🌐|UN|@wxgqlfx|57
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
