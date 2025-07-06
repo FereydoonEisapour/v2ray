@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 20:52:37
-# 配置生成日期：2025-07-06 20:25:33
+# 配置生成日期：2025-07-06 20:35:40
 
 mixed-port: 7890
 allow-lan: false
@@ -181,17 +181,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-channel.dollardoon.com-15709
-    type: vmess
-    server: channel.dollardoon.com
-    port: 15709
-    uuid: 4ac39e8a-6d5c-48bb-b0d0-f633c829113e
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: '[🇬🇧] | 0.48s'
     type: vless
     server: 45.140.167.59
@@ -281,17 +270,6 @@ proxies:
         host: 638872399763995349.abadan-prx-dnraaad.info
     ip-version: dual
     udp: true
-  - name: vmess-37.221.125.159-33940
-    type: vmess
-    server: 37.221.125.159
-    port: 33940
-    uuid: 353e0787-71bc-442d-9c9d-902f90359eb5
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
     type: vless
     server: 95.164.45.70
@@ -347,26 +325,6 @@ proxies:
         host: 638872398562285185.zagreb-prx-dnraaad.info
     ip-version: dual
     udp: true
-  - name: mtpproxy0098_35 | 0.84s
-    type: ss
-    server: 51.195.119.47
-    port: 1080
-    tls: false
-    password: qXvO7zYU7KeaB0Md7DQLow
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: vmess-ddns1.rghstore.ir-8080
-    type: vmess
-    server: ddns1.rghstore.ir
-    port: 8080
-    uuid: d64669fb-07e5-4d27-9995-63545fae16c2
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 0.72s'
     type: vless
     server: 185.231.205.188
@@ -589,15 +547,6 @@ proxies:
         host: fin.channel.digicyber.click
     ip-version: dual
     udp: true
-  - name: 🇨🇭_定制专线：%40Alin006Bot | 29.28s
-    type: ss
-    server: 138.124.115.157
-    port: 1080
-    tls: false
-    password: M-nffO40KlclwbCX9CV1DQ
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
   - name: ' | 0.54s'
     type: vless
     server: 185.231.205.231
@@ -658,17 +607,6 @@ proxies:
       path: /
     ip-version: dual
     udp: true
-  - name: vmess-5.180.30.146-27773
-    type: vmess
-    server: 5.180.30.146
-    port: 27773
-    uuid: b2347239-dd15-40b3-b683-50cc2ff19ae7
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: '@meli_proxyy | 2.07s'
     type: vless
     server: 46.62.139.178
@@ -757,17 +695,6 @@ proxies:
         host: telewebion.com,user.telewebion.com,plus.telewebion.com,api.telewebion.com
     ip-version: dual
     udp: true
-  - name: vmess-www.speedtest.net-443
-    type: vmess
-    server: www.speedtest.net
-    port: 443
-    uuid: cb443ca0-9221-4357-8d57-a83b5981f80f
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 0.11s_1'
     type: vless
     server: 45.82.251.180
@@ -832,17 +759,6 @@ proxies:
         host: 638872398562275192.zagreb-prx-dnraaad.info
     ip-version: dual
     udp: true
-  - name: vmess-198.2.218.216-44883_1
-    type: vmess
-    server: 198.2.218.216
-    port: 44883
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
     type: vless
     server: 172.233.141.49
@@ -864,17 +780,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-sssssssxxxx.2032.pp.ua-443
-    type: vmess
-    server: sssssssxxxx.2032.pp.ua
-    port: 443
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: Free By Tharuwa (@z_z_z_zz_z) | 1.20s
     type: vless
     server: 157.230.248.167
@@ -903,17 +808,6 @@ proxies:
         host: nnnnnnnnnnnnhhy.iran2035.dpdns.org
     ip-version: dual
     udp: true
-  - name: vmess-orvps2.horsenma.net-8443
-    type: vmess
-    server: orvps2.horsenma.net
-    port: 8443
-    uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 4.10s'
     type: vless
     server: 45.82.251.121
@@ -962,19 +856,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     udp: true
-  - name: vmess-time.is-443
-    type: vmess
-    server: time.is
-    port: 443
-    uuid: 1a255612-9932-454c-9941-4a9d1103da1b
-    network: ws
-    tls: true
-    servername: francisco-added-fe-significance.trycloudflare.com
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: 💍67 | 0.27s
     type: vless
     server: 45.63.60.98
@@ -984,26 +865,6 @@ proxies:
     tls: false
     ip-version: dual
     udp: true
-  - name: ' | 0.93s'
-    type: ss
-    server: 82.180.146.173
-    port: 30607
-    tls: false
-    password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
-  - name: vmess-109.123.232.74-59032
-    type: vmess
-    server: 109.123.232.74
-    port: 59032
-    uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 5.73s'
     type: vless
     server: 104.18.26.90
@@ -1037,17 +898,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-94.136.185.230-10534
-    type: vmess
-    server: 94.136.185.230
-    port: 10534
-    uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: 🇹🇭|TH|@wxgqlfx|723 | 1.61s
     type: vless
     server: 45.144.167.46
@@ -1135,17 +985,6 @@ proxies:
         host: eeeeeer.666470.xyz
     ip-version: dual
     udp: true
-  - name: vmess-91.99.158.148-52262
-    type: vmess
-    server: 91.99.158.148
-    port: 52262
-    uuid: af5a0d0c-c898-4a51-ba6a-47179d483e41
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 0.57s'
     type: vless
     server: 185.231.205.139
@@ -1156,17 +995,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-45.11.93.133-4002
-    type: vmess
-    server: 45.11.93.133
-    port: 4002
-    uuid: 5660752b-9cd2-4295-a4fa-e49f1bb88eba
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
     type: vless
     server: 172.67.153.156
@@ -1192,17 +1020,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-51.79.86.182-42610
-    type: vmess
-    server: 51.79.86.182
-    port: 42610
-    uuid: e0957ca6-f613-4017-ff3c-effd1da8871a
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
     type: vless
     server: 212.86.94.176
@@ -1213,17 +1030,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-pq-brazil1.09vpn.com-80
-    type: vmess
-    server: pq-brazil1.09vpn.com
-    port: 80
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
     type: vless
     server: 104.18.26.90
@@ -1237,17 +1043,6 @@ proxies:
         host: Kk40.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
     ip-version: dual
     udp: true
-  - name: vmess-107.148.6.67-30001_1
-    type: vmess
-    server: 107.148.6.67
-    port: 30001
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 64
-    cipher: auto
   - name: ' | 4.09s_2'
     type: vless
     server: 45.82.251.93
@@ -1258,20 +1053,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-107.148.6.67-30001_2
-    type: vmess
-    server: 107.148.6.67
-    port: 30001
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: true
-    servername: www.53865734.xyz
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ip-version: dual
-    udp: true
-    alterId: 64
-    cipher: auto
   - name: TG:@v2ray_sub | 2.46s
     type: vless
     server: 104.21.3.219
@@ -1287,17 +1068,6 @@ proxies:
         host: ovhwuxian.pai50288.uk
     ip-version: dual
     udp: true
-  - name: vmess-194.233.72.228-27575
-    type: vmess
-    server: 194.233.72.228
-    port: 27575
-    uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 1.73s'
     type: vless
     server: 45.82.251.58
@@ -1318,17 +1088,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-2.56.125.101-38088
-    type: vmess
-    server: 2.56.125.101
-    port: 38088
-    uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
     type: vless
     server: tgju.org
@@ -1434,17 +1193,6 @@ proxies:
         host: fin.channel.digicyber.click
     ip-version: dual
     udp: true
-  - name: vmess-51.79.102.253-80
-    type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
     type: vless
     server: 45.140.167.253
@@ -1472,17 +1220,6 @@ proxies:
         host: 638872398562284322.zagreb-prx-dnraaad.info
     ip-version: dual
     udp: true
-  - name: vmess-135.125.182.74-28213
-    type: vmess
-    server: 135.125.182.74
-    port: 28213
-    uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: telegram | 0.65s_4
     type: vless
     server: www.speedtest.net
@@ -1603,17 +1340,6 @@ proxies:
       path: /
     ip-version: dual
     udp: true
-  - name: vmess-138.199.146.181-13411
-    type: vmess
-    server: 138.199.146.181
-    port: 13411
-    uuid: ee3f37b1-e805-4bdc-9d46-80df181899df
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 4.84s'
     type: vless
     server: 45.82.251.185
@@ -1644,17 +1370,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-198.2.218.216-44883_2
-    type: vmess
-    server: 198.2.218.216
-    port: 44883
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: ' | 0.10s_3'
     type: vless
     server: 45.82.251.78
@@ -1665,28 +1380,6 @@ proxies:
     grpc-opts: {}
     ip-version: dual
     udp: true
-  - name: vmess-5.180.30.85-18598
-    type: vmess
-    server: 5.180.30.85
-    port: 18598
-    uuid: bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: vmess-62.146.233.53-50678
-    type: vmess
-    server: 62.146.233.53
-    port: 50678
-    uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: telegram | 0.70s_2
     type: vless
     server: www.speedtest.net
@@ -1704,17 +1397,6 @@ proxies:
         host: 638872443451941419.kish-prx-dnraaaf.info
     ip-version: dual
     udp: true
-  - name: vmess-5.253.41.147-27750
-    type: vmess
-    server: 5.253.41.147
-    port: 27750
-    uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
   - name: 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
     type: vless
     server: 45.82.249.42
@@ -1758,17 +1440,6 @@ proxies:
         host: amiri2.server-dev2.ir
     ip-version: dual
     udp: true
-  - name: vmess-185.189.58.195-8080
-    type: vmess
-    server: 185.189.58.195
-    port: 8080
-    uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: chacha20-poly1305
   - name: ' | 0.18s'
     type: vless
     server: 45.82.251.63
@@ -1806,39 +1477,6 @@ proxies:
         host: lgoin.persianmizban.com
     ip-version: dual
     udp: true
-  - name: vmess-ee1.daallygold.com-52262
-    type: vmess
-    server: ee1.daallygold.com
-    port: 52262
-    uuid: af5a0d0c-c898-4a51-ba6a-47179d483e41
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: vmess-62.146.233.115-38324
-    type: vmess
-    server: 62.146.233.115
-    port: 38324
-    uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: vmess-5.180.30.110-51352
-    type: vmess
-    server: 5.180.30.110
-    port: 51352
-    uuid: bcf86479-aab4-47cf-9d6e-34d353baa1a2
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1855,20 +1493,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -1888,13 +1522,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -1902,31 +1534,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -1934,23 +1558,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -1959,10 +1575,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -1973,26 +1587,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2009,20 +1614,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -2042,13 +1643,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -2056,31 +1655,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -2088,23 +1679,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -2113,10 +1696,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -2127,26 +1708,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2163,20 +1735,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -2196,13 +1764,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -2210,31 +1776,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -2242,23 +1800,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -2267,10 +1817,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -2281,26 +1829,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
   - name: 📲 电报信息
     type: select
     proxies:
@@ -2316,20 +1855,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -2349,13 +1884,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -2363,31 +1896,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -2395,23 +1920,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -2420,10 +1937,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -2434,26 +1949,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -2469,20 +1975,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -2502,13 +2004,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -2516,31 +2016,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -2548,23 +2040,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -2573,10 +2057,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -2587,26 +2069,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2622,20 +2095,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -2655,13 +2124,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -2669,31 +2136,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -2701,23 +2160,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -2726,10 +2177,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -2740,26 +2189,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2792,20 +2232,16 @@ proxy-groups:
       - برای اتصال دائمی جوین شو🍦@Outline_ir | 4.04s
       - telegram | 2.28s
       - Telegram @V_2rayng0 | 4.09s
-      - vmess-channel.dollardoon.com-15709
       - '[🇬🇧] | 0.48s'
       - telegram | 1.25s
       - telegram | 0.64s_1
       - telegram | 0.65s_1
       - WedBaZtel | 4.66s
       - telegram | 0.65s_2
-      - vmess-37.221.125.159-33940
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.48s
       - '@VlessConfig | 0.60s'
       - 🇬🇧|GB|@wxgqlfx|774 | 0.73s
       - telegram | 0.73s
-      - mtpproxy0098_35 | 0.84s
-      - vmess-ddns1.rghstore.ir-8080
       - ' | 0.72s'
       - Vip-@game_file2020+@l9lIIII | 1.11s
       - ' | 0.48s'
@@ -2825,13 +2261,11 @@ proxy-groups:
       - telegram | 0.99s
       - '@V2rayNG3 | 0.18s'
       - '@melov2ray | 3.68s'
-      - 🇨🇭_定制专线：%40Alin006Bot | 29.28s
       - ' | 0.54s'
       - '@v2rayNGcloud | 0.57s'
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.12s'
       - 🌐|UN|@wxgqlfx|782 | 0.15s
       - WS-multi | 3.17s
-      - vmess-5.180.30.146-27773
       - '@meli_proxyy | 2.07s'
       - 🇨🇦Canada | 0.81s
       - ' | 0.46s'
@@ -2839,31 +2273,23 @@ proxy-groups:
       - '@v2rayNGcloud | 0.82s'
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 0.55s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn¹¹ | کانال ما 🏂 | 2.04s
-      - vmess-www.speedtest.net-443
       - ' | 0.11s_1'
       - TG:@v2ray_sub | 0.11s
       - 🇨🇿|CZ|@wxgqlfx|739 | 3.85s
       - '@ | 4.10s'
       - telegram | 0.64s_2
-      - vmess-198.2.218.216-44883_1
       - 'Channel id: @ShadowProxy66 🇺🇸 | 0.32s'
       - '@awlix_ir | 4.09s'
-      - vmess-sssssssxxxx.2032.pp.ua-443
       - Free By Tharuwa (@z_z_z_zz_z) | 1.20s
       - 🌐|UN|@wxgqlfx|799 | 0.41s
-      - vmess-orvps2.horsenma.net-8443
       - ' | 4.10s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.27s
       - 'Channel id: @ShadowProxy66 🇸🇬 | 3.95s'
       - '@gh_v2rayng | 0.77s'
-      - vmess-time.is-443
       - 💍67 | 0.27s
-      - ' | 0.93s'
-      - vmess-109.123.232.74-59032
       - ' | 5.73s'
       - ' | 0.09s_1'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.55s
-      - vmess-94.136.185.230-10534
       - 🇹🇭|TH|@wxgqlfx|723 | 1.61s
       - '@Asak_Vpn🇺🇸 | 0.41s'
       - سرور رایگان پرسرعت🌊 @vmess_ir | 0.82s
@@ -2871,23 +2297,15 @@ proxy-groups:
       - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | 0.53s
       - '@v2rayNGcloud | 0.84s'
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.54s
-      - vmess-91.99.158.148-52262
       - ' | 0.57s'
-      - vmess-45.11.93.133-4002
       - سرور های رایگان در کانال satellitenewspersian@✅ | 1.54s
       - ' | 0.10s_1'
-      - vmess-51.79.86.182-42610
       - IR+🇮🇷+┇+VLESS-GRPC-NTLS+-+Homaye+Jahan+Nama+Co.+(+Private+Joint+Stock)+┇+212.86.94.176 | 5.29s
-      - vmess-pq-brazil1.09vpn.com-80
       - 𝗝𝗼𝗶𝗻 ➠ @vpnplusee_free | کانال ما | 8.06s
-      - vmess-107.148.6.67-30001_1
       - ' | 4.09s_2'
-      - vmess-107.148.6.67-30001_2
       - TG:@v2ray_sub | 2.46s
-      - vmess-194.233.72.228-27575
       - ' | 1.73s'
       - '@m_vipv2ray | 0.64s'
-      - vmess-2.56.125.101-38088
       - سرور های رایگان در کانال satellitenewspersian@✅ | 0.50s
       - telegram | 0.64s_3
       - telegram | 0.68s
@@ -2896,10 +2314,8 @@ proxy-groups:
       - ' | 0.10s_2'
       - ' | 1.37s'
       - '@melov2ray | 20.79s'
-      - vmess-51.79.102.253-80
       - 🔰@fast_2ray 👈سرورهای‌بیشتر | 0.80s
       - telegram | 0.65s_3
-      - vmess-135.125.182.74-28213
       - telegram | 0.65s_4
       - ' | 0.47s_3'
       - ' | 0.66s'
@@ -2910,26 +2326,17 @@ proxy-groups:
       - ' | 0.61s'
       - ' | 0.38s'
       - 💌@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻 بیا تو دم در بده | 0.51s
-      - vmess-138.199.146.181-13411
       - ' | 4.84s'
       - ' | 0.09s_2'
       - ' | 0.55s_2'
-      - vmess-198.2.218.216-44883_2
       - ' | 0.10s_3'
-      - vmess-5.180.30.85-18598
-      - vmess-62.146.233.53-50678
       - telegram | 0.70s_2
-      - vmess-5.253.41.147-27750
       - 'Channel id: @ShadowProxy66 🇨🇱 | 1.37s'
       - 🌐|UN|@wxgqlfx|798 | 1.30s
       - Telegram=@CUSTOMVPNSERVER | 0.83s
-      - vmess-185.189.58.195-8080
       - ' | 0.18s'
       - TG:@v2ray_sub | 2.19s
       - 𝗝𝗼𝗶𝗻 ➠ @skiVpn⁵ | کانال ما 🏂 | 0.72s
-      - vmess-ee1.daallygold.com-52262
-      - vmess-62.146.233.115-38324
-      - vmess-5.180.30.110-51352
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
