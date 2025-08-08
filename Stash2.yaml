@@ -1,5 +1,5 @@
 # 模版名称：ACL4SSR_Mini.ini
-# 配置生成日期：2025-08-08 14:21:21
+# 配置生成日期：2025-08-08 14:27:28
 
 mixed-port: 7890
 allow-lan: false
@@ -554,7 +554,7 @@ proxies:
     ws-opts:
       path: /
   - type: vless
-    name: "@Kurdistan_vpn🇩🇪"
+    name: "@Kurdistan_vpn🇩🇪_1"
     server: 104.26.14.69
     port: 443
     uuid: 30f2d443-af46-4dd6-83c9-b5e17299ebd2
@@ -759,13 +759,6 @@ proxies:
       headers:
         Host: barayeiran-mahsang.gerald81.dpdns.org
     client-fingerprint: random
-  - type: vless
-    name: Mtn-@V2ray_Raha-7
-    server: 45.82.251.133
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    encryption: none
   - type: vless
     name: فیلترشکن رایگان👈vpnowl@_3
     server: 104.16.51.36
@@ -1302,6 +1295,15 @@ proxies:
       headers:
         Host: barayeiran-mahsang.taraneh.dpdns.org
     client-fingerprint: random
+  - type: vmess
+    name: "@v2ray313 کانالمون 🍿"
+    server: 57.129.77.179
+    port: 102
+    uuid: 87f08f8b-4934-4a0b-85a6-55b5a793470c
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: tomcat.apache.org
   - type: ss
     name: "@KAFING_2"
     server: 134.255.210.49
@@ -1315,21 +1317,6 @@ proxies:
     uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
     network: grpc
     tls: true
-    encryption: none
-  - type: vless
-    name: Mci-@V2ray_Raha-7
-    server: 45.82.251.114
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    servername: pqh25v1.vetdomok.shop
-    encryption: none
-  - type: vless
-    name: IRAN 544 free
-    server: 185.231.205.99
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
     encryption: none
   - type: vless
     name: "@configfree20255_2"
@@ -1360,6 +1347,15 @@ proxies:
     encryption: none
     ws-opts:
       path: /lmhdjfws
+  - type: vmess
+    name: "Channel id: @ShadowProxy66🇩🇪"
+    server: 135.125.182.74
+    port: 28213
+    uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: ""
   - type: vless
     name: "@V2RAY_VMESS_free_1"
     server: 77.91.68.70
@@ -1451,13 +1447,6 @@ proxies:
       path: /vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
       headers:
         Host: barayeiran.mahiozonboroon.qzz.io
-  - type: vless
-    name: TG:@v2ray_sub
-    server: 45.82.251.180
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    encryption: none
   - type: vless
     name: 🙃Tel:@pPal03🙃Join🙃
     server: 104.24.192.51
@@ -1619,13 +1608,15 @@ proxies:
       path: /proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm?ed=2560
       headers:
         Host: carlotta.shoorekeeper.cloudns.org
-  - type: vless
-    name: "@vpnaloo"
-    server: 45.82.251.122
-    port: 8880
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    encryption: none
+  - type: vmess
+    name: "@Kurdistan_vpn🇩🇪_2"
+    server: 15.204.234.200
+    port: 41100
+    uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: ""
   - type: ss
     name: VayNora_3
     server: 45.87.175.22
@@ -1716,7 +1707,7 @@ proxy-groups:
       - VayNora_1
       - "@configfree2025🚀کانال تلگرام ما🔴"
       - 🇬🇧 United Kingdom ws+tls (f69)_6
-      - "@Kurdistan_vpn🇩🇪"
+      - "@Kurdistan_vpn🇩🇪_1"
       - alsheykhfree12
       - "@v2ray_youtube خرید اشتراک vip پرسرعت و ارزان"
       - "🧔🏻Tel: @pPal03🧔🏻Join🧔🏻"
@@ -1732,7 +1723,6 @@ proxy-groups:
       - defaultName_5
       - "@v2raying_4"
       - https://t.me/falcunargo
-      - Mtn-@V2ray_Raha-7
       - فیلترشکن رایگان👈vpnowl@_3
       - "@Viturey : تلگرام 🇺🇳"
       - defaultName_6
@@ -1779,13 +1769,13 @@ proxy-groups:
       - https://t.me/v2ray_team
       - telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir_2
       - defaultName_11
+      - "@v2ray313 کانالمون 🍿"
       - "@KAFING_2"
       - 🇩🇪 Germany grpc+tls (4e0)
-      - Mci-@V2ray_Raha-7
-      - IRAN 544 free
       - "@configfree20255_2"
       - "Channel id: @Vipoutline 🇹🇷"
       - 🇫🇷 فرانسه_7
+      - "Channel id: @ShadowProxy66🇩🇪"
       - "@V2RAY_VMESS_free_1"
       - "["
       - خرید @Orange_support_2
@@ -1794,7 +1784,6 @@ proxy-groups:
       - " ⏺️Tel: @pPal03 ⏺️Join ⏺️"
       - "Tel: @pPal03 && جوین بدید"
       - CA🇨🇦
-      - TG:@v2ray_sub
       - 🙃Tel:@pPal03🙃Join🙃
       - 15.204.236.64
       - :(
@@ -1808,7 +1797,7 @@ proxy-groups:
       - CF中转_0717135380
       - "🇯🇵سرور های بیشتر: @v2ray_"
       - "@v2raying_8"
-      - "@vpnaloo"
+      - "@Kurdistan_vpn🇩🇪_2"
       - VayNora_3
       - 🇫🇷 فرانسه_8
       - "@V2RAY_VMESS_free_3"
@@ -1859,7 +1848,7 @@ proxy-groups:
       - VayNora_1
       - "@configfree2025🚀کانال تلگرام ما🔴"
       - 🇬🇧 United Kingdom ws+tls (f69)_6
-      - "@Kurdistan_vpn🇩🇪"
+      - "@Kurdistan_vpn🇩🇪_1"
       - alsheykhfree12
       - "@v2ray_youtube خرید اشتراک vip پرسرعت و ارزان"
       - "🧔🏻Tel: @pPal03🧔🏻Join🧔🏻"
@@ -1875,7 +1864,6 @@ proxy-groups:
       - defaultName_5
       - "@v2raying_4"
       - https://t.me/falcunargo
-      - Mtn-@V2ray_Raha-7
       - فیلترشکن رایگان👈vpnowl@_3
       - "@Viturey : تلگرام 🇺🇳"
       - defaultName_6
@@ -1922,13 +1910,13 @@ proxy-groups:
       - https://t.me/v2ray_team
       - telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir_2
       - defaultName_11
+      - "@v2ray313 کانالمون 🍿"
       - "@KAFING_2"
       - 🇩🇪 Germany grpc+tls (4e0)
-      - Mci-@V2ray_Raha-7
-      - IRAN 544 free
       - "@configfree20255_2"
       - "Channel id: @Vipoutline 🇹🇷"
       - 🇫🇷 فرانسه_7
+      - "Channel id: @ShadowProxy66🇩🇪"
       - "@V2RAY_VMESS_free_1"
       - "["
       - خرید @Orange_support_2
@@ -1937,7 +1925,6 @@ proxy-groups:
       - " ⏺️Tel: @pPal03 ⏺️Join ⏺️"
       - "Tel: @pPal03 && جوین بدید"
       - CA🇨🇦
-      - TG:@v2ray_sub
       - 🙃Tel:@pPal03🙃Join🙃
       - 15.204.236.64
       - :(
@@ -1951,7 +1938,7 @@ proxy-groups:
       - CF中转_0717135380
       - "🇯🇵سرور های بیشتر: @v2ray_"
       - "@v2raying_8"
-      - "@vpnaloo"
+      - "@Kurdistan_vpn🇩🇪_2"
       - VayNora_3
       - 🇫🇷 فرانسه_8
       - "@V2RAY_VMESS_free_3"
@@ -2017,7 +2004,7 @@ proxy-groups:
       - VayNora_1
       - "@configfree2025🚀کانال تلگرام ما🔴"
       - 🇬🇧 United Kingdom ws+tls (f69)_6
-      - "@Kurdistan_vpn🇩🇪"
+      - "@Kurdistan_vpn🇩🇪_1"
       - alsheykhfree12
       - "@v2ray_youtube خرید اشتراک vip پرسرعت و ارزان"
       - "🧔🏻Tel: @pPal03🧔🏻Join🧔🏻"
@@ -2033,7 +2020,6 @@ proxy-groups:
       - defaultName_5
       - "@v2raying_4"
       - https://t.me/falcunargo
-      - Mtn-@V2ray_Raha-7
       - فیلترشکن رایگان👈vpnowl@_3
       - "@Viturey : تلگرام 🇺🇳"
       - defaultName_6
@@ -2080,13 +2066,13 @@ proxy-groups:
       - https://t.me/v2ray_team
       - telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir_2
       - defaultName_11
+      - "@v2ray313 کانالمون 🍿"
       - "@KAFING_2"
       - 🇩🇪 Germany grpc+tls (4e0)
-      - Mci-@V2ray_Raha-7
-      - IRAN 544 free
       - "@configfree20255_2"
       - "Channel id: @Vipoutline 🇹🇷"
       - 🇫🇷 فرانسه_7
+      - "Channel id: @ShadowProxy66🇩🇪"
       - "@V2RAY_VMESS_free_1"
       - "["
       - خرید @Orange_support_2
@@ -2095,7 +2081,6 @@ proxy-groups:
       - " ⏺️Tel: @pPal03 ⏺️Join ⏺️"
       - "Tel: @pPal03 && جوین بدید"
       - CA🇨🇦
-      - TG:@v2ray_sub
       - 🙃Tel:@pPal03🙃Join🙃
       - 15.204.236.64
       - :(
@@ -2109,7 +2094,7 @@ proxy-groups:
       - CF中转_0717135380
       - "🇯🇵سرور های بیشتر: @v2ray_"
       - "@v2raying_8"
-      - "@vpnaloo"
+      - "@Kurdistan_vpn🇩🇪_2"
       - VayNora_3
       - 🇫🇷 فرانسه_8
       - "@V2RAY_VMESS_free_3"
