@@ -1,0 +1,755 @@
+mode: rule
+log-level: info
+http:
+  force-http-engine:
+  - '*:80'
+  - '*:443'
+  ca: ''
+  ca-passphrase: ''
+  mitm:
+  - '*.ir'
+  - aparat.com
+  - '*.bankmellat.ir'
+  url-rewrite:
+  - ^https?://blocked\.example reject
+cron:
+  script: []
+script-providers: {}
+script:
+  shortcuts: {}
+hosts:
+  '*.ir': system
+dns:
+  default-nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+  - system
+  nameserver:
+  - https://dns.google/dns-query
+  - https://cloudflare-dns.com/dns-query
+  - system
+  skip-cert-verify: true
+  nameserver-policy:
+    +.ir: system
+    www.google.com: https://dns.google/dns-query
+  fake-ip-filter:
+  - +.stun.*.*
+  - aparat.com
+  - '*.bank.ir'
+proxies:
+- name: 🅼🅴🅷🅳🅸
+  type: vmess
+  server: 2.188.219.43
+  port: 8443
+  uuid: b2e38621-035b-43f8-84a5-e92160762fc3
+  alterId: 0
+  cipher: auto
+  network: ws
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+- name: '@CaV2ray'
+  type: vless
+  server: 172.67.71.187
+  port: 443
+  uuid: c4587bda-09fc-4b3b-8221-4450fccc33d1
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: yx.yushan.dpdns.org
+  reality-opts: null
+  fp: random
+  ws-opts:
+    path: /Telegram@V2ray_Alpha/?ed=2560
+    headers:
+      Host: yx.yushan.dpdns.org
+- name: 🇬🇧 United Kingdom ws+tls (f69)
+  type: vless
+  server: 95.164.18.29
+  port: 8443
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: :(
+  type: vless
+  server: 104.17.148.22
+  port: 8880
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI/?ed=2560
+    headers:
+      Host: www.speedtest.net.zula.ir.cfp1.a2hdhjdxjbxjsjdjd.ddns-ip.nEt.
+- name: 🇫🇷FR-45.67.139.225-0348
+  type: vmess
+  server: 45.67.139.225
+  port: 20086
+  uuid: d3928330-4050-47f6-9d1c-df1fd801c568
+  alterId: 0
+  cipher: auto
+  network: ws
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+- name: '@Viturey : تلگرام 🇺🇳'
+  type: trojan
+  server: 104.21.72.109
+  port: 443
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  skip-cert-verify: true
+  sni: vpn.stupidworld.web.id
+  network: ws
+  ws-opts:
+    path: /Stupid-World/103.106.228.126-2053
+    headers:
+      Host: vpn.stupidworld.web.id
+- name: TG:@v2ray_sub
+  type: ss
+  server: 147.45.178.200
+  port: 57456
+  cipher: chacha20-ietf-poly1305
+  password: a58fa62b4944ddbf
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: 🇹🇷 Turkey[@vpnAndroid2]⁸
+  type: vless
+  server: 103.231.75.23
+  port: 443
+  uuid: 45cd4cb9-c026-4ab2-814d-090d51f4a59f
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /xsgzobws
+- name: 🇬🇧 United Kingdom ws+tls (f69)-2
+  type: vless
+  server: 95.164.18.72
+  port: 2096
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: 066-NetFreedom0
+  type: vless
+  server: 185.234.66.82
+  port: 443
+  uuid: b5e8bfe7-6cdb-402d-b243-1e0f53ebb582
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  fp: chrome
+  ws-opts:
+    path: /jzmdpvws
+- name: '>>@V2RAY_VMESS_free::DE'
+  type: vless
+  server: 87.120.205.207
+  port: 2025
+  uuid: ebac2049-8367-4eab-a1a5-8b742b2fd3b6
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: das12327gsgsyu
+- name: '@Venom_Servers 🔺کانفیگ رایگان🔺'
+  type: ss
+  server: 45.87.175.154
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir
+  type: vless
+  server: 104.26.6.18
+  port: 443
+  uuid: 004ba5d4-d448-4960-a762-e5190ab415f2
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: albedoalbedochan.violetchaan.ip-ddns.com
+  reality-opts: null
+  fp: random
+  ws-opts:
+    path: /?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560
+    headers:
+      Host: albedoalbedochan.violetchaan.ip-ddns.com
+- name: 🇬🇧 United Kingdom ws+tls (f69)-3
+  type: vless
+  server: 95.164.18.51
+  port: 443
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: ss-45.87.175.178
+  type: ss
+  server: 45.87.175.178
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: https://t.me/psiphonf
+  type: vless
+  server: 104.19.144.33
+  port: 443
+  uuid: e999db7a-1b17-4da6-bc37-c9fa24af2e93
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: JdYq2881Un.GhEiChI.oRg
+  reality-opts: null
+  ws-opts:
+    path: /
+    headers:
+      Host: JdYq2881Un.GhEiChI.oRg
+- name: '@vmesskhodam'
+  type: vless
+  server: 104.16.69.64
+  port: 8880
+  uuid: 02811288-9ef3-42ef-86db-d9b1399c1a59
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vghavi32.ip-ddns.com
+- name: 🇬🇧 United Kingdom ws+tls (f69)-4
+  type: vless
+  server: 95.164.18.39
+  port: 2096
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: '@V2RAY_VMESS_free'
+  type: vless
+  server: 94.237.28.145
+  port: 28392
+  uuid: 427954ab-e6bd-4758-8793-7b129699068e
+  flow: xtls-rprx-vision
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇫🇷 فرانسه
+  type: vless
+  server: 86.104.74.238
+  port: 443
+  uuid: 278ac6d3-49b0-4a52-ae3c-7f19970942fa
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /wflhdtws
+- name: 🇫🇷 فرانسه-2
+  type: vless
+  server: 194.4.49.222
+  port: 443
+  uuid: 80032848-69d9-4faa-8162-5a6b46b5828f
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /cnqazsws
+- name: 🇬🇧 United Kingdom ws+tls (f69)-5
+  type: vless
+  server: 77.91.101.201
+  port: 2096
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: فیلترشکن رایگان👈vpnowl@
+  type: vless
+  server: 91.206.71.162
+  port: 8880
+  uuid: 26bc13af-e442-4956-afd4-b8f85744d26f
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /Barayeiranmahsang?ed=2560
+    headers:
+      Host: barayeiran-mahsang.gerald81.dpdns.org
+- name: 🇬🇧 United Kingdom ws+tls (f69)-6
+  type: vless
+  server: 95.164.18.51
+  port: 8443
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: 🇲🇽27@shadowsockskeys
+  type: ss
+  server: 147.78.1.27
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: 🇧🇷88@shadowsockskeys
+  type: ss
+  server: 185.192.124.188
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: ss-71.19.148.74
+  type: ss
+  server: 71.19.148.74
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: gqkUCvmeOTghYJXF1YIuk5
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: 🇲🇾 Malaysia
+  type: vless
+  server: 45.128.54.15
+  port: 443
+  uuid: 44bda3cb-a8ed-4373-951e-7c018edd4e42
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /inqabcws
+- name: 🇹🇷 Turkey
+  type: vless
+  server: 185.234.66.101
+  port: 443
+  uuid: d4992ec8-d781-45f5-9f59-ef8c769f46f9
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /hfwsxtws
+- name: 🇨🇦CA+->+🇩🇪DE+⚡@DeamNet_Proxy
+  type: vless
+  server: 104.19.4.191
+  port: 443
+  uuid: affd5a9a-22fa-11ee-be56-0242ac120002
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: vpn870.tutorials26858.workers.dev
+  reality-opts: null
+  ws-opts:
+    path: /
+    headers:
+      Host: vpn870.tutorials26858.workers.dev
+- name: ss-45.87.175.164
+  type: ss
+  server: 45.87.175.164
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: 🇩🇪 آلمان
+  type: vless
+  server: 91.99.117.223
+  port: 443
+  uuid: 04a68e50-8c5c-447d-8416-9cc075e78a85
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇲@vpn_ioss ♻️ عضو شو
+  type: vless
+  server: 104.21.54.198
+  port: 8880
+  uuid: 7e948e09-fa6f-4b8e-8c5d-181fa15fbec5
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /HBRQp44s2AcLDzpm?ed=2560
+    headers:
+      Host: v2ngsupply2.ip-ddns.com
+- name: 'Channel id: @ShadowProxy66 🇩🇪'
+  type: ss
+  server: 81.19.141.45
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1PRi11zoil3xDSYINHmlxt
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: '@info_2IT_channel'
+  type: ss
+  server: 197.140.142.74
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: q26ZLxDI0VHiAR2uKUvDOz
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: '🥑Tel: @pPal03🥑Join🥑'
+  type: vless
+  server: 103.21.244.75
+  port: 80
+  uuid: 3c1eef35-015b-48cd-9f0a-23d9ef5816cc
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: little-haze-1600-ppal03.gabonim122.workers.dev
+- name: 🇬🇧 United Kingdom ws+tls (f69)-7
+  type: vless
+  server: 95.164.18.29
+  port: 2096
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: 🇫🇮 Finland ws+tls (f69)
+  type: vless
+  server: 92.118.233.42
+  port: 443
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: ''
+  reality-opts: null
+  ws-opts:
+    path: /
+- name: ' ⏺️Tel: @pPal03 ⏺️Join ⏺️'
+  type: vless
+  server: 104.24.198.111
+  port: 80
+  uuid: 20cf8a2b-e301-4240-9c03-20883249a287
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: divine-hall-8adb-ppal03.niyabi6636.workers.dev
+- name: 🏴‍☠All Net | @V2ray_God
+  type: vless
+  server: 104.26.1.212
+  port: 8880
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.speedtest.net.zula.ir.cfp1.a2hdhjdxjbxjsjdjd.ddns-ip.nEt.
+- name: ss-45.87.175.164-2
+  type: ss
+  server: 45.87.175.164
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+- name: 🇩🇪 آلمان-2
+  type: vless
+  server: 91.99.117.223
+  port: 443
+  uuid: 04a68e50-8c5c-447d-8416-9cc075e78a85
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇲@vpn_ioss ♻️ عضو شو-2
+  type: vless
+  server: 104.21.54.198
+  port: 8880
+  uuid: 7e948e09-fa6f-4b8e-8c5d-181fa15fbec5
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /HBRQp44s2AcLDzpm?ed=2560
+    headers:
+      Host: v2ngsupply2.ip-ddns.com
+- name: '@v2ray313 کانالمون 🤞🏻'
+  type: vless
+  server: 104.16.68.95
+  port: 8880
+  uuid: 02811288-9ef3-42ef-86db-d9b1399c1a59
+  flow: ''
+  benchmark-url: http://www.google.com
+  benchmark-timeout: 5
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vghavi32.ip-ddns.com
+proxy-groups:
+- name: Proxy
+  type: select
+  proxies:
+  - 🅼🅴🅷🅳🅸
+  - '@CaV2ray'
+  - 🇬🇧 United Kingdom ws+tls (f69)
+  - :(
+  - 🇫🇷FR-45.67.139.225-0348
+  - '@Viturey : تلگرام 🇺🇳'
+  - TG:@v2ray_sub
+  - 🇹🇷 Turkey[@vpnAndroid2]⁸
+  - 🇬🇧 United Kingdom ws+tls (f69)-2
+  - 066-NetFreedom0
+  - '>>@V2RAY_VMESS_free::DE'
+  - '@Venom_Servers 🔺کانفیگ رایگان🔺'
+  - telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir
+  - 🇬🇧 United Kingdom ws+tls (f69)-3
+  - ss-45.87.175.178
+  - https://t.me/psiphonf
+  - '@vmesskhodam'
+  - 🇬🇧 United Kingdom ws+tls (f69)-4
+  - '@V2RAY_VMESS_free'
+  - 🇫🇷 فرانسه
+  - 🇫🇷 فرانسه-2
+  - 🇬🇧 United Kingdom ws+tls (f69)-5
+  - فیلترشکن رایگان👈vpnowl@
+  - 🇬🇧 United Kingdom ws+tls (f69)-6
+  - 🇲🇽27@shadowsockskeys
+  - 🇧🇷88@shadowsockskeys
+  - ss-71.19.148.74
+  - 🇲🇾 Malaysia
+  - 🇹🇷 Turkey
+  - 🇨🇦CA+->+🇩🇪DE+⚡@DeamNet_Proxy
+  - ss-45.87.175.164
+  - 🇩🇪 آلمان
+  - 🇺🇲@vpn_ioss ♻️ عضو شو
+  - 'Channel id: @ShadowProxy66 🇩🇪'
+  - '@info_2IT_channel'
+  - '🥑Tel: @pPal03🥑Join🥑'
+  - 🇬🇧 United Kingdom ws+tls (f69)-7
+  - 🇫🇮 Finland ws+tls (f69)
+  - ' ⏺️Tel: @pPal03 ⏺️Join ⏺️'
+  - 🏴‍☠All Net | @V2ray_God
+  - ss-45.87.175.164-2
+  - 🇩🇪 آلمان-2
+  - 🇺🇲@vpn_ioss ♻️ عضو شو-2
+  - '@v2ray313 کانالمون 🤞🏻'
+  - DIRECT
+- name: Auto
+  type: url-test
+  proxies:
+  - 🅼🅴🅷🅳🅸
+  - '@CaV2ray'
+  - 🇬🇧 United Kingdom ws+tls (f69)
+  - :(
+  - 🇫🇷FR-45.67.139.225-0348
+  - '@Viturey : تلگرام 🇺🇳'
+  - TG:@v2ray_sub
+  - 🇹🇷 Turkey[@vpnAndroid2]⁸
+  - 🇬🇧 United Kingdom ws+tls (f69)-2
+  - 066-NetFreedom0
+  - '>>@V2RAY_VMESS_free::DE'
+  - '@Venom_Servers 🔺کانفیگ رایگان🔺'
+  - telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir---telegram---opennet_ir
+  - 🇬🇧 United Kingdom ws+tls (f69)-3
+  - ss-45.87.175.178
+  - https://t.me/psiphonf
+  - '@vmesskhodam'
+  - 🇬🇧 United Kingdom ws+tls (f69)-4
+  - '@V2RAY_VMESS_free'
+  - 🇫🇷 فرانسه
+  - 🇫🇷 فرانسه-2
+  - 🇬🇧 United Kingdom ws+tls (f69)-5
+  - فیلترشکن رایگان👈vpnowl@
+  - 🇬🇧 United Kingdom ws+tls (f69)-6
+  - 🇲🇽27@shadowsockskeys
+  - 🇧🇷88@shadowsockskeys
+  - ss-71.19.148.74
+  - 🇲🇾 Malaysia
+  - 🇹🇷 Turkey
+  - 🇨🇦CA+->+🇩🇪DE+⚡@DeamNet_Proxy
+  - ss-45.87.175.164
+  - 🇩🇪 آلمان
+  - 🇺🇲@vpn_ioss ♻️ عضو شو
+  - 'Channel id: @ShadowProxy66 🇩🇪'
+  - '@info_2IT_channel'
+  - '🥑Tel: @pPal03🥑Join🥑'
+  - 🇬🇧 United Kingdom ws+tls (f69)-7
+  - 🇫🇮 Finland ws+tls (f69)
+  - ' ⏺️Tel: @pPal03 ⏺️Join ⏺️'
+  - 🏴‍☠All Net | @V2ray_God
+  - ss-45.87.175.164-2
+  - 🇩🇪 آلمان-2
+  - 🇺🇲@vpn_ioss ♻️ عضو شو-2
+  - '@v2ray313 کانالمون 🤞🏻'
+  interval: 300
+proxy-providers: {}
+rule-providers:
+  ir-domain:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/main/ir.txt
+    interval: 86400
+  ircidr:
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/main/ircidr.txt
+    interval: 86400
+  ads:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/main/ads.txt
+    interval: 86400
+  category-ads-all:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/main/category-ads-all.txt
+    interval: 86400
+  malware:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/main/malware.txt
+    interval: 86400
+  phishing:
+    behavior: domain
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/main/phishing.txt
+    interval: 86400
+rules:
+- RULE-SET,ads,REJECT
+- RULE-SET,category-ads-all,REJECT
+- RULE-SET,malware,REJECT
+- RULE-SET,phishing,REJECT
+- RULE-SET,ir-domain,DIRECT
+- RULE-SET,ircidr,DIRECT
+- GEOIP,IR,DIRECT
+- MATCH,Proxy
