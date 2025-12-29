@@ -1,0 +1,2076 @@
+# ;不要随意改变关键字，否则会导致出错
+# ;acl4SSR规则
+# ;去广告：支持
+# ;自动测速：支持
+# ;微软分流：不支持
+# ;苹果分流：不支持
+# ;增强中国IP段：不支持
+# ;增强国外GFW：不支持
+# ;ruleset=🎯 全球直连,[]GEOIP,LAN
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+ipv6: false
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+
+
+proxies:
+  - type: vless
+    name: t.me/entryNET/config=1852451148855514 | DE
+    server: 91.107.244.15
+    port: 443
+    uuid: 7b148add-4438-426e-a583-50f11e7bd0e4
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 《@v2ryNG01》🇩🇪 جدید | DE
+    server: 78.46.200.43
+    port: 7443
+    uuid: f6d37008-ecb4-4e26-d8b8-0c8f0fd13cd6
+    network: tcp
+    encryption: none
+  - type: vless
+    name: 🔷29@oneclickvpnkeys | DE
+    server: 185.235.241.98
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@meli_proxyy | NL"
+    server: 45.8.144.198
+    port: 443
+    uuid: 1a539db6-d162-42f4-9b56-687bd57bfbc2
+    network: tcp
+    servername: mirror.yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: KXA-hPtvy_hzNER1ZNtUxBv_VrGGKfmIyi4CQAyjGxs
+      short-id: d94e8f45
+    client-fingerprint: firefox
+  - type: vless
+    name: ">>@oneclickvpnkeys::DE | DE"
+    server: 57.129.53.181
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    network: tcp
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 20008 | DE
+    server: 185.235.241.53
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: All-@V2rayAlpha--17 | 1.18s | DE | DE
+    server: 91.107.130.76
+    port: 41647
+    uuid: e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f
+    network: grpc
+    encryption: none
+  - type: vless
+    name: " | DE"
+    server: 178.162.240.21
+    port: 443
+    uuid: 47b281a0-8815-4565-8ba6-76b7fed3fe49
+    network: tcp
+    servername: fonts.googleapis.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: Ryh5V50qdGmUF-3v7hR8aHKkGr-DMwaI-KdwcESEmXw
+      short-id: ab75d76656df3449
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: Free | DE
+    server: 77.42.77.66
+    port: 32323
+    uuid: 015e6f7b-c6df-470a-a22d-62b8b9947a4d
+    network: tcp
+    encryption: none
+  - type: vless
+    name: defaultName
+    server: 172.66.132.196
+    port: 443
+    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    network: ws
+    servername: a.azadnet003.ddns-ip.net
+    tls: true
+    ws-opts:
+      path: /telegram-@v2ray_alpha=
+    client-fingerprint: randomized
+  - type: vless
+    name: 🔷23@oneclickvpnkeys | DE
+    server: 185.235.241.97
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: https://t.me/ShadowsocksM62 | FI
+    server: 185.109.21.54
+    port: 13316
+    uuid: 8dcd069a-21b4-487c-9d05-14b5be3b438a
+    network: tcp
+    servername: s3.t2.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: J1HIxQSniHBlaSUXTLTWyUUpiaeyE8MWmA2evyFZbFQ
+      short-id: 9792f748
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: Telegram:@config_proxy | AT
+    server: 5.181.21.72
+    port: 443
+    uuid: e4b8df56-b680-4a34-ab47-5bf5738ed718
+    network: tcp
+    servername: www.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8
+      short-id: 85225c27630d023f
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@hopev2ray💜 | Unknown"
+    server: 172.66.158.183
+    port: 443
+    uuid: 13e71ddb-908c-45e0-993c-da482d848c88
+    network: ws
+    servername: seashell.qzz.io
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /156.254.114.120:30011
+      headers:
+        Host: seashell.qzz.io
+  - type: vless
+    name: "@v2ray313 کانالمون 🥸 | FI"
+    server: 37.27.81.159
+    port: 46704
+    uuid: 6caf585f-ae05-4c4e-9c97-a48728ca0885
+    network: tcp
+    servername: google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: HxFj9w2QRYJD6gLPuRW4upoYqe1A2lHqdAiB1mdcBUQ
+      short-id: bb5cae
+    client-fingerprint: chrome
+  - type: vless
+    name: ">>@oneclickvpnkeys::NL | NL"
+    server: 51.158.206.8
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    network: tcp
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@v2ray313 کانالمون ❤️ | DE"
+    server: 185.235.241.170
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@hopev2ray💚 | Unknown"
+    server: 104.20.28.242
+    port: 443
+    uuid: 13e71ddb-908c-45e0-993c-da482d848c88
+    network: ws
+    servername: seashell.qzz.io
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /156.254.114.120:30011
+      headers:
+        Host: seashell.qzz.io
+  - type: vless
+    name: 🇩🇪20134 | DE
+    server: 185.235.241.95
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: web.max.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "Telegram: | DE"
+    server: 185.235.241.79
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+    client-fingerprint: chrome
+  - type: vless
+    name: defaultName_1
+    server: 104.16.144.63
+    port: 443
+    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    network: ws
+    servername: a.azadnet003.ddns-ip.net
+    tls: true
+    ws-opts:
+      path: /
+    client-fingerprint: randomized
+  - type: vless
+    name: "@v2ray313 کانالمون 🙀 | DE"
+    server: 185.235.241.57
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@v2ray313 کانالمون 🥑 | DE"
+    server: 185.235.241.166
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@v2ray313 کانالمون 💖 | DE"
+    server: 185.235.241.153
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: 🇬🇧19896 | 5.90s | GB | GB
+    server: 138.68.133.248
+    port: 443
+    uuid: 0bc2724b-1d00-41ad-8ef8-c23c7114596c
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /pqncvhws
+  - type: vless
+    name: Telegram+|+Payam_Nsi | 2.45s | GB | GB
+    server: 134.209.19.124
+    port: 443
+    uuid: 77049c89-eacb-4911-ade2-3854d3fae634
+    network: ws
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hdjwgvws
+  - type: vless
+    name: Serversiran11 🇵🇱 | FR
+    server: 145.239.31.99
+    port: 7005
+    uuid: 24a8fbb6-44a2-476f-9502-d6811ac3484f
+    network: tcp
+    servername: refersion.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: Cz-qN4FxgYUmrKUyots3FCe0tHP9wvK-1KNZYaLyCnQ
+    client-fingerprint: firefox
+  - type: vless
+    name: 🔶52@oneclickvpnkeys | 2.48s | US | US
+    server: 92.118.231.167
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@hopev2ray🤍 | Unknown"
+    server: 172.66.155.99
+    port: 443
+    uuid: 9be5679d-cd82-4ace-9fcf-bed31e21fadf
+    network: ws
+    servername: tronblue.qzz.io
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /43.218.77.16=1443
+      headers:
+        Host: tronblue.qzz.io
+  - type: vless
+    name: 🇫🇮20004 | FI
+    server: 65.108.231.185
+    port: 443
+    uuid: 440766d1-858f-4719-84f5-c2de6f6227b2
+    network: tcp
+    servername: api.avito.ru
+    tls: true
+    encryption: none
+  - type: vless
+    name: "@vpnaloo | FR"
+    server: 45.67.139.241
+    port: 20353
+    uuid: 5fc5ac13-d170-43d8-acb0-e180552346f2
+    network: tcp
+    servername: tgju.org
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: mTMw2UT1oDEP9mTcL2TjeHCEXxFgT6AOQvThcJNTjlw
+      short-id: 7e4dbc4a91460d
+      spider-x: /
+    client-fingerprint: firefox
+  - type: vless
+    name: ">>@oneclickvpnkeys::NL | NL_1"
+    server: 51.158.206.93
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    network: tcp
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: https://t.me/v2rayNplus | FI
+    server: 157.180.82.171
+    port: 2087
+    uuid: a7cdce51-fe3f-4a0e-9858-768e5a5e4678
+    network: grpc
+    servername: api-maps.yandex.ru
+    tls: true
+    encryption: none
+  - type: vless
+    name: Telegram:@config_proxy | FI
+    server: 171.22.114.248
+    port: 27394
+    uuid: 00b0d4de-b126-4511-87c1-8f1feb462fa6
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: TZO1nvxk-x90cL3v9ixowQNC56sQ8k76_KaGU6jczks
+      short-id: c2fa
+    client-fingerprint: chrome
+  - type: vless
+    name: ">>@freev2rayssr::XX | 0.72s | FR | FR"
+    server: 162.19.228.119
+    port: 80
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+    network: ws
+    encryption: none
+    ws-opts:
+      path: /http
+  - type: vless
+    name: https://t.me/ShadowsocksM19 | Unknown
+    server: 108.162.194.99
+    port: 443
+    uuid: 39a192ed-7e78-42f4-b956-2f0ea17f677f
+    network: ws
+    servername: 639018301854287215.camry-amsjk.info
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /rbjisuws
+      headers:
+        Host: 639018301854287215.camry-amsjk.info
+    client-fingerprint: chrome
+  - type: vless
+    name: " | DK"
+    server: 95.164.85.109
+    port: 59374
+    uuid: bfc78cd8-5951-4803-8d6c-4cedef8cd420
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc
+      short-id: d21e7c
+    client-fingerprint: chrome
+  - type: vless
+    name: https://t.me/ShadowsocksM67 | FR
+    server: 145.239.29.93
+    port: 48216
+    uuid: 3adc0bb0-b811-494e-bcd8-59fa996a2c44
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - type: vless
+    name: " | FR"
+    server: 37.59.112.73
+    port: 8442
+    uuid: 01b5f5f2-f82a-42e0-9593-5b1b8869b9ca
+    network: tcp
+    encryption: none
+  - type: vless
+    name: "@v2ray313 کانالمون 😿 | DE"
+    server: 185.235.241.140
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+    client-fingerprint: chrome
+  - type: vless
+    name: اتصال دائمی با سرور های چنل🍦@Outline_ir | US
+    server: 144.31.125.83
+    port: 443
+    uuid: 3ee58d3a-7469-4557-b2f9-0d1d85c3a6fa
+    network: tcp
+    servername: google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: aBSA9rhtxuHy3h-KgP3XRj-qz8G5yfI4_uee3LWNlks
+      short-id: 239b4d329aa68487
+    client-fingerprint: qq
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🔶67@oneclickvpnkeys | 6.34s | GB | GB
+    server: 167.99.91.171
+    port: 443
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    network: ws
+    servername: api.avito.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /sbqbfows
+  - type: vless
+    name: "@v2ray313 کانالمون 🪵 | DE"
+    server: 185.235.241.154
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@v2ray313 کانالمون 🪵 | US"
+    server: 92.118.231.181
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: defaultName_2
+    server: 5.182.36.251
+    port: 16331
+    uuid: d7dbeb1e-268c-465c-8f59-489f14703efd
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk
+      short-id: 910aab
+    client-fingerprint: chrome
+  - type: vless
+    name: "@v2ray313 کانالمون 🌧️ | GB"
+    server: 185.218.3.39
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@V2RAY_VMESS_free | Unknown"
+    server: 104.17.148.22
+    port: 2095
+    uuid: 087ddd93-b412-460c-a803-d796312d0ad0
+    network: ws
+    servername: uk9.hope-pls.ir
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: uk9.hope-pls.ir
+  - type: vless
+    name: All_34--@V2rayAlpha | FI
+    server: 46.62.128.207
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: https://t.me/ShadowsocksM33 | DE
+    server: 185.235.241.122
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: 🔷40@oneclickvpnkeys | 3.22s | DE | DE
+    server: 185.235.241.129
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "Telegram: | GB"
+    server: 185.218.3.64
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+    client-fingerprint: chrome
+  - type: vless
+    name: ⛄️83@oneclickvpnkeys | AT
+    server: 38.180.144.156
+    port: 443
+    uuid: ae0a43bc-6189-456e-9b8a-a93f39af336e
+    network: grpc
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 76Cfr5qNl9BCrSb6jdkrgj0HbwfyCwj4oF6JJVhKD0s
+      short-id: 42d7234d875308a2
+    grpc-opts:
+      grpc-service-name: 4ad80c2f8c79fca2b989b494
+    client-fingerprint: chrome
+  - type: vless
+    name: Telegram+|+Payam_Nsi | FI
+    server: 93.152.207.254
+    port: 45884
+    uuid: 57a5f6b3-ea58-4d4e-ad9c-a9830f148184
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _GoR9cR6JOUmQ1PM-s2GsHiy6OuIo1Ek1a7lhNKkvj4
+      short-id: 9a
+    client-fingerprint: firefox
+  - type: vless
+    name: "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL"
+    server: 103.90.75.252
+    port: 3001
+    uuid: 61757901-3818-46c7-8482-683fa7f6ba10
+    network: tcp
+    encryption: none
+  - type: hysteria2
+    name: ⭐️@AzarAndoozVPNbot | NL
+    server: 206.71.158.37
+    port: 36300
+    password: other-Public-Config-1
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+  - type: vless
+    name: 🇩🇪19946 | DE
+    server: 185.235.241.150
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@v2ray313 کانالمون 🌧️ | DE"
+    server: 185.235.241.117
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: 🔶66@oneclickvpnkeys | 4.51s | GB | GB
+    server: 46.101.88.198
+    port: 443
+    uuid: 9e7a7c17-21c2-4119-bb45-e4154e893aaf
+    network: ws
+    servername: api.avito.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /bpuuxxws
+  - type: vless
+    name: 🔶17@oneclickvpnkeys | GB
+    server: 178.128.45.207
+    port: 443
+    uuid: 51d0e29d-2ad1-47d0-8b70-90cff9a69a12
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /jhymeqws
+  - type: vless
+    name: 🔷25@oneclickvpnkeys | 3.57s | DE | DE
+    server: 185.235.241.127
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@V2RAY_VMESS_free | Unknown_1"
+    server: 104.17.147.22
+    port: 2095
+    uuid: 087ddd93-b412-460c-a803-d796312d0ad0
+    network: ws
+    servername: uk9.hope-pls.ir
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: uk9.hope-pls.ir
+  - type: vless
+    name: 🔶51@oneclickvpnkeys | 0.98s | GB | GB
+    server: 209.97.183.92
+    port: 443
+    uuid: 9e5646ba-c661-41cd-8321-a164139b12cf
+    network: ws
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /wwkmrkws
+  - type: vless
+    name: 🔶55@oneclickvpnkeys | 4.69s | GB | GB
+    server: 185.218.3.40
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@hopev2ray🤎 | Unknown"
+    server: 104.20.33.44
+    port: 443
+    uuid: e2e3b171-33a8-4c8f-9e5f-ae6e92299e40
+    network: ws
+    servername: ivory.qzz.io
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /46.232.122.240:8000
+      headers:
+        Host: ivory.qzz.io
+  - type: vless
+    name: 🟣69@oneclickvpnkeys | KZ
+    server: 77.73.232.61
+    port: 19747
+    uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
+      short-id: "2001"
+    client-fingerprint: chrome
+  - type: vless
+    name: 🔶77@oneclickvpnkeys | GB
+    server: 134.209.188.31
+    port: 443
+    uuid: 8a78786c-e045-4148-8201-48eab202f1bf
+    network: ws
+    servername: wikiportal.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /sybolkws
+  - type: vless
+    name: Финляндия 451°F 🇫🇮 ✅ | AU
+    server: 82.117.84.62
+    port: 8080
+    uuid: 734d5ece-255a-4064-9d7f-683e1b8050f3
+    network: tcp
+    servername: isharing.us
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: jRReXVS85X0Qm7jovHgNSOyz7BuS7p3iMPE4EfUHRlk
+      short-id: 1ae2fd1e1ace9935
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🔶79@oneclickvpnkeys | 3.58s | GB | GB
+    server: 144.126.225.77
+    port: 443
+    uuid: 4a5b69b4-8f1c-48b8-a7d1-2f00ddb2e2d5
+    network: ws
+    servername: wikiportal.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /zmiuyqws
+  - type: vless
+    name: 🇨🇵@ | FR
+    server: 94.232.247.168
+    port: 41360
+    uuid: e16a35ea-6715-4e75-9845-d20358bd0876
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
+      short-id: 1aab45
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇬🇧19938 | GB
+    server: 167.172.59.135
+    port: 443
+    uuid: f85e7cc8-82c9-4b84-b1bf-25011697b6dd
+    network: ws
+    servername: io.ozone.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /afrphkws
+  - type: vless
+    name: ⛄️98@ConfigV2RayNG | LV
+    server: 62.192.174.198
+    port: 47256
+    uuid: 06babfd1-1af2-4db4-a485-cdf404ce80a9
+    network: tcp
+    servername: www.unicreditbank.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: HkLK62c3szw51gYtORRnPlO0v6kxOSd_aCd0J4rTKzo
+      short-id: 9d32c1
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@v2ray313 کانالمون 🫁 | GB"
+    server: 5.180.30.83
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: ⛄️99@ConfigV2RayNG | LV
+    server: 185.77.231.80
+    port: 28298
+    uuid: 3fb3ee10-5461-4f8e-bd5e-2922a51cc4ba
+    network: tcp
+    servername: apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: J1HIxQSniHBlaSUXTLTWyUUpiaeyE8MWmA2evyFZbFQ
+      short-id: 9d32c1
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "Telegram: | DE_1"
+    server: 157.173.127.233
+    port: 443
+    uuid: 17a6e953-8fac-428c-b86c-8585722b0b52
+    network: tcp
+    servername: analytics.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: MbTwpwMFXu8duJgVMb_jFpqEuopSWJW1FPH_D6fZAEM
+      short-id: 1f
+    client-fingerprint: chrome
+  - type: vless
+    name: "@V2RAY_VMESS_free | SE"
+    server: 91.186.217.108
+    port: 443
+    uuid: fc0e82dd-531a-4ac1-9ebc-b68ffeab7912
+    network: tcp
+    servername: pinova.io
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: bn4nV9O7aOI_pzbJsgqnyYxPX8a7efYDXqrYbxsL6V8
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🔶32@oneclickvpnkeys | GB
+    server: 104.248.161.198
+    port: 443
+    uuid: 3739354c-6971-4e73-abac-bb2534fc9ed8
+    network: ws
+    servername: yandex.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /iqkrmwws
+  - type: vless
+    name: 🔷30@oneclickvpnkeys | 5.45s | DE | DE
+    server: 185.235.241.167
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: 🌨️32@oneclickvpnkeys | NL
+    server: 194.87.219.24
+    port: 21755
+    uuid: 52d910a0-e17a-43d1-976c-d3775cf1e339
+    network: tcp
+    servername: storage.yandexcloud.net
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: HkLK62c3szw51gYtORRnPlO0v6kxOSd_aCd0J4rTKzo
+      short-id: a79ee9d365da7d81
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@Selinc | DE"
+    server: 91.99.106.117
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🌨️35@oneclickvpnkeys | US
+    server: 216.106.189.107
+    port: 8443
+    uuid: 4468ae8a-7741-42dd-be69-d75cd94c9b0e
+    network: tcp
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: iHDnFIEsw6lD514kP0JNtP1h7zlQ6AEZn6nKICyOYlY
+      short-id: 5eac66585cbd595c
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸20162 | US
+    server: 86.104.72.160
+    port: 443
+    uuid: 8f67a9b6-cd3b-4048-a61a-bda978894816
+    network: tcp
+    servername: www.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: PSGeYvXG251dW51q6B9bUeSmjplvxW18JPaVsuWDZjA
+      spider-x: /@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@v2ray313 کانالمون 😹 | 2.26s | AT | AT"
+    server: 152.53.227.159
+    port: 80
+    uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+    network: ws
+    servername: cdn.ir
+    encryption: none
+    ws-opts:
+      path: /news
+      headers:
+        Host: cdn.ir
+  - type: ss
+    name: "@vmessprotocol اتصال بی مرز | CA"
+    server: 142.4.216.225
+    port: 80
+    cipher: chacha20-ietf-poly1305
+    password: JIhN6rBKkaEboLNXVSv5rq
+  - type: vless
+    name: 🔶30@oneclickvpnkeys | 4.42s | GB | GB
+    server: 209.97.138.185
+    port: 443
+    uuid: d0c0be4b-7c56-4f3a-b779-7a7f4d91d170
+    network: ws
+    servername: github.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /egnyfcws
+  - type: vless
+    name: https://t.me/vpnod | IS
+    server: 45.83.21.107
+    port: 59997
+    uuid: c3dd7afc-151f-44f6-8263-ad3c8420ae2f
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: m4ipEx1PUfb6F5Uv5Mwe5g34TzdNkG_rIQ0xw-Do1mI
+      short-id: 816473be23c2
+    client-fingerprint: chrome
+  - type: vless
+    name: ConfigV2RayNG | DE
+    server: 185.235.241.78
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: 🔥Join+Telegram:@Farah_VPN🟣 | AE
+    server: 206.245.157.142
+    port: 37050
+    uuid: fbcc8fc6-553c-497c-ba3b-855bcf6cf96c
+    network: grpc
+    servername: google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 3_i89UAZojlosMAy71tEepTTbX5MvpfY1Xs7UPPNGGA
+      short-id: 58b5bed80f
+      spider-x: /
+    client-fingerprint: chrome
+  - type: vless
+    name: 🌨️33@oneclickvpnkeys | NL
+    server: 194.87.219.24
+    port: 21459
+    uuid: ff07d052-0444-4bbd-a6e6-0e68951995c0
+    network: tcp
+    servername: alfabank.st
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: HkLK62c3szw51gYtORRnPlO0v6kxOSd_aCd0J4rTKzo
+      short-id: 1a
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: ">>@oneclickvpnkeys::DE | DE_1"
+    server: 57.129.49.1
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    network: tcp
+    servername: fuck.rkn
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@appsooner کانال تلگرام 🇫🇷 | DE"
+    server: 157.173.127.225
+    port: 443
+    uuid: 11beaf11-726d-4c11-8ce9-27308c1c608c
+    network: tcp
+    servername: analytics.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8
+      short-id: eab26c4a32
+    client-fingerprint: random
+  - type: vless
+    name: Telegram+|+Payam_Nsi | US
+    server: 92.118.112.249
+    port: 443
+    uuid: e4b8df56-b680-4a34-ab47-5bf5738ed718
+    network: tcp
+    servername: www.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: eEEraNK24HvLNi7BMiwukELj8zSIPfUCEgXL2C4fbHw
+      short-id: 85225c27630d023f
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: I 1236 (@Outline_Vpn) free | KZ
+    server: 178.236.16.98
+    port: 35728
+    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+      short-id: 69a2
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇨🇦20089 | CA
+    server: 198.50.119.86
+    port: 8080
+    uuid: e2be0db4-4110-42eb-bca1-ba8df0897319
+    network: ws
+    servername: telewebion.com
+    encryption: none
+    ws-opts:
+      path: /39427/Nextlife
+      headers:
+        Host: telewebion.com
+  - type: vless
+    name: ✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB
+    server: 198.244.141.25
+    port: 25376
+    uuid: e80f946d-0f7e-4ee6-a9d5-d52516c9f672
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - type: vless
+    name: ">>@oneclickvpnkeys::US | ES"
+    server: 45.159.79.174
+    port: 443
+    uuid: 60ce56ac-bdba-11f0-94db-525400ca5ed1
+    network: tcp
+    servername: st.ozone.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 3uWYzm65qryajVsnj0Uanu8be-RhDBd6Ofy2EhQTZjw
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 📟51@oneclickvpnkeys | QA
+    server: 156.244.41.221
+    port: 443
+    uuid: 0033fda5-029e-4de3-acea-3bd45a1912e2
+    network: tcp
+    servername: aws.amazon.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: K195x6sAmXL2K_9fSwMsPR8uqYF7UISl1ehaTjNhEz0
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: telegram | RU
+    server: 185.130.114.219
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@@v2ryorg+<=+کانفیگ+رایگان | US"
+    server: 38.107.233.59
+    port: 443
+    uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+    network: tcp
+    servername: vk.ookcdn.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 📡85@ConfigV2RayNG | RU
+    server: 185.130.114.253
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@@v2ryorg+<=+کانفیگ+رایگان | DE"
+    server: 91.107.243.172
+    port: 58811
+    uuid: bae29f4e-017c-4462-bdb2-2c86f64a74fd
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--
+  - type: vless
+    name: ⛄️63@oneclickvpnkeys] | SG
+    server: 66.42.61.103
+    port: 443
+    uuid: 36de8322-91ef-442a-bdff-b0d3be794482
+    network: tcp
+    servername: www.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: GzxM2bh0UoMV3QnP2VJK1NTLlsSVMPUKFi53k1sa_Ss
+      short-id: 63a41c2f9ac8bea4
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸US_6 | ⬇️ 1.6MB/s | US
+    server: 99.88.80.195
+    port: 54661
+    uuid: aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3
+    network: tcp
+    encryption: none
+    client-fingerprint: chrome
+  - type: vless
+    name: 1🇺🇸Argo_VPN1 | LT
+    server: 192.166.82.29
+    port: 59050
+    uuid: 29417656-42ee-430e-bd15-e95d6a7195cd
+    network: tcp
+    servername: fast.com
+    encryption: none
+  - type: vless
+    name: "@v2ray313 کانالمون 💦 | GB"
+    server: 185.218.3.9
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: All_16--@V2rayAlpha | KZ
+    server: 83.222.23.81
+    port: 38065
+    uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
+      short-id: fa
+    client-fingerprint: chrome
+  - type: ss
+    name: "@MARAMBASHI 🩵 | NG"
+    server: 185.255.123.166
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: vless
+    name: 📟34@oneclickvpnkeys | AM
+    server: 77.91.68.70
+    port: 55983
+    uuid: f667a096-5231-4cfb-8759-92bb32473139
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+      short-id: 0e
+  - type: vless
+    name: "@V2rayNGVPN <= کانفیگ رایگان | FR"
+    server: 51.68.26.124
+    port: 51928
+    uuid: 163a4840-588f-4b66-8444-2c9f182325b2
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - type: vless
+    name: "@V2rayNGVPN+<=+کانفیگ+رایگان | US"
+    server: 144.31.125.86
+    port: 443
+    uuid: 3ee58d3a-7469-4557-b2f9-0d1d85c3a6fa
+    network: tcp
+    servername: google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ
+      short-id: 9f35da6c9412b832
+    client-fingerprint: qq
+    flow: xtls-rprx-vision
+  - type: vless
+    name: WedBaZ | Unknown
+    server: 104.21.3.219
+    port: 8443
+    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+    network: ws
+    servername: ovhwuxian.pai50288.uk
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /57ba2ab1
+      headers:
+        Host: ovhwuxian.pai50288.uk
+    client-fingerprint: chrome
+  - type: vless
+    name: Telegram:@config_proxy | DE
+    server: 188.34.193.153
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: https://t.me/ShadowsocksM94 | US
+    server: 40.160.14.104
+    port: 8880
+    uuid: 6251f84e-9c02-4140-921c-6b47d394fb96
+    network: grpc
+    encryption: none
+  - type: ss
+    name: "@appsooner کانال تلگرام 🇮🇳 | IN"
+    server: 103.111.114.29
+    port: 57456
+    cipher: chacha20-ietf-poly1305
+    password: 360e21d21977dc11
+  - type: vless
+    name: "@v2ray313 کانالمون 🙀 | KZ"
+    server: 176.120.72.63
+    port: 38339
+    uuid: 481c5606-b586-44d7-bc2e-d8ef30d67f62
+    network: tcp
+    servername: dl.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA
+      short-id: e16883e511
+    client-fingerprint: chrome
+  - type: vless
+    name: "@V2RAY_VMESS_free | SA"
+    server: 213.165.60.36
+    port: 443
+    uuid: e9dbc178-3656-40f8-8833-5023f306ef1d
+    network: tcp
+    servername: hls-svod.itunes.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 86e999a2cdc2
+      spider-x: /
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: ss
+    name: "@info_2IT_channel | PL"
+    server: 89.223.93.176
+    port: 41348
+    cipher: chacha20-ietf-poly1305
+    password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA
+  - type: vless
+    name: "Telegram: | US"
+    server: 156.229.161.107
+    port: 10001
+    uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+    network: tcp
+    servername: www.icloud.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+      short-id: fb2c6678
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇨🇱20098 | CL
+    server: 45.82.249.129
+    port: 8443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇰🇷20100 | KR
+    server: 121.154.180.50
+    port: 51698
+    uuid: 5d42cfef-0556-4f0c-bfb7-161aef500ab5
+    network: grpc
+    servername: lenovoglobal.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: PPZbDAYSwCYnPCF8BxguTFfAAZTnLnzpsHePCkGZYxo
+      short-id: "34"
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇺🇸20206 | US
+    server: 40.160.4.20
+    port: 8880
+    uuid: 6251f84e-9c02-4140-921c-6b47d394fb96
+    network: grpc
+    encryption: none
+  - type: vless
+    name: "@V2RAY_VMESS_free | KR"
+    server: 45.88.182.24
+    port: 25380
+    uuid: 237120d4-6f8e-47de-b50c-2c8218a720df
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: G7LvWyxJWO4f-YKZM-Nf7n3hd3AHfThLX3aOIC2qKXg
+      short-id: d6cd
+    client-fingerprint: chrome
+  - type: vless
+    name: "@v2ray313 کانالمون 🫠 | DE"
+    server: 185.235.241.86
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    network: ws
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /hormoz
+  - type: vless
+    name: "@MARAMBASHI 🇫🇮 | AU"
+    server: 45.15.185.69
+    port: 8443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    network: tcp
+    servername: www.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: ss
+    name: "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
+    server: 185.93.173.60
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: vless
+    name: سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE
+    server: 179.61.251.78
+    port: 443
+    uuid: fabc8a38-76c5-48fe-ada7-a9e52dd16225
+    network: tcp
+    servername: refersion.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw
+      short-id: 0ff58d687a4c6c
+      spider-x: /
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@hopev2ray💚 | Unknown_1"
+    server: 172.67.153.156
+    port: 8443
+    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+    network: ws
+    servername: ovhwuxian.pai50288.uk
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /57ba2ab1
+      headers:
+        Host: ovhwuxian.pai50288.uk
+    client-fingerprint: chrome
+  - type: vless
+    name: "@v2ray313 کانالمون ❤️‍🔥 | HU"
+    server: 5.182.38.91
+    port: 17267
+    uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
+      short-id: 4ae260
+    client-fingerprint: chrome
+  - type: vless
+    name: ConfigV2RayNG | US
+    server: 40.160.6.133
+    port: 8880
+    uuid: 6251f84e-9c02-4140-921c-6b47d394fb96
+    network: grpc
+    encryption: none
+  - type: ss
+    name: I 1152 (@filterking1) free | NL
+    server: 212.34.140.184
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 0NeN5ta7FLa5B9DLytU0um
+  - type: vless
+    name: 🔶68@oneclickvpnkeys | 3.76s | GB | GB
+    server: 64.227.47.120
+    port: 443
+    uuid: 912eacc1-42b4-4d0f-a8ba-abb825c1d468
+    network: ws
+    servername: api.avito.ru
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /ulptgqws
+  - type: vless
+    name: 🇺🇸 231 - US - VLESS/GRPC - 8880 | US
+    server: 45.82.251.95
+    port: 8880
+    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+    network: grpc
+    encryption: none
+  - type: vless
+    name: https://t.me/ShadowsocksM91 | US
+    server: 40.160.4.127
+    port: 8880
+    uuid: 6251f84e-9c02-4140-921c-6b47d394fb96
+    network: grpc
+    encryption: none
+  - type: vless
+    name: "@hopev2ray💚 | Unknown_2"
+    server: 104.26.1.221
+    port: 443
+    uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
+    network: ws
+    servername: dabaius2.sylu.net
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /db10240eb751d6ab
+      headers:
+        Host: dabaius2.sylu.net
+    client-fingerprint: chrome
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - t.me/entryNET/config=1852451148855514 | DE
+      - 《@v2ryNG01》🇩🇪 جدید | DE
+      - 🔷29@oneclickvpnkeys | DE
+      - "@meli_proxyy | NL"
+      - ">>@oneclickvpnkeys::DE | DE"
+      - 20008 | DE
+      - All-@V2rayAlpha--17 | 1.18s | DE | DE
+      - " | DE"
+      - Free | DE
+      - defaultName
+      - 🔷23@oneclickvpnkeys | DE
+      - https://t.me/ShadowsocksM62 | FI
+      - Telegram:@config_proxy | AT
+      - "@hopev2ray💜 | Unknown"
+      - "@v2ray313 کانالمون 🥸 | FI"
+      - ">>@oneclickvpnkeys::NL | NL"
+      - "@v2ray313 کانالمون ❤️ | DE"
+      - "@hopev2ray💚 | Unknown"
+      - 🇩🇪20134 | DE
+      - "Telegram: | DE"
+      - defaultName_1
+      - "@v2ray313 کانالمون 🙀 | DE"
+      - "@v2ray313 کانالمون 🥑 | DE"
+      - "@v2ray313 کانالمون 💖 | DE"
+      - 🇬🇧19896 | 5.90s | GB | GB
+      - Telegram+|+Payam_Nsi | 2.45s | GB | GB
+      - Serversiran11 🇵🇱 | FR
+      - 🔶52@oneclickvpnkeys | 2.48s | US | US
+      - "@hopev2ray🤍 | Unknown"
+      - 🇫🇮20004 | FI
+      - "@vpnaloo | FR"
+      - ">>@oneclickvpnkeys::NL | NL_1"
+      - https://t.me/v2rayNplus | FI
+      - Telegram:@config_proxy | FI
+      - ">>@freev2rayssr::XX | 0.72s | FR | FR"
+      - https://t.me/ShadowsocksM19 | Unknown
+      - " | DK"
+      - https://t.me/ShadowsocksM67 | FR
+      - " | FR"
+      - "@v2ray313 کانالمون 😿 | DE"
+      - اتصال دائمی با سرور های چنل🍦@Outline_ir | US
+      - 🔶67@oneclickvpnkeys | 6.34s | GB | GB
+      - "@v2ray313 کانالمون 🪵 | DE"
+      - "@v2ray313 کانالمون 🪵 | US"
+      - defaultName_2
+      - "@v2ray313 کانالمون 🌧️ | GB"
+      - "@V2RAY_VMESS_free | Unknown"
+      - All_34--@V2rayAlpha | FI
+      - https://t.me/ShadowsocksM33 | DE
+      - 🔷40@oneclickvpnkeys | 3.22s | DE | DE
+      - "Telegram: | GB"
+      - ⛄️83@oneclickvpnkeys | AT
+      - Telegram+|+Payam_Nsi | FI
+      - "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL"
+      - ⭐️@AzarAndoozVPNbot | NL
+      - 🇩🇪19946 | DE
+      - "@v2ray313 کانالمون 🌧️ | DE"
+      - 🔶66@oneclickvpnkeys | 4.51s | GB | GB
+      - 🔶17@oneclickvpnkeys | GB
+      - 🔷25@oneclickvpnkeys | 3.57s | DE | DE
+      - "@V2RAY_VMESS_free | Unknown_1"
+      - 🔶51@oneclickvpnkeys | 0.98s | GB | GB
+      - 🔶55@oneclickvpnkeys | 4.69s | GB | GB
+      - "@hopev2ray🤎 | Unknown"
+      - 🟣69@oneclickvpnkeys | KZ
+      - 🔶77@oneclickvpnkeys | GB
+      - Финляндия 451°F 🇫🇮 ✅ | AU
+      - 🔶79@oneclickvpnkeys | 3.58s | GB | GB
+      - 🇨🇵@ | FR
+      - 🇬🇧19938 | GB
+      - ⛄️98@ConfigV2RayNG | LV
+      - "@v2ray313 کانالمون 🫁 | GB"
+      - ⛄️99@ConfigV2RayNG | LV
+      - "Telegram: | DE_1"
+      - "@V2RAY_VMESS_free | SE"
+      - 🔶32@oneclickvpnkeys | GB
+      - 🔷30@oneclickvpnkeys | 5.45s | DE | DE
+      - 🌨️32@oneclickvpnkeys | NL
+      - "@Selinc | DE"
+      - 🌨️35@oneclickvpnkeys | US
+      - 🇺🇸20162 | US
+      - "@v2ray313 کانالمون 😹 | 2.26s | AT | AT"
+      - "@vmessprotocol اتصال بی مرز | CA"
+      - 🔶30@oneclickvpnkeys | 4.42s | GB | GB
+      - https://t.me/vpnod | IS
+      - ConfigV2RayNG | DE
+      - 🔥Join+Telegram:@Farah_VPN🟣 | AE
+      - 🌨️33@oneclickvpnkeys | NL
+      - ">>@oneclickvpnkeys::DE | DE_1"
+      - "@appsooner کانال تلگرام 🇫🇷 | DE"
+      - Telegram+|+Payam_Nsi | US
+      - I 1236 (@Outline_Vpn) free | KZ
+      - 🇨🇦20089 | CA
+      - ✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB
+      - ">>@oneclickvpnkeys::US | ES"
+      - 📟51@oneclickvpnkeys | QA
+      - telegram | RU
+      - "@@v2ryorg+<=+کانفیگ+رایگان | US"
+      - 📡85@ConfigV2RayNG | RU
+      - "@@v2ryorg+<=+کانفیگ+رایگان | DE"
+      - ⛄️63@oneclickvpnkeys] | SG
+      - 🇺🇸US_6 | ⬇️ 1.6MB/s | US
+      - 1🇺🇸Argo_VPN1 | LT
+      - "@v2ray313 کانالمون 💦 | GB"
+      - All_16--@V2rayAlpha | KZ
+      - "@MARAMBASHI 🩵 | NG"
+      - 📟34@oneclickvpnkeys | AM
+      - "@V2rayNGVPN <= کانفیگ رایگان | FR"
+      - "@V2rayNGVPN+<=+کانفیگ+رایگان | US"
+      - WedBaZ | Unknown
+      - Telegram:@config_proxy | DE
+      - https://t.me/ShadowsocksM94 | US
+      - "@appsooner کانال تلگرام 🇮🇳 | IN"
+      - "@v2ray313 کانالمون 🙀 | KZ"
+      - "@V2RAY_VMESS_free | SA"
+      - "@info_2IT_channel | PL"
+      - "Telegram: | US"
+      - 🇨🇱20098 | CL
+      - 🇰🇷20100 | KR
+      - 🇺🇸20206 | US
+      - "@V2RAY_VMESS_free | KR"
+      - "@v2ray313 کانالمون 🫠 | DE"
+      - "@MARAMBASHI 🇫🇮 | AU"
+      - "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
+      - سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE
+      - "@hopev2ray💚 | Unknown_1"
+      - "@v2ray313 کانالمون ❤️‍🔥 | HU"
+      - ConfigV2RayNG | US
+      - I 1152 (@filterking1) free | NL
+      - 🔶68@oneclickvpnkeys | 3.76s | GB | GB
+      - 🇺🇸 231 - US - VLESS/GRPC - 8880 | US
+      - https://t.me/ShadowsocksM91 | US
+      - "@hopev2ray💚 | Unknown_2"
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - t.me/entryNET/config=1852451148855514 | DE
+      - 《@v2ryNG01》🇩🇪 جدید | DE
+      - 🔷29@oneclickvpnkeys | DE
+      - "@meli_proxyy | NL"
+      - ">>@oneclickvpnkeys::DE | DE"
+      - 20008 | DE
+      - All-@V2rayAlpha--17 | 1.18s | DE | DE
+      - " | DE"
+      - Free | DE
+      - defaultName
+      - 🔷23@oneclickvpnkeys | DE
+      - https://t.me/ShadowsocksM62 | FI
+      - Telegram:@config_proxy | AT
+      - "@hopev2ray💜 | Unknown"
+      - "@v2ray313 کانالمون 🥸 | FI"
+      - ">>@oneclickvpnkeys::NL | NL"
+      - "@v2ray313 کانالمون ❤️ | DE"
+      - "@hopev2ray💚 | Unknown"
+      - 🇩🇪20134 | DE
+      - "Telegram: | DE"
+      - defaultName_1
+      - "@v2ray313 کانالمون 🙀 | DE"
+      - "@v2ray313 کانالمون 🥑 | DE"
+      - "@v2ray313 کانالمون 💖 | DE"
+      - 🇬🇧19896 | 5.90s | GB | GB
+      - Telegram+|+Payam_Nsi | 2.45s | GB | GB
+      - Serversiran11 🇵🇱 | FR
+      - 🔶52@oneclickvpnkeys | 2.48s | US | US
+      - "@hopev2ray🤍 | Unknown"
+      - 🇫🇮20004 | FI
+      - "@vpnaloo | FR"
+      - ">>@oneclickvpnkeys::NL | NL_1"
+      - https://t.me/v2rayNplus | FI
+      - Telegram:@config_proxy | FI
+      - ">>@freev2rayssr::XX | 0.72s | FR | FR"
+      - https://t.me/ShadowsocksM19 | Unknown
+      - " | DK"
+      - https://t.me/ShadowsocksM67 | FR
+      - " | FR"
+      - "@v2ray313 کانالمون 😿 | DE"
+      - اتصال دائمی با سرور های چنل🍦@Outline_ir | US
+      - 🔶67@oneclickvpnkeys | 6.34s | GB | GB
+      - "@v2ray313 کانالمون 🪵 | DE"
+      - "@v2ray313 کانالمون 🪵 | US"
+      - defaultName_2
+      - "@v2ray313 کانالمون 🌧️ | GB"
+      - "@V2RAY_VMESS_free | Unknown"
+      - All_34--@V2rayAlpha | FI
+      - https://t.me/ShadowsocksM33 | DE
+      - 🔷40@oneclickvpnkeys | 3.22s | DE | DE
+      - "Telegram: | GB"
+      - ⛄️83@oneclickvpnkeys | AT
+      - Telegram+|+Payam_Nsi | FI
+      - "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL"
+      - ⭐️@AzarAndoozVPNbot | NL
+      - 🇩🇪19946 | DE
+      - "@v2ray313 کانالمون 🌧️ | DE"
+      - 🔶66@oneclickvpnkeys | 4.51s | GB | GB
+      - 🔶17@oneclickvpnkeys | GB
+      - 🔷25@oneclickvpnkeys | 3.57s | DE | DE
+      - "@V2RAY_VMESS_free | Unknown_1"
+      - 🔶51@oneclickvpnkeys | 0.98s | GB | GB
+      - 🔶55@oneclickvpnkeys | 4.69s | GB | GB
+      - "@hopev2ray🤎 | Unknown"
+      - 🟣69@oneclickvpnkeys | KZ
+      - 🔶77@oneclickvpnkeys | GB
+      - Финляндия 451°F 🇫🇮 ✅ | AU
+      - 🔶79@oneclickvpnkeys | 3.58s | GB | GB
+      - 🇨🇵@ | FR
+      - 🇬🇧19938 | GB
+      - ⛄️98@ConfigV2RayNG | LV
+      - "@v2ray313 کانالمون 🫁 | GB"
+      - ⛄️99@ConfigV2RayNG | LV
+      - "Telegram: | DE_1"
+      - "@V2RAY_VMESS_free | SE"
+      - 🔶32@oneclickvpnkeys | GB
+      - 🔷30@oneclickvpnkeys | 5.45s | DE | DE
+      - 🌨️32@oneclickvpnkeys | NL
+      - "@Selinc | DE"
+      - 🌨️35@oneclickvpnkeys | US
+      - 🇺🇸20162 | US
+      - "@v2ray313 کانالمون 😹 | 2.26s | AT | AT"
+      - "@vmessprotocol اتصال بی مرز | CA"
+      - 🔶30@oneclickvpnkeys | 4.42s | GB | GB
+      - https://t.me/vpnod | IS
+      - ConfigV2RayNG | DE
+      - 🔥Join+Telegram:@Farah_VPN🟣 | AE
+      - 🌨️33@oneclickvpnkeys | NL
+      - ">>@oneclickvpnkeys::DE | DE_1"
+      - "@appsooner کانال تلگرام 🇫🇷 | DE"
+      - Telegram+|+Payam_Nsi | US
+      - I 1236 (@Outline_Vpn) free | KZ
+      - 🇨🇦20089 | CA
+      - ✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB
+      - ">>@oneclickvpnkeys::US | ES"
+      - 📟51@oneclickvpnkeys | QA
+      - telegram | RU
+      - "@@v2ryorg+<=+کانفیگ+رایگان | US"
+      - 📡85@ConfigV2RayNG | RU
+      - "@@v2ryorg+<=+کانفیگ+رایگان | DE"
+      - ⛄️63@oneclickvpnkeys] | SG
+      - 🇺🇸US_6 | ⬇️ 1.6MB/s | US
+      - 1🇺🇸Argo_VPN1 | LT
+      - "@v2ray313 کانالمون 💦 | GB"
+      - All_16--@V2rayAlpha | KZ
+      - "@MARAMBASHI 🩵 | NG"
+      - 📟34@oneclickvpnkeys | AM
+      - "@V2rayNGVPN <= کانفیگ رایگان | FR"
+      - "@V2rayNGVPN+<=+کانفیگ+رایگان | US"
+      - WedBaZ | Unknown
+      - Telegram:@config_proxy | DE
+      - https://t.me/ShadowsocksM94 | US
+      - "@appsooner کانال تلگرام 🇮🇳 | IN"
+      - "@v2ray313 کانالمون 🙀 | KZ"
+      - "@V2RAY_VMESS_free | SA"
+      - "@info_2IT_channel | PL"
+      - "Telegram: | US"
+      - 🇨🇱20098 | CL
+      - 🇰🇷20100 | KR
+      - 🇺🇸20206 | US
+      - "@V2RAY_VMESS_free | KR"
+      - "@v2ray313 کانالمون 🫠 | DE"
+      - "@MARAMBASHI 🇫🇮 | AU"
+      - "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
+      - سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE
+      - "@hopev2ray💚 | Unknown_1"
+      - "@v2ray313 کانالمون ❤️‍🔥 | HU"
+      - ConfigV2RayNG | US
+      - I 1152 (@filterking1) free | NL
+      - 🔶68@oneclickvpnkeys | 3.76s | GB | GB
+      - 🇺🇸 231 - US - VLESS/GRPC - 8880 | US
+      - https://t.me/ShadowsocksM91 | US
+      - "@hopev2ray💚 | Unknown_2"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - t.me/entryNET/config=1852451148855514 | DE
+      - 《@v2ryNG01》🇩🇪 جدید | DE
+      - 🔷29@oneclickvpnkeys | DE
+      - "@meli_proxyy | NL"
+      - ">>@oneclickvpnkeys::DE | DE"
+      - 20008 | DE
+      - All-@V2rayAlpha--17 | 1.18s | DE | DE
+      - " | DE"
+      - Free | DE
+      - defaultName
+      - 🔷23@oneclickvpnkeys | DE
+      - https://t.me/ShadowsocksM62 | FI
+      - Telegram:@config_proxy | AT
+      - "@hopev2ray💜 | Unknown"
+      - "@v2ray313 کانالمون 🥸 | FI"
+      - ">>@oneclickvpnkeys::NL | NL"
+      - "@v2ray313 کانالمون ❤️ | DE"
+      - "@hopev2ray💚 | Unknown"
+      - 🇩🇪20134 | DE
+      - "Telegram: | DE"
+      - defaultName_1
+      - "@v2ray313 کانالمون 🙀 | DE"
+      - "@v2ray313 کانالمون 🥑 | DE"
+      - "@v2ray313 کانالمون 💖 | DE"
+      - 🇬🇧19896 | 5.90s | GB | GB
+      - Telegram+|+Payam_Nsi | 2.45s | GB | GB
+      - Serversiran11 🇵🇱 | FR
+      - 🔶52@oneclickvpnkeys | 2.48s | US | US
+      - "@hopev2ray🤍 | Unknown"
+      - 🇫🇮20004 | FI
+      - "@vpnaloo | FR"
+      - ">>@oneclickvpnkeys::NL | NL_1"
+      - https://t.me/v2rayNplus | FI
+      - Telegram:@config_proxy | FI
+      - ">>@freev2rayssr::XX | 0.72s | FR | FR"
+      - https://t.me/ShadowsocksM19 | Unknown
+      - " | DK"
+      - https://t.me/ShadowsocksM67 | FR
+      - " | FR"
+      - "@v2ray313 کانالمون 😿 | DE"
+      - اتصال دائمی با سرور های چنل🍦@Outline_ir | US
+      - 🔶67@oneclickvpnkeys | 6.34s | GB | GB
+      - "@v2ray313 کانالمون 🪵 | DE"
+      - "@v2ray313 کانالمون 🪵 | US"
+      - defaultName_2
+      - "@v2ray313 کانالمون 🌧️ | GB"
+      - "@V2RAY_VMESS_free | Unknown"
+      - All_34--@V2rayAlpha | FI
+      - https://t.me/ShadowsocksM33 | DE
+      - 🔷40@oneclickvpnkeys | 3.22s | DE | DE
+      - "Telegram: | GB"
+      - ⛄️83@oneclickvpnkeys | AT
+      - Telegram+|+Payam_Nsi | FI
+      - "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL"
+      - ⭐️@AzarAndoozVPNbot | NL
+      - 🇩🇪19946 | DE
+      - "@v2ray313 کانالمون 🌧️ | DE"
+      - 🔶66@oneclickvpnkeys | 4.51s | GB | GB
+      - 🔶17@oneclickvpnkeys | GB
+      - 🔷25@oneclickvpnkeys | 3.57s | DE | DE
+      - "@V2RAY_VMESS_free | Unknown_1"
+      - 🔶51@oneclickvpnkeys | 0.98s | GB | GB
+      - 🔶55@oneclickvpnkeys | 4.69s | GB | GB
+      - "@hopev2ray🤎 | Unknown"
+      - 🟣69@oneclickvpnkeys | KZ
+      - 🔶77@oneclickvpnkeys | GB
+      - Финляндия 451°F 🇫🇮 ✅ | AU
+      - 🔶79@oneclickvpnkeys | 3.58s | GB | GB
+      - 🇨🇵@ | FR
+      - 🇬🇧19938 | GB
+      - ⛄️98@ConfigV2RayNG | LV
+      - "@v2ray313 کانالمون 🫁 | GB"
+      - ⛄️99@ConfigV2RayNG | LV
+      - "Telegram: | DE_1"
+      - "@V2RAY_VMESS_free | SE"
+      - 🔶32@oneclickvpnkeys | GB
+      - 🔷30@oneclickvpnkeys | 5.45s | DE | DE
+      - 🌨️32@oneclickvpnkeys | NL
+      - "@Selinc | DE"
+      - 🌨️35@oneclickvpnkeys | US
+      - 🇺🇸20162 | US
+      - "@v2ray313 کانالمون 😹 | 2.26s | AT | AT"
+      - "@vmessprotocol اتصال بی مرز | CA"
+      - 🔶30@oneclickvpnkeys | 4.42s | GB | GB
+      - https://t.me/vpnod | IS
+      - ConfigV2RayNG | DE
+      - 🔥Join+Telegram:@Farah_VPN🟣 | AE
+      - 🌨️33@oneclickvpnkeys | NL
+      - ">>@oneclickvpnkeys::DE | DE_1"
+      - "@appsooner کانال تلگرام 🇫🇷 | DE"
+      - Telegram+|+Payam_Nsi | US
+      - I 1236 (@Outline_Vpn) free | KZ
+      - 🇨🇦20089 | CA
+      - ✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB
+      - ">>@oneclickvpnkeys::US | ES"
+      - 📟51@oneclickvpnkeys | QA
+      - telegram | RU
+      - "@@v2ryorg+<=+کانفیگ+رایگان | US"
+      - 📡85@ConfigV2RayNG | RU
+      - "@@v2ryorg+<=+کانفیگ+رایگان | DE"
+      - ⛄️63@oneclickvpnkeys] | SG
+      - 🇺🇸US_6 | ⬇️ 1.6MB/s | US
+      - 1🇺🇸Argo_VPN1 | LT
+      - "@v2ray313 کانالمون 💦 | GB"
+      - All_16--@V2rayAlpha | KZ
+      - "@MARAMBASHI 🩵 | NG"
+      - 📟34@oneclickvpnkeys | AM
+      - "@V2rayNGVPN <= کانفیگ رایگان | FR"
+      - "@V2rayNGVPN+<=+کانفیگ+رایگان | US"
+      - WedBaZ | Unknown
+      - Telegram:@config_proxy | DE
+      - https://t.me/ShadowsocksM94 | US
+      - "@appsooner کانال تلگرام 🇮🇳 | IN"
+      - "@v2ray313 کانالمون 🙀 | KZ"
+      - "@V2RAY_VMESS_free | SA"
+      - "@info_2IT_channel | PL"
+      - "Telegram: | US"
+      - 🇨🇱20098 | CL
+      - 🇰🇷20100 | KR
+      - 🇺🇸20206 | US
+      - "@V2RAY_VMESS_free | KR"
+      - "@v2ray313 کانالمون 🫠 | DE"
+      - "@MARAMBASHI 🇫🇮 | AU"
+      - "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
+      - سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE
+      - "@hopev2ray💚 | Unknown_1"
+      - "@v2ray313 کانالمون ❤️‍🔥 | HU"
+      - ConfigV2RayNG | US
+      - I 1152 (@filterking1) free | NL
+      - 🔶68@oneclickvpnkeys | 3.76s | GB | GB
+      - 🇺🇸 231 - US - VLESS/GRPC - 8880 | US
+      - https://t.me/ShadowsocksM91 | US
+      - "@hopev2ray💚 | Unknown_2"
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rules/providers/LocalAreaNetwork.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rules/providers/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rules/providers/BanProgramAD.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rules/providers/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rules/providers/SteamCN.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rules/providers/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rules/providers/ProxyMedia.list
+    interval: 86400
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+    path: ./rules/providers/ProxyLite.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rules/providers/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rules/providers/ChinaCompanyIp.list
+    interval: 86400
+
+rules:
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🛑 全球拦截
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Telegram,🚀 节点选择
+  - RULE-SET,ProxyMedia,🚀 节点选择
+  - RULE-SET,ProxyLite,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
