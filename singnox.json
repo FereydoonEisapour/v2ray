@@ -1,0 +1,3352 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "secret": "",
+      "external_ui_download_url": "https://gh-proxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "direct",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": true,
+      "store_rdrc": true
+    }
+  },
+  "dns": {
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    },
+    "servers": [
+      {
+        "tag": "google",
+        "address": "tls://8.8.8.8"
+      },
+      {
+        "tag": "local",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct"
+      },
+      {
+        "tag": "fakeip",
+        "address": "fakeip"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "cdn.jsdelivr.net"
+        ],
+        "server": "google"
+      },
+      {
+        "outbound": "any",
+        "server": "local"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "local"
+      },
+      {
+        "clash_mode": "global",
+        "server": "google"
+      },
+      {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "rule_set": "geosite-cn",
+        "server": "fakeip"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "server": "local"
+      },
+      {
+        "type": "logical",
+        "mode": "and",
+        "rules": [
+          {
+            "rule_set": "geosite-geolocation-!cn",
+            "invert": true
+          },
+          {
+            "rule_set": "geoip-cn"
+          }
+        ],
+        "server": "google",
+        "client_subnet": "114.114.114.114/24"
+      },
+      {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "fakeip"
+      }
+    ],
+    "independent_cache": true,
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "tag": "tun-in",
+      "type": "tun",
+      "address": [
+        "172.19.0.0/30",
+        "fdfe:dcba:9876::0/126"
+      ],
+      "stack": "system",
+      "auto_route": true,
+      "strict_route": true,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 7890
+        }
+      }
+    },
+    {
+      "tag": "mixed-in",
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 7890
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "Proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "direct",
+        "t.me/entryNET/config=1852451148855514 | DE",
+        "《@v2ryNG01》🇩🇪 جدید | DE",
+        "🔷29@oneclickvpnkeys | DE",
+        "@meli_proxyy | NL",
+        ">>@oneclickvpnkeys::DE | DE",
+        "20008 | DE",
+        "All-@V2rayAlpha--17 | 1.18s | DE | DE",
+        " | DE",
+        "Free | DE",
+        "defaultName",
+        "🔷23@oneclickvpnkeys | DE",
+        "https://t.me/ShadowsocksM62 | FI",
+        "Telegram:@config_proxy | AT",
+        "@hopev2ray💜 | Unknown",
+        "@v2ray313 کانالمون 🥸 | FI",
+        ">>@oneclickvpnkeys::NL | NL",
+        "@v2ray313 کانالمون ❤️ | DE",
+        "@hopev2ray💚 | Unknown",
+        "🇩🇪20134 | DE",
+        "Telegram: | DE",
+        "defaultName_1",
+        "@v2ray313 کانالمون 🙀 | DE",
+        "@v2ray313 کانالمون 🥑 | DE",
+        "@v2ray313 کانالمون 💖 | DE",
+        "🇬🇧19896 | 5.90s | GB | GB",
+        "Telegram+|+Payam_Nsi | 2.45s | GB | GB",
+        "Serversiran11 🇵🇱 | FR",
+        "🔶52@oneclickvpnkeys | 2.48s | US | US",
+        "@hopev2ray🤍 | Unknown",
+        "🇫🇮20004 | FI",
+        "@vpnaloo | FR",
+        ">>@oneclickvpnkeys::NL | NL_1",
+        "https://t.me/v2rayNplus | FI",
+        "Telegram:@config_proxy | FI",
+        ">>@freev2rayssr::XX | 0.72s | FR | FR",
+        "https://t.me/ShadowsocksM19 | Unknown",
+        " | DK",
+        "https://t.me/ShadowsocksM67 | FR",
+        " | FR",
+        "@v2ray313 کانالمون 😿 | DE",
+        "اتصال دائمی با سرور های چنل🍦@Outline_ir | US",
+        "🔶67@oneclickvpnkeys | 6.34s | GB | GB",
+        "@v2ray313 کانالمون 🪵 | DE",
+        "@v2ray313 کانالمون 🪵 | US",
+        "defaultName_2",
+        "@v2ray313 کانالمون 🌧️ | GB",
+        "@V2RAY_VMESS_free | Unknown",
+        "All_34--@V2rayAlpha | FI",
+        "https://t.me/ShadowsocksM33 | DE",
+        "🔷40@oneclickvpnkeys | 3.22s | DE | DE",
+        "Telegram: | GB",
+        "⛄️83@oneclickvpnkeys | AT",
+        "Telegram+|+Payam_Nsi | FI",
+        "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL",
+        "⭐️@AzarAndoozVPNbot | NL",
+        "🇩🇪19946 | DE",
+        "@v2ray313 کانالمون 🌧️ | DE",
+        "🔶66@oneclickvpnkeys | 4.51s | GB | GB",
+        "🔶17@oneclickvpnkeys | GB",
+        "🔷25@oneclickvpnkeys | 3.57s | DE | DE",
+        "@V2RAY_VMESS_free | Unknown_1",
+        "🔶51@oneclickvpnkeys | 0.98s | GB | GB",
+        "🔶55@oneclickvpnkeys | 4.69s | GB | GB",
+        "@hopev2ray🤎 | Unknown",
+        "🟣69@oneclickvpnkeys | KZ",
+        "🔶77@oneclickvpnkeys | GB",
+        "Финляндия 451°F 🇫🇮 ✅ | AU",
+        "🔶79@oneclickvpnkeys | 3.58s | GB | GB",
+        "🇨🇵@ | FR",
+        "🇬🇧19938 | GB",
+        "⛄️98@ConfigV2RayNG | LV",
+        "@v2ray313 کانالمون 🫁 | GB",
+        "⛄️99@ConfigV2RayNG | LV",
+        "Telegram: | DE_1",
+        "@V2RAY_VMESS_free | SE",
+        "🔶32@oneclickvpnkeys | GB",
+        "🔷30@oneclickvpnkeys | 5.45s | DE | DE",
+        "🌨️32@oneclickvpnkeys | NL",
+        "@Selinc | DE",
+        "🌨️35@oneclickvpnkeys | US",
+        "🇺🇸20162 | US",
+        "@v2ray313 کانالمون 😹 | 2.26s | AT | AT",
+        "@vmessprotocol اتصال بی مرز | CA",
+        "🔶30@oneclickvpnkeys | 4.42s | GB | GB",
+        "https://t.me/vpnod | IS",
+        "ConfigV2RayNG | DE",
+        "🔥Join+Telegram:@Farah_VPN🟣 | AE",
+        "🌨️33@oneclickvpnkeys | NL",
+        ">>@oneclickvpnkeys::DE | DE_1",
+        "@appsooner کانال تلگرام 🇫🇷 | DE",
+        "Telegram+|+Payam_Nsi | US",
+        "I 1236 (@Outline_Vpn) free | KZ",
+        "🇨🇦20089 | CA",
+        "✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB",
+        ">>@oneclickvpnkeys::US | ES",
+        "📟51@oneclickvpnkeys | QA",
+        "telegram | RU",
+        "@@v2ryorg+<=+کانفیگ+رایگان | US",
+        "📡85@ConfigV2RayNG | RU",
+        "@@v2ryorg+<=+کانفیگ+رایگان | DE",
+        "⛄️63@oneclickvpnkeys] | SG",
+        "🇺🇸US_6 | ⬇️ 1.6MB/s | US",
+        "1🇺🇸Argo_VPN1 | LT",
+        "@v2ray313 کانالمون 💦 | GB",
+        "All_16--@V2rayAlpha | KZ",
+        "@MARAMBASHI 🩵 | NG",
+        "📟34@oneclickvpnkeys | AM",
+        "@V2rayNGVPN <= کانفیگ رایگان | FR",
+        "@V2rayNGVPN+<=+کانفیگ+رایگان | US",
+        "WedBaZ | Unknown",
+        "Telegram:@config_proxy | DE",
+        "https://t.me/ShadowsocksM94 | US",
+        "@appsooner کانال تلگرام 🇮🇳 | IN",
+        "@v2ray313 کانالمون 🙀 | KZ",
+        "@V2RAY_VMESS_free | SA",
+        "@info_2IT_channel | PL",
+        "Telegram: | US",
+        "🇨🇱20098 | CL",
+        "🇰🇷20100 | KR",
+        "🇺🇸20206 | US",
+        "@V2RAY_VMESS_free | KR",
+        "@v2ray313 کانالمون 🫠 | DE",
+        "@MARAMBASHI 🇫🇮 | AU",
+        "@V2rayNGVPN+<=+کانفیگ+رایگان | BO",
+        "سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE",
+        "@hopev2ray💚 | Unknown_1",
+        "@v2ray313 کانالمون ❤️‍🔥 | HU",
+        "ConfigV2RayNG | US",
+        "I 1152 (@filterking1) free | NL",
+        "🔶68@oneclickvpnkeys | 3.76s | GB | GB",
+        "🇺🇸 231 - US - VLESS/GRPC - 8880 | US",
+        "https://t.me/ShadowsocksM91 | US",
+        "@hopev2ray💚 | Unknown_2"
+      ]
+    },
+    {
+      "tag": "OpenAI",
+      "type": "selector",
+      "outbounds": [
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ],
+      "default": "America"
+    },
+    {
+      "tag": "Google",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Telegram",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Twitter",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Facebook",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "BiliBili",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "HongKong",
+        "TaiWan"
+      ]
+    },
+    {
+      "tag": "Bahamut",
+      "type": "selector",
+      "outbounds": [
+        "TaiWan",
+        "Proxy"
+      ]
+    },
+    {
+      "tag": "Spotify",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ],
+      "default": "America"
+    },
+    {
+      "tag": "TikTok",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America"
+      ],
+      "default": "Japan"
+    },
+    {
+      "tag": "Netflix",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Disney+",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Apple",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Microsoft",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Games",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Streaming",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
+      "tag": "Global",
+      "type": "selector",
+      "outbounds": [
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others",
+        "direct"
+      ]
+    },
+    {
+      "tag": "China",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Proxy"
+      ]
+    },
+    {
+      "tag": "HongKong",
+      "type": "selector",
+      "outbounds": [
+        "Proxy"
+      ]
+    },
+    {
+      "tag": "TaiWan",
+      "type": "selector",
+      "outbounds": [
+        "Proxy"
+      ]
+    },
+    {
+      "tag": "Singapore",
+      "type": "selector",
+      "outbounds": [
+        "⛄️63@oneclickvpnkeys] | SG"
+      ]
+    },
+    {
+      "tag": "Japan",
+      "type": "selector",
+      "outbounds": [
+        "Proxy"
+      ]
+    },
+    {
+      "tag": "America",
+      "type": "selector",
+      "outbounds": [
+        "🔶52@oneclickvpnkeys | 2.48s | US | US",
+        "https://t.me/v2rayNplus | FI",
+        "اتصال دائمی با سرور های چنل🍦@Outline_ir | US",
+        "@v2ray313 کانالمون 🪵 | US",
+        "🌨️35@oneclickvpnkeys | US",
+        "🇺🇸20162 | US",
+        "Telegram+|+Payam_Nsi | US",
+        ">>@oneclickvpnkeys::US | ES",
+        "@@v2ryorg+<=+کانفیگ+رایگان | US",
+        "🇺🇸US_6 | ⬇️ 1.6MB/s | US",
+        "1🇺🇸Argo_VPN1 | LT",
+        "@V2rayNGVPN+<=+کانفیگ+رایگان | US",
+        "https://t.me/ShadowsocksM94 | US",
+        "Telegram: | US",
+        "🇺🇸20206 | US",
+        "ConfigV2RayNG | US",
+        "🇺🇸 231 - US - VLESS/GRPC - 8880 | US",
+        "https://t.me/ShadowsocksM91 | US"
+      ]
+    },
+    {
+      "tag": "Others",
+      "type": "selector",
+      "outbounds": [
+        "t.me/entryNET/config=1852451148855514 | DE",
+        "《@v2ryNG01》🇩🇪 جدید | DE",
+        "🔷29@oneclickvpnkeys | DE",
+        "@meli_proxyy | NL",
+        ">>@oneclickvpnkeys::DE | DE",
+        "20008 | DE",
+        "All-@V2rayAlpha--17 | 1.18s | DE | DE",
+        " | DE",
+        "Free | DE",
+        "defaultName",
+        "🔷23@oneclickvpnkeys | DE",
+        "https://t.me/ShadowsocksM62 | FI",
+        "Telegram:@config_proxy | AT",
+        "@hopev2ray💜 | Unknown",
+        "@v2ray313 کانالمون 🥸 | FI",
+        ">>@oneclickvpnkeys::NL | NL",
+        "@v2ray313 کانالمون ❤️ | DE",
+        "@hopev2ray💚 | Unknown",
+        "🇩🇪20134 | DE",
+        "Telegram: | DE",
+        "defaultName_1",
+        "@v2ray313 کانالمون 🙀 | DE",
+        "@v2ray313 کانالمون 🥑 | DE",
+        "@v2ray313 کانالمون 💖 | DE",
+        "🇬🇧19896 | 5.90s | GB | GB",
+        "Telegram+|+Payam_Nsi | 2.45s | GB | GB",
+        "Serversiran11 🇵🇱 | FR",
+        "@hopev2ray🤍 | Unknown",
+        "🇫🇮20004 | FI",
+        "@vpnaloo | FR",
+        ">>@oneclickvpnkeys::NL | NL_1",
+        "Telegram:@config_proxy | FI",
+        ">>@freev2rayssr::XX | 0.72s | FR | FR",
+        "https://t.me/ShadowsocksM19 | Unknown",
+        " | DK",
+        "https://t.me/ShadowsocksM67 | FR",
+        " | FR",
+        "@v2ray313 کانالمون 😿 | DE",
+        "🔶67@oneclickvpnkeys | 6.34s | GB | GB",
+        "@v2ray313 کانالمون 🪵 | DE",
+        "defaultName_2",
+        "@v2ray313 کانالمون 🌧️ | GB",
+        "@V2RAY_VMESS_free | Unknown",
+        "All_34--@V2rayAlpha | FI",
+        "https://t.me/ShadowsocksM33 | DE",
+        "🔷40@oneclickvpnkeys | 3.22s | DE | DE",
+        "Telegram: | GB",
+        "⛄️83@oneclickvpnkeys | AT",
+        "Telegram+|+Payam_Nsi | FI",
+        "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL",
+        "⭐️@AzarAndoozVPNbot | NL",
+        "🇩🇪19946 | DE",
+        "@v2ray313 کانالمون 🌧️ | DE",
+        "🔶66@oneclickvpnkeys | 4.51s | GB | GB",
+        "🔶17@oneclickvpnkeys | GB",
+        "🔷25@oneclickvpnkeys | 3.57s | DE | DE",
+        "@V2RAY_VMESS_free | Unknown_1",
+        "🔶51@oneclickvpnkeys | 0.98s | GB | GB",
+        "🔶55@oneclickvpnkeys | 4.69s | GB | GB",
+        "@hopev2ray🤎 | Unknown",
+        "🟣69@oneclickvpnkeys | KZ",
+        "🔶77@oneclickvpnkeys | GB",
+        "Финляндия 451°F 🇫🇮 ✅ | AU",
+        "🔶79@oneclickvpnkeys | 3.58s | GB | GB",
+        "🇨🇵@ | FR",
+        "🇬🇧19938 | GB",
+        "⛄️98@ConfigV2RayNG | LV",
+        "@v2ray313 کانالمون 🫁 | GB",
+        "⛄️99@ConfigV2RayNG | LV",
+        "Telegram: | DE_1",
+        "@V2RAY_VMESS_free | SE",
+        "🔶32@oneclickvpnkeys | GB",
+        "🔷30@oneclickvpnkeys | 5.45s | DE | DE",
+        "🌨️32@oneclickvpnkeys | NL",
+        "@Selinc | DE",
+        "@v2ray313 کانالمون 😹 | 2.26s | AT | AT",
+        "@vmessprotocol اتصال بی مرز | CA",
+        "🔶30@oneclickvpnkeys | 4.42s | GB | GB",
+        "https://t.me/vpnod | IS",
+        "ConfigV2RayNG | DE",
+        "🔥Join+Telegram:@Farah_VPN🟣 | AE",
+        "🌨️33@oneclickvpnkeys | NL",
+        ">>@oneclickvpnkeys::DE | DE_1",
+        "@appsooner کانال تلگرام 🇫🇷 | DE",
+        "I 1236 (@Outline_Vpn) free | KZ",
+        "🇨🇦20089 | CA",
+        "✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB",
+        "📟51@oneclickvpnkeys | QA",
+        "telegram | RU",
+        "📡85@ConfigV2RayNG | RU",
+        "@@v2ryorg+<=+کانفیگ+رایگان | DE",
+        "@v2ray313 کانالمون 💦 | GB",
+        "All_16--@V2rayAlpha | KZ",
+        "@MARAMBASHI 🩵 | NG",
+        "📟34@oneclickvpnkeys | AM",
+        "@V2rayNGVPN <= کانفیگ رایگان | FR",
+        "WedBaZ | Unknown",
+        "Telegram:@config_proxy | DE",
+        "@appsooner کانال تلگرام 🇮🇳 | IN",
+        "@v2ray313 کانالمون 🙀 | KZ",
+        "@V2RAY_VMESS_free | SA",
+        "@info_2IT_channel | PL",
+        "🇨🇱20098 | CL",
+        "🇰🇷20100 | KR",
+        "@V2RAY_VMESS_free | KR",
+        "@v2ray313 کانالمون 🫠 | DE",
+        "@MARAMBASHI 🇫🇮 | AU",
+        "@V2rayNGVPN+<=+کانفیگ+رایگان | BO",
+        "سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE",
+        "@hopev2ray💚 | Unknown_1",
+        "@v2ray313 کانالمون ❤️‍🔥 | HU",
+        "I 1152 (@filterking1) free | NL",
+        "🔶68@oneclickvpnkeys | 3.76s | GB | GB",
+        "@hopev2ray💚 | Unknown_2"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "t.me/entryNET/config=1852451148855514 | DE",
+        "《@v2ryNG01》🇩🇪 جدید | DE",
+        "🔷29@oneclickvpnkeys | DE",
+        "@meli_proxyy | NL",
+        ">>@oneclickvpnkeys::DE | DE",
+        "20008 | DE",
+        "All-@V2rayAlpha--17 | 1.18s | DE | DE",
+        " | DE",
+        "Free | DE",
+        "defaultName",
+        "🔷23@oneclickvpnkeys | DE",
+        "https://t.me/ShadowsocksM62 | FI",
+        "Telegram:@config_proxy | AT",
+        "@hopev2ray💜 | Unknown",
+        "@v2ray313 کانالمون 🥸 | FI",
+        ">>@oneclickvpnkeys::NL | NL",
+        "@v2ray313 کانالمون ❤️ | DE",
+        "@hopev2ray💚 | Unknown",
+        "🇩🇪20134 | DE",
+        "Telegram: | DE",
+        "defaultName_1",
+        "@v2ray313 کانالمون 🙀 | DE",
+        "@v2ray313 کانالمون 🥑 | DE",
+        "@v2ray313 کانالمون 💖 | DE",
+        "🇬🇧19896 | 5.90s | GB | GB",
+        "Telegram+|+Payam_Nsi | 2.45s | GB | GB",
+        "Serversiran11 🇵🇱 | FR",
+        "🔶52@oneclickvpnkeys | 2.48s | US | US",
+        "@hopev2ray🤍 | Unknown",
+        "🇫🇮20004 | FI",
+        "@vpnaloo | FR",
+        ">>@oneclickvpnkeys::NL | NL_1",
+        "https://t.me/v2rayNplus | FI",
+        "Telegram:@config_proxy | FI",
+        ">>@freev2rayssr::XX | 0.72s | FR | FR",
+        "https://t.me/ShadowsocksM19 | Unknown",
+        " | DK",
+        "https://t.me/ShadowsocksM67 | FR",
+        " | FR",
+        "@v2ray313 کانالمون 😿 | DE",
+        "اتصال دائمی با سرور های چنل🍦@Outline_ir | US",
+        "🔶67@oneclickvpnkeys | 6.34s | GB | GB",
+        "@v2ray313 کانالمون 🪵 | DE",
+        "@v2ray313 کانالمون 🪵 | US",
+        "defaultName_2",
+        "@v2ray313 کانالمون 🌧️ | GB",
+        "@V2RAY_VMESS_free | Unknown",
+        "All_34--@V2rayAlpha | FI",
+        "https://t.me/ShadowsocksM33 | DE",
+        "🔷40@oneclickvpnkeys | 3.22s | DE | DE",
+        "Telegram: | GB",
+        "⛄️83@oneclickvpnkeys | AT",
+        "Telegram+|+Payam_Nsi | FI",
+        "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL",
+        "⭐️@AzarAndoozVPNbot | NL",
+        "🇩🇪19946 | DE",
+        "@v2ray313 کانالمون 🌧️ | DE",
+        "🔶66@oneclickvpnkeys | 4.51s | GB | GB",
+        "🔶17@oneclickvpnkeys | GB",
+        "🔷25@oneclickvpnkeys | 3.57s | DE | DE",
+        "@V2RAY_VMESS_free | Unknown_1",
+        "🔶51@oneclickvpnkeys | 0.98s | GB | GB",
+        "🔶55@oneclickvpnkeys | 4.69s | GB | GB",
+        "@hopev2ray🤎 | Unknown",
+        "🟣69@oneclickvpnkeys | KZ",
+        "🔶77@oneclickvpnkeys | GB",
+        "Финляндия 451°F 🇫🇮 ✅ | AU",
+        "🔶79@oneclickvpnkeys | 3.58s | GB | GB",
+        "🇨🇵@ | FR",
+        "🇬🇧19938 | GB",
+        "⛄️98@ConfigV2RayNG | LV",
+        "@v2ray313 کانالمون 🫁 | GB",
+        "⛄️99@ConfigV2RayNG | LV",
+        "Telegram: | DE_1",
+        "@V2RAY_VMESS_free | SE",
+        "🔶32@oneclickvpnkeys | GB",
+        "🔷30@oneclickvpnkeys | 5.45s | DE | DE",
+        "🌨️32@oneclickvpnkeys | NL",
+        "@Selinc | DE",
+        "🌨️35@oneclickvpnkeys | US",
+        "🇺🇸20162 | US",
+        "@v2ray313 کانالمون 😹 | 2.26s | AT | AT",
+        "@vmessprotocol اتصال بی مرز | CA",
+        "🔶30@oneclickvpnkeys | 4.42s | GB | GB",
+        "https://t.me/vpnod | IS",
+        "ConfigV2RayNG | DE",
+        "🔥Join+Telegram:@Farah_VPN🟣 | AE",
+        "🌨️33@oneclickvpnkeys | NL",
+        ">>@oneclickvpnkeys::DE | DE_1",
+        "@appsooner کانال تلگرام 🇫🇷 | DE",
+        "Telegram+|+Payam_Nsi | US",
+        "I 1236 (@Outline_Vpn) free | KZ",
+        "🇨🇦20089 | CA",
+        "✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB",
+        ">>@oneclickvpnkeys::US | ES",
+        "📟51@oneclickvpnkeys | QA",
+        "telegram | RU",
+        "@@v2ryorg+<=+کانفیگ+رایگان | US",
+        "📡85@ConfigV2RayNG | RU",
+        "@@v2ryorg+<=+کانفیگ+رایگان | DE",
+        "⛄️63@oneclickvpnkeys] | SG",
+        "🇺🇸US_6 | ⬇️ 1.6MB/s | US",
+        "1🇺🇸Argo_VPN1 | LT",
+        "@v2ray313 کانالمون 💦 | GB",
+        "All_16--@V2rayAlpha | KZ",
+        "@MARAMBASHI 🩵 | NG",
+        "📟34@oneclickvpnkeys | AM",
+        "@V2rayNGVPN <= کانفیگ رایگان | FR",
+        "@V2rayNGVPN+<=+کانفیگ+رایگان | US",
+        "WedBaZ | Unknown",
+        "Telegram:@config_proxy | DE",
+        "https://t.me/ShadowsocksM94 | US",
+        "@appsooner کانال تلگرام 🇮🇳 | IN",
+        "@v2ray313 کانالمون 🙀 | KZ",
+        "@V2RAY_VMESS_free | SA",
+        "@info_2IT_channel | PL",
+        "Telegram: | US",
+        "🇨🇱20098 | CL",
+        "🇰🇷20100 | KR",
+        "🇺🇸20206 | US",
+        "@V2RAY_VMESS_free | KR",
+        "@v2ray313 کانالمون 🫠 | DE",
+        "@MARAMBASHI 🇫🇮 | AU",
+        "@V2rayNGVPN+<=+کانفیگ+رایگان | BO",
+        "سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE",
+        "@hopev2ray💚 | Unknown_1",
+        "@v2ray313 کانالمون ❤️‍🔥 | HU",
+        "ConfigV2RayNG | US",
+        "I 1152 (@filterking1) free | NL",
+        "🔶68@oneclickvpnkeys | 3.76s | GB | GB",
+        "🇺🇸 231 - US - VLESS/GRPC - 8880 | US",
+        "https://t.me/ShadowsocksM91 | US",
+        "@hopev2ray💚 | Unknown_2"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "t.me/entryNET/config=1852451148855514 | DE",
+      "server": "91.107.244.15",
+      "server_port": 443,
+      "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "《@v2ryNG01》🇩🇪 جدید | DE",
+      "server": "78.46.200.43",
+      "server_port": 7443,
+      "uuid": "f6d37008-ecb4-4e26-d8b8-0c8f0fd13cd6"
+    },
+    {
+      "type": "vless",
+      "tag": "🔷29@oneclickvpnkeys | DE",
+      "server": "185.235.241.98",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@meli_proxyy | NL",
+      "server": "45.8.144.198",
+      "server_port": 443,
+      "uuid": "1a539db6-d162-42f4-9b56-687bd57bfbc2",
+      "tls": {
+        "enabled": true,
+        "server_name": "mirror.yandex.ru",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "KXA-hPtvy_hzNER1ZNtUxBv_VrGGKfmIyi4CQAyjGxs",
+          "short_id": "d94e8f45",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": ">>@oneclickvpnkeys::DE | DE",
+      "server": "57.129.53.181",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "20008 | DE",
+      "server": "185.235.241.53",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "All-@V2rayAlpha--17 | 1.18s | DE | DE",
+      "server": "91.107.130.76",
+      "server_port": 41647,
+      "uuid": "e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " | DE",
+      "server": "178.162.240.21",
+      "server_port": 443,
+      "uuid": "47b281a0-8815-4565-8ba6-76b7fed3fe49",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fonts.googleapis.com",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "Ryh5V50qdGmUF-3v7hR8aHKkGr-DMwaI-KdwcESEmXw",
+          "short_id": "ab75d76656df3449",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Free | DE",
+      "server": "77.42.77.66",
+      "server_port": 32323,
+      "uuid": "015e6f7b-c6df-470a-a22d-62b8b9947a4d"
+    },
+    {
+      "type": "vless",
+      "tag": "defaultName",
+      "server": "172.66.132.196",
+      "server_port": 443,
+      "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+      "transport": {
+        "type": "ws",
+        "path": "/telegram-@v2ray_alpha="
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "a.azadnet003.ddns-ip.net",
+        "utls": {
+          "fingerprint": "randomized",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔷23@oneclickvpnkeys | DE",
+      "server": "185.235.241.97",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM62 | FI",
+      "server": "185.109.21.54",
+      "server_port": 13316,
+      "uuid": "8dcd069a-21b4-487c-9d05-14b5be3b438a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.t2.ru",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "J1HIxQSniHBlaSUXTLTWyUUpiaeyE8MWmA2evyFZbFQ",
+          "short_id": "9792f748",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram:@config_proxy | AT",
+      "server": "5.181.21.72",
+      "server_port": 443,
+      "uuid": "e4b8df56-b680-4a34-ab47-5bf5738ed718",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8",
+          "short_id": "85225c27630d023f",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@hopev2ray💜 | Unknown",
+      "server": "172.66.158.183",
+      "server_port": 443,
+      "uuid": "13e71ddb-908c-45e0-993c-da482d848c88",
+      "transport": {
+        "type": "ws",
+        "path": "/156.254.114.120:30011",
+        "headers": {
+          "Host": "seashell.qzz.io"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "seashell.qzz.io"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🥸 | FI",
+      "server": "37.27.81.159",
+      "server_port": 46704,
+      "uuid": "6caf585f-ae05-4c4e-9c97-a48728ca0885",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "HxFj9w2QRYJD6gLPuRW4upoYqe1A2lHqdAiB1mdcBUQ",
+          "short_id": "bb5cae",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": ">>@oneclickvpnkeys::NL | NL",
+      "server": "51.158.206.8",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون ❤️ | DE",
+      "server": "185.235.241.170",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@hopev2ray💚 | Unknown",
+      "server": "104.20.28.242",
+      "server_port": 443,
+      "uuid": "13e71ddb-908c-45e0-993c-da482d848c88",
+      "transport": {
+        "type": "ws",
+        "path": "/156.254.114.120:30011",
+        "headers": {
+          "Host": "seashell.qzz.io"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "seashell.qzz.io"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪20134 | DE",
+      "server": "185.235.241.95",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram: | DE",
+      "server": "185.235.241.79",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "defaultName_1",
+      "server": "104.16.144.63",
+      "server_port": 443,
+      "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "a.azadnet003.ddns-ip.net",
+        "utls": {
+          "fingerprint": "randomized",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🙀 | DE",
+      "server": "185.235.241.57",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🥑 | DE",
+      "server": "185.235.241.166",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 💖 | DE",
+      "server": "185.235.241.153",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧19896 | 5.90s | GB | GB",
+      "server": "138.68.133.248",
+      "server_port": 443,
+      "uuid": "0bc2724b-1d00-41ad-8ef8-c23c7114596c",
+      "transport": {
+        "type": "ws",
+        "path": "/pqncvhws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram+|+Payam_Nsi | 2.45s | GB | GB",
+      "server": "134.209.19.124",
+      "server_port": 443,
+      "uuid": "77049c89-eacb-4911-ade2-3854d3fae634",
+      "transport": {
+        "type": "ws",
+        "path": "/hdjwgvws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Serversiran11 🇵🇱 | FR",
+      "server": "145.239.31.99",
+      "server_port": 7005,
+      "uuid": "24a8fbb6-44a2-476f-9502-d6811ac3484f",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "Cz-qN4FxgYUmrKUyots3FCe0tHP9wvK-1KNZYaLyCnQ",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶52@oneclickvpnkeys | 2.48s | US | US",
+      "server": "92.118.231.167",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@hopev2ray🤍 | Unknown",
+      "server": "172.66.155.99",
+      "server_port": 443,
+      "uuid": "9be5679d-cd82-4ace-9fcf-bed31e21fadf",
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16=1443",
+        "headers": {
+          "Host": "tronblue.qzz.io"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "tronblue.qzz.io"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮20004 | FI",
+      "server": "65.108.231.185",
+      "server_port": 443,
+      "uuid": "440766d1-858f-4719-84f5-c2de6f6227b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.avito.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@vpnaloo | FR",
+      "server": "45.67.139.241",
+      "server_port": 20353,
+      "uuid": "5fc5ac13-d170-43d8-acb0-e180552346f2",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgju.org",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "mTMw2UT1oDEP9mTcL2TjeHCEXxFgT6AOQvThcJNTjlw",
+          "short_id": "7e4dbc4a91460d",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": ">>@oneclickvpnkeys::NL | NL_1",
+      "server": "51.158.206.93",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/v2rayNplus | FI",
+      "server": "157.180.82.171",
+      "server_port": 2087,
+      "uuid": "a7cdce51-fe3f-4a0e-9858-768e5a5e4678",
+      "transport": {
+        "type": "grpc",
+        "service_name": "api-maps.yandex.ru"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram:@config_proxy | FI",
+      "server": "171.22.114.248",
+      "server_port": 27394,
+      "uuid": "00b0d4de-b126-4511-87c1-8f1feb462fa6",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "TZO1nvxk-x90cL3v9ixowQNC56sQ8k76_KaGU6jczks",
+          "short_id": "c2fa",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": ">>@freev2rayssr::XX | 0.72s | FR | FR",
+      "server": "162.19.228.119",
+      "server_port": 80,
+      "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+      "transport": {
+        "type": "ws",
+        "path": "/http"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM19 | Unknown",
+      "server": "108.162.194.99",
+      "server_port": 443,
+      "uuid": "39a192ed-7e78-42f4-b956-2f0ea17f677f",
+      "transport": {
+        "type": "ws",
+        "path": "/rbjisuws",
+        "headers": {
+          "Host": "639018301854287215.camry-amsjk.info"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "639018301854287215.camry-amsjk.info",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " | DK",
+      "server": "95.164.85.109",
+      "server_port": 59374,
+      "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
+          "short_id": "d21e7c",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM67 | FR",
+      "server": "145.239.29.93",
+      "server_port": 48216,
+      "uuid": "3adc0bb0-b811-494e-bcd8-59fa996a2c44",
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " | FR",
+      "server": "37.59.112.73",
+      "server_port": 8442,
+      "uuid": "01b5f5f2-f82a-42e0-9593-5b1b8869b9ca"
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 😿 | DE",
+      "server": "185.235.241.140",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "اتصال دائمی با سرور های چنل🍦@Outline_ir | US",
+      "server": "144.31.125.83",
+      "server_port": 443,
+      "uuid": "3ee58d3a-7469-4557-b2f9-0d1d85c3a6fa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "fingerprint": "qq",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "aBSA9rhtxuHy3h-KgP3XRj-qz8G5yfI4_uee3LWNlks",
+          "short_id": "239b4d329aa68487",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶67@oneclickvpnkeys | 6.34s | GB | GB",
+      "server": "167.99.91.171",
+      "server_port": 443,
+      "uuid": "921290a9-6e24-4661-82fb-844d88164b74",
+      "transport": {
+        "type": "ws",
+        "path": "/sbqbfows"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "api.avito.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🪵 | DE",
+      "server": "185.235.241.154",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🪵 | US",
+      "server": "92.118.231.181",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "defaultName_2",
+      "server": "5.182.36.251",
+      "server_port": 16331,
+      "uuid": "d7dbeb1e-268c-465c-8f59-489f14703efd",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk",
+          "short_id": "910aab",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🌧️ | GB",
+      "server": "185.218.3.39",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2RAY_VMESS_free | Unknown",
+      "server": "104.17.148.22",
+      "server_port": 2095,
+      "uuid": "087ddd93-b412-460c-a803-d796312d0ad0",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uk9.hope-pls.ir"
+        }
+      },
+      "tls": {
+        "server_name": "uk9.hope-pls.ir"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "All_34--@V2rayAlpha | FI",
+      "server": "46.62.128.207",
+      "server_port": 443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM33 | DE",
+      "server": "185.235.241.122",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔷40@oneclickvpnkeys | 3.22s | DE | DE",
+      "server": "185.235.241.129",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram: | GB",
+      "server": "185.218.3.64",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "⛄️83@oneclickvpnkeys | AT",
+      "server": "38.180.144.156",
+      "server_port": 443,
+      "uuid": "ae0a43bc-6189-456e-9b8a-a93f39af336e",
+      "transport": {
+        "type": "grpc",
+        "service_name": "4ad80c2f8c79fca2b989b494"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "76Cfr5qNl9BCrSb6jdkrgj0HbwfyCwj4oF6JJVhKD0s",
+          "short_id": "42d7234d875308a2",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram+|+Payam_Nsi | FI",
+      "server": "93.152.207.254",
+      "server_port": 45884,
+      "uuid": "57a5f6b3-ea58-4d4e-ad9c-a9830f148184",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "_GoR9cR6JOUmQ1PM-s2GsHiy6OuIo1Ek1a7lhNKkvj4",
+          "short_id": "9a",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Channel : @Mrsoulb 🏴🏳 | 1.20s | NL | NL",
+      "server": "103.90.75.252",
+      "server_port": 3001,
+      "uuid": "61757901-3818-46c7-8482-683fa7f6ba10"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "⭐️@AzarAndoozVPNbot | NL",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "password": "other-Public-Config-1",
+      "obfs": {
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪19946 | DE",
+      "server": "185.235.241.150",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🌧️ | DE",
+      "server": "185.235.241.117",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶66@oneclickvpnkeys | 4.51s | GB | GB",
+      "server": "46.101.88.198",
+      "server_port": 443,
+      "uuid": "9e7a7c17-21c2-4119-bb45-e4154e893aaf",
+      "transport": {
+        "type": "ws",
+        "path": "/bpuuxxws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "api.avito.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶17@oneclickvpnkeys | GB",
+      "server": "178.128.45.207",
+      "server_port": 443,
+      "uuid": "51d0e29d-2ad1-47d0-8b70-90cff9a69a12",
+      "transport": {
+        "type": "ws",
+        "path": "/jhymeqws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔷25@oneclickvpnkeys | 3.57s | DE | DE",
+      "server": "185.235.241.127",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2RAY_VMESS_free | Unknown_1",
+      "server": "104.17.147.22",
+      "server_port": 2095,
+      "uuid": "087ddd93-b412-460c-a803-d796312d0ad0",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uk9.hope-pls.ir"
+        }
+      },
+      "tls": {
+        "server_name": "uk9.hope-pls.ir"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶51@oneclickvpnkeys | 0.98s | GB | GB",
+      "server": "209.97.183.92",
+      "server_port": 443,
+      "uuid": "9e5646ba-c661-41cd-8321-a164139b12cf",
+      "transport": {
+        "type": "ws",
+        "path": "/wwkmrkws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶55@oneclickvpnkeys | 4.69s | GB | GB",
+      "server": "185.218.3.40",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@hopev2ray🤎 | Unknown",
+      "server": "104.20.33.44",
+      "server_port": 443,
+      "uuid": "e2e3b171-33a8-4c8f-9e5f-ae6e92299e40",
+      "transport": {
+        "type": "ws",
+        "path": "/46.232.122.240:8000",
+        "headers": {
+          "Host": "ivory.qzz.io"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ivory.qzz.io"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🟣69@oneclickvpnkeys | KZ",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
+          "short_id": "2001",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶77@oneclickvpnkeys | GB",
+      "server": "134.209.188.31",
+      "server_port": 443,
+      "uuid": "8a78786c-e045-4148-8201-48eab202f1bf",
+      "transport": {
+        "type": "ws",
+        "path": "/sybolkws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "wikiportal.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Финляндия 451°F 🇫🇮 ✅ | AU",
+      "server": "82.117.84.62",
+      "server_port": 8080,
+      "uuid": "734d5ece-255a-4064-9d7f-683e1b8050f3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "isharing.us",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "jRReXVS85X0Qm7jovHgNSOyz7BuS7p3iMPE4EfUHRlk",
+          "short_id": "1ae2fd1e1ace9935",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶79@oneclickvpnkeys | 3.58s | GB | GB",
+      "server": "144.126.225.77",
+      "server_port": 443,
+      "uuid": "4a5b69b4-8f1c-48b8-a7d1-2f00ddb2e2d5",
+      "transport": {
+        "type": "ws",
+        "path": "/zmiuyqws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "wikiportal.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇵@ | FR",
+      "server": "94.232.247.168",
+      "server_port": 41360,
+      "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+          "short_id": "1aab45",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧19938 | GB",
+      "server": "167.172.59.135",
+      "server_port": 443,
+      "uuid": "f85e7cc8-82c9-4b84-b1bf-25011697b6dd",
+      "transport": {
+        "type": "ws",
+        "path": "/afrphkws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "io.ozone.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "⛄️98@ConfigV2RayNG | LV",
+      "server": "62.192.174.198",
+      "server_port": 47256,
+      "uuid": "06babfd1-1af2-4db4-a485-cdf404ce80a9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.unicreditbank.ru",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "HkLK62c3szw51gYtORRnPlO0v6kxOSd_aCd0J4rTKzo",
+          "short_id": "9d32c1",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🫁 | GB",
+      "server": "5.180.30.83",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "⛄️99@ConfigV2RayNG | LV",
+      "server": "185.77.231.80",
+      "server_port": 28298,
+      "uuid": "3fb3ee10-5461-4f8e-bd5e-2922a51cc4ba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "J1HIxQSniHBlaSUXTLTWyUUpiaeyE8MWmA2evyFZbFQ",
+          "short_id": "9d32c1",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram: | DE_1",
+      "server": "157.173.127.233",
+      "server_port": 443,
+      "uuid": "17a6e953-8fac-428c-b86c-8585722b0b52",
+      "tls": {
+        "enabled": true,
+        "server_name": "analytics.google.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "MbTwpwMFXu8duJgVMb_jFpqEuopSWJW1FPH_D6fZAEM",
+          "short_id": "1f",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2RAY_VMESS_free | SE",
+      "server": "91.186.217.108",
+      "server_port": 443,
+      "uuid": "fc0e82dd-531a-4ac1-9ebc-b68ffeab7912",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pinova.io",
+        "reality": {
+          "public_key": "bn4nV9O7aOI_pzbJsgqnyYxPX8a7efYDXqrYbxsL6V8",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔶32@oneclickvpnkeys | GB",
+      "server": "104.248.161.198",
+      "server_port": 443,
+      "uuid": "3739354c-6971-4e73-abac-bb2534fc9ed8",
+      "transport": {
+        "type": "ws",
+        "path": "/iqkrmwws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔷30@oneclickvpnkeys | 5.45s | DE | DE",
+      "server": "185.235.241.167",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌨️32@oneclickvpnkeys | NL",
+      "server": "194.87.219.24",
+      "server_port": 21755,
+      "uuid": "52d910a0-e17a-43d1-976c-d3775cf1e339",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandexcloud.net",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "HkLK62c3szw51gYtORRnPlO0v6kxOSd_aCd0J4rTKzo",
+          "short_id": "a79ee9d365da7d81",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@Selinc | DE",
+      "server": "91.99.106.117",
+      "server_port": 443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌨️35@oneclickvpnkeys | US",
+      "server": "216.106.189.107",
+      "server_port": 8443,
+      "uuid": "4468ae8a-7741-42dd-be69-d75cd94c9b0e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "iHDnFIEsw6lD514kP0JNtP1h7zlQ6AEZn6nKICyOYlY",
+          "short_id": "5eac66585cbd595c",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸20162 | US",
+      "server": "86.104.72.160",
+      "server_port": 443,
+      "uuid": "8f67a9b6-cd3b-4048-a61a-bda978894816",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "PSGeYvXG251dW51q6B9bUeSmjplvxW18JPaVsuWDZjA",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 😹 | 2.26s | AT | AT",
+      "server": "152.53.227.159",
+      "server_port": 80,
+      "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+      "transport": {
+        "type": "ws",
+        "path": "/news",
+        "headers": {
+          "Host": "cdn.ir"
+        }
+      },
+      "tls": {
+        "server_name": "cdn.ir"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@vmessprotocol اتصال بی مرز | CA",
+      "server": "142.4.216.225",
+      "server_port": 80,
+      "method": "chacha20-ietf-poly1305",
+      "password": "JIhN6rBKkaEboLNXVSv5rq"
+    },
+    {
+      "type": "vless",
+      "tag": "🔶30@oneclickvpnkeys | 4.42s | GB | GB",
+      "server": "209.97.138.185",
+      "server_port": 443,
+      "uuid": "d0c0be4b-7c56-4f3a-b779-7a7f4d91d170",
+      "transport": {
+        "type": "ws",
+        "path": "/egnyfcws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/vpnod | IS",
+      "server": "45.83.21.107",
+      "server_port": 59997,
+      "uuid": "c3dd7afc-151f-44f6-8263-ad3c8420ae2f",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "m4ipEx1PUfb6F5Uv5Mwe5g34TzdNkG_rIQ0xw-Do1mI",
+          "short_id": "816473be23c2",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ConfigV2RayNG | DE",
+      "server": "185.235.241.78",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔥Join+Telegram:@Farah_VPN🟣 | AE",
+      "server": "206.245.157.142",
+      "server_port": 37050,
+      "uuid": "fbcc8fc6-553c-497c-ba3b-855bcf6cf96c",
+      "transport": {
+        "type": "grpc",
+        "service_name": "google.com"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "3_i89UAZojlosMAy71tEepTTbX5MvpfY1Xs7UPPNGGA",
+          "short_id": "58b5bed80f",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌨️33@oneclickvpnkeys | NL",
+      "server": "194.87.219.24",
+      "server_port": 21459,
+      "uuid": "ff07d052-0444-4bbd-a6e6-0e68951995c0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "alfabank.st",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "HkLK62c3szw51gYtORRnPlO0v6kxOSd_aCd0J4rTKzo",
+          "short_id": "1a",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": ">>@oneclickvpnkeys::DE | DE_1",
+      "server": "57.129.49.1",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@appsooner کانال تلگرام 🇫🇷 | DE",
+      "server": "157.173.127.225",
+      "server_port": 443,
+      "uuid": "11beaf11-726d-4c11-8ce9-27308c1c608c",
+      "tls": {
+        "enabled": true,
+        "server_name": "analytics.google.com",
+        "utls": {
+          "fingerprint": "random",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8",
+          "short_id": "eab26c4a32",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram+|+Payam_Nsi | US",
+      "server": "92.118.112.249",
+      "server_port": 443,
+      "uuid": "e4b8df56-b680-4a34-ab47-5bf5738ed718",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "eEEraNK24HvLNi7BMiwukELj8zSIPfUCEgXL2C4fbHw",
+          "short_id": "85225c27630d023f",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "I 1236 (@Outline_Vpn) free | KZ",
+      "server": "178.236.16.98",
+      "server_port": 35728,
+      "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng",
+          "short_id": "69a2",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦20089 | CA",
+      "server": "198.50.119.86",
+      "server_port": 8080,
+      "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
+      "transport": {
+        "type": "ws",
+        "path": "/39427/Nextlife",
+        "headers": {
+          "Host": "telewebion.com"
+        }
+      },
+      "tls": {
+        "server_name": "telewebion.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "✅سرورها بیشتردرکانال:prrofile_purple@✅ | GB",
+      "server": "198.244.141.25",
+      "server_port": 25376,
+      "uuid": "e80f946d-0f7e-4ee6-a9d5-d52516c9f672",
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": ">>@oneclickvpnkeys::US | ES",
+      "server": "45.159.79.174",
+      "server_port": 443,
+      "uuid": "60ce56ac-bdba-11f0-94db-525400ca5ed1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "st.ozone.ru",
+        "utls": {
+          "fingerprint": "firefox",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "3uWYzm65qryajVsnj0Uanu8be-RhDBd6Ofy2EhQTZjw",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "📟51@oneclickvpnkeys | QA",
+      "server": "156.244.41.221",
+      "server_port": 443,
+      "uuid": "0033fda5-029e-4de3-acea-3bd45a1912e2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "K195x6sAmXL2K_9fSwMsPR8uqYF7UISl1ehaTjNhEz0",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "telegram | RU",
+      "server": "185.130.114.219",
+      "server_port": 443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@@v2ryorg+<=+کانفیگ+رایگان | US",
+      "server": "38.107.233.59",
+      "server_port": 443,
+      "uuid": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "vk.ookcdn.ru",
+        "reality": {
+          "public_key": "WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "📡85@ConfigV2RayNG | RU",
+      "server": "185.130.114.253",
+      "server_port": 443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@@v2ryorg+<=+کانفیگ+رایگان | DE",
+      "server": "91.107.243.172",
+      "server_port": 58811,
+      "uuid": "bae29f4e-017c-4462-bdb2-2c86f64a74fd",
+      "transport": {
+        "type": "grpc",
+        "service_name": "Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "⛄️63@oneclickvpnkeys] | SG",
+      "server": "66.42.61.103",
+      "server_port": 443,
+      "uuid": "36de8322-91ef-442a-bdff-b0d3be794482",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "GzxM2bh0UoMV3QnP2VJK1NTLlsSVMPUKFi53k1sa_Ss",
+          "short_id": "63a41c2f9ac8bea4",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸US_6 | ⬇️ 1.6MB/s | US",
+      "server": "99.88.80.195",
+      "server_port": 54661,
+      "uuid": "aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3",
+      "tls": {
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "1🇺🇸Argo_VPN1 | LT",
+      "server": "192.166.82.29",
+      "server_port": 59050,
+      "uuid": "29417656-42ee-430e-bd15-e95d6a7195cd",
+      "tls": {
+        "server_name": "fast.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 💦 | GB",
+      "server": "185.218.3.9",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "All_16--@V2rayAlpha | KZ",
+      "server": "83.222.23.81",
+      "server_port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
+          "short_id": "fa",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@MARAMBASHI 🩵 | NG",
+      "server": "185.255.123.166",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    },
+    {
+      "type": "vless",
+      "tag": "📟34@oneclickvpnkeys | AM",
+      "server": "77.91.68.70",
+      "server_port": 55983,
+      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "reality": {
+          "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
+          "short_id": "0e",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2rayNGVPN <= کانفیگ رایگان | FR",
+      "server": "51.68.26.124",
+      "server_port": 51928,
+      "uuid": "163a4840-588f-4b66-8444-2c9f182325b2",
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2rayNGVPN+<=+کانفیگ+رایگان | US",
+      "server": "144.31.125.86",
+      "server_port": 443,
+      "uuid": "3ee58d3a-7469-4557-b2f9-0d1d85c3a6fa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "fingerprint": "qq",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ",
+          "short_id": "9f35da6c9412b832",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "WedBaZ | Unknown",
+      "server": "104.21.3.219",
+      "server_port": 8443,
+      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+      "transport": {
+        "type": "ws",
+        "path": "/57ba2ab1",
+        "headers": {
+          "Host": "ovhwuxian.pai50288.uk"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ovhwuxian.pai50288.uk",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram:@config_proxy | DE",
+      "server": "188.34.193.153",
+      "server_port": 443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM94 | US",
+      "server": "40.160.14.104",
+      "server_port": 8880,
+      "uuid": "6251f84e-9c02-4140-921c-6b47d394fb96",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@appsooner کانال تلگرام 🇮🇳 | IN",
+      "server": "103.111.114.29",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "360e21d21977dc11"
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🙀 | KZ",
+      "server": "176.120.72.63",
+      "server_port": 38339,
+      "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA",
+          "short_id": "e16883e511",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2RAY_VMESS_free | SA",
+      "server": "213.165.60.36",
+      "server_port": 443,
+      "uuid": "e9dbc178-3656-40f8-8833-5023f306ef1d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "86e999a2cdc2",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@info_2IT_channel | PL",
+      "server": "89.223.93.176",
+      "server_port": 41348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA"
+    },
+    {
+      "type": "vless",
+      "tag": "Telegram: | US",
+      "server": "156.229.161.107",
+      "server_port": 10001,
+      "uuid": "9c79aceb-4649-44ea-9698-b5e9ecf6d6da",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4",
+          "short_id": "fb2c6678",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱20098 | CL",
+      "server": "45.82.249.129",
+      "server_port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷20100 | KR",
+      "server": "121.154.180.50",
+      "server_port": 51698,
+      "uuid": "5d42cfef-0556-4f0c-bfb7-161aef500ab5",
+      "transport": {
+        "type": "grpc",
+        "service_name": "lenovoglobal.com"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "lenovoglobal.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "PPZbDAYSwCYnPCF8BxguTFfAAZTnLnzpsHePCkGZYxo",
+          "short_id": "34",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸20206 | US",
+      "server": "40.160.4.20",
+      "server_port": 8880,
+      "uuid": "6251f84e-9c02-4140-921c-6b47d394fb96",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2RAY_VMESS_free | KR",
+      "server": "45.88.182.24",
+      "server_port": 25380,
+      "uuid": "237120d4-6f8e-47de-b50c-2c8218a720df",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "G7LvWyxJWO4f-YKZM-Nf7n3hd3AHfThLX3aOIC2qKXg",
+          "short_id": "d6cd",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون 🫠 | DE",
+      "server": "185.235.241.86",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      },
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@MARAMBASHI 🇫🇮 | AU",
+      "server": "45.15.185.69",
+      "server_port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@V2rayNGVPN+<=+کانفیگ+رایگان | BO",
+      "server": "185.93.173.60",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    },
+    {
+      "type": "vless",
+      "tag": "سرور های پرسرعت بیشتر در چنل🌋@vmesc | DE",
+      "server": "179.61.251.78",
+      "server_port": 443,
+      "uuid": "fabc8a38-76c5-48fe-ada7-a9e52dd16225",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw",
+          "short_id": "0ff58d687a4c6c",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@hopev2ray💚 | Unknown_1",
+      "server": "172.67.153.156",
+      "server_port": 8443,
+      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+      "transport": {
+        "type": "ws",
+        "path": "/57ba2ab1",
+        "headers": {
+          "Host": "ovhwuxian.pai50288.uk"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ovhwuxian.pai50288.uk",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray313 کانالمون ❤️‍🔥 | HU",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        },
+        "reality": {
+          "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
+          "short_id": "4ae260",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ConfigV2RayNG | US",
+      "server": "40.160.6.133",
+      "server_port": 8880,
+      "uuid": "6251f84e-9c02-4140-921c-6b47d394fb96",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "I 1152 (@filterking1) free | NL",
+      "server": "212.34.140.184",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "0NeN5ta7FLa5B9DLytU0um"
+    },
+    {
+      "type": "vless",
+      "tag": "🔶68@oneclickvpnkeys | 3.76s | GB | GB",
+      "server": "64.227.47.120",
+      "server_port": 443,
+      "uuid": "912eacc1-42b4-4d0f-a8ba-abb825c1d468",
+      "transport": {
+        "type": "ws",
+        "path": "/ulptgqws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "api.avito.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 231 - US - VLESS/GRPC - 8880 | US",
+      "server": "45.82.251.95",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM91 | US",
+      "server": "40.160.4.127",
+      "server_port": 8880,
+      "uuid": "6251f84e-9c02-4140-921c-6b47d394fb96",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@hopev2ray💚 | Unknown_2",
+      "server": "104.26.1.221",
+      "server_port": 443,
+      "uuid": "3f9c8463-8610-3ed8-86c8-a26713067825",
+      "transport": {
+        "type": "ws",
+        "path": "/db10240eb751d6ab",
+        "headers": {
+          "Host": "dabaius2.sylu.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "dabaius2.sylu.net",
+        "utls": {
+          "fingerprint": "chrome",
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "Proxy",
+    "rules": [
+      {
+        "inbound": [
+          "tun-in",
+          "mixed-in"
+        ],
+        "action": "sniff"
+      },
+      {
+        "type": "logical",
+        "mode": "or",
+        "rules": [
+          {
+            "port": 53
+          },
+          {
+            "protocol": "dns"
+          }
+        ],
+        "action": "hijack-dns"
+      },
+      {
+        "rule_set": "geosite-category-ads-all",
+        "clash_mode": "rule",
+        "action": "reject"
+      },
+      {
+        "rule_set": "geosite-category-ads-all",
+        "clash_mode": "global",
+        "outbound": "Proxy"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "Proxy"
+      },
+      {
+        "domain": [
+          "clash.razord.top",
+          "yacd.metacubex.one",
+          "yacd.haishan.me",
+          "d.metacubex.one"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geosite-openai",
+        "outbound": "OpenAI"
+      },
+      {
+        "rule_set": [
+          "geosite-youtube",
+          "geoip-google",
+          "geosite-google",
+          "geosite-github"
+        ],
+        "outbound": "Google"
+      },
+      {
+        "rule_set": [
+          "geoip-telegram",
+          "geosite-telegram"
+        ],
+        "outbound": "Telegram"
+      },
+      {
+        "rule_set": [
+          "geoip-twitter",
+          "geosite-twitter"
+        ],
+        "outbound": "Twitter"
+      },
+      {
+        "rule_set": [
+          "geoip-facebook",
+          "geosite-facebook"
+        ],
+        "outbound": "Facebook"
+      },
+      {
+        "rule_set": "geosite-bilibili",
+        "outbound": "BiliBili"
+      },
+      {
+        "rule_set": "geosite-bahamut",
+        "outbound": "Bahamut"
+      },
+      {
+        "rule_set": "geosite-spotify",
+        "outbound": "Spotify"
+      },
+      {
+        "rule_set": "geosite-tiktok",
+        "outbound": "TikTok"
+      },
+      {
+        "rule_set": [
+          "geoip-netflix",
+          "geosite-netflix"
+        ],
+        "outbound": "Netflix"
+      },
+      {
+        "rule_set": "geosite-disney",
+        "outbound": "Disney+"
+      },
+      {
+        "rule_set": [
+          "geoip-apple",
+          "geosite-apple",
+          "geosite-amazon"
+        ],
+        "outbound": "Apple"
+      },
+      {
+        "rule_set": "geosite-microsoft",
+        "outbound": "Microsoft"
+      },
+      {
+        "rule_set": [
+          "geosite-category-games",
+          "geosite-dmm"
+        ],
+        "outbound": "Games"
+      },
+      {
+        "rule_set": [
+          "geosite-hbo",
+          "geosite-primevideo"
+        ],
+        "outbound": "Streaming"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "outbound": "Global"
+      },
+      {
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "outbound": "China"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-category-ads-all",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-openai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/Toperlock/sing-box-geosite@main/rule/OpenAI.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-youtube",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/google.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-github",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/github.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-bilibili",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-bahamut",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bahamut.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-spotify",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/spotify.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-tiktok",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/netflix.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/netflix.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-disney",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/disney.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-apple",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/apple.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-apple",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-amazon",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/amazon.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-microsoft",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-category-games",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-games.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-dmm",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/dmm.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-hbo",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/hbo.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-primevideo",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/primevideo.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-geolocation-!cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
+        "download_detour": "direct"
+      }
+    ]
+  }
+}
