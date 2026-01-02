@@ -59,62 +59,510 @@ tun:
 
 proxies:
   - type: ss
-    name: "@vmessprotocol اتصال بی مرز | CA"
-    server: 142.4.216.225
-    port: 80
+    name: defaultName
+    server: 103.106.3.82
+    port: 443
     cipher: chacha20-ietf-poly1305
-    password: JIhN6rBKkaEboLNXVSv5rq
+    password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
   - type: ss
-    name: "@MARAMBASHI 🩵 | NG"
+    name: defaultName_1
+    server: 192.71.244.150
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: "@V2RAY_VMESS_free | AR"
+    server: 38.54.45.129
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: Telegram:@zede_filteri | TR
+    server: 5.188.36.93
+    port: 31348
+    cipher: chacha20-ietf-poly1305
+    password: nYRhTCZdQLExK6ewVHgHS2mlv4FCysKyeyTTfhRdEgdeeRN0
+  - type: ss
+    name: "@IRAN_V2RAY1 | MT"
+    server: 171.22.254.129
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: "[ | NG"
     server: 185.255.123.166
     port: 990
     cipher: chacha20-ietf-poly1305
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   - type: ss
-    name: "@appsooner کانال تلگرام 🇮🇳 | IN"
-    server: 103.111.114.29
-    port: 57456
+    name: 🇬🇧GB-5048-NetFreedom0 | GB
+    server: 82.38.31.199
+    port: 8080
     cipher: chacha20-ietf-poly1305
-    password: 360e21d21977dc11
+    password: k1dBOmOB4oqi7Ump37a1bQ
   - type: ss
-    name: "@info_2IT_channel | PL"
+    name: Telegram:@config_proxy | PA
+    server: 138.186.142.80
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: t.me/OutlineVpnOfficial | AU
+    server: 103.75.119.38
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: t.me/OutlineVpnOfficial | MA
+    server: 188.214.157.30
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: t.me/OutlineVpnOfficial | EC
+    server: 38.165.231.25
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: 🔰@Fast_2ray 👈سرورهای‌بیشتر | NL
+    server: 212.34.140.184
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 0NeN5ta7FLa5B9DLytU0um
+  - type: ss
+    name: 🇮🇳IN | @OutlineReleasedKey | IN
+    server: 82.180.146.173
+    port: 30607
+    cipher: aes-128-gcm
+    password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70
+  - type: ss
+    name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | LU
+    server: 45.12.144.18
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: LQyAUItafUmmO3EZZx9UbiX6IGydSBgL
+  - type: ss
+    name: ">>@v2rayNG_Matsuri::XX | AE"
+    server: 147.78.0.182
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: Telegram:@config_proxy | DE
+    server: 37.221.125.38
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: JQcc2rIZtXamatRYAINIddMom3MBu7zF
+  - type: ss
+    name: "@MARAMBASHI 🇮🇹 | CA"
+    server: 23.95.76.147
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: "@V2RAY_VMESS_free | PE"
+    server: 138.186.143.32
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: defaultName_2
+    server: 185.47.252.251
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: AZARBAYJAB1 | BH
+    server: 38.54.2.182
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: telegram 🚀 dailyv2ry | HK
+    server: 45.82.252.109
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: ">>@v2rayNG_Matsuri::AR | AR"
+    server: 190.103.176.32
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: 🇺🇸_US_美国 | EC
+    server: 185.47.253.227
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: "[ | GT"
+    server: 185.47.254.87
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: https://t.me/v2rayNplus | MX
+    server: 147.78.1.27
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: "@v2rayCrow | IN"
+    server: 82.180.146.173
+    port: 35652
+    cipher: aes-128-gcm
+    password: 93498539-7838-4836-b9b3-8311ffc79bcf
+  - type: ss
+    name: 🇬🇧_GB_英国->🇺🇸_US_美国 | GB
+    server: 141.98.101.182
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - type: ss
+    name: t.me/OutlineVpnOfficial | PL
     server: 89.223.93.176
     port: 41348
     cipher: chacha20-ietf-poly1305
     password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA
   - type: ss
-    name: "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
-    server: 185.93.173.60
+    name: ">>@v2rayNG_Matsuri::CY | CY"
+    server: 134.255.210.49
     port: 990
     cipher: chacha20-ietf-poly1305
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   - type: ss
-    name: I 1152 (@filterking1) free | NL
-    server: 212.34.140.184
+    name: t.me/entryNET/config=1853184547500383 | NL
+    server: 45.14.245.2
     port: 443
     cipher: chacha20-ietf-poly1305
-    password: 0NeN5ta7FLa5B9DLytU0um
+    password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  - type: ss
+    name: 🇬🇧GB-5046-NetFreedom0 | GB
+    server: 82.38.31.176
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: BESTIIVPNBOT | NL
+    server: 178.173.250.47
+    port: 56033
+    cipher: chacha20-ietf-poly1305
+    password: 5LD874oS39jQ26cT97NaAo
+  - type: ss
+    name: BESTIIVPNBOT | DE
+    server: 196.240.57.34
+    port: 57456
+    cipher: chacha20-ietf-poly1305
+    password: 6a85b249286a74a9
+  - type: ss
+    name: BESTIIVPNBOT | RU
+    server: 90.156.203.62
+    port: 5112
+    cipher: chacha20-ietf-poly1305
+    password: VVlAff77CnAU43Aoc5j15Y
+  - type: ss
+    name: defaultName_3
+    server: 194.87.216.218
+    port: 52571
+    cipher: chacha20-ietf-poly1305
+    password: l8u2nFLk0Rh1fJty0nMj6C
+  - type: ss
+    name: Telegram:@zede_filteri | DK
+    server: 95.164.10.228
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo
+  - type: ss
+    name: 🇬🇧GB-0278-NetFreedom0 | GB
+    server: 82.38.31.179
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: 🇲🇰20279 | MK
+    server: 46.183.185.37
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: defaultName_4
+    server: 77.238.224.29
+    port: 55702
+    cipher: chacha20-ietf-poly1305
+    password: S2QudBxi0vRySw4YRLloPq
+  - type: ss
+    name: 🇵🇱19@shadowsockskeys | PL
+    server: 45.15.126.19
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t
+  - type: ss
+    name: ">>@v2rayNG_Matsuri::DE | AT"
+    server: 5.181.21.246
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: gKYygTcRYhc3skc2x6tZ073lYz0DnieX
+  - type: ss
+    name: 🇷🇺87@shadowsockskeys | RO
+    server: 5.182.37.87
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: Oy4TsrxfaJExUIhlcSqHpVQIWIFM2jZR
+  - type: ss
+    name: ">>@v2rayNG_Matsuri::XX | IN"
+    server: 103.97.203.227
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: 🇲🇩21@shadowsockskeys | AM
+    server: 213.159.76.21
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: pNqnYf3kHesOpCchRvUZxfwTafRsOj7g
+  - type: ss
+    name: 🇧🇷BR-0361-NetFreedom0 | BR
+    server: 185.192.124.188
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: "@V2RAY_VMESS_free | BR"
+    server: 38.54.57.90
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: Telegram:@zede_filteri | RS
+    server: 45.89.55.173
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: ixPymFma6P7U41wk9MNP7znPnvax3mjd
+  - type: ss
+    name: 🎡77@oneclickvpnkeys | NL
+    server: 136.244.100.113
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: yODLXVLz2FWNTFeSSng3Fm
+  - type: ss
+    name: All_4--@V2rayAlpha | US
+    server: 23.95.75.146
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  - type: ss
+    name: telegram @V_2rayng0 | US
+    server: 64.74.163.218
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - type: ss
+    name: ">>@v2rayNG_Matsuri::BH | BH"
+    server: 154.205.146.153
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: defaultName_5
+    server: 45.144.31.24
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA
+  - type: ss
+    name: AZARBAYJAB1 | PT
+    server: 185.113.143.186
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: "@awlix_ir | CA"
+    server: 45.154.204.7
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: 🎡46@oneclickvpnkeys | PT
+    server: 45.83.142.237
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: nxgsmHkP3JU7hbQkJfxgpXh5tlvXe1en
+  - type: ss
+    name: ">>@v2ray_configs_pool::PA | PA"
+    server: 138.186.142.81
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: "@vpnv2rayNGv | CL"
+    server: 38.54.20.59
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - type: ss
+    name: t.me/OutlineVpnOfficial | NG
+    server: 185.255.123.110
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: WiFi-@V2rayAlpha--3 | TR
+    server: 95.164.116.33
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+  - type: ss
+    name: "[ | IT"
+    server: 176.126.83.158
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - type: ss
+    name: 🇮🇪10@shadowsockskeys | IE
+    server: 38.180.152.210
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - type: ss
+    name: defaultName_6
+    server: 154.205.153.107
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@vmessprotocol اتصال بی مرز | CA"
-      - "@MARAMBASHI 🩵 | NG"
-      - "@appsooner کانال تلگرام 🇮🇳 | IN"
-      - "@info_2IT_channel | PL"
-      - "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
-      - I 1152 (@filterking1) free | NL
+      - defaultName
+      - defaultName_1
+      - "@V2RAY_VMESS_free | AR"
+      - Telegram:@zede_filteri | TR
+      - "@IRAN_V2RAY1 | MT"
+      - "[ | NG"
+      - 🇬🇧GB-5048-NetFreedom0 | GB
+      - Telegram:@config_proxy | PA
+      - t.me/OutlineVpnOfficial | AU
+      - t.me/OutlineVpnOfficial | MA
+      - t.me/OutlineVpnOfficial | EC
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر | NL
+      - 🇮🇳IN | @OutlineReleasedKey | IN
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | LU
+      - ">>@v2rayNG_Matsuri::XX | AE"
+      - Telegram:@config_proxy | DE
+      - "@MARAMBASHI 🇮🇹 | CA"
+      - "@V2RAY_VMESS_free | PE"
+      - defaultName_2
+      - AZARBAYJAB1 | BH
+      - telegram 🚀 dailyv2ry | HK
+      - ">>@v2rayNG_Matsuri::AR | AR"
+      - 🇺🇸_US_美国 | EC
+      - "[ | GT"
+      - https://t.me/v2rayNplus | MX
+      - "@v2rayCrow | IN"
+      - 🇬🇧_GB_英国->🇺🇸_US_美国 | GB
+      - t.me/OutlineVpnOfficial | PL
+      - ">>@v2rayNG_Matsuri::CY | CY"
+      - t.me/entryNET/config=1853184547500383 | NL
+      - 🇬🇧GB-5046-NetFreedom0 | GB
+      - BESTIIVPNBOT | NL
+      - BESTIIVPNBOT | DE
+      - BESTIIVPNBOT | RU
+      - defaultName_3
+      - Telegram:@zede_filteri | DK
+      - 🇬🇧GB-0278-NetFreedom0 | GB
+      - 🇲🇰20279 | MK
+      - defaultName_4
+      - 🇵🇱19@shadowsockskeys | PL
+      - ">>@v2rayNG_Matsuri::DE | AT"
+      - 🇷🇺87@shadowsockskeys | RO
+      - ">>@v2rayNG_Matsuri::XX | IN"
+      - 🇲🇩21@shadowsockskeys | AM
+      - 🇧🇷BR-0361-NetFreedom0 | BR
+      - "@V2RAY_VMESS_free | BR"
+      - Telegram:@zede_filteri | RS
+      - 🎡77@oneclickvpnkeys | NL
+      - All_4--@V2rayAlpha | US
+      - telegram @V_2rayng0 | US
+      - ">>@v2rayNG_Matsuri::BH | BH"
+      - defaultName_5
+      - AZARBAYJAB1 | PT
+      - "@awlix_ir | CA"
+      - 🎡46@oneclickvpnkeys | PT
+      - ">>@v2ray_configs_pool::PA | PA"
+      - "@vpnv2rayNGv | CL"
+      - t.me/OutlineVpnOfficial | NG
+      - WiFi-@V2rayAlpha--3 | TR
+      - "[ | IT"
+      - 🇮🇪10@shadowsockskeys | IE
+      - defaultName_6
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - "@vmessprotocol اتصال بی مرز | CA"
-      - "@MARAMBASHI 🩵 | NG"
-      - "@appsooner کانال تلگرام 🇮🇳 | IN"
-      - "@info_2IT_channel | PL"
-      - "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
-      - I 1152 (@filterking1) free | NL
+      - defaultName
+      - defaultName_1
+      - "@V2RAY_VMESS_free | AR"
+      - Telegram:@zede_filteri | TR
+      - "@IRAN_V2RAY1 | MT"
+      - "[ | NG"
+      - 🇬🇧GB-5048-NetFreedom0 | GB
+      - Telegram:@config_proxy | PA
+      - t.me/OutlineVpnOfficial | AU
+      - t.me/OutlineVpnOfficial | MA
+      - t.me/OutlineVpnOfficial | EC
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر | NL
+      - 🇮🇳IN | @OutlineReleasedKey | IN
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | LU
+      - ">>@v2rayNG_Matsuri::XX | AE"
+      - Telegram:@config_proxy | DE
+      - "@MARAMBASHI 🇮🇹 | CA"
+      - "@V2RAY_VMESS_free | PE"
+      - defaultName_2
+      - AZARBAYJAB1 | BH
+      - telegram 🚀 dailyv2ry | HK
+      - ">>@v2rayNG_Matsuri::AR | AR"
+      - 🇺🇸_US_美国 | EC
+      - "[ | GT"
+      - https://t.me/v2rayNplus | MX
+      - "@v2rayCrow | IN"
+      - 🇬🇧_GB_英国->🇺🇸_US_美国 | GB
+      - t.me/OutlineVpnOfficial | PL
+      - ">>@v2rayNG_Matsuri::CY | CY"
+      - t.me/entryNET/config=1853184547500383 | NL
+      - 🇬🇧GB-5046-NetFreedom0 | GB
+      - BESTIIVPNBOT | NL
+      - BESTIIVPNBOT | DE
+      - BESTIIVPNBOT | RU
+      - defaultName_3
+      - Telegram:@zede_filteri | DK
+      - 🇬🇧GB-0278-NetFreedom0 | GB
+      - 🇲🇰20279 | MK
+      - defaultName_4
+      - 🇵🇱19@shadowsockskeys | PL
+      - ">>@v2rayNG_Matsuri::DE | AT"
+      - 🇷🇺87@shadowsockskeys | RO
+      - ">>@v2rayNG_Matsuri::XX | IN"
+      - 🇲🇩21@shadowsockskeys | AM
+      - 🇧🇷BR-0361-NetFreedom0 | BR
+      - "@V2RAY_VMESS_free | BR"
+      - Telegram:@zede_filteri | RS
+      - 🎡77@oneclickvpnkeys | NL
+      - All_4--@V2rayAlpha | US
+      - telegram @V_2rayng0 | US
+      - ">>@v2rayNG_Matsuri::BH | BH"
+      - defaultName_5
+      - AZARBAYJAB1 | PT
+      - "@awlix_ir | CA"
+      - 🎡46@oneclickvpnkeys | PT
+      - ">>@v2ray_configs_pool::PA | PA"
+      - "@vpnv2rayNGv | CL"
+      - t.me/OutlineVpnOfficial | NG
+      - WiFi-@V2rayAlpha--3 | TR
+      - "[ | IT"
+      - 🇮🇪10@shadowsockskeys | IE
+      - defaultName_6
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -134,12 +582,68 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@vmessprotocol اتصال بی مرز | CA"
-      - "@MARAMBASHI 🩵 | NG"
-      - "@appsooner کانال تلگرام 🇮🇳 | IN"
-      - "@info_2IT_channel | PL"
-      - "@V2rayNGVPN+<=+کانفیگ+رایگان | BO"
-      - I 1152 (@filterking1) free | NL
+      - defaultName
+      - defaultName_1
+      - "@V2RAY_VMESS_free | AR"
+      - Telegram:@zede_filteri | TR
+      - "@IRAN_V2RAY1 | MT"
+      - "[ | NG"
+      - 🇬🇧GB-5048-NetFreedom0 | GB
+      - Telegram:@config_proxy | PA
+      - t.me/OutlineVpnOfficial | AU
+      - t.me/OutlineVpnOfficial | MA
+      - t.me/OutlineVpnOfficial | EC
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر | NL
+      - 🇮🇳IN | @OutlineReleasedKey | IN
+      - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 | LU
+      - ">>@v2rayNG_Matsuri::XX | AE"
+      - Telegram:@config_proxy | DE
+      - "@MARAMBASHI 🇮🇹 | CA"
+      - "@V2RAY_VMESS_free | PE"
+      - defaultName_2
+      - AZARBAYJAB1 | BH
+      - telegram 🚀 dailyv2ry | HK
+      - ">>@v2rayNG_Matsuri::AR | AR"
+      - 🇺🇸_US_美国 | EC
+      - "[ | GT"
+      - https://t.me/v2rayNplus | MX
+      - "@v2rayCrow | IN"
+      - 🇬🇧_GB_英国->🇺🇸_US_美国 | GB
+      - t.me/OutlineVpnOfficial | PL
+      - ">>@v2rayNG_Matsuri::CY | CY"
+      - t.me/entryNET/config=1853184547500383 | NL
+      - 🇬🇧GB-5046-NetFreedom0 | GB
+      - BESTIIVPNBOT | NL
+      - BESTIIVPNBOT | DE
+      - BESTIIVPNBOT | RU
+      - defaultName_3
+      - Telegram:@zede_filteri | DK
+      - 🇬🇧GB-0278-NetFreedom0 | GB
+      - 🇲🇰20279 | MK
+      - defaultName_4
+      - 🇵🇱19@shadowsockskeys | PL
+      - ">>@v2rayNG_Matsuri::DE | AT"
+      - 🇷🇺87@shadowsockskeys | RO
+      - ">>@v2rayNG_Matsuri::XX | IN"
+      - 🇲🇩21@shadowsockskeys | AM
+      - 🇧🇷BR-0361-NetFreedom0 | BR
+      - "@V2RAY_VMESS_free | BR"
+      - Telegram:@zede_filteri | RS
+      - 🎡77@oneclickvpnkeys | NL
+      - All_4--@V2rayAlpha | US
+      - telegram @V_2rayng0 | US
+      - ">>@v2rayNG_Matsuri::BH | BH"
+      - defaultName_5
+      - AZARBAYJAB1 | PT
+      - "@awlix_ir | CA"
+      - 🎡46@oneclickvpnkeys | PT
+      - ">>@v2ray_configs_pool::PA | PA"
+      - "@vpnv2rayNGv | CL"
+      - t.me/OutlineVpnOfficial | NG
+      - WiFi-@V2rayAlpha--3 | TR
+      - "[ | IT"
+      - 🇮🇪10@shadowsockskeys | IE
+      - defaultName_6
 rule-providers:
   LocalAreaNetwork:
     type: http
