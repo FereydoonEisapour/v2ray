@@ -10,10 +10,10 @@ dns:
   fake-ip-range: 198.18.0.1/16
   default-nameserver:
   - 223.5.5.5
-  - 114.114.114.114
+  - 8.8.8.8
   nameserver:
   - https://dns.alicdn.com/dns-query
-  - https://8.8.8.8/dns-query
+  - https://1.1.1.1/dns-query
 tun:
   enable: true
   stack: system
@@ -8739,5 +8739,4 @@ proxy-groups:
 rules:
 - DOMAIN-SUFFIX,ir,DIRECT
 - GEOIP,IR,DIRECT
-- GEOIP,CN,DIRECT
 - MATCH,🐟 漏网之鱼
