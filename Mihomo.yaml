@@ -46,365 +46,45 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: vmess
+    type: vmess
+    server: 1.0.2.3
+    port: 2095
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: v2rayse.com/test
+      headers:
+        Host: baidu.com
+  - name: vless
+    type: vless
+    server: 1.2.3.4
+    port: 7777
+    uuid: abc-def-ghi-fge-zsx
+    tls: true
+  - name: hysteria
+    type: hysteria
+    server: 1.2.3.4
+    port: 12854
+    auth_str: pekopeko
+    up: "50"
+    down: "250"
+    sni: wechat.com
+    skip-cert-verify: true
+    alpn:
+      - h3
   - name: oneclickvpnkeys
-    type: vless
-    server: 162.159.152.4
-    port: 2083
-    uuid: a861157a-e465-44bf-8a81-338cf1aa030b
-    network: ws
-    servername: panel.captainsparo.ir
-    tls: true
-    ws-opts:
-      path: /path
-      headers:
-        Host: panel.captainsparo.ir
-  - name: oneclickvpnkeys_1
-    type: vless
-    server: 144.31.100.120
+    type: hysteria2
+    server: example.com
     port: 443
-    uuid: d9e9cf27-dea6-4f57-94e9-c8182f7259e9
-    servername: google.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ihtXyG0UidSbXjvCJXUhABwZGCCB62DUsVBFn_qVd3g
-      short-id: 1283729a0a9c1f
-  - name: new_mtproxi2
-    type: vless
-    server: 185.18.250.252
-    port: 443
-    uuid: 22e7f0d3-8d3b-40c7-a1c5-8a912f6a16b3
-    network: ws
-    servername: cdn.55994421.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /memo
-      headers:
-        Host: cdn.55994421.xyz
+    password: P@ssw0rd1234
+    sni: www.google.com
+    skip-cert-verify: false
   - name: v2ray_extractor
-    type: vless
-    server: betty.ns.cloudflare.com
-    port: 443
-    uuid: 916a99fa-f087-408a-a70e-070ac00af6f9
-    network: ws
-    servername: 639052472056055024.altima-rvltnb.info
-    tls: true
-    ws-opts:
-      path: /zyaqdsws
-      headers:
-        Host: 639052472056055024.altima-rvltnb.info
-  - name: new_mtproxi2_1
-    type: vless
-    server: 104.17.165.123
-    port: 443
-    uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
-    network: ws
-    servername: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-  - name: dingyue_center
-    type: vless
-    server: 38.207.190.137
-    port: 57623
-    uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
-    servername: ts3.tc.mm.bing.net
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: BL4bEP5My8N4j8hOkg-lI-JVrFou4eC7nSzD6Gk19DU
-      short-id: a0ed5ba7
-  - name: v2ray_extractor_1
-    type: vless
-    server: clyde.ns.cloudflare.com
-    port: 443
-    uuid: 4154ddec-dc96-43cc-95bb-43dc03bdcd65
-    network: ws
-    servername: 639052472056060764.altima-rvltnb.info
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /afjbtmws
-      headers:
-        Host: 639052472056060764.altima-rvltnb.info
-  - name: wiki_tajrobe
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: wiki_tajrobe_1
-    type: vless
-    server: ab.fxgoldensignals.com
-    port: 8443
-    uuid: 636728f4-c7b1-47a3-91b0-243b258f997e
-    tls: false
-  - name: wiki_tajrobe_2
-    type: vless
-    server: 172.64.145.38
-    port: 8443
-    uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
-    network: ws
-    servername: vyznthvt7f5fr.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: vyznthvt7f5fr.zjde5.de5.net
-  - name: v2ray_extractor_2
-    type: vless
-    server: 104.18.32.47
-    port: 80
-    uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-  - name: v2ray_extractor_3
-    type: vless
-    server: 144.31.1.227
-    port: 8443
-    uuid: 5f836386-335e-43a0-951a-f37fd587bc18
-    servername: sun6-22.userapi.com:443
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: VhT5-8PFSKq2_FYnMxyRXL-JWTolibtq00XLUqkhjRU
-  - name: oneclickvpnkeys_2
-    type: vless
-    server: 185.214.74.184
-    port: 443
-    uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
-      short-id: ffffffffff
-  - name: vpnbaz
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: wiki_tajrobe_3
-    type: vless
-    server: tun.aws-sub.com
-    port: 1017
-    uuid: ed2513b5-9974-4fb0-acd6-25fd556fb255
-    servername: ub.com
-    tls: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: CAdP5-sUePkDhbiFJlK9jFK_8ay3k3BALdwbiNyXaTE
-      short-id: 83f404
-  - name: vpnbaz_1
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 83adcc98-ac23-4e51-9ae0-788a73fd9939
-    network: ws
-    servername: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-  - name: v2ray_extractor_4
-    type: vless
-    server: 15.204.97.169
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: FreakConfig
-    type: vless
-    server: 66.81.247.155
-    port: 8443
-    uuid: bbdab850-9164-43f3-adf9-26f7c5458e9d
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: configraygan
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: b56472a0-a042-4d68-872b-b7b4388fd82f
-    network: ws
-    servername: kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net
-  - name: new_mtproxi2_2
-    type: vless
-    server: 172.64.145.38
-    port: 443
-    uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
-    network: ws
-    servername: vyznthvt7f5fr.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: vyznthvt7f5fr.zjde5.de5.net
-  - name: wiki_tajrobe_4
-    type: vless
-    server: 104.17.164.123
-    port: 8443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: new_mtproxi2_3
-    type: vless
-    server: 104.18.15.19
-    port: 8443
-    uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
-    network: ws
-    servername: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
-  - name: wiki_tajrobe_5
-    type: vless
-    server: 172.64.149.99
-    port: 8443
-    uuid: 2ddeb056-17d4-421e-a318-39428733d4a2
-    network: ws
-    servername: 8p3cfl0ripm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=2048
-      headers:
-        Host: 8p3cfl0ripm.zjde5.de5.net
-  - name: v2ray_extractor_5
-    type: vless
-    server: 15.204.97.164
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: configraygan_1
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-ALIXTSOALIXTOSALIXTSOALIXTOALIXTSOALIXTOS?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: new_mtproxi2_4
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 83adcc98-ac23-4e51-9ae0-788a73fd9939
-    network: ws
-    servername: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-  - name: wiki_tajrobe_6
-    type: vless
-    server: arya.zaravds.cfd
-    port: 1050
-    uuid: 4ef2801b-c828-4de9-bd8e-a9b516e05dd2
-    tls: false
-  - name: vpnbaz_2
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#ABASBIJAN?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: wiki_tajrobe_7
-    type: vless
-    server: 31.56.117.136
-    port: 443
-    uuid: 3faffd2e-8901-415a-913c-d65dca1e6ea7
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: RhoGmhreM57SAkedZHIms4M7nqCJKZ8i-o-_0itirQ4
-      short-id: 434e9b8e71a328ae
-  - name: oneclickvpnkeys_3
-    type: vless
-    server: 151.236.15.72
-    port: 444
-    uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
-    servername: opensuse.org
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
-      short-id: 82b9ca5d8d39ba72
-  - name: v2ray_extractor_6
     type: vless
     server: 37.120.184.180
     port: 80
@@ -415,1993 +95,7 @@ proxies:
       path: /news
       headers:
         Host: cdn.ir
-  - name: new_mtproxi2_5
-    type: vless
-    server: 66.81.247.155
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=#TELEGRAM-ALIXTSO?ed=512
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: configraygan_2
-    type: vless
-    server: 140.238.100.35
-    port: 40721
-    uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-      short-id: df8611c07d
-  - name: vpnbaz_3
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 3200012b-b38b-4184-b503-1bad9a52b2d6
-    network: ws
-    servername: kf6e9f48l1a98c4tcclaj4f9vz3rqui9y4.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kf6e9f48l1a98c4tcclaj4f9vz3rqui9y4.zjde5.de5.net
-  - name: vpnbaz_4
-    type: vless
-    server: clyde.ns.cloudflare.com
-    port: 443
-    uuid: 4154ddec-dc96-43cc-95bb-43dc03bdcd65
-    network: ws
-    servername: 639052472056060764.altima-rvltnb.info
-    tls: true
-    ws-opts:
-      path: /afjbtmws
-      headers:
-        Host: 639052472056060764.altima-rvltnb.info
-  - name: wiki_tajrobe_8
-    type: vless
-    server: 104.18.15.19
-    port: 8443
-    uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
-    network: ws
-    servername: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-  - name: v2ray_extractor_7
-    type: vless
-    server: 138.124.79.3
-    port: 443
-    uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-    servername: sun6-21.userapi.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: vpnbaz_5
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: v2ray_extractor_8
-    type: vless
-    server: 179.61.132.58
-    port: 32143
-    uuid: d4a0cc8c-2f9c-41fb-a5b8-d60c9a2a347d
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-  - name: wiki_tajrobe_9
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: new_mtproxi2_6
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-VPNMAAN_VPNMAAN_VPNMAAN_VPNMAAN_VPNMAAN?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: new_mtproxi2_7
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: v2ray_extractor_9
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
-  - name: new_mtproxi2_8
-    type: vless
-    server: 66.81.247.155
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: wiki_tajrobe_10
-    type: vless
-    server: ipbaz.ping-box.com
-    port: 8443
-    uuid: 8f1a15bf-a352-4c32-aee2-957039a6847b
-    network: ws
-    servername: 6nwf5rauksz8126xm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: 6nwf5rauksz8126xm.zjde5.de5.net
-  - name: v2ray_extractor_10
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 5eb9b54d-3c4e-4588-97f7-e53fe3e92c90
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: GLOrioUs-aRriVALHCRtzt96gb.sPORtlANd.cOMPAnY.
-  - name: oneclickvpnkeys_4
-    type: vless
-    server: 91.99.218.107
-    port: 51269
-    uuid: 0341d8f2-99e0-4f6c-af0a-345ac26815cf
-    network: grpc
-    tls: false
-  - name: V2RAY_SPATIAL
-    type: vless
-    server: 66.81.247.155
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=512
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: configraygan_3
-    type: vless
-    server: 147.45.60.6
-    port: 443
-    uuid: beab408c-6aa3-43b9-a1ca-e6fabba5d8e7
-    servername: yahoo.com
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM
-  - name: oneclickvpnkeys_5
-    type: vless
-    server: 46.62.128.207
-    port: 443
-    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-    servername: www.cloudflare.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-      short-id: 7cad5040
-  - name: v2ray_extractor_11
-    type: vless
-    server: clyde.ns.cloudflare.com
-    port: 443
-    uuid: 44685034-88bb-4a40-a5c8-97559d2179e9
-    network: ws
-    servername: 639052472056058285.altima-rvltnb.info
-    tls: true
-    ws-opts:
-      path: /felaouws
-      headers:
-        Host: 639052472056058285.altima-rvltnb.info
-  - name: tv2rayrr
-    type: vless
-    server: 77.91.68.70
-    port: 55983
-    uuid: f667a096-5231-4cfb-8759-92bb32473139
-    servername: yahoo.com
-    tls: true
-    reality-opts:
-      public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-      short-id: 0e
-  - name: v2ray_extractor_12
-    type: vless
-    server: 15.204.97.167
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: oneclickvpnkeys_6
-    type: vless
-    server: 87.239.106.153
-    port: 8443
-    uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
-    servername: m.vk.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-      short-id: 48fccabc158a4c22
-  - name: vpnbaz_6
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 5073081a-a4a6-46e6-a3f5-ff6bb0bbdfab
-    network: ws
-    servername: 4f009rpo6n.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: 4f009rpo6n.zjde5.de5.net
-  - name: vpnbaz_7
-    type: vless
-    server: us-2.bot-iphone.ru
-    port: 8443
-    uuid: 9c42819a-67a6-4742-9c6d-64900ba62160
-    servername: samsung.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: new_mtproxi2_9
-    type: vless
-    server: 172.64.152.23
-    port: 443
-    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
-    network: ws
-    servername: pages.dev
-    tls: true
-    ws-opts:
-      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-      headers:
-        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
-  - name: vpnbaz_8
-    type: vless
-    server: 212.111.84.82
-    port: 443
-    uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
-    servername: m.vk.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-      short-id: f4b4a6365558ea2e
-  - name: vpnbaz_9
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed=512
-      headers:
-        Host: bIZARRe-CEntEryZCvddNcfJ.spORtLand.COmPANY.
-  - name: vpnbaz_10
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: tv2rayrr_1
-    type: vless
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-  - name: oneclickvpnkeys_7
-    type: vless
-    server: 8.6.112.0
-    port: 2083
-    uuid: 96d9bcb0-9ad2-48be-85a2-a9ab3a005261
-    network: ws
-    servername: ds1-mx-fn154-protection.iranlease.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ds1-mx-fn154-protection.iranlease.com
-  - name: v2ray_extractor_13
-    type: vless
-    server: gody.xrayshop.store
-    port: 54230
-    uuid: 4ed0f31f-a400-4012-be63-b7104ce1bb1e
-    tls: false
-  - name: wiki_tajrobe_11
-    type: vless
-    server: fi1.persianhostnet.ir
-    port: 5121
-    uuid: 38cc3dff-5114-429f-9a45-fed484086c47
-    tls: false
-  - name: oneclickvpnkeys_8
-    type: vless
-    server: nl.prod.n7.homes
-    port: 8443
-    uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
-    servername: sun6-21.userapi.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-  - name: new_mtproxi2_10
-    type: vless
-    server: 172.64.145.38
-    port: 8443
-    uuid: bb8c74a1-abc1-4511-b100-9876e30cb65c
-    network: ws
-    servername: xfjd79v2tjscrm6jqo.zjde5.de5.net
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: xfjd79v2tjscrm6jqo.zjde5.de5.net
-  - name: new_mtproxi2_11
-    type: vless
-    server: 172.64.144.131
-    port: 443
-    uuid: 77466941-b026-454b-b915-94c8f89b594e
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: v2ray_extractor_14
-    type: vless
-    server: 45.144.52.229
-    port: 443
-    uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-    servername: ficdn2.suio.me
-    tls: true
-    client-fingerprint: chrome
-  - name: v2ray_extractor_15
-    type: vless
-    server: 57.129.49.1
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: oneclickvpnkeys_9
-    type: vless
-    server: 5.75.198.136
-    port: 34823
-    uuid: 2ac3e8c9-b521-4b2b-8b99-49e5b8d0d9d2
-    tls: false
-  - name: new_mtproxi2_12
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: new_mtproxi2_13
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-VPNMAAN_VPNMAAN_VPNMAAN_VPNMAAN_VPNMAAN?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: oneclickvpnkeys_10
-    type: vless
-    server: gcre.segstar.info
-    port: 10100
-    uuid: "@SEGVPN"
-    servername: refersion.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-  - name: new_mtproxi2_14
-    type: vless
-    server: 172.64.144.131
-    port: 443
-    uuid: 77466941-b026-454b-b915-94c8f89b594e
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: vpnbaz_11
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 83adcc98-ac23-4e51-9ae0-788a73fd9939
-    network: ws
-    servername: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-  - name: oneclickvpnkeys_11
-    type: vless
-    server: nld.pink-service.ru
-    port: 11443
-    uuid: d9fa5060-431d-4f67-b4e1-ad4533fdf4e4
-    network: grpc
-    servername: www.google.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
-      short-id: 86b80f1e713a33ad
-  - name: FreakConfig_1
-    type: vless
-    server: 192.200.160.13
-    port: 443
-    uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-    network: ws
-    servername: temp2.ali.lat
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: temp2.ali.lat
-  - name: oneclickvpnkeys_12
-    type: vless
-    server: spdnet.team-pluss.com
-    port: 443
-    uuid: b129eb83-f083-4660-a81a-e5991519a281
-    servername: eh.vk.ru
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZVfaZBEaPWlmb-Srxncu2WDACudPbm48S1V1Zy2ZcRw
-      short-id: 78523b486884cc4d
-  - name: vpnbaz_12
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 5073081a-a4a6-46e6-a3f5-ff6bb0bbdfab
-    network: ws
-    servername: 4f009rpo6n.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: 4f009rpo6n.zjde5.de5.net
-  - name: oneclickvpnkeys_13
-    type: vless
-    server: ip.ali.lat
-    port: 443
-    uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-    network: ws
-    servername: temp2.ali.lat
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: temp2.ali.lat
-  - name: vpnbaz_13
-    type: vless
-    server: 172.67.135.102
-    port: 443
-    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
-    network: ws
-    servername: pages.dev
-    tls: true
-    ws-opts:
-      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-      headers:
-        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
-  - name: wiki_tajrobe_12
-    type: vless
-    server: ipbaz.ping-box.com
-    port: 8443
-    uuid: 8f1a15bf-a352-4c32-aee2-957039a6847b
-    network: ws
-    servername: 6nwf5rauksz8126xm.zjde5.de5.net
-    tls: true
-    ws-opts:
-      path: /?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN?ed=2560
-      headers:
-        Host: 6nwf5rauksz8126xm.zjde5.de5.net
-  - name: vpnbaz_14
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: vpnbaz_15
-    type: vless
-    server: 172.64.152.23
-    port: 443
-    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
-    network: ws
-    servername: pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-      headers:
-        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
-  - name: FreakConfig_2
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 83adcc98-ac23-4e51-9ae0-788a73fd9939
-    network: ws
-    servername: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-    tls: true
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-  - name: oneclickvpnkeys_14
-    type: vless
-    server: nld.pink-service.ru
-    port: 443
-    uuid: d9fa5060-431d-4f67-b4e1-ad4533fdf4e4
-    servername: www.google.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
-      short-id: 86b80f1e713a33ad
-  - name: FreakConfig_3
-    type: vless
-    server: 212.183.88.29
-    port: 443
-    uuid: 85f9e89d-3298-4c2c-9a03-8ab71be0f986
-    network: ws
-    servername: free.aliamini.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /@AlaedinVPN?ed
-      headers:
-        Host: free.aliamini.net
-  - name: oneclickvpnkeys_15
-    type: vless
-    server: nl.prod.n7.homes
-    port: 8443
-    uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
-    servername: sun6-21.userapi.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-  - name: FreakConfig_4
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: 🐈‍⬛جوین شید قط نشید @configraygan
-    type: vless
-    server: 104.17.165.123
-    port: 8443
-    uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
-    network: ws
-    servername: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-  - name: new_mtproxi2_15
-    type: vless
-    server: 172.64.145.38
-    port: 8443
-    uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
-    network: ws
-    servername: vyznthvt7f5fr.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vyznthvt7f5fr.zjde5.de5.net
-  - name: oneclickvpnkeys_16
-    type: vless
-    server: fr.prod.n7.homes
-    port: 8443
-    uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
-    servername: sun6-21.userapi.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-  - name: oneclickvpnkeys_17
-    type: vless
-    server: 5.75.198.136
-    port: 34823
-    uuid: 2ac3e8c9-b521-4b2b-8b99-49e5b8d0d9d2
-    tls: false
-  - name: configraygan_4
-    type: vless
-    server: 147.45.60.6
-    port: 443
-    uuid: beab408c-6aa3-43b9-a1ca-e6fabba5d8e7
-    servername: yahoo.com
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM
-  - name: v2ray_extractor_16
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 5eb9b54d-3c4e-4588-97f7-e53fe3e92c90
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: GLOrioUs-aRriVALHCRtzt96gb.sPORtlANd.cOMPAnY.
-  - name: v2ray_extractor_17
-    type: vless
-    server: ip.ali.lat
-    port: 443
-    uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-    network: ws
-    servername: temp2.ali.lat
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: temp2.ali.lat
-  - name: 🟣69@oneclickvpnkeys | KZ | KZ
-    type: vless
-    server: 77.73.232.61
-    port: 19747
-    uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
-      short-id: "2001"
-  - name: v2ray_extractor_18
-    type: vless
-    server: clyde.ns.cloudflare.com
-    port: 443
-    uuid: 44685034-88bb-4a40-a5c8-97559d2179e9
-    network: ws
-    servername: 639052472056058285.altima-rvltnb.info
-    tls: true
-    ws-opts:
-      path: /felaouws
-      headers:
-        Host: 639052472056058285.altima-rvltnb.info
-  - name: tv2rayrr_2
-    type: vless
-    server: 77.91.68.70
-    port: 55983
-    uuid: f667a096-5231-4cfb-8759-92bb32473139
-    servername: yahoo.com
-    tls: true
-    reality-opts:
-      public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-      short-id: 0e
-  - name: oneclickvpnkeys_18
-    type: vless
-    server: partners.dissertationhelpspecialist.com
-    port: 8443
-    uuid: 9ad15b75-02c4-4d88-82e4-e7c1f9c1b74d
-    network: grpc
-    servername: tgju.org
-    tls: true
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet
-    reality-opts:
-      public-key: 6WQYfZi6JDT5nc_YJwGnq3SOAwiG2g7BLX4euXTMe0c
-      short-id: "2e16809167"
-  - name: oneclickvpnkeys_19
-    type: vless
-    server: 154.86.15.111
-    port: 443
-    uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
-    servername: www.icloud.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    reality-opts:
-      public-key: v72GjbmsDf-N2ZAdZwgIGgxy7lpMQ2W1HszfTzB0fEo
-  - name: v2ray_extractor_19
-    type: vless
-    server: ip.ali.lat
-    port: 2096
-    uuid: 4ac793c2-34d6-4774-946d-88680601f5b4
-    network: ws
-    servername: temporary.ali.lat
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: temporary.ali.lat
-  - name: new_mtproxi2_16
-    type: vless
-    server: 172.64.149.99
-    port: 8443
-    uuid: 2ddeb056-17d4-421e-a318-39428733d4a2
-    network: ws
-    servername: 8p3cfl0ripm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: 8p3cfl0ripm.zjde5.de5.net
-  - name: new_mtproxi2_17
-    type: vless
-    server: 104.17.163.123
-    port: 8443
-    uuid: 83adcc98-ac23-4e51-9ae0-788a73fd9939
-    network: ws
-    servername: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
-  - name: oneclickvpnkeys_20
-    type: vless
-    server: max1.skystreamgame.com
-    port: 443
-    uuid: e3778d92-1bae-426d-ab0a-e61ede65bae4
-    servername: max1.skystreamgame.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: XBePIY00JetBf0pbmcx-Dvu8XsZ-l079GiHf93HhS0Y
-      short-id: 6d6f13013d3e1d0c
-  - name: FreakConfig_5
-    type: vless
-    server: 172.64.145.38
-    port: 8443
-    uuid: f9e6127c-c09f-4f04-b90b-2139a0ae8171
-    network: ws
-    servername: fb11oz3xm3yrms2v4saauygi41xft5ezs4qb2y2rk2fsp2coky.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: fb11oz3xm3yrms2v4saauygi41xft5ezs4qb2y2rk2fsp2coky.zjde5.de5.net
-  - name: v2ray_extractor_20
-    type: vless
-    server: 15.204.97.160
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: oneclickvpnkeys_21
-    type: vless
-    server: 45.89.109.25
-    port: 18278
-    uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8Fglzc7t2LS4r1vQWlVMNe_EsFdhMawlxeDacbhmiAg
-      short-id: f0
-  - name: v2ray_extractor_21
-    type: vless
-    server: 15.204.97.148
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: configraygan_5
-    type: vless
-    server: nsop.mastermarly.ir
-    port: 2096
-    uuid: 73130c36-8b0a-4f5a-865c-bf92c182c1a7
-    network: ws
-    servername: francoo.mastermarly.ir
-    tls: true
-    client-fingerprint: safari
-    ws-opts:
-      path: /path
-      headers:
-        Host: francoo.mastermarly.ir
-  - name: new_mtproxi2_18
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: v2ray_extractor_22
-    type: vless
-    server: 15.204.97.176
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: vpnbaz_16
-    type: vless
-    server: us-2.bot-iphone.ru
-    port: 8443
-    uuid: 9c42819a-67a6-4742-9c6d-64900ba62160
-    servername: samsung.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: vpnbaz_17
-    type: vless
-    server: 104.17.166.123
-    port: 8443
-    uuid: 829658bf-03c4-4c28-81e9-dd6ea141b2d0
-    network: ws
-    servername: 5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: 5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net
-  - name: oneclickvpnkeys_22
-    type: vless
-    server: 194.76.18.25
-    port: 2053
-    uuid: c659ce22-0a02-4d75-8c89-58d99916b846
-    network: ws
-    servername: ir6.hnbyme.online
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: ir6.hnbyme.online
-  - name: vpnbaz_18
-    type: vless
-    server: 104.18.32.47
-    port: 80
-    uuid: 4a8d4562-7192-4e83-8a24-75515a1666a3
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: fiT-acADEmyw21824Ac8c.ECoToURISs.cO.Uk.
-  - name: xsfilternet
-    type: vless
-    server: 185.214.74.184
-    port: 443
-    uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
-      short-id: ffffffffff
-  - name: vpnbaz_19
-    type: vless
-    server: 65.108.108.151
-    port: 443
-    uuid: feaf1d64-b44c-4cc8-b114-4001478c1fd0
-    servername: fit.jojack.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw
-      short-id: f8865ecbb9bc11a3
-  - name: FreakConfig_6
-    type: vless
-    server: 104.17.148.22
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: randomized
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: xsfilternet_1
-    type: vless
-    server: ip.elcump.top
-    port: 8443
-    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-    network: ws
-    servername: hitgram.ir
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
-      headers:
-        Host: hitgram.ir
-  - name: FreakConfig_7
-    type: vless
-    server: 66.81.247.155
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-?ed=512
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: new_mtproxi2_19
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: oneclickvpnkeys_23
-    type: vless
-    server: afrcloud5.mmv.kr
-    port: 443
-    uuid: 6b8609c0-26e0-4ec4-9b63-e555bcd6c7d9
-    network: ws
-    servername: afrcloud5.mmv.kr
-    tls: true
-    ws-opts:
-      path: /129.153.132.114=46000
-      headers:
-        Host: afrcloud5.mmv.kr
-  - name: new_mtproxi2_20
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
-  - name: wiki_tajrobe_13
-    type: vless
-    server: ipbaz.ping-box.com
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: oneclickvpnkeys_24
-    type: vless
-    server: 38.180.144.156
-    port: 8443
-    uuid: ae0a43bc-6189-456e-9b8a-a93f39af336e
-    servername: www.microsoft.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    reality-opts:
-      public-key: 76Cfr5qNl9BCrSb6jdkrgj0HbwfyCwj4oF6JJVhKD0s
-      short-id: 42d7234d875308a2
-  - name: oneclickvpnkeys_25
-    type: vless
-    server: nlcdn5.suio.me
-    port: 443
-    uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-    servername: nlcdn5.suio.me
-    tls: true
-  - name: oneclickvpnkeys_26
-    type: vless
-    server: 89.169.162.214
-    port: 8443
-    uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
-    servername: yandex.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-      short-id: 205748bc0f24a747
-  - name: new_mtproxi2_21
-    type: vless
-    server: 66.81.247.155
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=#TELEGRAM-ALIXTSO?ed=512
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: oneclickvpnkeys_27
-    type: vless
-    server: 87.239.106.153
-    port: 8443
-    uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
-    servername: m.vk.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-      short-id: 48fccabc158a4c22
-  - name: tv2rayrr_3
-    type: vless
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-  - name: oneclickvpnkeys_28
-    type: vless
-    server: nl.iccgame.site
-    port: 3000
-    uuid: 1e1b9a1f-47cd-4cb2-a0dc-103a09e253ba
-    tls: false
-  - name: oneclickvpnkeys_29
-    type: vless
-    server: 91.99.218.107
-    port: 51269
-    uuid: 0341d8f2-99e0-4f6c-af0a-345ac26815cf
-    network: grpc
-    tls: false
-  - name: v2ray_extractor_23
-    type: vless
-    server: clyde.ns.cloudflare.com
-    port: 443
-    uuid: 4154ddec-dc96-43cc-95bb-43dc03bdcd65
-    network: ws
-    servername: 639052472056060764.altima-rvltnb.info
-    tls: true
-    ws-opts:
-      path: /afjbtmws
-      headers:
-        Host: 639052472056060764.altima-rvltnb.info
-  - name: oneclickvpnkeys_30
-    type: vless
-    server: 89.169.162.214
-    port: 443
-    uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
-    servername: yandex.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-      short-id: 205748bc0f24a747
-  - name: v2ray_extractor_24
-    type: vless
-    server: 45.148.31.0
-    port: 15855
-    uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-  - name: oneclickvpnkeys_31
-    type: vless
-    server: midorinote.ru
-    port: 8443
-    uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
-    servername: tradingview.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    reality-opts:
-      public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-      short-id: f7aa9e61197d3ac6
-  - name: vpnbaz_20
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=#ABASBIJAN?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: vpnbaz_21
-    type: vless
-    server: 172.64.145.38
-    port: 8443
-    uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
-    network: ws
-    servername: vyznthvt7f5fr.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560fp=chrome
-      headers:
-        Host: vyznthvt7f5fr.zjde5.de5.net
-  - name: v2ray_extractor_25
-    type: vless
-    server: ip.ali.lat
-    port: 2087
-    uuid: c8e81aea-2c89-45f8-9a34-ecb2637e2eed
-    network: ws
-    servername: temp4.ali.lat
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: temp4.ali.lat
-  - name: FreakConfig_8
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 8f1a15bf-a352-4c32-aee2-957039a6847b
-    network: ws
-    servername: 6nwf5rauksz8126xm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: 6nwf5rauksz8126xm.zjde5.de5.net
-  - name: oneclickvpnkeys_32
-    type: vless
-    server: 144.124.231.100
-    port: 443
-    uuid: b129eb83-f083-4660-a81a-e5991519a281
-    servername: eh.vk.ru
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZVfaZBEaPWlmb-Srxncu2WDACudPbm48S1V1Zy2ZcRw
-      short-id: 78523b486884cc4d
-  - name: v2ray_extractor_26
-    type: vless
-    server: 8.6.112.0
-    port: 443
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-    network: ws
-    servername: a.azadnet003.ddns-ip.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /telegram-@v2ray_alpha
-      headers:
-        Host: a.azadnet003.ddns-ip.net
-  - name: xsfilternet_2
-    type: vless
-    server: baby3.nardonga.sbs
-    port: 54687
-    uuid: 0e7f8cd2-ac99-4879-bcdc-78b1f836a38a
-    tls: false
-  - name: v2ray_extractor_27
-    type: vless
-    server: 15.204.97.167
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_28
-    type: vless
-    server: gody.xrayshop.store
-    port: 54230
-    uuid: 4ed0f31f-a400-4012-be63-b7104ce1bb1e
-    tls: false
-  - name: new_mtproxi2_22
-    type: vless
-    server: 104.18.15.19
-    port: 8443
-    uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
-    network: ws
-    servername: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
-  - name: v2ray_extractor_29
-    type: vless
-    server: 57.129.49.1
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: vpnbaz_22
-    type: vless
-    server: 104.17.165.123
-    port: 8443
-    uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
-    network: ws
-    servername: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-  - name: oneclickvpnkeys_33
-    type: vless
-    server: 8.6.112.0
-    port: 2083
-    uuid: 96d9bcb0-9ad2-48be-85a2-a9ab3a005261
-    network: ws
-    servername: ds1-mx-fn154-protection.iranlease.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ds1-mx-fn154-protection.iranlease.com
-  - name: new_mtproxi2_23
-    type: vless
-    server: 185.18.250.252
-    port: 443
-    uuid: 22e7f0d3-8d3b-40c7-a1c5-8a912f6a16b3
-    network: ws
-    servername: cdn.55994421.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /memo
-      headers:
-        Host: cdn.55994421.xyz
-  - name: V2RAY_SPATIAL_1
-    type: vless
-    server: 66.81.247.155
-    port: 443
-    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-    network: ws
-    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=512
-      headers:
-        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  - name: dingyue_center_1
-    type: vless
-    server: 207.58.173.152
-    port: 443
-    uuid: 32fa5fc2-1138-48e6-e5ae-201a3c27cbdc
-    servername: is1-ssl.mzstatic.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: JiW3wjC001J0uHE6zeB4uCx5stMFw2Ejfuy8NXJYHDM
-  - name: configraygan_6
-    type: vless
-    server: 172.64.145.38
-    port: 8443
-    uuid: bb8c74a1-abc1-4511-b100-9876e30cb65c
-    network: ws
-    servername: xfjd79v2tjscrm6jqo.zjde5.de5.net
-    tls: true
-    ws-opts:
-      path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-      headers:
-        Host: xfjd79v2tjscrm6jqo.zjde5.de5.net
-  - name: FreakConfig_9
-    type: vless
-    server: zzula.ir
-    port: 443
-    uuid: c249ca6f-1bde-479b-af96-da0e948a3800
-    network: ws
-    servername: zitel.digikala-aparat-zula.com
-    tls: true
-    ws-opts:
-      path: /admin
-      headers:
-        Host: zitel.digikala-aparat-zula.com
-  - name: oneclickvpnkeys_34
-    type: vless
-    server: 144.31.100.120
-    port: 443
-    uuid: d9e9cf27-dea6-4f57-94e9-c8182f7259e9
-    servername: google.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ihtXyG0UidSbXjvCJXUhABwZGCCB62DUsVBFn_qVd3g
-      short-id: 1283729a0a9c1f
-  - name: v2ray_extractor_30
-    type: vless
-    server: 15.204.97.164
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_31
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
-  - name: v2ray_extractor_32
-    type: vless
-    server: 15.204.97.216
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: FreakConfig_10
-    type: vless
-    server: 188.114.98.0
-    port: 443
-    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-    network: ws
-    servername: hetz.x-smm.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /45.76.183.217=49292
-      headers:
-        Host: hetz.x-smm.com
-  - name: oneclickvpnkeys_35
-    type: vless
-    server: vip2.kaixincloud.top
-    port: 2053
-    uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
-    network: ws
-    servername: ir1.airpanel.top
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: ir1.airpanel.top
-  - name: vpnbaz_23
-    type: vless
-    server: 104.17.162.123
-    port: 8443
-    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-    network: ws
-    servername: r4fnviw9jl4i4rx.zjde5.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=?ed=512
-      headers:
-        Host: r4fnviw9jl4i4rx.zjde5.de5.net
-  - name: v2ray_extractor_33
-    type: vless
-    server: 138.124.79.4
-    port: 443
-    uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-    servername: sun6-21.userapi.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: oneclickvpnkeys_36
-    type: vless
-    server: 5.180.45.176
-    port: 4443
-    uuid: b78d1925-3368-4818-8c37-e730f0c15068
-    servername: github.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-      short-id: aa7e96542880027a
-  - name: oneclickvpnkeys_37
-    type: vless
-    server: gcre.segstar.info
-    port: 10100
-    uuid: "@SEGVPN"
-    servername: refersion.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-  - name: oneclickvpnkeys_38
-    type: vless
-    server: 85.209.154.133
-    port: 4443
-    uuid: b78d1925-3368-4818-8c37-e730f0c15068
-    servername: github.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-      short-id: aa7e96542880027a
-  - name: new_mtproxi2_24
-    type: vless
-    server: 94.141.123.12
-    port: 558
-    uuid: be695a55-8ac5-40a1-92c2-cc864651360a
-    servername: refersion.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: 15ZlM5p8DB5Fp4mtva2pvtC4IBtcxSxqeuZ0R7ffkRk
-      short-id: 4b8f669536c45c2b
-  - name: oneclickvpnkeys_39
-    type: vless
-    server: uk2.miyazono-kaori.com
-    port: 443
-    uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
-    servername: www.bp.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-      short-id: "20"
-  - name: oneclickvpnkeys_40
-    type: vless
-    server: 45.139.76.222
-    port: 4443
-    uuid: b78d1925-3368-4818-8c37-e730f0c15068
-    servername: github.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-      short-id: aa7e96542880027a
-  - name: dingyue_center_2
-    type: vless
-    server: 162.159.45.232
-    port: 443
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    network: ws
-    servername: l.ayovo.netlib.re
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: l.ayovo.netlib.re
-  - name: 🇬🇧@FreakConfig
-    type: ss
-    server: 57.129.129.139
-    port: 29183
-    cipher: chacha20-ietf-poly1305
-    password: ab0b81a5bff7ddea
-  - name: ⚜️@iran_V2ray1⚜️
-    type: ss
-    server: 57.128.190.194
-    port: 10013
-    cipher: chacha20-ietf-poly1305
-    password: e5c3f903e81d5d4e
-  - name: oneclickvpnkeys_41
-    type: vless
-    server: 77.91.68.70
-    port: 55983
-    uuid: f667a096-5231-4cfb-8759-92bb32473139
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-      short-id: 0e
-  - name: oneclickvpnkeys_42
-    type: vless
-    server: ititan.murix.me
-    port: 8443
-    uuid: b3aea537-5661-43fb-b753-00aba09275cd
-    tls: false
-  - name: "@MARAMBASHI 🧡"
-    type: ss
-    server: 54.37.78.130
-    port: 11201
-    cipher: chacha20-ietf-poly1305
-    password: d954bd6dd74a7f48
-  - name: v2ray_extractor_34
-    type: vless
-    server: 15.204.97.159
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: dingyue_center_3
-    type: vless
-    server: 38.95.232.247
-    port: 24683
-    uuid: 86469f66-055e-41ea-a648-33e30c6ac750
-    servername: mensura.cdn-apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: caKZX80LQ7KPROX0Sv5rMwmQmXVZjgdmLIBHuL4DIwQ
-      short-id: 6ba85179e30d4fc2
-  - name: v2ray_extractor_35
-    type: vless
-    server: 15.204.97.172
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_36
-    type: vless
-    server: 15.204.97.169
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_37
-    type: vless
-    server: 15.204.97.176
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_38
-    type: vless
-    server: 15.204.97.219
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_39
-    type: vless
-    server: 15.204.97.164
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_40
-    type: vless
-    server: 15.204.97.197
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: oneclickvpnkeys_43
-    type: vless
-    server: 42.200.231.44
-    port: 443
-    uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
-    servername: www.microsoft.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: JEH14p4YvGvmDdBct-yekywfh8xcbbHjTBoBteh_qSs
-      short-id: 7538ac
-  - name: ⚜️@iran_V2ray1⚜️_1
-    type: ss
-    server: 135.125.10.106
-    port: 10018
-    cipher: chacha20-ietf-poly1305
-    password: 4b4763efefa95114
-  - name: v2ray_extractor_41
-    type: vless
-    server: 15.204.97.154
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_42
-    type: vless
-    server: 15.204.97.216
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: v2ray_extractor_43
-    type: vless
-    server: 15.204.97.226
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: dingyue_center_4
-    type: vless
-    server: bestcf.030101.xyz
-    port: 443
-    uuid: a940d7c5-8d3c-40e8-814e-0a2728acd731
-    network: ws
-    servername: today.stari.dpdns.org
-    tls: true
-    ws-opts:
-      path: a940d7c5
-      headers:
-        Host: today.stari.dpdns.org
-  - name: v2ray_extractor_44
-    type: vless
-    server: 15.204.97.148
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: oneclickvpnkeys_44
-    type: vless
-    server: 45.89.109.25
-    port: 18278
-    uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8Fglzc7t2LS4r1vQWlVMNe_EsFdhMawlxeDacbhmiAg
-      short-id: f0
-  - name: 🟣69@oneclickvpnkeys | KZ | KZ_1
-    type: vless
-    server: 77.73.232.61
-    port: 19747
-    uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
-      short-id: "2001"
-  - name: v2ray_extractor_45
-    type: vless
-    server: 15.204.97.165
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    servername: fuck.rkn
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-  - name: max | DE | 3.80s | Port:443
-    type: vless
-    server: 212.192.31.146
-    port: 443
-    uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
-    network: ws
-    tls: false
-    ws-opts:
-      path: /panika
-  - name: oneclickvpnkeys_45
-    type: vless
-    server: dostupbypass1.suio.me
-    port: 443
-    uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-    servername: api-maps.yandex.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5bGFIWSo4vlrd9Tv1yFcpdpSjrjYYN20SOWHYfighHc
-      short-id: abde0809
-  - name: new_mtproxi2_25
-    type: vless
-    server: t.ariyanln.com
-    port: 5448
-    uuid: efedb328-9a34-47aa-a55d-979504cf6a6b
-    tls: false
-  - name: xsfilternet_3
-    type: vless
-    server: tr-1.bot-iphone.ru
-    port: 8443
-    uuid: 123d4832-db2b-4376-be63-f60858cc328e
-    servername: samsung.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: v2ray_extractor_46
-    type: vless
-    server: 8.6.112.0
-    port: 443
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-    network: ws
-    servername: a.azadnet003.ddns-ip.net
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /telegram-@v2ray_alpha=
-      headers:
-        Host: a.azadnet003.ddns-ip.net
-  - name: 💚🤍❤ @V2aryng_vpn 👑
-    type: ss
-    server: 144.126.158.195
-    port: 12053
-    cipher: chacha20-ietf-poly1305
-    password: b537ba3e4f4cda0c
-  - name: tv2rayrr_4
-    type: vless
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-  - name: 🇬🇧GB-1756-NetFreedom0
-    type: ss
-    server: 82.38.31.179
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: dingyue_center_5
-    type: vless
-    server: 207.58.173.152
-    port: 443
-    uuid: 32fa5fc2-1138-48e6-e5ae-201a3c27cbdc
-    servername: is1-ssl.mzstatic.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: JiW3wjC001J0uHE6zeB4uCx5stMFw2Ejfuy8NXJYHDM
-  - name: AZARBAYJAB1 | PT
-    type: ss
-    server: 185.113.143.186
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: ⚜️@iran_V2ray1⚜️_2
-    type: ss
-    server: 141.95.109.94
-    port: 11201
-    cipher: chacha20-ietf-poly1305
-    password: 10f90af92b6c1a74
-  - name: v2ray_extractor_47
-    type: vless
-    server: ge-1.seemsflower.ru
-    port: 8443
-    uuid: df7f9ba3-ea64-4275-b2aa-d4fef07d9ab7
-    servername: samsung.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: v2ray_extractor_48
-    type: vless
-    server: 172.64.152.23
-    port: 443
-    uuid: 1b9d8449-479f-40a0-a326-1a5ea3481c42
-    network: ws
-    servername: ch1.sooot.ir
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: ch1.sooot.ir
-  - name: vpnbaz_24
+  - name: vpnbaz
     type: vless
     server: 57.129.53.181
     port: 23576
@@ -2413,23 +107,185 @@ proxies:
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: "01"
-  - name: vpnbaz_25
+  - name: v2ray_extractor_1
     type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
+    server: 51.158.206.98
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: oneclickvpnkeys_1
+    type: vless
+    server: 188.34.193.153
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    servername: www.cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+  - name: oneclickvpnkeys_2
+    type: vless
+    server: 192.76.160.216
+    port: 2280
+    uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
+    servername: tgju.org
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3O9CVvzD_0omAKw17VJoL0NlezpzxRAHNIbOWGBto2I
+      short-id: faf804ddc2e49f6c
+  - name: persianvpnhub
+    type: vless
+    server: 79.137.175.44
+    port: 8443
+    uuid: 8009bc13-0c64-4ae9-9a74-24ce12cc71e8
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 04bf0403f96e5b4b
+  - name: oneclickvpnkeys_3
+    type: vless
+    server: 130.193.59.133
+    port: 51101
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 4ffc99daad0f261f
+  - name: tv2rayrr
+    type: vless
+    server: 77.91.68.70
+    port: 55983
+    uuid: f667a096-5231-4cfb-8759-92bb32473139
+    servername: yahoo.com
+    tls: true
+    reality-opts:
+      public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+      short-id: 0e
+  - name: v2ray_extractor_2
+    type: vless
+    server: 51.158.206.103
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: oneclickvpnkeys_4
+    type: vless
+    server: 90.156.217.130
+    port: 51101
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 4ffc99daad0f261f
+  - name: v2ray_extractor_3
+    type: vless
+    server: 104.18.185.26
+    port: 2096
+    uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+    network: ws
+    servername: ca.adobe-connect.top
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: ca.adobe-connect.top
+  - name: oneclickvpnkeys_5
+    type: vless
+    server: 37.59.119.223
+    port: 8080
+    uuid: 5d0e6695-6c63-4168-b5e5-2a73ea86b1b1
+    servername: chatgpt.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw
+      short-id: b7b70c104ad267b8
+  - name: persianvpnhub_1
+    type: vless
+    server: 84.252.143.25
+    port: 8443
+    uuid: 8009bc13-0c64-4ae9-9a74-24ce12cc71e8
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: v2ray_extractor_4
+    type: vless
+    server: 65.109.179.221
+    port: 26261
+    uuid: ee603510-52e4-29f9-00b0-9a051ad424fb
+    tls: false
+  - name: FreakConfig
+    type: vless
+    server: 46.246.98.74
+    port: 443
+    uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+    servername: learn.microsoft.com
+    tls: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
+      short-id: 6ed3324b
+  - name: oneclickvpnkeys_6
+    type: vless
+    server: 212.233.73.212
+    port: 443
+    uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: new_mtproxi2
+    type: vless
+    server: 45.148.31.0
+    port: 15855
+    uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
     network: ws
     tls: false
     ws-opts:
-      path: /?ed
-      headers:
-        Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
-  - type: ss
-    server: 45.144.31.24
+      path: /
+  - name: oneclickvpnkeys_7
+    type: vless
+    server: 37.139.33.57
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA
-    name: 45.144.31.24
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 4ffc99daad0f261f
   - name: 🔰@Fast_2ray 👈سرورهای‌بیشتر
     type: vless
     server: 92.60.78.221
@@ -2442,7 +298,252 @@ proxies:
     reality-opts:
       public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
       short-id: 9917d2350096
-  - name: v2ray_extractor_49
+  - name: oneclickvpnkeys_8
+    type: vless
+    server: 178.154.253.80
+    port: 443
+    uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: oneclickvpnkeys_9
+    type: vless
+    server: 37.139.33.57
+    port: 51101
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 4ffc99daad0f261f
+  - name: new_mtproxi2_1
+    type: vless
+    server: 45.82.251.208
+    port: 8880
+    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+    network: grpc
+    tls: false
+  - name: configraygan
+    type: vless
+    server: 45.82.251.116
+    port: 8880
+    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+    network: grpc
+    tls: false
+  - name: oneclickvpnkeys_10
+    type: vless
+    server: 45.83.140.204
+    port: 8443
+    uuid: 93a20fae-54f4-4e25-93ef-995b3e52fc04
+    servername: tradingview.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 61Svf2Pd08DRvSgCHyI_J-F7lhPLd_hg3mS_byFl_h0
+      short-id: cefa7ca418bd0dcb
+  - name: persianvpnhub_2
+    type: vless
+    server: 90.156.150.134
+    port: 443
+    uuid: 7e2b2894-3b5c-4b65-acc5-e1784f4047f2
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+  - name: tv2rayrr_1
+    type: vless
+    server: 178.236.16.98
+    port: 35728
+    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+      short-id: 69a2
+  - name: FreakConfig_1
+    type: vless
+    server: 51.158.206.93
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: configraygan_1
+    type: vless
+    server: 167.82.92.159
+    port: 80
+    uuid: 0569f3ce-447b-4ac5-aae3-b47ae55351f7
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: dayous.global.ssl.fastly.net
+  - name: oneclickvpnkeys_11
+    type: vless
+    server: 158.160.105.121
+    port: 443
+    uuid: 4603e54d-b023-4947-83e7-70025416f306
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 8f222b3475800821
+  - name: wiki_tajrobe
+    type: vless
+    server: 51.158.206.80
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: oneclickvpnkeys_12
+    type: vless
+    server: 158.160.105.121
+    port: 51102
+    uuid: 4603e54d-b023-4947-83e7-70025416f306
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 1929ef620e9b34f5
+  - name: wiki_tajrobe_1
+    type: vless
+    server: 167.82.92.159
+    port: 80
+    uuid: 0569f3ce-447b-4ac5-aae3-b47ae55351f7
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: dayous.global.ssl.fastly.net
+  - name: v2ray_extractor_5
+    type: vless
+    server: 51.158.206.80
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: v2ray_extractor_6
+    type: vless
+    server: 172.67.153.156
+    port: 8443
+    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+    network: ws
+    servername: ovhwuxian.pai50288.uk
+    tls: true
+    ws-opts:
+      path: /57ba2ab1
+      headers:
+        Host: ovhwuxian.pai50288.uk
+  - name: v2ray_extractor_7
+    type: ss
+    server: 54.37.77.201
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 70fa4568f0fce450
+  - name: v2ray_extractor_8
+    type: vless
+    server: 15.204.97.219
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: v2ray_extractor_9
+    type: vless
+    server: 51.158.206.93
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: configraygan_2
+    type: vless
+    server: 47.254.207.127
+    port: 443
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    servername: cdn.userway.org
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      short-id: "7266e6"
+  - name: v2ray_extractor_10
+    type: vless
+    server: 15.204.97.159
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: oneclickvpnkeys_13
+    type: vless
+    server: 104.18.185.26
+    port: 2096
+    uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+    network: ws
+    servername: ca.adobe-connect.top
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: ca.adobe-connect.top
+  - name: v2ray_extractor_11
+    type: vless
+    server: 104.21.224.5
+    port: 2096
+    uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+    network: ws
+    servername: ca.adobe-connect.top
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ca.adobe-connect.top
+  - name: new_mtproxi2_2
     type: vless
     server: 57.129.49.1
     port: 23576
@@ -2454,494 +555,360 @@ proxies:
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: "01"
-  - name: oneclickvpnkeys_46
+  - name: configraygan_3
     type: vless
-    server: 38.180.144.156
-    port: 8443
-    uuid: ae0a43bc-6189-456e-9b8a-a93f39af336e
-    servername: www.microsoft.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    reality-opts:
-      public-key: 76Cfr5qNl9BCrSb6jdkrgj0HbwfyCwj4oF6JJVhKD0s
-      short-id: 42d7234d875308a2
-  - name: oneclickvpnkeys_47
-    type: vless
-    server: 37.120.184.180
-    port: 80
-    uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    network: ws
-    tls: false
-    ws-opts:
-      path: /news
-      headers:
-        Host: cdn.ir
-  - name: oneclickvpnkeys_48
-    type: vless
-    server: 91.107.173.252
-    port: 41647
-    uuid: e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f
-    network: grpc
-    tls: false
-  - name: 🇬🇧GB-5048-NetFreedom0 | GB
-    type: ss
-    server: 82.38.31.199
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: v2ray_extractor_50
-    type: vless
-    server: 138.124.79.4
+    server: 38.244.137.198
     port: 443
-    uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-    servername: sun6-21.userapi.com
+    uuid: 09748875-9da3-440e-9809-9752e1dda1e4
+    servername: google.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o
+      short-id: 365c07ed
+  - name: v2ray_extractor_12
+    type: vless
+    server: 57.129.53.181
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: configraygan_4
+    type: vless
+    server: 51.158.206.80
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: new_mtproxi2_3
+    type: vless
+    server: 57.129.53.181
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: v2ray_extractor_13
+    type: vless
+    server: 62.210.91.2
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: oneclickvpnkeys_14
+    type: vless
+    server: 185.21.14.122
+    port: 443
+    uuid: a44e0875-210f-4941-9062-89b6361a14c6
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
+      short-id: 8bcfe256cf216fd8
+  - name: oneclickvpnkeys_15
+    type: vless
+    server: 90.156.217.130
+    port: 8443
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 4ffc99daad0f261f
+  - name: oneclickvpnkeys_16
+    type: vless
+    server: 89.169.128.105
+    port: 443
+    uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: wiki_tajrobe_2
+    type: vless
+    server: 45.82.251.116
+    port: 8880
+    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+    network: grpc
+    tls: false
+  - name: new_mtproxi2_4
+    type: trojan
+    server: 104.18.32.47
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: oneclickvpnkeys_17
+    type: vless
+    server: 87.121.86.31
+    port: 57516
+    uuid: de2708c5-6e8e-4582-85ed-98f2554e5208
+    servername: google.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ScCsL43AFwGSI8WvpjhAE6Y9PguU49ZLbwF-6YTbrTo
+      short-id: c1765dd26b1e70
+  - name: oneclickvpnkeys_18
+    type: vless
+    server: 104.21.224.5
+    port: 2096
+    uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+    network: ws
+    servername: ca.adobe-connect.top
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ca.adobe-connect.top
+  - name: v2ray_extractor_14
+    type: vless
+    server: 45.148.31.0
+    port: 15855
+    uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: oneclickvpnkeys_19
+    type: vless
+    server: 212.192.246.57
+    port: 2087
+    uuid: 3dcd6767-ec3e-4eeb-9fa6-c70b8661072f
+    servername: refersion.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: DwNl_pR9JMgEQoq_cdx4HuZRPyapUBn4FkLZs1U3fXQ
+      short-id: e004
+  - name: v2ray_extractor_15
+    type: vless
+    server: 15.204.97.149
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: FreakConfig_2
+    type: vless
+    server: 51.158.206.93
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: oneclickvpnkeys_20
+    type: vless
+    server: 37.139.33.57
+    port: 8443
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 6419bed7fd0a2cff
+  - name: v2ray_extractor_16
+    type: vless
+    server: 51.158.206.19
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: v2ray_extractor_17
+    type: vless
+    server: 103.245.237.124
+    port: 58202
+    uuid: cca053d5-7123-4a87-83d6-babe4e9c8115
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2951,885 +918,281 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3852,222 +1215,71 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - vmess
+      - vless
+      - hysteria
       - oneclickvpnkeys
-      - oneclickvpnkeys_1
-      - new_mtproxi2
       - v2ray_extractor
-      - new_mtproxi2_1
-      - dingyue_center
-      - v2ray_extractor_1
-      - wiki_tajrobe
-      - wiki_tajrobe_1
-      - wiki_tajrobe_2
-      - v2ray_extractor_2
-      - v2ray_extractor_3
-      - oneclickvpnkeys_2
       - vpnbaz
-      - wiki_tajrobe_3
-      - vpnbaz_1
+      - v2ray_extractor_1
+      - oneclickvpnkeys_1
+      - oneclickvpnkeys_2
+      - persianvpnhub
+      - oneclickvpnkeys_3
+      - tv2rayrr
+      - v2ray_extractor_2
+      - oneclickvpnkeys_4
+      - v2ray_extractor_3
+      - oneclickvpnkeys_5
+      - persianvpnhub_1
       - v2ray_extractor_4
       - FreakConfig
-      - configraygan
-      - new_mtproxi2_2
-      - wiki_tajrobe_4
-      - new_mtproxi2_3
-      - wiki_tajrobe_5
-      - v2ray_extractor_5
-      - configraygan_1
-      - new_mtproxi2_4
-      - wiki_tajrobe_6
-      - vpnbaz_2
-      - wiki_tajrobe_7
-      - oneclickvpnkeys_3
-      - v2ray_extractor_6
-      - new_mtproxi2_5
-      - configraygan_2
-      - vpnbaz_3
-      - vpnbaz_4
-      - wiki_tajrobe_8
-      - v2ray_extractor_7
-      - vpnbaz_5
-      - v2ray_extractor_8
-      - wiki_tajrobe_9
-      - new_mtproxi2_6
-      - new_mtproxi2_7
-      - v2ray_extractor_9
-      - new_mtproxi2_8
-      - wiki_tajrobe_10
-      - v2ray_extractor_10
-      - oneclickvpnkeys_4
-      - V2RAY_SPATIAL
-      - configraygan_3
-      - oneclickvpnkeys_5
-      - v2ray_extractor_11
-      - tv2rayrr
-      - v2ray_extractor_12
       - oneclickvpnkeys_6
-      - vpnbaz_6
-      - vpnbaz_7
-      - new_mtproxi2_9
-      - vpnbaz_8
-      - vpnbaz_9
-      - vpnbaz_10
-      - tv2rayrr_1
+      - new_mtproxi2
       - oneclickvpnkeys_7
-      - v2ray_extractor_13
-      - wiki_tajrobe_11
+      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
       - oneclickvpnkeys_8
-      - new_mtproxi2_10
-      - new_mtproxi2_11
-      - v2ray_extractor_14
-      - v2ray_extractor_15
       - oneclickvpnkeys_9
-      - new_mtproxi2_12
-      - new_mtproxi2_13
+      - new_mtproxi2_1
+      - configraygan
       - oneclickvpnkeys_10
-      - new_mtproxi2_14
-      - vpnbaz_11
-      - oneclickvpnkeys_11
+      - persianvpnhub_2
+      - tv2rayrr_1
       - FreakConfig_1
+      - configraygan_1
+      - oneclickvpnkeys_11
+      - wiki_tajrobe
       - oneclickvpnkeys_12
-      - vpnbaz_12
+      - wiki_tajrobe_1
+      - v2ray_extractor_5
+      - v2ray_extractor_6
+      - v2ray_extractor_7
+      - v2ray_extractor_8
+      - v2ray_extractor_9
+      - configraygan_2
+      - v2ray_extractor_10
       - oneclickvpnkeys_13
-      - vpnbaz_13
-      - wiki_tajrobe_12
-      - vpnbaz_14
-      - vpnbaz_15
-      - FreakConfig_2
-      - oneclickvpnkeys_14
-      - FreakConfig_3
-      - oneclickvpnkeys_15
-      - FreakConfig_4
-      - 🐈‍⬛جوین شید قط نشید @configraygan
-      - new_mtproxi2_15
-      - oneclickvpnkeys_16
-      - oneclickvpnkeys_17
+      - v2ray_extractor_11
+      - new_mtproxi2_2
+      - configraygan_3
+      - v2ray_extractor_12
       - configraygan_4
+      - new_mtproxi2_3
+      - v2ray_extractor_13
+      - oneclickvpnkeys_14
+      - oneclickvpnkeys_15
+      - oneclickvpnkeys_16
+      - wiki_tajrobe_2
+      - new_mtproxi2_4
+      - oneclickvpnkeys_17
+      - oneclickvpnkeys_18
+      - v2ray_extractor_14
+      - oneclickvpnkeys_19
+      - v2ray_extractor_15
+      - FreakConfig_2
+      - oneclickvpnkeys_20
       - v2ray_extractor_16
       - v2ray_extractor_17
-      - 🟣69@oneclickvpnkeys | KZ | KZ
-      - v2ray_extractor_18
-      - tv2rayrr_2
-      - oneclickvpnkeys_18
-      - oneclickvpnkeys_19
-      - v2ray_extractor_19
-      - new_mtproxi2_16
-      - new_mtproxi2_17
-      - oneclickvpnkeys_20
-      - FreakConfig_5
-      - v2ray_extractor_20
-      - oneclickvpnkeys_21
-      - v2ray_extractor_21
-      - configraygan_5
-      - new_mtproxi2_18
-      - v2ray_extractor_22
-      - vpnbaz_16
-      - vpnbaz_17
-      - oneclickvpnkeys_22
-      - vpnbaz_18
-      - xsfilternet
-      - vpnbaz_19
-      - FreakConfig_6
-      - xsfilternet_1
-      - FreakConfig_7
-      - new_mtproxi2_19
-      - oneclickvpnkeys_23
-      - new_mtproxi2_20
-      - wiki_tajrobe_13
-      - oneclickvpnkeys_24
-      - oneclickvpnkeys_25
-      - oneclickvpnkeys_26
-      - new_mtproxi2_21
-      - oneclickvpnkeys_27
-      - tv2rayrr_3
-      - oneclickvpnkeys_28
-      - oneclickvpnkeys_29
-      - v2ray_extractor_23
-      - oneclickvpnkeys_30
-      - v2ray_extractor_24
-      - oneclickvpnkeys_31
-      - vpnbaz_20
-      - vpnbaz_21
-      - v2ray_extractor_25
-      - FreakConfig_8
-      - oneclickvpnkeys_32
-      - v2ray_extractor_26
-      - xsfilternet_2
-      - v2ray_extractor_27
-      - v2ray_extractor_28
-      - new_mtproxi2_22
-      - v2ray_extractor_29
-      - vpnbaz_22
-      - oneclickvpnkeys_33
-      - new_mtproxi2_23
-      - V2RAY_SPATIAL_1
-      - dingyue_center_1
-      - configraygan_6
-      - FreakConfig_9
-      - oneclickvpnkeys_34
-      - v2ray_extractor_30
-      - v2ray_extractor_31
-      - v2ray_extractor_32
-      - FreakConfig_10
-      - oneclickvpnkeys_35
-      - vpnbaz_23
-      - v2ray_extractor_33
-      - oneclickvpnkeys_36
-      - oneclickvpnkeys_37
-      - oneclickvpnkeys_38
-      - new_mtproxi2_24
-      - oneclickvpnkeys_39
-      - oneclickvpnkeys_40
-      - dingyue_center_2
-      - 🇬🇧@FreakConfig
-      - ⚜️@iran_V2ray1⚜️
-      - oneclickvpnkeys_41
-      - oneclickvpnkeys_42
-      - "@MARAMBASHI 🧡"
-      - v2ray_extractor_34
-      - dingyue_center_3
-      - v2ray_extractor_35
-      - v2ray_extractor_36
-      - v2ray_extractor_37
-      - v2ray_extractor_38
-      - v2ray_extractor_39
-      - v2ray_extractor_40
-      - oneclickvpnkeys_43
-      - ⚜️@iran_V2ray1⚜️_1
-      - v2ray_extractor_41
-      - v2ray_extractor_42
-      - v2ray_extractor_43
-      - dingyue_center_4
-      - v2ray_extractor_44
-      - oneclickvpnkeys_44
-      - 🟣69@oneclickvpnkeys | KZ | KZ_1
-      - v2ray_extractor_45
-      - max | DE | 3.80s | Port:443
-      - oneclickvpnkeys_45
-      - new_mtproxi2_25
-      - xsfilternet_3
-      - v2ray_extractor_46
-      - 💚🤍❤ @V2aryng_vpn 👑
-      - tv2rayrr_4
-      - 🇬🇧GB-1756-NetFreedom0
-      - dingyue_center_5
-      - AZARBAYJAB1 | PT
-      - ⚜️@iran_V2ray1⚜️_2
-      - v2ray_extractor_47
-      - v2ray_extractor_48
-      - vpnbaz_24
-      - vpnbaz_25
-      - 45.144.31.24
-      - 🔰@Fast_2ray 👈سرورهای‌بیشتر
-      - v2ray_extractor_49
-      - oneclickvpnkeys_46
-      - oneclickvpnkeys_47
-      - oneclickvpnkeys_48
-      - 🇬🇧GB-5048-NetFreedom0 | GB
-      - v2ray_extractor_50
 rule-providers:
   LocalAreaNetwork:
     type: http
