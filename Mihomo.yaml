@@ -185,15 +185,6 @@ proxies:
       path: /
       headers:
         Host: ir1.airpanel.top
-  - name: v2ray_extractor_6
-    type: vless
-    server: 4.185.113.10
-    port: 443
-    uuid: jina
-    servername: jina-418511310-direct.yektanet.co
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: configraygan
     type: vless
     server: 172.66.128.70
@@ -213,7 +204,7 @@ proxies:
     servername: deu549.worldbypass.org
     tls: true
     flow: xtls-rprx-vision
-  - name: v2ray_extractor_7
+  - name: v2ray_extractor_6
     type: vless
     server: 104.17.148.22
     port: 2096
@@ -244,7 +235,7 @@ proxies:
     reality-opts:
       public-key: 0ebq2jNFPvHs8HvOoCViKBLnUdhSDd1bG9Jeb7f_82k
       short-id: 9f6c7ec9f6434a4f
-  - name: v2ray_extractor_8
+  - name: v2ray_extractor_7
     type: vless
     server: 144.31.2.20
     port: 443
@@ -280,13 +271,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
   - name: ♻️ 自动选择
     type: url-test
@@ -303,13 +293,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -332,13 +321,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
   - name: 📲 电报信息
     type: select
@@ -357,13 +345,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
   - name: Ⓜ️ 微软服务
     type: select
@@ -382,13 +369,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
   - name: 🍎 苹果服务
     type: select
@@ -407,13 +393,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
   - name: 🎯 全球直连
     type: select
@@ -449,13 +434,12 @@ proxy-groups:
       - v2ray_extractor_3
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - v2ray_extractor_6
       - configraygan
       - oneclickvpnkeys_4
-      - v2ray_extractor_7
+      - v2ray_extractor_6
       - oneclickvpnkeys_5
       - oneclickvpnkeys_6
-      - v2ray_extractor_8
+      - v2ray_extractor_7
       - tv2rayrr
 rule-providers:
   LocalAreaNetwork:
