@@ -66,7 +66,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_2
   type: vless
   server: game.pineappled.org
   port: 443
@@ -82,7 +82,7 @@ proxies:
     public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
     short-id: 9eb31eb7572c0882
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_3
   type: vless
   server: 57.129.49.1
   port: 23576
@@ -98,7 +98,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_4
   type: vless
   server: 144.24.97.225
   port: 443
@@ -114,7 +114,7 @@ proxies:
     public-key: h6jFhmMYpmiEmm4sxrBLBSxtgsdM5k5EUvrv1bKNFGU
     short-id: 8894620bd4b91f71
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_5
   type: vless
   server: 212.111.84.82
   port: 8443
@@ -130,7 +130,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: f4b4a6365558ea2e
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_6
   type: vless
   server: 5.255.126.160
   port: 2051
@@ -146,7 +146,7 @@ proxies:
     public-key: pMAxMd8b9VTp8Yp4v18z98zJ6frzxPdK0DvZT8CMF2k
     short-id: 9d38c6241e8c654a
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_7
   type: vless
   server: 57.128.191.90
   port: 8443
@@ -162,7 +162,7 @@ proxies:
     public-key: FFMIZGGtmpMeCKluwyQ2qjgReo6EU8xwM7oLB-ysa2k
     short-id: '59611200'
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_8
   type: vless
   server: 51.250.64.128
   port: 443
@@ -175,7 +175,7 @@ proxies:
   servername: bunny.net
   client-fingerprint: qq
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_9
   type: vless
   server: 51.158.206.98
   port: 23576
@@ -191,7 +191,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_10
   type: vless
   server: 91.84.103.69
   port: 8443
@@ -207,7 +207,7 @@ proxies:
     public-key: UmU6PJtGCvWWIgkKpr6P1Idm2ve4nsPhN7Gh3OPDYAE
     short-id: fecda331e7cb5731
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_11
   type: vless
   server: spb.roblugo.su
   port: 443
@@ -223,7 +223,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_12
   type: vless
   server: 77.83.245.169
   port: 22107
@@ -238,7 +238,7 @@ proxies:
     public-key: MaK15ybWQMEURQWUPLmkVcTlwTn-NVpgQjSJ7TxiyEw
     short-id: ca149cc9d87c3cb6
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_13
   type: vless
   server: 80.211.141.177
   port: 443
@@ -251,7 +251,7 @@ proxies:
   servername: gmail.com
   client-fingerprint: chrome
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_14
   type: vless
   server: 185.227.149.123
   port: 443
@@ -267,7 +267,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
   network: tcp
-- name: FreakConfig
+- name: FreakConfig_15
   type: vless
   server: 94.75.223.65
   port: 443
@@ -295,7 +295,7 @@ proxies:
     public-key: wuCVyrTGxRwcTTvyd2qwKkH8KVphEppAyYRKAn1Z83w
     short-id: 96b4c216341b08ef
   network: tcp
-- name: configraygan
+- name: configraygan_2
   type: vless
   server: 67.159.24.166
   port: 8443
@@ -311,7 +311,7 @@ proxies:
     public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
     short-id: d1d42381ba35
   network: tcp
-- name: configraygan
+- name: configraygan_3
   type: vless
   server: 84.54.48.238
   port: 443
@@ -327,7 +327,7 @@ proxies:
     public-key: SlyS4DeFZ7Ic9r8wc-FNpxfQvCqzEe05RsmhZ4jsYm0
     short-id: 3cc8ceccd9de7f
   network: tcp
-- name: configraygan
+- name: configraygan_4
   type: vless
   server: 144.31.100.120
   port: 443
@@ -342,7 +342,7 @@ proxies:
     public-key: ihtXyG0UidSbXjvCJXUhABwZGCCB62DUsVBFn_qVd3g
     short-id: 54c71eb172a3
   network: tcp
-- name: configraygan
+- name: configraygan_5
   type: vless
   server: 79.133.180.45
   port: 443
@@ -371,7 +371,7 @@ proxies:
   servername: aws.amazon.com
   client-fingerprint: chrome
   network: tcp
-- name: dingyue_center
+- name: dingyue_center_2
   type: vless
   server: pq.vmjp2.yydjc.top
   port: 443
@@ -387,7 +387,7 @@ proxies:
     public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
     short-id: b0fbe0f0
   network: tcp
-- name: dingyue_center
+- name: dingyue_center_3
   type: vless
   server: 38.95.232.247
   port: 24683
@@ -403,7 +403,7 @@ proxies:
     public-key: caKZX80LQ7KPROX0Sv5rMwmQmXVZjgdmLIBHuL4DIwQ
     short-id: 6ba85179e30d4fc2
   network: tcp
-- name: dingyue_center
+- name: dingyue_center_4
   type: vless
   server: 216.250.96.164
   port: 26000
@@ -434,7 +434,7 @@ proxies:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
     short-id: e0ef3d5c0aacb615
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_2
   type: vless
   server: vip.tan3.ir
   port: 443
@@ -449,7 +449,7 @@ proxies:
     public-key: p8D0V1jYr98lK4kU8FlBYfQ1kMO6zgIx5qI_p5dr_Bc
     short-id: 6ba85179e30d4fc2
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_3
   type: vless
   server: 89.110.119.44
   port: 443
@@ -462,7 +462,7 @@ proxies:
   servername: yahoo.com
   client-fingerprint: chrome
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_4
   type: vless
   server: nld14.freednet.org
   port: 443
@@ -475,7 +475,7 @@ proxies:
   servername: www.cybo.com
   client-fingerprint: chrome
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_5
   type: vless
   server: 51.158.206.93
   port: 23576
@@ -491,7 +491,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_6
   type: vless
   server: 89.169.55.246
   port: 443
@@ -506,7 +506,7 @@ proxies:
     public-key: Sy0R6Rfc0__9-mP_o-_Uz1j-dr0tFE622A79TeY1Zgk
     short-id: 50bf58cc86978253
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_7
   type: vless
   server: panelsaf.netvip1.ru
   port: 2087
@@ -521,7 +521,7 @@ proxies:
     public-key: DwNl_pR9JMgEQoq_cdx4HuZRPyapUBn4FkLZs1U3fXQ
     short-id: e004
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_8
   type: vless
   server: switzerland.boot-lee.ru
   port: 8443
@@ -537,7 +537,7 @@ proxies:
     public-key: uPi8pw3m5KwGSNE1uHi0y_GbKBJwAD0-b6hrNsJBnh8
     short-id: 5fe811ec9283ce51
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_9
   type: vless
   server: nl.roblugo.su
   port: 443
@@ -553,7 +553,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_10
   type: vless
   server: fit.jojack.ru
   port: 443
@@ -569,7 +569,7 @@ proxies:
     public-key: u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw
     short-id: f8865ecbb9bc11a3
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_11
   type: vless
   server: 91.84.103.69
   port: 8443
@@ -585,7 +585,7 @@ proxies:
     public-key: UmU6PJtGCvWWIgkKpr6P1Idm2ve4nsPhN7Gh3OPDYAE
     short-id: fecda331e7cb5731
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_12
   type: vless
   server: realbook.psg2fr.pdf2book4iran1art.ir
   port: 8880
@@ -600,7 +600,7 @@ proxies:
     public-key: Pyq2phArGYw2shJNqNQ6f6pF_eb4AVo_lI6a7lgHd0k
     short-id: 2ad726e6b28daf57
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_13
   type: vless
   server: 51.83.43.151
   port: 8080
@@ -616,7 +616,7 @@ proxies:
     public-key: D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw
     short-id: b7b70c104ad267b8
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_14
   type: vless
   server: 146.185.208.206
   port: 8443
@@ -631,7 +631,7 @@ proxies:
     public-key: do22ES2nDjO0EggET4H9Gf8_tEY7PwZv76zVXPrDojQ
     short-id: 5f22
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_15
   type: vless
   server: 64.188.104.168
   port: 40721
@@ -646,7 +646,7 @@ proxies:
     public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
     short-id: df8611c07d
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_16
   type: vless
   server: 178.250.246.80
   port: 1488
@@ -659,7 +659,7 @@ proxies:
   servername: ads.x5.ru
   client-fingerprint: qq
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_17
   type: vless
   server: ya.asbndx.com
   port: 2777
@@ -675,7 +675,7 @@ proxies:
     public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
     short-id: 0f4dacf08722a29f
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_18
   type: vless
   server: 51.158.206.98
   port: 23576
@@ -691,7 +691,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_19
   type: vless
   server: 158.160.223.36
   port: 8443
@@ -707,7 +707,7 @@ proxies:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
     short-id: 48fccabc158a4c22
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_20
   type: vless
   server: 157.173.127.225
   port: 443
@@ -722,7 +722,7 @@ proxies:
     public-key: v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8
     short-id: eab26c4a32
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_21
   type: vless
   server: 77.83.245.173
   port: 33369
@@ -737,7 +737,7 @@ proxies:
     public-key: szWk094FkncOx87ZSq4De5nU-1l0BLxikzvfUT5Dhms
     short-id: 3b05335afef11254
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_22
   type: vless
   server: wolfb03.serverp1anel.ir
   port: 8080
@@ -753,7 +753,7 @@ proxies:
     public-key: D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw
     short-id: b7b70c104ad267b8
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_23
   type: vless
   server: 137.184.218.169
   port: 36925
@@ -766,7 +766,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_24
   type: vless
   server: 109.120.188.166
   port: 443
@@ -782,7 +782,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
   network: tcp
-- name: new_mtproxi2
+- name: new_mtproxi2_25
   type: vless
   server: 78.159.131.5
   port: 443
@@ -814,7 +814,7 @@ proxies:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
     short-id: 8dc4fccb2bcfc99d
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_2
   type: vless
   server: germ-node.genadata.online
   port: 2040
@@ -829,7 +829,7 @@ proxies:
     public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
     short-id: 50ed6f6007515d63
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_3
   type: vless
   server: 212.233.73.212
   port: 8443
@@ -845,7 +845,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: f4b4a6365558ea2e
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_4
   type: vless
   server: 84.252.136.245
   port: 443
@@ -861,7 +861,7 @@ proxies:
     public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
     short-id: c6ef72e4635d15a5
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_5
   type: vless
   server: 84.23.52.70
   port: 8443
@@ -877,7 +877,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: 2715592069f36fe7
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_6
   type: vless
   server: 72.56.96.33
   port: 443
@@ -893,7 +893,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_7
   type: vless
   server: 178.154.253.80
   port: 443
@@ -909,7 +909,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: 2715592069f36fe7
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_8
   type: vless
   server: 45.134.218.222
   port: 443
@@ -925,7 +925,7 @@ proxies:
     public-key: eQXsYV276NoiN9SDwuloNrJkX-NU2tDtkMK6ntKQwlg
     short-id: d4727968a1fae56f
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_9
   type: vless
   server: 62.60.233.57
   port: 33895
@@ -940,7 +940,7 @@ proxies:
     public-key: wuCVyrTGxRwcTTvyd2qwKkH8KVphEppAyYRKAn1Z83w
     short-id: 96b4c216341b08ef
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_10
   type: vless
   server: 81.200.151.14
   port: 443
@@ -956,7 +956,7 @@ proxies:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
     short-id: 95ec618532fa065e
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_11
   type: vless
   server: en.nattyzwerg.org
   port: 443
@@ -972,7 +972,7 @@ proxies:
     public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
     short-id: 684e5e7a0f23
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_12
   type: vless
   server: 89.169.128.105
   port: 8443
@@ -988,7 +988,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: f4b4a6365558ea2e
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_13
   type: vless
   server: 142.111.162.39
   port: 443
@@ -1004,7 +1004,7 @@ proxies:
     public-key: 4SvSS7EqHyV_LDW4vB2f7UIj6x_GXsR3vMnqnaxspHo
     short-id: 42237f32aba8
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_14
   type: vless
   server: 77.83.245.50
   port: 26751
@@ -1019,7 +1019,7 @@ proxies:
     public-key: SAWS1Q0R9zoUyPnj2jI2iNpAZCJqPfZoxTDk4YmaqDM
     short-id: b5be5e9af4473c13
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_15
   type: vless
   server: 144.31.104.1
   port: 2040
@@ -1034,7 +1034,7 @@ proxies:
     public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
     short-id: 50ed6f6007515d63
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_16
   type: vless
   server: 57.128.191.90
   port: 443
@@ -1050,7 +1050,7 @@ proxies:
     public-key: FFMIZGGtmpMeCKluwyQ2qjgReo6EU8xwM7oLB-ysa2k
     short-id: '59611200'
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_17
   type: vless
   server: 185.178.47.245
   port: 443
@@ -1066,7 +1066,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_18
   type: vless
   server: 38.180.138.72
   port: 443
@@ -1082,7 +1082,7 @@ proxies:
     public-key: u4S6MmhgEOkPjlLVZ6twDLy-V9JIpLtyj8vDobOVM0w
     short-id: 1c8eebcb20f6d0ce
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_19
   type: vless
   server: 80.211.141.177
   port: 443
@@ -1095,7 +1095,7 @@ proxies:
   servername: gmail.com
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_20
   type: vless
   server: 45.157.232.144
   port: 443
@@ -1111,7 +1111,7 @@ proxies:
     public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
     short-id: 9eb31eb7572c0882
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_21
   type: vless
   server: 212.34.142.191
   port: 8443
@@ -1127,7 +1127,7 @@ proxies:
     public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
     short-id: f7aa9e61197d3ac6
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_22
   type: vless
   server: 178.154.253.80
   port: 443
@@ -1143,7 +1143,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: f4b4a6365558ea2e
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_23
   type: vless
   server: 152.53.46.200
   port: 443
@@ -1159,7 +1159,7 @@ proxies:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
     short-id: 8dc4fccb2bcfc99d
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_24
   type: vless
   server: 144.24.97.225
   port: 443
@@ -1175,7 +1175,7 @@ proxies:
     public-key: h6jFhmMYpmiEmm4sxrBLBSxtgsdM5k5EUvrv1bKNFGU
     short-id: 8894620bd4b91f71
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_25
   type: vless
   server: 77.83.245.171
   port: 30482
@@ -1190,7 +1190,7 @@ proxies:
     public-key: g_7QlKrMhvaQGQO3Z3yukNXZPQ1B67wj8TWDIUSx22I
     short-id: 25113374dc322ec0
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_26
   type: vless
   server: 82.97.243.225
   port: 443
@@ -1206,7 +1206,7 @@ proxies:
     public-key: C3hc32Cknec2shasKJIH2DYVb7Fyu64RF9v71L3ipEg
     short-id: 9c2378562188c3cb
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_27
   type: vless
   server: 137.184.218.169
   port: 36925
@@ -1219,7 +1219,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_28
   type: vless
   server: nl.roblugo.su
   port: 443
@@ -1235,7 +1235,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_29
   type: vless
   server: 38.180.144.156
   port: 8443
@@ -1251,7 +1251,7 @@ proxies:
     public-key: 76Cfr5qNl9BCrSb6jdkrgj0HbwfyCwj4oF6JJVhKD0s
     short-id: 42d7234d875308a2
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_30
   type: vless
   server: 89.169.162.214
   port: 443
@@ -1267,7 +1267,7 @@ proxies:
     public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
     short-id: 205748bc0f24a747
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_31
   type: vless
   server: 45.145.40.26
   port: 443
@@ -1283,7 +1283,7 @@ proxies:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
     short-id: 4daa022e84f8edf2
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_32
   type: vless
   server: 144.31.17.116
   port: 443
@@ -1299,7 +1299,7 @@ proxies:
     public-key: iAWzXE2vetDOtZePY7-Y64p5AY7h35eE3YnVSZM8LUw
     short-id: 760f7a4c46859978
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_33
   type: vless
   server: 51.250.92.100
   port: 443
@@ -1315,7 +1315,7 @@ proxies:
     public-key: OBR2JYROQB8odK5glVW_KLnsWl3UZ-voyGq_9ihQgTI
     short-id: d49d578f280fd83a
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_34
   type: vless
   server: 144.31.178.196
   port: 443
@@ -1328,7 +1328,7 @@ proxies:
   servername: ee.connectv.net
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_35
   type: vless
   server: 178.154.253.80
   port: 8443
@@ -1344,7 +1344,7 @@ proxies:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: f4b4a6365558ea2e
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_36
   type: vless
   server: nld14.freednet.org
   port: 443
@@ -1357,7 +1357,7 @@ proxies:
   servername: www.cybo.com
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_37
   type: vless
   server: 87.239.252.186
   port: 443
@@ -1373,7 +1373,7 @@ proxies:
     public-key: uf64ptbhMNcLWuwEfOzQB7qgn725h6w9DmKRteQQPwg
     short-id: c928a1bbe076
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_38
   type: vless
   server: ir.grbr.private-link.lornanet.ir
   port: 3130
@@ -1389,7 +1389,7 @@ proxies:
     public-key: dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw
     short-id: e99768d076c05ab2
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_39
   type: vless
   server: alb.pineappled.org
   port: 443
@@ -1405,7 +1405,7 @@ proxies:
     public-key: SlyS4DeFZ7Ic9r8wc-FNpxfQvCqzEe05RsmhZ4jsYm0
     short-id: 3cc8ceccd9de7f
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_40
   type: vless
   server: 144.31.100.120
   port: 443
@@ -1420,7 +1420,7 @@ proxies:
     public-key: ihtXyG0UidSbXjvCJXUhABwZGCCB62DUsVBFn_qVd3g
     short-id: 54c71eb172a3
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_41
   type: vless
   server: 144.31.3.162
   port: 443
@@ -1433,7 +1433,7 @@ proxies:
   servername: pl-modx.webedg.net
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_42
   type: vless
   server: 144.31.3.250
   port: 443
@@ -1446,7 +1446,7 @@ proxies:
   servername: www.yandex.ru
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_43
   type: vless
   server: 94.130.132.223
   port: 443
@@ -1462,7 +1462,7 @@ proxies:
     public-key: XwmblvweauAJK87G-he0C5OQ-S4Czs1X5BXnbJ7UkiU
     short-id: 661ee8b0696b45
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_44
   type: vless
   server: 77.83.245.189
   port: 27414
@@ -1477,7 +1477,7 @@ proxies:
     public-key: eiA4uP7O29DoX6lvwhjaIXPTANlwvPB1Jzom_V2Z5gE
     short-id: 1ba8b4cd54627171
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_45
   type: vless
   server: osn.takovpn.ru
   port: 443
@@ -1492,7 +1492,7 @@ proxies:
     public-key: ihtXyG0UidSbXjvCJXUhABwZGCCB62DUsVBFn_qVd3g
     short-id: 54c71eb172a3
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_46
   type: vless
   server: 85.192.40.51
   port: 443
@@ -1505,7 +1505,7 @@ proxies:
   servername: apple.com
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_47
   type: vless
   server: 57.128.191.90
   port: 8443
@@ -1521,7 +1521,7 @@ proxies:
     public-key: FFMIZGGtmpMeCKluwyQ2qjgReo6EU8xwM7oLB-ysa2k
     short-id: '59611200'
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_48
   type: vless
   server: 79.133.180.45
   port: 443
@@ -1537,7 +1537,7 @@ proxies:
     public-key: 45ui5TpjfPf6HmRyT4M53XnR9tOXjpcLRLmaRyhlPiQ
     short-id: d7325e33
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_49
   type: vless
   server: 152.53.80.155
   port: 443
@@ -1553,7 +1553,7 @@ proxies:
     public-key: ro3eiurBgnUwqydPbSOgDXZ2iCCAM85_JN2C9UcSoQU
     short-id: ffffffffff
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_50
   type: vless
   server: 91.84.105.61
   port: 25998
@@ -1568,7 +1568,7 @@ proxies:
     public-key: Da5do6b68bgCVmWE66sKmhtN-lATbk-wEEww9jkweHM
     short-id: 0ae9b755f28f
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_51
   type: vless
   server: 185.39.206.226
   port: 443
@@ -1584,7 +1584,7 @@ proxies:
     public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
     short-id: b8cf9578640a9edf
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_52
   type: vless
   server: 193.160.130.112
   port: 443
@@ -1597,7 +1597,7 @@ proxies:
   servername: yimg.com
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_53
   type: vless
   server: pol1.linkey37.ru
   port: 443
@@ -1610,7 +1610,7 @@ proxies:
   servername: www.yandex.ru
   client-fingerprint: chrome
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_54
   type: vless
   server: 45.12.144.89
   port: 443
@@ -1626,7 +1626,7 @@ proxies:
     public-key: KTnlR0JPWc5b56rPgQhVTLMuhNgsVcq0eZWLBsespwQ
     short-id: 039ac6674967d725
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_55
   type: vless
   server: 84.54.48.238
   port: 443
@@ -1642,7 +1642,7 @@ proxies:
     public-key: SlyS4DeFZ7Ic9r8wc-FNpxfQvCqzEe05RsmhZ4jsYm0
     short-id: 3cc8ceccd9de7f
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_56
   type: vless
   server: 92.60.78.221
   port: 443
@@ -1658,7 +1658,7 @@ proxies:
     public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
     short-id: 9917d2350096
   network: tcp
-- name: oneclickvpnkeys
+- name: oneclickvpnkeys_57
   type: vless
   server: 185.214.74.211
   port: 443
@@ -1684,7 +1684,7 @@ proxies:
   servername: bunny.net
   client-fingerprint: chrome
   network: tcp
-- name: persianvpnhub
+- name: persianvpnhub_2
   type: vless
   server: 72.56.96.249
   port: 443
@@ -1700,7 +1700,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: persianvpnhub
+- name: persianvpnhub_3
   type: vless
   server: 15.204.97.197
   port: 23576
@@ -1731,7 +1731,7 @@ proxies:
     public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
     short-id: 850a5cbb81
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_2
   type: vless
   server: usa.srv.happvpn.com
   port: 443
@@ -1747,7 +1747,7 @@ proxies:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_3
   type: vless
   server: fr.soreanapanel.com
   port: 443
@@ -1762,7 +1762,7 @@ proxies:
     public-key: liR-hmXj77ENkmMXhMnIZ1VLK9Gszaob1l_3U3O7Axs
     short-id: 33d92e960cb19e71
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_4
   type: vless
   server: 178.236.16.98
   port: 35728
@@ -1777,7 +1777,7 @@ proxies:
     public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
     short-id: 69a2
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_5
   type: vless
   server: tunnyl.ru
   port: 443
@@ -1793,7 +1793,7 @@ proxies:
     public-key: llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs
     short-id: 0f1d6a
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_6
   type: vless
   server: 47.245.38.111
   port: 443
@@ -1808,7 +1808,7 @@ proxies:
     public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
     short-id: 860705e716cbe6ed
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_7
   type: vless
   server: 77.91.68.70
   port: 55983
@@ -1823,7 +1823,7 @@ proxies:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
     short-id: 0e
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_8
   type: vless
   server: 154.12.179.154
   port: 2501
@@ -1839,7 +1839,7 @@ proxies:
     public-key: N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw
     short-id: b793cdadb1c785
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_9
   type: vless
   server: 40.233.83.110
   port: 26113
@@ -1855,7 +1855,7 @@ proxies:
     public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
     short-id: 1fbd20fd
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_10
   type: vless
   server: 143.20.79.11
   port: 443
@@ -1871,7 +1871,7 @@ proxies:
     public-key: MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw
     short-id: 491db313
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_11
   type: vless
   server: 156.229.161.107
   port: 10001
@@ -1887,7 +1887,7 @@ proxies:
     public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
     short-id: fb2c6678
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_12
   type: vless
   server: lt.srv.happvpn.com
   port: 443
@@ -1903,7 +1903,7 @@ proxies:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_13
   type: vless
   server: 213.176.16.74
   port: 443
@@ -1919,7 +1919,7 @@ proxies:
     public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
     short-id: aabbccdd
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_14
   type: vless
   server: 45.134.12.47
   port: 31203
@@ -1935,7 +1935,7 @@ proxies:
     public-key: tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg
     short-id: ab12cd34
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_15
   type: vless
   server: 188.253.21.106
   port: 443
@@ -1951,7 +1951,7 @@ proxies:
     public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
     short-id: 73d3fec4
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_16
   type: vless
   server: 81.19.140.245
   port: 443
@@ -1967,7 +1967,7 @@ proxies:
     public-key: mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc
     short-id: 19d1ff9e
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_17
   type: vless
   server: 156.244.41.221
   port: 443
@@ -1980,7 +1980,7 @@ proxies:
   servername: aws.amazon.com
   client-fingerprint: chrome
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_18
   type: vless
   server: de.shvurgceo.online
   port: 14357
@@ -1996,7 +1996,7 @@ proxies:
     public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
     short-id: ab12cd34
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_19
   type: vless
   server: 77.110.119.225
   port: 443
@@ -2012,7 +2012,7 @@ proxies:
     public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
     short-id: 07e904766d29b958
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_20
   type: vless
   server: 31.6.1.187
   port: 25607
@@ -2028,7 +2028,7 @@ proxies:
     public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
     short-id: '84'
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_21
   type: vless
   server: 193.233.48.92
   port: 443
@@ -2044,7 +2044,7 @@ proxies:
     public-key: gFH0rutmQ8EQBMsUlWJ_eeQnkQkazATNPJvsTJnZZiY
     short-id: 6dfeb23c
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_22
   type: vless
   server: 178.239.125.31
   port: 39735
@@ -2057,7 +2057,7 @@ proxies:
   servername: www.yahoo.co.jp
   client-fingerprint: chrome
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_23
   type: vless
   server: youtube.happvpn.com
   port: 443
@@ -2073,7 +2073,7 @@ proxies:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_24
   type: vless
   server: nl2.srv.happvpn.com
   port: 443
@@ -2089,7 +2089,7 @@ proxies:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_25
   type: vless
   server: 81.19.140.202
   port: 60552
@@ -2104,7 +2104,7 @@ proxies:
     public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
     short-id: e62fec30f1a0167e
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_26
   type: vless
   server: fi.srv.happvpn.com
   port: 443
@@ -2120,7 +2120,7 @@ proxies:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_27
   type: vless
   server: 38.180.17.232
   port: 443
@@ -2136,7 +2136,7 @@ proxies:
     public-key: h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4
     short-id: 3e
   network: tcp
-- name: tv2rayrr
+- name: tv2rayrr_28
   type: vless
   server: 91.220.8.177
   port: 443
@@ -2167,7 +2167,7 @@ proxies:
     public-key: tQwZ96ULPZim00dZUVBxCl1wRkVjULRVbho7_Z2FQFw
     short-id: 57d56055
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_2
   type: vless
   server: 15.204.97.214
   port: 23576
@@ -2183,7 +2183,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_3
   type: vless
   server: 51.158.206.98
   port: 23576
@@ -2199,7 +2199,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_4
   type: vless
   server: 51.158.206.26
   port: 23576
@@ -2215,7 +2215,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_5
   type: vless
   server: 51.158.206.97
   port: 23576
@@ -2231,7 +2231,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_6
   type: vless
   server: 15.204.97.195
   port: 23576
@@ -2247,7 +2247,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_7
   type: vless
   server: 51.158.206.93
   port: 23576
@@ -2263,7 +2263,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_8
   type: vless
   server: 15.204.97.197
   port: 23576
@@ -2279,7 +2279,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_9
   type: vless
   server: 137.184.218.169
   port: 36925
@@ -2292,7 +2292,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_10
   type: vless
   server: 51.158.206.87
   port: 23576
@@ -2308,7 +2308,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_11
   type: vless
   server: 57.129.53.180
   port: 23576
@@ -2324,7 +2324,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_12
   type: vless
   server: 62.210.91.2
   port: 23576
@@ -2340,7 +2340,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_13
   type: vless
   server: 57.129.53.181
   port: 23576
@@ -2356,7 +2356,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_14
   type: vless
   server: 51.158.206.86
   port: 23576
@@ -2372,7 +2372,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_15
   type: vless
   server: 51.158.206.20
   port: 23576
@@ -2388,7 +2388,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_16
   type: vless
   server: 5.188.140.115
   port: 1488
@@ -2404,7 +2404,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_17
   type: vless
   server: 51.158.206.25
   port: 23576
@@ -2420,7 +2420,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_18
   type: vless
   server: 51.158.206.34
   port: 23576
@@ -2436,7 +2436,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_19
   type: vless
   server: test.spectrum.vu
   port: 443
@@ -2449,7 +2449,7 @@ proxies:
   servername: test.spectrum.vu
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_20
   type: vless
   server: 147.182.212.232
   port: 56565
@@ -2462,7 +2462,7 @@ proxies:
   servername: www.paypal.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_21
   type: vless
   server: 51.158.206.19
   port: 23576
@@ -2478,7 +2478,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_22
   type: vless
   server: 94.130.132.223
   port: 443
@@ -2494,7 +2494,7 @@ proxies:
     public-key: XwmblvweauAJK87G-he0C5OQ-S4Czs1X5BXnbJ7UkiU
     short-id: 661ee8b0696b45
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_23
   type: vless
   server: 89.110.119.44
   port: 443
@@ -2507,7 +2507,7 @@ proxies:
   servername: yahoo.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_24
   type: vless
   server: 47.251.25.74
   port: 443
@@ -2520,7 +2520,7 @@ proxies:
   servername: www.amazon.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_25
   type: vless
   server: kh2.mahdi383ir.website
   port: 9090
@@ -2535,7 +2535,7 @@ proxies:
     public-key: tQwZ96ULPZim00dZUVBxCl1wRkVjULRVbho7_Z2FQFw
     short-id: 57d56055
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_26
   type: vless
   server: 45.66.163.75
   port: 443
@@ -2548,7 +2548,7 @@ proxies:
   servername: msn.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_27
   type: vless
   server: 176.120.67.169
   port: 443
@@ -2561,7 +2561,7 @@ proxies:
   servername: wikimedia.org
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_28
   type: vless
   server: 51.158.206.29
   port: 23576
@@ -2577,7 +2577,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_29
   type: vless
   server: 15.204.97.216
   port: 23576
@@ -2593,7 +2593,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_30
   type: vless
   server: 217.154.194.55
   port: 443
@@ -2606,7 +2606,7 @@ proxies:
   servername: azure.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_31
   type: vless
   server: 62.210.91.10
   port: 23576
@@ -2622,7 +2622,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_32
   type: vless
   server: 142.248.80.157
   port: 443
@@ -2635,7 +2635,7 @@ proxies:
   servername: apple.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_33
   type: vless
   server: 15.204.97.206
   port: 23576
@@ -2651,7 +2651,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_34
   type: vless
   server: 51.158.206.103
   port: 23576
@@ -2667,7 +2667,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_35
   type: vless
   server: 51.158.206.80
   port: 23576
@@ -2683,7 +2683,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_36
   type: vless
   server: 15.204.97.219
   port: 23576
@@ -2699,7 +2699,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_37
   type: vless
   server: 15.204.97.198
   port: 23576
@@ -2715,7 +2715,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_38
   type: vless
   server: 51.158.206.8
   port: 23576
@@ -2731,7 +2731,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_39
   type: vless
   server: 80.211.141.177
   port: 443
@@ -2744,7 +2744,7 @@ proxies:
   servername: gmail.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_40
   type: vless
   server: 51.158.206.12
   port: 23576
@@ -2760,7 +2760,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: v2ray_extractor
+- name: v2ray_extractor_41
   type: vless
   server: 51.158.206.96
   port: 23576
@@ -2792,7 +2792,7 @@ proxies:
     public-key: KkGxnE3A4EaG8C7JydHk46UMuCP-Hcpua6lna-TvIAI
     short-id: eae3d03b0083f7af
   network: tcp
-- name: vpnbaz
+- name: vpnbaz_2
   type: vless
   server: ip.speedcheck.mobileemdad.top
   port: 4450
@@ -2805,7 +2805,7 @@ proxies:
   servername: play.google.com
   client-fingerprint: firefox
   network: tcp
-- name: vpnbaz
+- name: vpnbaz_3
   type: vless
   server: nl.roblugo.su
   port: 443
@@ -2821,7 +2821,7 @@ proxies:
     public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
     short-id: bbfb4f7a53e22dd3
   network: tcp
-- name: vpnbaz
+- name: vpnbaz_4
   type: vless
   server: 57.129.53.182
   port: 23576
@@ -2837,7 +2837,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: vpnbaz
+- name: vpnbaz_5
   type: vless
   server: 57.129.49.1
   port: 23576
@@ -2853,7 +2853,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: vpnbaz
+- name: vpnbaz_6
   type: vless
   server: pol2.linkey37.ru
   port: 443
@@ -2882,7 +2882,7 @@ proxies:
     public-key: n7PbThf3Y4O9x0Ya1sENteFwg7k4INOTnI64MxVz5UQ
     short-id: 0123456789abcdef
   network: tcp
-- name: wiki_tajrobe
+- name: wiki_tajrobe_2
   type: vless
   server: 81.12.91.190
   port: 443
@@ -2897,7 +2897,7 @@ proxies:
     public-key: U6FRH-QtDwZPWgVlOnm3TTcknf2uZMB4j4IZJoi8ezM
     short-id: e081d94bd1f9bd56
   network: tcp
-- name: wiki_tajrobe
+- name: wiki_tajrobe_3
   type: vless
   server: 80.211.236.226
   port: 443
@@ -2910,7 +2910,7 @@ proxies:
   servername: gmail.com
   client-fingerprint: chrome
   network: tcp
-- name: wiki_tajrobe
+- name: wiki_tajrobe_4
   type: vless
   server: 94.131.100.42
   port: 42642
@@ -2926,7 +2926,7 @@ proxies:
     public-key: iIRXKqJFxSwYKAvwwB952WMLgU1UDC9yFqNUsRYuW2U
     short-id: 41ac
   network: tcp
-- name: wiki_tajrobe
+- name: wiki_tajrobe_5
   type: vless
   server: 130.193.59.133
   port: 8443
@@ -2948,194 +2948,194 @@ proxy-groups:
   proxies:
   - 💦 Best Ping 🚀
   - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
+  - FreakConfig_2
+  - FreakConfig_3
+  - FreakConfig_4
+  - FreakConfig_5
+  - FreakConfig_6
+  - FreakConfig_7
+  - FreakConfig_8
+  - FreakConfig_9
+  - FreakConfig_10
+  - FreakConfig_11
+  - FreakConfig_12
+  - FreakConfig_13
+  - FreakConfig_14
+  - FreakConfig_15
   - configraygan
-  - configraygan
-  - configraygan
-  - configraygan
-  - configraygan
+  - configraygan_2
+  - configraygan_3
+  - configraygan_4
+  - configraygan_5
   - dingyue_center
-  - dingyue_center
-  - dingyue_center
-  - dingyue_center
+  - dingyue_center_2
+  - dingyue_center_3
+  - dingyue_center_4
   - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
+  - new_mtproxi2_2
+  - new_mtproxi2_3
+  - new_mtproxi2_4
+  - new_mtproxi2_5
+  - new_mtproxi2_6
+  - new_mtproxi2_7
+  - new_mtproxi2_8
+  - new_mtproxi2_9
+  - new_mtproxi2_10
+  - new_mtproxi2_11
+  - new_mtproxi2_12
+  - new_mtproxi2_13
+  - new_mtproxi2_14
+  - new_mtproxi2_15
+  - new_mtproxi2_16
+  - new_mtproxi2_17
+  - new_mtproxi2_18
+  - new_mtproxi2_19
+  - new_mtproxi2_20
+  - new_mtproxi2_21
+  - new_mtproxi2_22
+  - new_mtproxi2_23
+  - new_mtproxi2_24
+  - new_mtproxi2_25
   - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
+  - oneclickvpnkeys_2
+  - oneclickvpnkeys_3
+  - oneclickvpnkeys_4
+  - oneclickvpnkeys_5
+  - oneclickvpnkeys_6
+  - oneclickvpnkeys_7
+  - oneclickvpnkeys_8
+  - oneclickvpnkeys_9
+  - oneclickvpnkeys_10
+  - oneclickvpnkeys_11
+  - oneclickvpnkeys_12
+  - oneclickvpnkeys_13
+  - oneclickvpnkeys_14
+  - oneclickvpnkeys_15
+  - oneclickvpnkeys_16
+  - oneclickvpnkeys_17
+  - oneclickvpnkeys_18
+  - oneclickvpnkeys_19
+  - oneclickvpnkeys_20
+  - oneclickvpnkeys_21
+  - oneclickvpnkeys_22
+  - oneclickvpnkeys_23
+  - oneclickvpnkeys_24
+  - oneclickvpnkeys_25
+  - oneclickvpnkeys_26
+  - oneclickvpnkeys_27
+  - oneclickvpnkeys_28
+  - oneclickvpnkeys_29
+  - oneclickvpnkeys_30
+  - oneclickvpnkeys_31
+  - oneclickvpnkeys_32
+  - oneclickvpnkeys_33
+  - oneclickvpnkeys_34
+  - oneclickvpnkeys_35
+  - oneclickvpnkeys_36
+  - oneclickvpnkeys_37
+  - oneclickvpnkeys_38
+  - oneclickvpnkeys_39
+  - oneclickvpnkeys_40
+  - oneclickvpnkeys_41
+  - oneclickvpnkeys_42
+  - oneclickvpnkeys_43
+  - oneclickvpnkeys_44
+  - oneclickvpnkeys_45
+  - oneclickvpnkeys_46
+  - oneclickvpnkeys_47
+  - oneclickvpnkeys_48
+  - oneclickvpnkeys_49
+  - oneclickvpnkeys_50
+  - oneclickvpnkeys_51
+  - oneclickvpnkeys_52
+  - oneclickvpnkeys_53
+  - oneclickvpnkeys_54
+  - oneclickvpnkeys_55
+  - oneclickvpnkeys_56
+  - oneclickvpnkeys_57
   - persianvpnhub
-  - persianvpnhub
-  - persianvpnhub
+  - persianvpnhub_2
+  - persianvpnhub_3
   - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
+  - tv2rayrr_2
+  - tv2rayrr_3
+  - tv2rayrr_4
+  - tv2rayrr_5
+  - tv2rayrr_6
+  - tv2rayrr_7
+  - tv2rayrr_8
+  - tv2rayrr_9
+  - tv2rayrr_10
+  - tv2rayrr_11
+  - tv2rayrr_12
+  - tv2rayrr_13
+  - tv2rayrr_14
+  - tv2rayrr_15
+  - tv2rayrr_16
+  - tv2rayrr_17
+  - tv2rayrr_18
+  - tv2rayrr_19
+  - tv2rayrr_20
+  - tv2rayrr_21
+  - tv2rayrr_22
+  - tv2rayrr_23
+  - tv2rayrr_24
+  - tv2rayrr_25
+  - tv2rayrr_26
+  - tv2rayrr_27
+  - tv2rayrr_28
   - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
+  - v2ray_extractor_2
+  - v2ray_extractor_3
+  - v2ray_extractor_4
+  - v2ray_extractor_5
+  - v2ray_extractor_6
+  - v2ray_extractor_7
+  - v2ray_extractor_8
+  - v2ray_extractor_9
+  - v2ray_extractor_10
+  - v2ray_extractor_11
+  - v2ray_extractor_12
+  - v2ray_extractor_13
+  - v2ray_extractor_14
+  - v2ray_extractor_15
+  - v2ray_extractor_16
+  - v2ray_extractor_17
+  - v2ray_extractor_18
+  - v2ray_extractor_19
+  - v2ray_extractor_20
+  - v2ray_extractor_21
+  - v2ray_extractor_22
+  - v2ray_extractor_23
+  - v2ray_extractor_24
+  - v2ray_extractor_25
+  - v2ray_extractor_26
+  - v2ray_extractor_27
+  - v2ray_extractor_28
+  - v2ray_extractor_29
+  - v2ray_extractor_30
+  - v2ray_extractor_31
+  - v2ray_extractor_32
+  - v2ray_extractor_33
+  - v2ray_extractor_34
+  - v2ray_extractor_35
+  - v2ray_extractor_36
+  - v2ray_extractor_37
+  - v2ray_extractor_38
+  - v2ray_extractor_39
+  - v2ray_extractor_40
+  - v2ray_extractor_41
   - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
+  - vpnbaz_2
+  - vpnbaz_3
+  - vpnbaz_4
+  - vpnbaz_5
+  - vpnbaz_6
   - wiki_tajrobe
-  - wiki_tajrobe
-  - wiki_tajrobe
-  - wiki_tajrobe
-  - wiki_tajrobe
+  - wiki_tajrobe_2
+  - wiki_tajrobe_3
+  - wiki_tajrobe_4
+  - wiki_tajrobe_5
 - name: 💦 Best Ping 🚀
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -3143,193 +3143,193 @@ proxy-groups:
   tolerance: 50
   proxies:
   - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
+  - FreakConfig_2
+  - FreakConfig_3
+  - FreakConfig_4
+  - FreakConfig_5
+  - FreakConfig_6
+  - FreakConfig_7
+  - FreakConfig_8
+  - FreakConfig_9
+  - FreakConfig_10
+  - FreakConfig_11
+  - FreakConfig_12
+  - FreakConfig_13
+  - FreakConfig_14
+  - FreakConfig_15
   - configraygan
-  - configraygan
-  - configraygan
-  - configraygan
-  - configraygan
+  - configraygan_2
+  - configraygan_3
+  - configraygan_4
+  - configraygan_5
   - dingyue_center
-  - dingyue_center
-  - dingyue_center
-  - dingyue_center
+  - dingyue_center_2
+  - dingyue_center_3
+  - dingyue_center_4
   - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
-  - new_mtproxi2
+  - new_mtproxi2_2
+  - new_mtproxi2_3
+  - new_mtproxi2_4
+  - new_mtproxi2_5
+  - new_mtproxi2_6
+  - new_mtproxi2_7
+  - new_mtproxi2_8
+  - new_mtproxi2_9
+  - new_mtproxi2_10
+  - new_mtproxi2_11
+  - new_mtproxi2_12
+  - new_mtproxi2_13
+  - new_mtproxi2_14
+  - new_mtproxi2_15
+  - new_mtproxi2_16
+  - new_mtproxi2_17
+  - new_mtproxi2_18
+  - new_mtproxi2_19
+  - new_mtproxi2_20
+  - new_mtproxi2_21
+  - new_mtproxi2_22
+  - new_mtproxi2_23
+  - new_mtproxi2_24
+  - new_mtproxi2_25
   - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
+  - oneclickvpnkeys_2
+  - oneclickvpnkeys_3
+  - oneclickvpnkeys_4
+  - oneclickvpnkeys_5
+  - oneclickvpnkeys_6
+  - oneclickvpnkeys_7
+  - oneclickvpnkeys_8
+  - oneclickvpnkeys_9
+  - oneclickvpnkeys_10
+  - oneclickvpnkeys_11
+  - oneclickvpnkeys_12
+  - oneclickvpnkeys_13
+  - oneclickvpnkeys_14
+  - oneclickvpnkeys_15
+  - oneclickvpnkeys_16
+  - oneclickvpnkeys_17
+  - oneclickvpnkeys_18
+  - oneclickvpnkeys_19
+  - oneclickvpnkeys_20
+  - oneclickvpnkeys_21
+  - oneclickvpnkeys_22
+  - oneclickvpnkeys_23
+  - oneclickvpnkeys_24
+  - oneclickvpnkeys_25
+  - oneclickvpnkeys_26
+  - oneclickvpnkeys_27
+  - oneclickvpnkeys_28
+  - oneclickvpnkeys_29
+  - oneclickvpnkeys_30
+  - oneclickvpnkeys_31
+  - oneclickvpnkeys_32
+  - oneclickvpnkeys_33
+  - oneclickvpnkeys_34
+  - oneclickvpnkeys_35
+  - oneclickvpnkeys_36
+  - oneclickvpnkeys_37
+  - oneclickvpnkeys_38
+  - oneclickvpnkeys_39
+  - oneclickvpnkeys_40
+  - oneclickvpnkeys_41
+  - oneclickvpnkeys_42
+  - oneclickvpnkeys_43
+  - oneclickvpnkeys_44
+  - oneclickvpnkeys_45
+  - oneclickvpnkeys_46
+  - oneclickvpnkeys_47
+  - oneclickvpnkeys_48
+  - oneclickvpnkeys_49
+  - oneclickvpnkeys_50
+  - oneclickvpnkeys_51
+  - oneclickvpnkeys_52
+  - oneclickvpnkeys_53
+  - oneclickvpnkeys_54
+  - oneclickvpnkeys_55
+  - oneclickvpnkeys_56
+  - oneclickvpnkeys_57
   - persianvpnhub
-  - persianvpnhub
-  - persianvpnhub
+  - persianvpnhub_2
+  - persianvpnhub_3
   - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
-  - tv2rayrr
+  - tv2rayrr_2
+  - tv2rayrr_3
+  - tv2rayrr_4
+  - tv2rayrr_5
+  - tv2rayrr_6
+  - tv2rayrr_7
+  - tv2rayrr_8
+  - tv2rayrr_9
+  - tv2rayrr_10
+  - tv2rayrr_11
+  - tv2rayrr_12
+  - tv2rayrr_13
+  - tv2rayrr_14
+  - tv2rayrr_15
+  - tv2rayrr_16
+  - tv2rayrr_17
+  - tv2rayrr_18
+  - tv2rayrr_19
+  - tv2rayrr_20
+  - tv2rayrr_21
+  - tv2rayrr_22
+  - tv2rayrr_23
+  - tv2rayrr_24
+  - tv2rayrr_25
+  - tv2rayrr_26
+  - tv2rayrr_27
+  - tv2rayrr_28
   - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
-  - v2ray_extractor
+  - v2ray_extractor_2
+  - v2ray_extractor_3
+  - v2ray_extractor_4
+  - v2ray_extractor_5
+  - v2ray_extractor_6
+  - v2ray_extractor_7
+  - v2ray_extractor_8
+  - v2ray_extractor_9
+  - v2ray_extractor_10
+  - v2ray_extractor_11
+  - v2ray_extractor_12
+  - v2ray_extractor_13
+  - v2ray_extractor_14
+  - v2ray_extractor_15
+  - v2ray_extractor_16
+  - v2ray_extractor_17
+  - v2ray_extractor_18
+  - v2ray_extractor_19
+  - v2ray_extractor_20
+  - v2ray_extractor_21
+  - v2ray_extractor_22
+  - v2ray_extractor_23
+  - v2ray_extractor_24
+  - v2ray_extractor_25
+  - v2ray_extractor_26
+  - v2ray_extractor_27
+  - v2ray_extractor_28
+  - v2ray_extractor_29
+  - v2ray_extractor_30
+  - v2ray_extractor_31
+  - v2ray_extractor_32
+  - v2ray_extractor_33
+  - v2ray_extractor_34
+  - v2ray_extractor_35
+  - v2ray_extractor_36
+  - v2ray_extractor_37
+  - v2ray_extractor_38
+  - v2ray_extractor_39
+  - v2ray_extractor_40
+  - v2ray_extractor_41
   - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
+  - vpnbaz_2
+  - vpnbaz_3
+  - vpnbaz_4
+  - vpnbaz_5
+  - vpnbaz_6
   - wiki_tajrobe
-  - wiki_tajrobe
-  - wiki_tajrobe
-  - wiki_tajrobe
-  - wiki_tajrobe
+  - wiki_tajrobe_2
+  - wiki_tajrobe_3
+  - wiki_tajrobe_4
+  - wiki_tajrobe_5
 rules:
 - MATCH,✅ Selector
