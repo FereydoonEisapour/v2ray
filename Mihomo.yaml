@@ -46,63 +46,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: v2ray_extractor
-    type: vless
-    server: 144.31.4.36
-    port: 443
-    uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-    servername: plcdn13.suio.me
-    tls: true
-  - name: v2ray_extractor_1
-    type: vless
-    server: ip.shakhle.ir
-    port: 2083
-    uuid: 260f19e2-41c2-4f0c-870f-ab7e28e72ef6
-    network: ws
-    servername: ipv4.yasharteam.com
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: ipv4.yasharteam.com
   - name: oneclickvpnkeys
-    type: vless
-    server: 212.111.84.187
-    port: 8443
-    uuid: f831dbe0-2e90-4b0f-8150-2b21d9baae3f
-    servername: m.vk.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-      short-id: 887c0d72e771a934
-  - name: new_mtproxi2
-    type: vless
-    server: brenna.ns.cloudflare.com
-    port: 2096
-    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-    network: ws
-    servername: hetz.x-smm.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /45.76.183.217=49292
-      headers:
-        Host: hetz.x-smm.com
-  - name: v2ray_extractor_2
-    type: vless
-    server: 108.162.193.217
-    port: 2096
-    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-    network: ws
-    servername: hetz.x-smm.com
-    tls: true
-    ws-opts:
-      path: /45.76.183.217=49292
-      headers:
-        Host: hetz.x-smm.com
-  - name: oneclickvpnkeys_1
     type: vless
     server: 45.130.125.160
     port: 2083
@@ -114,7 +58,7 @@ proxies:
       path: /
       headers:
         Host: ipv4.yasharteam.com
-  - name: new_mtproxi2_1
+  - name: configraygan
     type: vless
     server: ip.shakhle.ir
     port: 2083
@@ -125,45 +69,11 @@ proxies:
     client-fingerprint: chrome
     ws-opts:
       path: /
-  - name: oneclickvpnkeys_2
-    type: vless
-    server: 104.18.32.47
-    port: 443
-    uuid: 2f466a3b-5093-4556-8759-c87c8511c753
-    network: ws
-    servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
-    tls: true
-    ws-opts:
-      path: /ws
       headers:
-        Host: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
-  - name: oneclickvpnkeys_3
+        Host: ipv4.yasharteam.com
+  - name: v2ray_extractor
     type: vless
-    server: ae.cdn.stun.su
-    port: 443
-    uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-    servername: ae.cdn.stun.su
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-      short-id: 41a0b29e95aaea87
-  - name: v2ray_extractor_3
-    type: vless
-    server: 104.18.32.47
-    port: 8443
-    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-    network: ws
-    servername: ovhwuxian.pai50288.uk
-    tls: true
-    ws-opts:
-      path: /57ba2ab1
-      headers:
-        Host: ovhwuxian.pai50288.uk
-  - name: v2ray_extractor_4
-    type: vless
-    server: 172.64.35.45
+    server: 172.64.33.91
     port: 2096
     uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
     network: ws
@@ -173,21 +83,57 @@ proxies:
       path: /45.76.183.217=49292
       headers:
         Host: hetz.x-smm.com
-  - name: v2ray_extractor_5
+  - name: new_mtproxi2
     type: vless
-    server: 162.159.36.20
-    port: 2053
-    uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+    server: ip.shakhle.ir
+    port: 2083
+    uuid: 260f19e2-41c2-4f0c-870f-ab7e28e72ef6
     network: ws
-    servername: ir1.airpanel.top
+    servername: ipv4.yasharteam.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+  - name: v2ray_extractor_1
+    type: vless
+    server: 104.18.32.47
+    port: 2096
+    uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+    network: ws
+    servername: ca.adobe-connect.top
     tls: true
     ws-opts:
       path: /
       headers:
-        Host: ir1.airpanel.top
-  - name: configraygan
+        Host: ca.adobe-connect.top
+  - name: v2ray_extractor_2
     type: vless
-    server: 172.66.128.70
+    server: ip.shakhle.ir
+    port: 2083
+    uuid: 260f19e2-41c2-4f0c-870f-ab7e28e72ef6
+    network: ws
+    servername: ipv4.yasharteam.com
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: ipv4.yasharteam.com
+  - name: vpnbaz
+    type: vless
+    server: ip.shakhle.ir
+    port: 2083
+    uuid: 260f19e2-41c2-4f0c-870f-ab7e28e72ef6
+    network: ws
+    servername: ipv4.yasharteam.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ipv4.yasharteam.com
+  - name: configraygan_1
+    type: vless
+    server: 104.20.1.252
     port: 80
     uuid: 7d4a519b-d270-434e-a42d-d39624577a92
     network: ws
@@ -196,17 +142,97 @@ proxies:
       path: /?ed
       headers:
         Host: BrIgHt-orGaNizaTioNAuhudDhESZ.spoRTlAnd.CoMpANY.
-  - name: oneclickvpnkeys_4
-    type: vless
-    server: 93.94.51.162
-    port: 443
-    uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
-    servername: deu549.worldbypass.org
-    tls: true
-    flow: xtls-rprx-vision
-  - name: v2ray_extractor_6
+  - name: wiki_tajrobe
     type: vless
     server: 104.17.148.22
+    port: 2096
+    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+    network: ws
+    servername: hetz.x-smm.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: hetz.x-smm.com
+  - name: wiki_tajrobe_1
+    type: vless
+    server: betty.ns.cloudflare.com
+    port: 2096
+    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+    network: ws
+    servername: hetz.x-smm.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: hetz.x-smm.com
+  - name: oneclickvpnkeys_1
+    type: vless
+    server: 62.133.60.50
+    port: 443
+    uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+    servername: decdn12.suio.me
+    tls: true
+  - name: oneclickvpnkeys_2
+    type: vless
+    server: free.spectrum.vu
+    port: 443
+    uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
+    servername: free.spectrum.vu
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qNyuqiky1x0VL88_KzItJpZNQ1DfkSPTBf5BBLJRrnA
+      short-id: 28b11f1e725a23ad
+  - name: oneclickvpnkeys_3
+    type: vless
+    server: 45.144.52.233
+    port: 8104
+    uuid: db27262a-4151-4c36-8e5f-2cf7fd387a0f
+    servername: tradingview.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 4gcDJumxa0bTaHvrZRL4Hb5ItXPha6ZYZ0fGmMD_k0A
+      short-id: 9f4ca836ca270ef8
+  - name: v2ray_extractor_3
+    type: vless
+    server: chatgpt.com
+    port: 2096
+    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+    network: ws
+    servername: hetz.x-smm.com
+    tls: true
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: hetz.x-smm.com
+  - name: oneclickvpnkeys_4
+    type: vless
+    server: 158.160.221.132
+    port: 8443
+    uuid: 871fdc77-e6df-460d-ace3-b38ab82fb487
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 8f222b3475800821
+  - name: v2ray_extractor_4
+    type: vless
+    server: 144.31.2.20
+    port: 443
+    uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+    servername: plcdn18.suio.me
+    tls: true
+  - name: v2ray_extractor_5
+    type: vless
+    server: 108.162.194.99
     port: 2096
     uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
     network: ws
@@ -218,88 +244,83 @@ proxies:
         Host: hetz.x-smm.com
   - name: oneclickvpnkeys_5
     type: vless
-    server: 62.133.60.50
-    port: 443
-    uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-    servername: decdn12.suio.me
-    tls: true
-  - name: oneclickvpnkeys_6
-    type: vless
-    server: ie.cdn.stun.su
-    port: 443
-    uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-    servername: ie.cdn.stun.su
+    server: 45.144.53.77
+    port: 8104
+    uuid: db27262a-4151-4c36-8e5f-2cf7fd387a0f
+    servername: tradingview.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: 0ebq2jNFPvHs8HvOoCViKBLnUdhSDd1bG9Jeb7f_82k
-      short-id: 9f6c7ec9f6434a4f
-  - name: v2ray_extractor_7
+      public-key: 4gcDJumxa0bTaHvrZRL4Hb5ItXPha6ZYZ0fGmMD_k0A
+      short-id: 9f4ca836ca270ef8
+  - name: v2ray_extractor_6
     type: vless
-    server: 144.31.2.20
+    server: 144.31.2.126
     port: 443
     uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-    servername: plcdn18.suio.me
+    servername: plcdn19.suio.me
     tls: true
-  - name: tv2rayrr
+  - name: configraygan_2
     type: vless
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
+    server: z.ssl.fastly.net
+    port: 80
+    uuid: 837b6716-6901-4b4d-a49f-2b6ac9306aa3
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: gerrma.global.ssl.fastly.net
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -309,97 +330,101 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -422,25 +447,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2ray_extractor
-      - v2ray_extractor_1
       - oneclickvpnkeys
+      - configraygan
+      - v2ray_extractor
       - new_mtproxi2
+      - v2ray_extractor_1
       - v2ray_extractor_2
+      - vpnbaz
+      - configraygan_1
+      - wiki_tajrobe
+      - wiki_tajrobe_1
       - oneclickvpnkeys_1
-      - new_mtproxi2_1
       - oneclickvpnkeys_2
       - oneclickvpnkeys_3
       - v2ray_extractor_3
+      - oneclickvpnkeys_4
       - v2ray_extractor_4
       - v2ray_extractor_5
-      - configraygan
-      - oneclickvpnkeys_4
-      - v2ray_extractor_6
       - oneclickvpnkeys_5
-      - oneclickvpnkeys_6
-      - v2ray_extractor_7
-      - tv2rayrr
+      - v2ray_extractor_6
+      - configraygan_2
 rule-providers:
   LocalAreaNetwork:
     type: http
