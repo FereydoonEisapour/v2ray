@@ -46,6 +46,10 @@ dns:
   fake-ip-range: 198.18.0.1/16
   listen: 0.0.0.0:53
   respect-rules: true
+  proxy-server-nameserver:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 119.29.29.29
   default-nameserver:
   - 1.1.1.1
   - 8.8.8.8
