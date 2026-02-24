@@ -1,0 +1,3549 @@
+mode: rule
+log-level: info
+dns:
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  nameserver-policy:
+    +.ir: 223.5.5.5
+    +.google.com: https://dns.google/dns-query
+    +.github.com: https://dns.google/dns-query
+  fake-ip-filter:
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - lens.l.google.com
+  - '*.n.n.srv.nintendo.net'
+  - +.stun.playstation.net
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
+  - '*.msftncsi.com'
+  - '*.msftconnecttest.com'
+  - +.ir
+  - '*.local'
+  - '*.localhost'
+  - '*.lan'
+  - '*.home.arpa'
+proxies:
+- name: FreakConfig
+  type: vless
+  server: 77.110.114.1
+  port: 443
+  uuid: 03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4
+  network: tcp
+  tls: true
+  udp: true
+  sni: srv27.outlinekeys.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (2)
+  type: vless
+  server: 109.172.55.232
+  port: 13760
+  uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
+    short-id: 58a8787420b6a153
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: FreakConfig (3)
+  type: vless
+  server: 57.128.191.90
+  port: 8443
+  uuid: ac754349-a3d5-4eca-990e-1119c0cff4d5
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.chatgpt.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FFMIZGGtmpMeCKluwyQ2qjgReo6EU8xwM7oLB-ysa2k
+    short-id: '59611200'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (4)
+  type: vless
+  server: 64.188.104.168
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: FreakConfig (5)
+  type: vless
+  server: 51.250.64.128
+  port: 443
+  uuid: 4742b1aa-d4e1-4994-a344-fa9267e6b9ab
+  network: tcp
+  tls: true
+  udp: true
+  sni: bunny.net
+  client-fingerprint: qq
+  reality-opts:
+    public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (6)
+  type: vless
+  server: 5.255.126.160
+  port: 2051
+  uuid: 8e28baed-b7da-29a3-cb89-cb7e4878c011
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: pMAxMd8b9VTp8Yp4v18z98zJ6frzxPdK0DvZT8CMF2k
+    short-id: 9d38c6241e8c654a
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (7)
+  type: vless
+  server: 188.132.183.140
+  port: 443
+  uuid: 213325c6-ef4b-4cdb-850b-24a06f2865c8
+  network: tcp
+  tls: true
+  udp: true
+  sni: 2gis.kz
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: tQshkBu8_I2WDLqhS0kssD7F0uKl6vkvK9egXVXjsQE
+    short-id: 63d80d5199a2bc
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (8)
+  type: vless
+  server: 109.172.55.157
+  port: 19547
+  uuid: f9cdb2e1-939c-4470-b322-14b7313dec48
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -zsPOGrZY1Dlb6eypa5V_OPaLBpT66FX3cSo0mNX8SI
+    short-id: 47ee5c592c1672cf
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: FreakConfig (9)
+  type: vless
+  server: 185.227.149.123
+  port: 443
+  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  network: tcp
+  tls: true
+  udp: true
+  sni: mycatcollection.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (10)
+  type: vless
+  server: 51.158.206.98
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (11)
+  type: vless
+  server: 103.231.75.185
+  port: 443
+  uuid: f078abea-a480-44c7-a785-4436c767835a
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
+    short-id: 0bce
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: FreakConfig (12)
+  type: vless
+  server: 57.129.49.1
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (13)
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (14)
+  type: vless
+  server: 80.211.141.177
+  port: 443
+  uuid: c2d73a71-923a-4a53-bc4b-dfb47db20527
+  network: tcp
+  tls: true
+  udp: true
+  sni: gmail.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (15)
+  type: vless
+  server: game.pineappled.org
+  port: 443
+  uuid: 18f72be7-0651-4037-928b-8a309d685796
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
+    short-id: 9eb31eb7572c0882
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (16)
+  type: vless
+  server: vb27.homianco.ir
+  port: 2096
+  uuid: d5f2b8ad-5ee4-41fe-95e9-7adc1acb0549
+  network: tcp
+  tls: true
+  udp: true
+  sni: play.google.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: FreakConfig (17)
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (18)
+  type: vless
+  server: 94.156.237.204
+  port: 2051
+  uuid: edc05328-3e8b-4268-ac76-0af4e53fdf81
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: W4RbkpY1YsjA499rCDIGkJtBG6yhhCrpPVN7i53i0HM
+    short-id: 305be87f337d1db7
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: FreakConfig (19)
+  type: vless
+  server: 144.24.97.225
+  port: 443
+  uuid: 1834316d-2b59-4239-970d-c764218bcdf2
+  network: tcp
+  tls: true
+  udp: true
+  sni: osxapps.itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: h6jFhmMYpmiEmm4sxrBLBSxtgsdM5k5EUvrv1bKNFGU
+    short-id: 8894620bd4b91f71
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (20)
+  type: vless
+  server: 159.89.87.21
+  port: 28190
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+  network: tcp
+  tls: true
+  udp: true
+  sni: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: FreakConfig (21)
+  type: vless
+  server: spb.roblugo.su
+  port: 443
+  uuid: 32561144-434f-4752-a731-f35cd191ba4a
+  network: tcp
+  tls: true
+  udp: true
+  sni: spb.roblugo.su
+  client-fingerprint: qq
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    short-id: bbfb4f7a53e22dd3
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan
+  type: vless
+  server: 144.31.24.84
+  port: 443
+  uuid: 1d6705da-0790-49bf-bf47-b166d2e945cf
+  network: tcp
+  tls: true
+  udp: true
+  sni: st.okcdn.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
+    short-id: 39a1eb3ec417cd66
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (2)
+  type: vless
+  server: 91.99.8.3
+  port: 2083
+  uuid: 9748d6dc-d7a8-45cd-b4df-00476cac75f8
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kXDA4ViroJGcSoIE6ik6aHoCwENHsSr207X68KSYHSw
+    short-id: d1
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (3)
+  type: vless
+  server: 51.158.206.29
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (4)
+  type: vless
+  server: 87.228.101.143
+  port: 443
+  uuid: b4f272ea-cd4f-4df9-9929-1c6b49c0b6ac
+  network: tcp
+  tls: true
+  udp: true
+  sni: rutube.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: 4a3ad88ff867a295
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (5)
+  type: vless
+  server: 149.115.110.235
+  port: 443
+  uuid: 1a77b210-2cb6-4334-b4a9-c079209a0a95
+  network: tcp
+  tls: true
+  udp: true
+  sni: miui.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (6)
+  type: vless
+  server: 178.154.253.80
+  port: 8443
+  uuid: 7825f2d1-cdc2-4186-9ad5-377afa912104
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (7)
+  type: vless
+  server: 103.231.75.185
+  port: 443
+  uuid: c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
+    short-id: 0bce
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (8)
+  type: vless
+  server: 5.182.38.91
+  port: 17267
+  uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
+    short-id: 4ae260
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (9)
+  type: vless
+  server: 77.83.245.171
+  port: 43816
+  uuid: a893f940-8725-4b3e-8b77-caa1380e95dc
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 2mpSbwY9np514lX_koLsYqF23ybAkdjZ_qNIA5qw7jU
+    short-id: 2aa4fcbeaed2ad23
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (10)
+  type: vless
+  server: 45.145.40.26
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
+  tls: true
+  udp: true
+  sni: de.cdn.stun.su
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+    short-id: 4daa022e84f8edf2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (11)
+  type: vless
+  server: vb27.homianco.ir
+  port: 2096
+  uuid: d5f2b8ad-5ee4-41fe-95e9-7adc1acb0549
+  network: tcp
+  tls: true
+  udp: true
+  sni: play.google.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (12)
+  type: vless
+  server: 89.169.128.105
+  port: 443
+  uuid: 7825f2d1-cdc2-4186-9ad5-377afa912104
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: configraygan (13)
+  type: vless
+  server: 103.113.70.21
+  port: 443
+  uuid: 3b9ff760-6b22-467b-a54f-e25a82a40908
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: xbbOyx0nk3ch1TczCJvSg-km5ac0NM7MgRbFSLCMXyU
+    short-id: '8397'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (14)
+  type: vless
+  server: 217.25.90.152
+  port: 443
+  uuid: e1c3f008-34e1-4fc4-a4bd-ed7c00c2add8
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: u81SSCfLePekqTfssqKUJt5WHNIexpLzjLf-RPbI9ho
+    short-id: '8061'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (15)
+  type: vless
+  server: 185.234.57.216
+  port: 443
+  uuid: d50ef9ea-7adf-4b45-977a-16bca0f11584
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 2Z2meC9rRAMD3k52ne8dh8PdfRNpOs5T9yObPyFkXyQ
+    short-id: f9fe
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: configraygan (16)
+  type: vless
+  server: 130.193.59.133
+  port: 8443
+  uuid: c915a857-a088-4292-b182-25cb30507275
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+    short-id: 4ffc99daad0f261f
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: dingyue_center
+  type: vless
+  server: pq.vmjp2.yydjc.top
+  port: 443
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
+  network: tcp
+  tls: true
+  udp: true
+  sni: cdn-dynmedia-1.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: dingyue_center (2)
+  type: vless
+  server: 178.239.124.143
+  port: 8220
+  uuid: 469e21bb-3e71-4204-82d0-4c9cfbfff0c5
+  network: tcp
+  tls: true
+  udp: true
+  sni: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: sEh9oq0yHv8ye-2qQTru6c8PRJuaYPizhm9j3doksEU
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: dingyue_center (3)
+  type: vless
+  server: 38.95.232.247
+  port: 24683
+  uuid: 86469f66-055e-41ea-a648-33e30c6ac750
+  network: tcp
+  tls: true
+  udp: true
+  sni: mensura.cdn-apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: caKZX80LQ7KPROX0Sv5rMwmQmXVZjgdmLIBHuL4DIwQ
+    short-id: 6ba85179e30d4fc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: dingyue_center (4)
+  type: vless
+  server: 216.250.96.164
+  port: 26000
+  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
+  network: tcp
+  tls: true
+  udp: true
+  sni: apps.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
+    short-id: 2f8400e348eb
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: new_mtproxi2
+  type: vless
+  server: 188.132.183.140
+  port: 443
+  uuid: 213325c6-ef4b-4cdb-850b-24a06f2865c8
+  network: tcp
+  tls: true
+  udp: true
+  sni: 2gis.kz
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: tQshkBu8_I2WDLqhS0kssD7F0uKl6vkvK9egXVXjsQE
+    short-id: 63d80d5199a2bc
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (2)
+  type: vless
+  server: 95.214.181.51
+  port: 443
+  uuid: 213325c6-ef4b-4cdb-850b-24a06f2865c8
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.debian.org
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: l6RZ7aQ4MX_q39a5wLgZt36f4JldG6aZTT8p79hzFx0
+    short-id: 63d80d5199a2bc
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (3)
+  type: vless
+  server: lt-cherry-01.com
+  port: 8443
+  uuid: ff6fb512-147d-419a-9672-e131133f7189
+  network: tcp
+  tls: true
+  udp: true
+  sni: tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: e0ef3d5c0aacb615
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (4)
+  type: vless
+  server: 146.185.240.23
+  port: 8443
+  uuid: 0dde7988-1d5b-416f-8184-668b1a36bc48
+  network: tcp
+  tls: true
+  udp: true
+  sni: m.vk.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (5)
+  type: vless
+  server: 77.83.245.173
+  port: 33369
+  uuid: 3dbea962-1e67-4008-8c07-c84a819b5bc8
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: szWk094FkncOx87ZSq4De5nU-1l0BLxikzvfUT5Dhms
+    short-id: 3b05335afef11254
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: new_mtproxi2 (6)
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (7)
+  type: vless
+  server: 158.160.223.36
+  port: 8443
+  uuid: 636dac2e-9a58-49a6-84f5-313a03761131
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: random
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 48fccabc158a4c22
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (8)
+  type: vless
+  server: 94.232.247.168
+  port: 41360
+  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
+    short-id: 1aab45
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: new_mtproxi2 (9)
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (10)
+  type: vless
+  server: 64.188.104.168
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: new_mtproxi2 (11)
+  type: vless
+  server: 91.84.103.69
+  port: 8443
+  uuid: b1f45225-4f7c-4b13-a7ee-1a9afa48216e
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: UmU6PJtGCvWWIgkKpr6P1Idm2ve4nsPhN7Gh3OPDYAE
+    short-id: fecda331e7cb5731
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (12)
+  type: vless
+  server: 78.159.131.210
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
+  tls: true
+  udp: true
+  sni: al.cdn.stun.su
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    short-id: 4fc5e35bdb69d36b
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (13)
+  type: vless
+  server: nl.roblugo.su
+  port: 443
+  uuid: 32561144-434f-4752-a731-f35cd191ba4a
+  network: tcp
+  tls: true
+  udp: true
+  sni: nl.roblugo.su
+  client-fingerprint: qq
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    short-id: bbfb4f7a53e22dd3
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (14)
+  type: vless
+  server: 51.158.206.98
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: new_mtproxi2 (15)
+  type: vless
+  server: 81.19.141.190
+  port: 51529
+  uuid: ad2879c1-7f77-4a4c-ba50-c24dd5ceffa4
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 9smFk5QZXifHGrtwDwhbROsLBh179bExNWABnvUCvSw
+    short-id: b77a294515ecc200
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: new_mtproxi2 (16)
+  type: vless
+  server: 37.139.42.234
+  port: 4443
+  uuid: 9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI
+    short-id: '6670'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: new_mtproxi2 (17)
+  type: vless
+  server: 5.182.38.91
+  port: 17267
+  uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
+    short-id: 4ae260
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys
+  type: vless
+  server: logggg.nammknammknammknammknammkb2.ir
+  port: 443
+  uuid: d4de1f64-bf3c-4d97-9663-0091f8c07359
+  network: tcp
+  tls: true
+  udp: true
+  sni: logggg.nammknammknammknammknammkb2.ir
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
+    short-id: b3d76d
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (2)
+  type: vless
+  server: 93.115.25.177
+  port: 443
+  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  network: tcp
+  tls: true
+  udp: true
+  sni: mycatcollection.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (3)
+  type: vless
+  server: de.cdn.stun.su
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
+  tls: true
+  udp: true
+  sni: de.cdn.stun.su
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+    short-id: 4daa022e84f8edf2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (4)
+  type: vless
+  server: 89.169.128.105
+  port: 443
+  uuid: 7825f2d1-cdc2-4186-9ad5-377afa912104
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (5)
+  type: vless
+  server: 185.156.72.124
+  port: 52042
+  uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
+    short-id: 8e8dcb9a67bf43f1
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (6)
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (7)
+  type: vless
+  server: 5.254.85.151
+  port: 443
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  network: tcp
+  tls: true
+  udp: true
+  sni: germany.scroogethebest.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (8)
+  type: vless
+  server: riga-node.genadata.online
+  port: 2040
+  uuid: 14818654-7689-453a-9a1f-4c72f89782d5
+  network: tcp
+  tls: true
+  udp: true
+  sni: tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
+    short-id: 50ed6f6007515d63
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (9)
+  type: vless
+  server: 193.178.226.248
+  port: 443
+  uuid: 400c1f85-9d3a-444a-8a50-81b11f3b4c20
+  network: tcp
+  tls: true
+  udp: true
+  sni: nl.denditop.site
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+    short-id: 9c2378562188c3cb
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (10)
+  type: vless
+  server: 91.84.113.87
+  port: 443
+  uuid: c7ce12e1-3caf-4aa3-9ea2-ac294d3c1ac3
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kjuk6kiPzQdy7aBA9-6RM2tJU2Ke2s_aN8pucLeOg3Q
+    short-id: 37da
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (11)
+  type: vless
+  server: 103.231.75.185
+  port: 443
+  uuid: c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
+    short-id: 0bce
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (12)
+  type: vless
+  server: nl-amst-node.genadata.online
+  port: 2040
+  uuid: 14818654-7689-453a-9a1f-4c72f89782d5
+  network: tcp
+  tls: true
+  udp: true
+  sni: tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
+    short-id: 50ed6f6007515d63
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (13)
+  type: vless
+  server: 194.87.216.140
+  port: 443
+  uuid: 299ee660-0ad5-4366-9b34-f4bb51eb73ee
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (14)
+  type: vless
+  server: 77.83.245.193
+  port: 11777
+  uuid: 40a7f95c-f861-4f04-9a6e-55d624c7582c
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Yx7qVnlZif4zOda3OjieAZm352SaGzy0bNT67xNKGxQ
+    short-id: a6f7168a7c3e2f77
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (15)
+  type: vless
+  server: est01-vlr01.tcp-reset-club.net
+  port: 443
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+  network: tcp
+  tls: true
+  udp: true
+  sni: hls-svod.itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (16)
+  type: vless
+  server: 84.252.143.25
+  port: 443
+  uuid: aa33c2f4-46bc-4818-bf50-723a1e8d33d0
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 04bf0403f96e5b4b
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (17)
+  type: vless
+  server: 185.162.11.223
+  port: 443
+  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
+  network: tcp
+  tls: true
+  udp: true
+  sni: sun6-21.userapi.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+    short-id: edbc04c389
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (18)
+  type: vless
+  server: xboxgame-dl.com
+  port: 433
+  uuid: af338e79-8259-4662-a0ff-db6df2414501
+  network: tcp
+  tls: true
+  udp: true
+  sni: xboxgame-dl.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: J6v3yhXsfUyoPDmw3Beq9YSxqlW2Ir_5PpULj1xQX2E
+    short-id: 8d4981fb6742b104
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (19)
+  type: vless
+  server: 178.154.253.80
+  port: 8443
+  uuid: 7825f2d1-cdc2-4186-9ad5-377afa912104
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (20)
+  type: vless
+  server: 51.250.83.255
+  port: 443
+  uuid: 53b2c46d-bc0a-4696-9d87-6bfa77a60d1f
+  network: tcp
+  tls: true
+  udp: true
+  sni: ads.x5.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: 33554379411b3219
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (21)
+  type: vless
+  server: 94.131.104.225
+  port: 2040
+  uuid: 14818654-7689-453a-9a1f-4c72f89782d5
+  network: tcp
+  tls: true
+  udp: true
+  sni: tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
+    short-id: 50ed6f6007515d63
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (22)
+  type: vless
+  server: 217.154.38.156
+  port: 443
+  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
+    short-id: 2e0f
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (23)
+  type: vless
+  server: 146.103.104.157
+  port: 51715
+  uuid: 74afe148-0f1e-11f1-aacd-525400b8e428
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: oIzaj42OvbOicJzXkOKaPJkuA6vdwDWTkO63_PbfSHg
+    short-id: ccbfae725b5b
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (24)
+  type: vless
+  server: 62.141.42.201
+  port: 443
+  uuid: cc976b15-418b-4f0b-89ce-cd685ffbaf20
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: odbiaA-5s0mkehtfrf2SBcrKAMDP1sFjxKHJYdDCKgc
+    short-id: '81'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (25)
+  type: vless
+  server: 37.16.74.19
+  port: 2053
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.ibm.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
+    short-id: 4a5b6c7d
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (26)
+  type: vless
+  server: 212.227.95.106
+  port: 443
+  uuid: 438f81f8-aa18-4261-820a-87ee42122d0e
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XxphGtGbyJegOM0QIy65eyC8g3dzlKOMY0tWFBnTCWc
+    short-id: a0cb
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (27)
+  type: vless
+  server: 147.45.178.107
+  port: 443
+  uuid: 299ee660-0ad5-4366-9b34-f4bb51eb73ee
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (28)
+  type: vless
+  server: 151.241.173.62
+  port: 4443
+  uuid: 1b0ad61b-1be2-4cda-9979-984a965b0da5
+  network: tcp
+  tls: true
+  udp: true
+  sni: github.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (29)
+  type: vless
+  server: 130.193.59.133
+  port: 8443
+  uuid: c915a857-a088-4292-b182-25cb30507275
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+    short-id: 4ffc99daad0f261f
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (30)
+  type: vless
+  server: 89.169.162.214
+  port: 443
+  uuid: bace8139-2adc-48ed-ace5-a2cc9720e31d
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 205748bc0f24a747
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (31)
+  type: vless
+  server: 51.250.13.191
+  port: 8443
+  uuid: 2ccc79ce-fc14-4c41-9886-fac51e585f23
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.kinopoisk.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: PchHZmLIkC4jTpr4nIjDiRtFbCbubkTk7U-RyL0mi0w
+    short-id: 22a3708320
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (32)
+  type: vless
+  server: 94.131.123.167
+  port: 443
+  uuid: a44e0875-210f-4941-9062-89b6361a14c6
+  network: tcp
+  tls: true
+  udp: true
+  sni: apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
+    short-id: 8bcfe256cf216fd8
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (33)
+  type: vless
+  server: 89.169.162.214
+  port: 8443
+  uuid: bace8139-2adc-48ed-ace5-a2cc9720e31d
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (34)
+  type: vless
+  server: 91.99.97.155
+  port: 4450
+  uuid: d4158776-598f-471d-afac-0e70b75396df
+  network: tcp
+  tls: true
+  udp: true
+  sni: play.google.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (35)
+  type: vless
+  server: 51.158.206.80
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (36)
+  type: vless
+  server: fr.prod.n7.homes
+  port: 8443
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+  network: tcp
+  tls: true
+  udp: true
+  sni: sun6-21.userapi.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (37)
+  type: vless
+  server: germ2.vpnhub.shop
+  port: 8081
+  uuid: f1449968-0329-468b-b56b-1c573ac2a767
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: 425ba80cd1a821a8
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (38)
+  type: vless
+  server: 193.233.134.89
+  port: 443
+  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
+  network: tcp
+  tls: true
+  udp: true
+  sni: free.spectrum.vu
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qNyuqiky1x0VL88_KzItJpZNQ1DfkSPTBf5BBLJRrnA
+    short-id: 28b11f1e725a23ad
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (39)
+  type: vless
+  server: 51.250.13.191
+  port: 2443
+  uuid: 05a819d6-f2bd-4cc2-b707-4b79f66a810a
+  network: tcp
+  tls: true
+  udp: true
+  sni: rutube.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: CP0ZyiYDnBUn-q9LOsFxPPviqfdeXMNeGaFak9ApEUU
+    short-id: b72523ab
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (40)
+  type: vless
+  server: 185.227.149.123
+  port: 443
+  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  network: tcp
+  tls: true
+  udp: true
+  sni: mycatcollection.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (41)
+  type: vless
+  server: wolfb24.servers1mart.ir
+  port: 2096
+  uuid: 3f42b528-59ef-45f9-9ba3-6292ca46f909
+  network: tcp
+  tls: true
+  udp: true
+  sni: play.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (42)
+  type: vless
+  server: 45.66.163.75
+  port: 443
+  uuid: b58583bb-7b63-4a92-a1c2-728cb33d3750
+  network: tcp
+  tls: true
+  udp: true
+  sni: msn.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (43)
+  type: vless
+  server: 95.164.53.189
+  port: 443
+  uuid: fd325093-cdb5-4a73-980e-af2ec0444310
+  network: tcp
+  tls: true
+  udp: true
+  sni: max.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: eQXsYV276NoiN9SDwuloNrJkX-NU2tDtkMK6ntKQwlg
+    short-id: 701775cae5f3a793
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (44)
+  type: vless
+  server: deu666.lackerdeu.org
+  port: 443
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.fh-aachen.de
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (45)
+  type: vless
+  server: 84.252.143.25
+  port: 8443
+  uuid: aa33c2f4-46bc-4818-bf50-723a1e8d33d0
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 04bf0403f96e5b4b
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (46)
+  type: vless
+  server: 45.248.37.51
+  port: 443
+  uuid: a92ff4a9-8e31-4b8b-88c7-7c99454e25b6
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: a3wxOmmJ95RHcuVYvxGusowLy8c6a4amlbS2OxMNTHc
+    short-id: 52ad
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (47)
+  type: vless
+  server: 5.254.85.152
+  port: 443
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  network: tcp
+  tls: true
+  udp: true
+  sni: germany.scroogethebest.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (48)
+  type: vless
+  server: 5.253.59.44
+  port: 8443
+  uuid: fd8972d9-cf5e-11f0-9970-45e1d80c4039
+  network: tcp
+  tls: true
+  udp: true
+  sni: images.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: H2_xU4399VG3oT9j7e0Bg8qhescX-CTgpeV1HBoCUWY
+    short-id: 5d8ae11254
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (49)
+  type: vless
+  server: 45.13.119.38
+  port: 443
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  network: tcp
+  tls: true
+  udp: true
+  sni: fran.scroogethebest.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (50)
+  type: vless
+  server: 138.124.186.202
+  port: 443
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.fh-aachen.de
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (51)
+  type: vless
+  server: 89.106.89.112
+  port: 2053
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.ibm.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
+    short-id: 4a5b6c7d
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (52)
+  type: vless
+  server: 87.239.252.186
+  port: 443
+  uuid: c819f3b4-0c46-4ad3-8b6c-beef5215be4a
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: uf64ptbhMNcLWuwEfOzQB7qgn725h6w9DmKRteQQPwg
+    short-id: 036861b20a94
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (53)
+  type: vless
+  server: 3.cdnconn.com
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  network: tcp
+  tls: true
+  udp: true
+  sni: icloud.com
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (54)
+  type: vless
+  server: 66.179.82.126
+  port: 443
+  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+    short-id: 2f2a
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (55)
+  type: vless
+  server: 62.204.42.162
+  port: 443
+  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
+  network: tcp
+  tls: true
+  udp: true
+  sni: sun6-21.userapi.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+    short-id: edbc04c389
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (56)
+  type: vless
+  server: ru.vz-or.com
+  port: 443
+  uuid: 16958ba9-fd17-4910-986e-f32d079b3528
+  network: tcp
+  tls: true
+  udp: true
+  sni: sun9-38.userapi.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE
+    short-id: abbcd128
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (57)
+  type: vless
+  server: nl04-vlr01.tcp-reset-club.net
+  port: 443
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+  network: tcp
+  tls: true
+  udp: true
+  sni: hls-svod.itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 86e999a2cdc2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (58)
+  type: vless
+  server: 79.174.94.49
+  port: 14065
+  uuid: 5eb1160d-e6e4-4918-942a-3e02dc4450d4
+  network: tcp
+  tls: true
+  udp: true
+  sni: ads.x5.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6_hMGHFRodRl4rUOlv0mJJBC-9en9gNpypLiNqBAuw0
+    short-id: '281902'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (59)
+  type: vless
+  server: 94.131.104.229
+  port: 2040
+  uuid: 14818654-7689-453a-9a1f-4c72f89782d5
+  network: tcp
+  tls: true
+  udp: true
+  sni: tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
+    short-id: 50ed6f6007515d63
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (60)
+  type: vless
+  server: ndrl.vpnhub.shop
+  port: 8081
+  uuid: f1449968-0329-468b-b56b-1c573ac2a767
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: 425ba80cd1a821a8
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (61)
+  type: vless
+  server: 193.46.81.207
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
+  tls: true
+  udp: true
+  sni: de.cdn.stun.su
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+    short-id: 4daa022e84f8edf2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (62)
+  type: vless
+  server: 92.61.70.38
+  port: 443
+  uuid: bb0f3b3d-a3d1-429a-9b75-263bd9200b6f
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: jqOwroc2Ua1reEEybEQHxbPt4-Yyo3I5h9M4eZLZ2n0
+    short-id: 9e0d1218f82e3630
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (63)
+  type: vless
+  server: 95.128.157.249
+  port: 8443
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+  network: tcp
+  tls: true
+  udp: true
+  sni: sun6-21.userapi.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (64)
+  type: vless
+  server: 194.107.126.157
+  port: 443
+  uuid: 18f72be7-0651-4037-928b-8a309d685796
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
+    short-id: 9eb31eb7572c0882
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (65)
+  type: vless
+  server: 84.252.136.245
+  port: 8443
+  uuid: bace8139-2adc-48ed-ace5-a2cc9720e31d
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (66)
+  type: vless
+  server: vb04.homianco.ir
+  port: 2096
+  uuid: d5f2b8ad-5ee4-41fe-95e9-7adc1acb0549
+  network: tcp
+  tls: true
+  udp: true
+  sni: play.google.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (67)
+  type: vless
+  server: 72.56.105.125
+  port: 443
+  uuid: 1500c3af-f77f-4074-88e3-5711580c165d
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XULYONRrHQh6bKl_xUdm-N10rA7wtcpleyDGmTYI4XI
+    short-id: '3383'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (68)
+  type: vless
+  server: 51.250.13.191
+  port: 443
+  uuid: 6d8b19b9-6d0c-4844-93d8-e1b87f72226b
+  network: tcp
+  tls: true
+  udp: true
+  sni: web.max.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 0esXSTe5YLKpPWeLCiDvQlFwmxZ_pXeTxTdUDiW5_3g
+    short-id: 90a13f
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (69)
+  type: vless
+  server: 45.145.41.35
+  port: 443
+  uuid: 18f72be7-0651-4037-928b-8a309d685796
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
+    short-id: 9eb31eb7572c0882
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (70)
+  type: vless
+  server: 79.137.175.44
+  port: 443
+  uuid: aa33c2f4-46bc-4818-bf50-723a1e8d33d0
+  network: tcp
+  tls: true
+  udp: true
+  sni: m.vk.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 04bf0403f96e5b4b
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys (71)
+  type: vless
+  server: 91.99.8.3
+  port: 2083
+  uuid: 9748d6dc-d7a8-45cd-b4df-00476cac75f8
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kXDA4ViroJGcSoIE6ik6aHoCwENHsSr207X68KSYHSw
+    short-id: d1
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: oneclickvpnkeys (72)
+  type: vless
+  server: 178.17.59.73
+  port: 2053
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.ibm.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
+    short-id: 423bccc9c13fb509
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr
+  type: vless
+  server: 47.245.38.111
+  port: 443
+  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.autodesk.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
+    short-id: 860705e716cbe6ed
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: tv2rayrr (2)
+  type: vless
+  server: 188.253.21.106
+  port: 443
+  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
+    short-id: 73d3fec4
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (3)
+  type: vless
+  server: fi.srv.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: cdnjs.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (4)
+  type: vless
+  server: 40.233.83.110
+  port: 26113
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.yahoo.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (5)
+  type: vless
+  server: 213.176.16.74
+  port: 443
+  uuid: d7fbe279896e40118c23d15fe537dddd
+  network: tcp
+  tls: true
+  udp: true
+  sni: apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
+    short-id: aabbccdd
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (6)
+  type: vless
+  server: lt.srv.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: cdnjs.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (7)
+  type: vless
+  server: 31.6.1.187
+  port: 25607
+  uuid: c8451b58-6337-4294-ba28-1a33731331a1
+  network: tcp
+  tls: true
+  udp: true
+  sni: store.steampowered.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
+    short-id: '84'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (8)
+  type: vless
+  server: tunnyl.ru
+  port: 443
+  uuid: d03e4b60-435d-4fc9-acd6-b63cff37b6eb
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs
+    short-id: 0f1d6a
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (9)
+  type: vless
+  server: 91.220.8.177
+  port: 443
+  uuid: 0eb0019b66404203a7e07701f61bf766
+  network: tcp
+  tls: true
+  udp: true
+  sni: m.vk.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
+    short-id: aabbccdd
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (10)
+  type: vless
+  server: 81.19.140.245
+  port: 443
+  uuid: 2676e126-8f83-44d0-8307-b06b63f8b007
+  network: tcp
+  tls: true
+  udp: true
+  sni: tunnel.vk-apps.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc
+    short-id: 19d1ff9e
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (11)
+  type: vless
+  server: 143.20.79.11
+  port: 443
+  uuid: 3a505568-fd7b-4bd8-8a57-ee26e6953b6f
+  network: tcp
+  tls: true
+  udp: true
+  sni: tunnel.vk-apps.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw
+    short-id: 491db313
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (12)
+  type: vless
+  server: 81.19.140.202
+  port: 60552
+  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
+    short-id: e62fec30f1a0167e
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: tv2rayrr (13)
+  type: vless
+  server: 77.110.119.225
+  port: 443
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+  network: tcp
+  tls: true
+  udp: true
+  sni: st.ozone.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    short-id: 07e904766d29b958
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (14)
+  type: vless
+  server: fr.soreanapanel.com
+  port: 443
+  uuid: d2cec382-c701-4d66-8891-5945ad87d8a1
+  network: tcp
+  tls: true
+  udp: true
+  sni: tgju.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: liR-hmXj77ENkmMXhMnIZ1VLK9Gszaob1l_3U3O7Axs
+    short-id: 33d92e960cb19e71
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: tv2rayrr (15)
+  type: vless
+  server: usa.srv.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: cdnjs.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (16)
+  type: vless
+  server: nl2.srv.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: cdnjs.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (17)
+  type: vless
+  server: 156.244.41.221
+  port: 443
+  uuid: 0033fda5-029e-4de3-acea-3bd45a1912e2
+  network: tcp
+  tls: true
+  udp: true
+  sni: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: K195x6sAmXL2K_9fSwMsPR8uqYF7UISl1ehaTjNhEz0
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (18)
+  type: vless
+  server: youtube.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: cdnjs.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (19)
+  type: vless
+  server: 45.134.12.47
+  port: 31203
+  uuid: 87d1f4b2-83e7-4125-8d62-5d376871fd41
+  network: tcp
+  tls: true
+  udp: true
+  sni: vt-1.ozone.ru
+  client-fingerprint: random
+  reality-opts:
+    public-key: tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg
+    short-id: ab12cd34
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (20)
+  type: vless
+  server: 193.233.48.92
+  port: 443
+  uuid: b4fbe9de-88f4-4af7-bca0-631ff2883278
+  network: tcp
+  tls: true
+  udp: true
+  sni: tunnel.vk-apps.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: gFH0rutmQ8EQBMsUlWJ_eeQnkQkazATNPJvsTJnZZiY
+    short-id: 6dfeb23c
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (21)
+  type: vless
+  server: 154.12.179.154
+  port: 2501
+  uuid: 1555ff9a-837c-4d7f-9b5d-0794c9c31e71
+  network: tcp
+  tls: true
+  udp: true
+  sni: amazon.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw
+    short-id: b793cdadb1c785
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (22)
+  type: vless
+  server: 38.180.17.232
+  port: 443
+  uuid: 96eb0aac-b747-4f3c-8c30-d2ff7ec7415c
+  network: tcp
+  tls: true
+  udp: true
+  sni: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4
+    short-id: 3e
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (23)
+  type: vless
+  server: 77.91.68.70
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: tv2rayrr (24)
+  type: vless
+  server: 185.243.99.104
+  port: 29453
+  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+  network: tcp
+  tls: true
+  udp: true
+  sni: zhaket.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
+    short-id: 850a5cbb81
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: tv2rayrr (25)
+  type: vless
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  network: tcp
+  tls: true
+  udp: true
+  sni: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: tv2rayrr (26)
+  type: vless
+  server: 178.239.125.31
+  port: 39735
+  uuid: 60e7e018-ee6a-48b1-9625-c4d4276935b3
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.yahoo.co.jp
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (27)
+  type: vless
+  server: de.shvurgceo.online
+  port: 14357
+  uuid: 006f752c-42fe-41dd-a224-e2f7c48b72a9
+  network: tcp
+  tls: true
+  udp: true
+  sni: vk.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
+    short-id: ab12cd34
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: tv2rayrr (28)
+  type: vless
+  server: 156.229.161.107
+  port: 10001
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.icloud.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+    short-id: fb2c6678
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 51.158.206.98
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (2)
+  type: vless
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (3)
+  type: vless
+  server: 51.158.206.26
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (4)
+  type: vless
+  server: 51.158.206.97
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (5)
+  type: vless
+  server: 62.210.91.2
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (6)
+  type: vless
+  server: 51.158.206.87
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (7)
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (8)
+  type: vless
+  server: 85.239.59.197
+  port: 4320
+  uuid: 4c3a2f39-dc52-4322-ac66-83010d12bfc0
+  network: tcp
+  tls: true
+  udp: true
+  sni: apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (9)
+  type: vless
+  server: 193.160.130.112
+  port: 443
+  uuid: 70b49349-9c87-497e-818c-46006e1c3ce0
+  network: tcp
+  tls: true
+  udp: true
+  sni: yimg.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (10)
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (11)
+  type: vless
+  server: 38.48.124.146
+  port: 443
+  uuid: e4598260-fb5e-4d0a-f0c2-64259f5c38e7
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.xbox.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Anr46KtqOMc-YF76WafAAMT-0JBv85RtgSTHRvHxwUg
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (12)
+  type: vless
+  server: 80.211.141.177
+  port: 443
+  uuid: c2d73a71-923a-4a53-bc4b-dfb47db20527
+  network: tcp
+  tls: true
+  udp: true
+  sni: gmail.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (13)
+  type: vless
+  server: 45.66.163.75
+  port: 443
+  uuid: b58583bb-7b63-4a92-a1c2-728cb33d3750
+  network: tcp
+  tls: true
+  udp: true
+  sni: msn.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (14)
+  type: vless
+  server: 217.154.194.55
+  port: 443
+  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
+  network: tcp
+  tls: true
+  udp: true
+  sni: azure.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (15)
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (16)
+  type: vless
+  server: 193.57.137.228
+  port: 443
+  uuid: c40601cb-64e9-4f16-91c6-e8cdbaf100af
+  network: tcp
+  tls: true
+  udp: true
+  sni: wikimedia.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (17)
+  type: vless
+  server: 147.182.212.232
+  port: 56565
+  uuid: 7b188eea-b08f-42c2-bac7-d3b0e74218b8
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.paypal.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (18)
+  type: vless
+  server: 51.158.206.103
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (19)
+  type: vless
+  server: 142.248.80.157
+  port: 443
+  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  network: tcp
+  tls: true
+  udp: true
+  sni: apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (20)
+  type: vless
+  server: nld14.freednet.org
+  port: 443
+  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.cybo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (21)
+  type: vless
+  server: 51.158.206.80
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (22)
+  type: vless
+  server: 51.158.206.12
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (23)
+  type: vless
+  server: 51.158.206.96
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (24)
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (25)
+  type: vless
+  server: 137.184.218.169
+  port: 36925
+  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+    short-id: ''
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (26)
+  type: vless
+  server: 51.158.206.29
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (27)
+  type: vless
+  server: 57.129.53.180
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (28)
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (29)
+  type: vless
+  server: 51.158.206.34
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (30)
+  type: vless
+  server: 51.158.206.86
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (31)
+  type: vless
+  server: 51.158.206.19
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (32)
+  type: vless
+  server: 51.158.206.8
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: v2ray_extractor (33)
+  type: vless
+  server: sss.ikun6.dpdns.org
+  port: 20664
+  uuid: f8159636-4476-4e46-f303-a9c5abc6e7ff
+  network: tcp
+  tls: true
+  udp: true
+  sni: addons.mozilla.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: DHfbDzp8n6DqI5aGd6SLZjENaueaiWwayVDlkpWULVU
+    short-id: 35c2cb29
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: vpnbaz
+  type: vless
+  server: mtn-tm1.ip-venzo.com
+  port: 6870
+  uuid: 4bc83a84-d4d2-43f8-8ee4-45b08a190162
+  network: tcp
+  tls: true
+  udp: true
+  sni: ip-venzo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: sGkQutu-jNzzINkigXEr4zm6us4c5KvT6FRSOKEliyY
+    short-id: a3ec090d35b64be8
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: vpnbaz (2)
+  type: vless
+  server: 51.158.206.87
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  sni: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+  flow: xtls-rprx-vision
+- name: vpnbaz (3)
+  type: vless
+  server: 162.19.243.92
+  port: 2096
+  uuid: 3f42b528-59ef-45f9-9ba3-6292ca46f909
+  network: tcp
+  tls: true
+  udp: true
+  sni: play.google.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: vpnbaz (4)
+  type: vless
+  server: 91.99.8.3
+  port: 2083
+  uuid: 9748d6dc-d7a8-45cd-b4df-00476cac75f8
+  network: tcp
+  tls: true
+  udp: true
+  sni: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kXDA4ViroJGcSoIE6ik6aHoCwENHsSr207X68KSYHSw
+    short-id: d1
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+- name: wiki_tajrobe
+  type: vless
+  server: 37.139.42.234
+  port: 4443
+  uuid: 9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1
+  network: tcp
+  tls: true
+  udp: true
+  sni: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI
+    short-id: '6670'
+  benchmark-url: http://www.apple.com/
+  benchmark-timeout: 5
+proxy-groups:
+- name: 🚀 Main Select
+  type: select
+  proxies:
+  - FreakConfig
+  - FreakConfig (2)
+  - FreakConfig (3)
+  - FreakConfig (4)
+  - FreakConfig (5)
+  - FreakConfig (6)
+  - FreakConfig (7)
+  - FreakConfig (8)
+  - FreakConfig (9)
+  - FreakConfig (10)
+  - FreakConfig (11)
+  - FreakConfig (12)
+  - FreakConfig (13)
+  - FreakConfig (14)
+  - FreakConfig (15)
+  - FreakConfig (16)
+  - FreakConfig (17)
+  - FreakConfig (18)
+  - FreakConfig (19)
+  - FreakConfig (20)
+  - FreakConfig (21)
+  - configraygan
+  - configraygan (2)
+  - configraygan (3)
+  - configraygan (4)
+  - configraygan (5)
+  - configraygan (6)
+  - configraygan (7)
+  - configraygan (8)
+  - configraygan (9)
+  - configraygan (10)
+  - configraygan (11)
+  - configraygan (12)
+  - configraygan (13)
+  - configraygan (14)
+  - configraygan (15)
+  - configraygan (16)
+  - dingyue_center
+  - dingyue_center (2)
+  - dingyue_center (3)
+  - dingyue_center (4)
+  - new_mtproxi2
+  - new_mtproxi2 (2)
+  - new_mtproxi2 (3)
+  - new_mtproxi2 (4)
+  - new_mtproxi2 (5)
+  - new_mtproxi2 (6)
+  - new_mtproxi2 (7)
+  - new_mtproxi2 (8)
+  - new_mtproxi2 (9)
+  - new_mtproxi2 (10)
+  - new_mtproxi2 (11)
+  - new_mtproxi2 (12)
+  - new_mtproxi2 (13)
+  - new_mtproxi2 (14)
+  - new_mtproxi2 (15)
+  - new_mtproxi2 (16)
+  - new_mtproxi2 (17)
+  - oneclickvpnkeys
+  - oneclickvpnkeys (2)
+  - oneclickvpnkeys (3)
+  - oneclickvpnkeys (4)
+  - oneclickvpnkeys (5)
+  - oneclickvpnkeys (6)
+  - oneclickvpnkeys (7)
+  - oneclickvpnkeys (8)
+  - oneclickvpnkeys (9)
+  - oneclickvpnkeys (10)
+  - oneclickvpnkeys (11)
+  - oneclickvpnkeys (12)
+  - oneclickvpnkeys (13)
+  - oneclickvpnkeys (14)
+  - oneclickvpnkeys (15)
+  - oneclickvpnkeys (16)
+  - oneclickvpnkeys (17)
+  - oneclickvpnkeys (18)
+  - oneclickvpnkeys (19)
+  - oneclickvpnkeys (20)
+  - oneclickvpnkeys (21)
+  - oneclickvpnkeys (22)
+  - oneclickvpnkeys (23)
+  - oneclickvpnkeys (24)
+  - oneclickvpnkeys (25)
+  - oneclickvpnkeys (26)
+  - oneclickvpnkeys (27)
+  - oneclickvpnkeys (28)
+  - oneclickvpnkeys (29)
+  - oneclickvpnkeys (30)
+  - oneclickvpnkeys (31)
+  - oneclickvpnkeys (32)
+  - oneclickvpnkeys (33)
+  - oneclickvpnkeys (34)
+  - oneclickvpnkeys (35)
+  - oneclickvpnkeys (36)
+  - oneclickvpnkeys (37)
+  - oneclickvpnkeys (38)
+  - oneclickvpnkeys (39)
+  - oneclickvpnkeys (40)
+  - oneclickvpnkeys (41)
+  - oneclickvpnkeys (42)
+  - oneclickvpnkeys (43)
+  - oneclickvpnkeys (44)
+  - oneclickvpnkeys (45)
+  - oneclickvpnkeys (46)
+  - oneclickvpnkeys (47)
+  - oneclickvpnkeys (48)
+  - oneclickvpnkeys (49)
+  - oneclickvpnkeys (50)
+  - oneclickvpnkeys (51)
+  - oneclickvpnkeys (52)
+  - oneclickvpnkeys (53)
+  - oneclickvpnkeys (54)
+  - oneclickvpnkeys (55)
+  - oneclickvpnkeys (56)
+  - oneclickvpnkeys (57)
+  - oneclickvpnkeys (58)
+  - oneclickvpnkeys (59)
+  - oneclickvpnkeys (60)
+  - oneclickvpnkeys (61)
+  - oneclickvpnkeys (62)
+  - oneclickvpnkeys (63)
+  - oneclickvpnkeys (64)
+  - oneclickvpnkeys (65)
+  - oneclickvpnkeys (66)
+  - oneclickvpnkeys (67)
+  - oneclickvpnkeys (68)
+  - oneclickvpnkeys (69)
+  - oneclickvpnkeys (70)
+  - oneclickvpnkeys (71)
+  - oneclickvpnkeys (72)
+  - tv2rayrr
+  - tv2rayrr (2)
+  - tv2rayrr (3)
+  - tv2rayrr (4)
+  - tv2rayrr (5)
+  - tv2rayrr (6)
+  - tv2rayrr (7)
+  - tv2rayrr (8)
+  - tv2rayrr (9)
+  - tv2rayrr (10)
+  - tv2rayrr (11)
+  - tv2rayrr (12)
+  - tv2rayrr (13)
+  - tv2rayrr (14)
+  - tv2rayrr (15)
+  - tv2rayrr (16)
+  - tv2rayrr (17)
+  - tv2rayrr (18)
+  - tv2rayrr (19)
+  - tv2rayrr (20)
+  - tv2rayrr (21)
+  - tv2rayrr (22)
+  - tv2rayrr (23)
+  - tv2rayrr (24)
+  - tv2rayrr (25)
+  - tv2rayrr (26)
+  - tv2rayrr (27)
+  - tv2rayrr (28)
+  - v2ray_extractor
+  - v2ray_extractor (2)
+  - v2ray_extractor (3)
+  - v2ray_extractor (4)
+  - v2ray_extractor (5)
+  - v2ray_extractor (6)
+  - v2ray_extractor (7)
+  - v2ray_extractor (8)
+  - v2ray_extractor (9)
+  - v2ray_extractor (10)
+  - v2ray_extractor (11)
+  - v2ray_extractor (12)
+  - v2ray_extractor (13)
+  - v2ray_extractor (14)
+  - v2ray_extractor (15)
+  - v2ray_extractor (16)
+  - v2ray_extractor (17)
+  - v2ray_extractor (18)
+  - v2ray_extractor (19)
+  - v2ray_extractor (20)
+  - v2ray_extractor (21)
+  - v2ray_extractor (22)
+  - v2ray_extractor (23)
+  - v2ray_extractor (24)
+  - v2ray_extractor (25)
+  - v2ray_extractor (26)
+  - v2ray_extractor (27)
+  - v2ray_extractor (28)
+  - v2ray_extractor (29)
+  - v2ray_extractor (30)
+  - v2ray_extractor (31)
+  - v2ray_extractor (32)
+  - v2ray_extractor (33)
+  - vpnbaz
+  - vpnbaz (2)
+  - vpnbaz (3)
+  - vpnbaz (4)
+  - wiki_tajrobe
+  - ♻️ Auto Best
+  - DIRECT
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+- name: ♻️ Auto Best
+  type: url-test
+  url: http://www.apple.com/
+  interval: 300
+  tolerance: 50
+  proxies:
+  - FreakConfig
+  - FreakConfig (2)
+  - FreakConfig (3)
+  - FreakConfig (4)
+  - FreakConfig (5)
+  - FreakConfig (6)
+  - FreakConfig (7)
+  - FreakConfig (8)
+  - FreakConfig (9)
+  - FreakConfig (10)
+  - FreakConfig (11)
+  - FreakConfig (12)
+  - FreakConfig (13)
+  - FreakConfig (14)
+  - FreakConfig (15)
+  - FreakConfig (16)
+  - FreakConfig (17)
+  - FreakConfig (18)
+  - FreakConfig (19)
+  - FreakConfig (20)
+  - FreakConfig (21)
+  - configraygan
+  - configraygan (2)
+  - configraygan (3)
+  - configraygan (4)
+  - configraygan (5)
+  - configraygan (6)
+  - configraygan (7)
+  - configraygan (8)
+  - configraygan (9)
+  - configraygan (10)
+  - configraygan (11)
+  - configraygan (12)
+  - configraygan (13)
+  - configraygan (14)
+  - configraygan (15)
+  - configraygan (16)
+  - dingyue_center
+  - dingyue_center (2)
+  - dingyue_center (3)
+  - dingyue_center (4)
+  - new_mtproxi2
+  - new_mtproxi2 (2)
+  - new_mtproxi2 (3)
+  - new_mtproxi2 (4)
+  - new_mtproxi2 (5)
+  - new_mtproxi2 (6)
+  - new_mtproxi2 (7)
+  - new_mtproxi2 (8)
+  - new_mtproxi2 (9)
+  - new_mtproxi2 (10)
+  - new_mtproxi2 (11)
+  - new_mtproxi2 (12)
+  - new_mtproxi2 (13)
+  - new_mtproxi2 (14)
+  - new_mtproxi2 (15)
+  - new_mtproxi2 (16)
+  - new_mtproxi2 (17)
+  - oneclickvpnkeys
+  - oneclickvpnkeys (2)
+  - oneclickvpnkeys (3)
+  - oneclickvpnkeys (4)
+  - oneclickvpnkeys (5)
+  - oneclickvpnkeys (6)
+  - oneclickvpnkeys (7)
+  - oneclickvpnkeys (8)
+  - oneclickvpnkeys (9)
+  - oneclickvpnkeys (10)
+  - oneclickvpnkeys (11)
+  - oneclickvpnkeys (12)
+  - oneclickvpnkeys (13)
+  - oneclickvpnkeys (14)
+  - oneclickvpnkeys (15)
+  - oneclickvpnkeys (16)
+  - oneclickvpnkeys (17)
+  - oneclickvpnkeys (18)
+  - oneclickvpnkeys (19)
+  - oneclickvpnkeys (20)
+  - oneclickvpnkeys (21)
+  - oneclickvpnkeys (22)
+  - oneclickvpnkeys (23)
+  - oneclickvpnkeys (24)
+  - oneclickvpnkeys (25)
+  - oneclickvpnkeys (26)
+  - oneclickvpnkeys (27)
+  - oneclickvpnkeys (28)
+  - oneclickvpnkeys (29)
+  - oneclickvpnkeys (30)
+  - oneclickvpnkeys (31)
+  - oneclickvpnkeys (32)
+  - oneclickvpnkeys (33)
+  - oneclickvpnkeys (34)
+  - oneclickvpnkeys (35)
+  - oneclickvpnkeys (36)
+  - oneclickvpnkeys (37)
+  - oneclickvpnkeys (38)
+  - oneclickvpnkeys (39)
+  - oneclickvpnkeys (40)
+  - oneclickvpnkeys (41)
+  - oneclickvpnkeys (42)
+  - oneclickvpnkeys (43)
+  - oneclickvpnkeys (44)
+  - oneclickvpnkeys (45)
+  - oneclickvpnkeys (46)
+  - oneclickvpnkeys (47)
+  - oneclickvpnkeys (48)
+  - oneclickvpnkeys (49)
+  - oneclickvpnkeys (50)
+  - oneclickvpnkeys (51)
+  - oneclickvpnkeys (52)
+  - oneclickvpnkeys (53)
+  - oneclickvpnkeys (54)
+  - oneclickvpnkeys (55)
+  - oneclickvpnkeys (56)
+  - oneclickvpnkeys (57)
+  - oneclickvpnkeys (58)
+  - oneclickvpnkeys (59)
+  - oneclickvpnkeys (60)
+  - oneclickvpnkeys (61)
+  - oneclickvpnkeys (62)
+  - oneclickvpnkeys (63)
+  - oneclickvpnkeys (64)
+  - oneclickvpnkeys (65)
+  - oneclickvpnkeys (66)
+  - oneclickvpnkeys (67)
+  - oneclickvpnkeys (68)
+  - oneclickvpnkeys (69)
+  - oneclickvpnkeys (70)
+  - oneclickvpnkeys (71)
+  - oneclickvpnkeys (72)
+  - tv2rayrr
+  - tv2rayrr (2)
+  - tv2rayrr (3)
+  - tv2rayrr (4)
+  - tv2rayrr (5)
+  - tv2rayrr (6)
+  - tv2rayrr (7)
+  - tv2rayrr (8)
+  - tv2rayrr (9)
+  - tv2rayrr (10)
+  - tv2rayrr (11)
+  - tv2rayrr (12)
+  - tv2rayrr (13)
+  - tv2rayrr (14)
+  - tv2rayrr (15)
+  - tv2rayrr (16)
+  - tv2rayrr (17)
+  - tv2rayrr (18)
+  - tv2rayrr (19)
+  - tv2rayrr (20)
+  - tv2rayrr (21)
+  - tv2rayrr (22)
+  - tv2rayrr (23)
+  - tv2rayrr (24)
+  - tv2rayrr (25)
+  - tv2rayrr (26)
+  - tv2rayrr (27)
+  - tv2rayrr (28)
+  - v2ray_extractor
+  - v2ray_extractor (2)
+  - v2ray_extractor (3)
+  - v2ray_extractor (4)
+  - v2ray_extractor (5)
+  - v2ray_extractor (6)
+  - v2ray_extractor (7)
+  - v2ray_extractor (8)
+  - v2ray_extractor (9)
+  - v2ray_extractor (10)
+  - v2ray_extractor (11)
+  - v2ray_extractor (12)
+  - v2ray_extractor (13)
+  - v2ray_extractor (14)
+  - v2ray_extractor (15)
+  - v2ray_extractor (16)
+  - v2ray_extractor (17)
+  - v2ray_extractor (18)
+  - v2ray_extractor (19)
+  - v2ray_extractor (20)
+  - v2ray_extractor (21)
+  - v2ray_extractor (22)
+  - v2ray_extractor (23)
+  - v2ray_extractor (24)
+  - v2ray_extractor (25)
+  - v2ray_extractor (26)
+  - v2ray_extractor (27)
+  - v2ray_extractor (28)
+  - v2ray_extractor (29)
+  - v2ray_extractor (30)
+  - v2ray_extractor (31)
+  - v2ray_extractor (32)
+  - v2ray_extractor (33)
+  - vpnbaz
+  - vpnbaz (2)
+  - vpnbaz (3)
+  - vpnbaz (4)
+  - wiki_tajrobe
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+- name: 🎯 Iran Direct
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 Main Select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Iran.png
+- name: 🚫 Ad Block
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+rule-providers:
+  ir-domains:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt
+    interval: 86400
+  ads-domains:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt
+    interval: 86400
+  direct-domains:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/direct.txt
+    interval: 86400
+rules:
+- RULE-SET,ads-domains,🚫 Ad Block
+- RULE-SET,ir-domains,🎯 Iran Direct
+- RULE-SET,direct-domains,🎯 Iran Direct
+- GEOIP,IR,🎯 Iran Direct
+- GEOIP,CN,DIRECT
+- MATCH,🚀 Main Select
