@@ -15,13 +15,19 @@ dns:
   - '*.localdomain'
   - '*.example'
   - '*.invalid'
+  - '*.localhost'
   - '*.test'
-  - localhost
+  - '*.home.arpa'
   - router.asus.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - +.msftconnecttest.com
   - +.ir
   - +.co.ir
-  - localhost.ptlogin2.qq.com
-  - +.msftconnecttest.com
+  - time.*.com
+  - ntp.*.com
+  - '*.ntp.org.cn'
+  - +.pool.ntp.org
   default-nameserver:
   - 223.5.5.5
   - 114.114.114.114
@@ -38,12 +44,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 224.0.0.0/4
-    domain:
-    - +.google.com
-    - +.youtube.com
-    - +.facebook.com
-    - +.instagram.com
-    - +.twitter.com
 proxies:
 - name: FreakConfig
   type: vless
@@ -59,8 +59,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 2
   type: vless
@@ -76,8 +79,11 @@ proxies:
     short-id: 58a8787420b6a153
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: FreakConfig - 3
   type: vless
   server: 57.128.191.90
@@ -92,8 +98,11 @@ proxies:
     short-id: '59611200'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 4
   type: vless
@@ -109,8 +118,11 @@ proxies:
     short-id: df8611c07d
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: FreakConfig - 5
   type: vless
   server: 51.250.64.128
@@ -125,8 +137,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 6
   type: vless
@@ -142,8 +157,11 @@ proxies:
     short-id: 9d38c6241e8c654a
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 7
   type: vless
@@ -159,8 +177,11 @@ proxies:
     short-id: 63d80d5199a2bc
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 8
   type: vless
@@ -176,8 +197,11 @@ proxies:
     short-id: 47ee5c592c1672cf
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: FreakConfig - 9
   type: vless
   server: 185.227.149.123
@@ -192,8 +216,11 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 10
   type: vless
@@ -209,8 +236,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 11
   type: vless
@@ -226,8 +256,11 @@ proxies:
     short-id: 0bce
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: FreakConfig - 12
   type: vless
   server: 57.129.49.1
@@ -242,8 +275,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 13
   type: vless
@@ -259,8 +295,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 14
   type: vless
@@ -276,8 +315,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 15
   type: vless
@@ -293,8 +335,11 @@ proxies:
     short-id: 9eb31eb7572c0882
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 16
   type: vless
@@ -310,8 +355,11 @@ proxies:
     short-id: 42c0b628ba6a42a9
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: FreakConfig - 17
   type: vless
   server: 51.158.206.93
@@ -326,8 +374,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 18
   type: vless
@@ -343,8 +394,11 @@ proxies:
     short-id: 305be87f337d1db7
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: FreakConfig - 19
   type: vless
   server: 144.24.97.225
@@ -359,8 +413,11 @@ proxies:
     short-id: 8894620bd4b91f71
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 20
   type: vless
@@ -376,8 +433,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: FreakConfig - 21
   type: vless
@@ -393,8 +453,11 @@ proxies:
     short-id: bbfb4f7a53e22dd3
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan
   type: vless
@@ -410,8 +473,11 @@ proxies:
     short-id: 39a1eb3ec417cd66
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 2
   type: vless
@@ -427,8 +493,11 @@ proxies:
     short-id: d1
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 3
   type: vless
   server: 51.158.206.29
@@ -443,8 +512,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 4
   type: vless
@@ -460,8 +532,11 @@ proxies:
     short-id: 4a3ad88ff867a295
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 5
   type: vless
@@ -477,8 +552,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 6
   type: vless
@@ -494,8 +572,11 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 7
   type: vless
@@ -511,8 +592,11 @@ proxies:
     short-id: 0bce
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 8
   type: vless
   server: 5.182.38.91
@@ -527,8 +611,11 @@ proxies:
     short-id: 4ae260
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 9
   type: vless
   server: 77.83.245.171
@@ -543,8 +630,11 @@ proxies:
     short-id: 2aa4fcbeaed2ad23
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 10
   type: vless
   server: 45.145.40.26
@@ -559,8 +649,11 @@ proxies:
     short-id: 4daa022e84f8edf2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 11
   type: vless
@@ -576,8 +669,11 @@ proxies:
     short-id: 42c0b628ba6a42a9
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 12
   type: vless
   server: 89.169.128.105
@@ -592,8 +688,11 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: configraygan - 13
   type: vless
@@ -609,8 +708,11 @@ proxies:
     short-id: '8397'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 14
   type: vless
   server: 217.25.90.152
@@ -625,8 +727,11 @@ proxies:
     short-id: '8061'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 15
   type: vless
   server: 185.234.57.216
@@ -641,8 +746,11 @@ proxies:
     short-id: f9fe
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: configraygan - 16
   type: vless
   server: 130.193.59.133
@@ -657,8 +765,11 @@ proxies:
     short-id: 4ffc99daad0f261f
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: dingyue_center
   type: vless
@@ -674,8 +785,11 @@ proxies:
     short-id: b0fbe0f0
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: dingyue_center - 2
   type: vless
@@ -691,8 +805,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: dingyue_center - 3
   type: vless
@@ -708,8 +825,11 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: dingyue_center - 4
   type: vless
@@ -725,8 +845,11 @@ proxies:
     short-id: 2f8400e348eb
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: new_mtproxi2
   type: vless
   server: 188.132.183.140
@@ -741,8 +864,11 @@ proxies:
     short-id: 63d80d5199a2bc
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 2
   type: vless
@@ -758,8 +884,11 @@ proxies:
     short-id: 63d80d5199a2bc
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 3
   type: vless
@@ -775,8 +904,11 @@ proxies:
     short-id: e0ef3d5c0aacb615
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 4
   type: vless
@@ -792,8 +924,11 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 5
   type: vless
@@ -809,8 +944,11 @@ proxies:
     short-id: 3b05335afef11254
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: new_mtproxi2 - 6
   type: vless
   server: 51.158.206.93
@@ -825,8 +963,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 7
   type: vless
@@ -842,8 +983,11 @@ proxies:
     short-id: 48fccabc158a4c22
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 8
   type: vless
@@ -859,8 +1003,11 @@ proxies:
     short-id: 1aab45
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: new_mtproxi2 - 9
   type: vless
   server: 57.129.53.181
@@ -875,8 +1022,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 10
   type: vless
@@ -892,8 +1042,11 @@ proxies:
     short-id: df8611c07d
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: new_mtproxi2 - 11
   type: vless
   server: 91.84.103.69
@@ -908,8 +1061,11 @@ proxies:
     short-id: fecda331e7cb5731
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 12
   type: vless
@@ -925,8 +1081,11 @@ proxies:
     short-id: 4fc5e35bdb69d36b
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 13
   type: vless
@@ -942,8 +1101,11 @@ proxies:
     short-id: bbfb4f7a53e22dd3
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 14
   type: vless
@@ -959,8 +1121,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: new_mtproxi2 - 15
   type: vless
@@ -976,8 +1141,11 @@ proxies:
     short-id: b77a294515ecc200
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: new_mtproxi2 - 16
   type: vless
   server: 37.139.42.234
@@ -992,8 +1160,11 @@ proxies:
     short-id: '6670'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: new_mtproxi2 - 17
   type: vless
   server: 5.182.38.91
@@ -1008,8 +1179,11 @@ proxies:
     short-id: 4ae260
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys
   type: vless
   server: logggg.nammknammknammknammknammkb2.ir
@@ -1024,8 +1198,11 @@ proxies:
     short-id: b3d76d
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 2
   type: vless
   server: 93.115.25.177
@@ -1040,8 +1217,11 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 3
   type: vless
@@ -1057,8 +1237,11 @@ proxies:
     short-id: 4daa022e84f8edf2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 4
   type: vless
@@ -1074,8 +1257,11 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 5
   type: vless
@@ -1091,8 +1277,11 @@ proxies:
     short-id: 8e8dcb9a67bf43f1
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 6
   type: vless
   server: 57.129.53.181
@@ -1107,8 +1296,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 7
   type: vless
@@ -1124,8 +1316,11 @@ proxies:
     short-id: 4fa44664f6a566d3
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 8
   type: vless
@@ -1141,8 +1336,11 @@ proxies:
     short-id: 50ed6f6007515d63
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 9
   type: vless
   server: 193.178.226.248
@@ -1157,8 +1355,11 @@ proxies:
     short-id: 9c2378562188c3cb
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 10
   type: vless
@@ -1174,8 +1375,11 @@ proxies:
     short-id: 37da
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 11
   type: vless
   server: 103.231.75.185
@@ -1190,8 +1394,11 @@ proxies:
     short-id: 0bce
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 12
   type: vless
   server: nl-amst-node.genadata.online
@@ -1206,8 +1413,11 @@ proxies:
     short-id: 50ed6f6007515d63
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 13
   type: vless
   server: 194.87.216.140
@@ -1222,8 +1432,11 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 14
   type: vless
@@ -1239,8 +1452,11 @@ proxies:
     short-id: a6f7168a7c3e2f77
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 15
   type: vless
   server: est01-vlr01.tcp-reset-club.net
@@ -1255,8 +1471,11 @@ proxies:
     short-id: 8453e5fd9af927
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 16
   type: vless
@@ -1272,8 +1491,11 @@ proxies:
     short-id: 04bf0403f96e5b4b
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 17
   type: vless
@@ -1289,8 +1511,11 @@ proxies:
     short-id: edbc04c389
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 18
   type: vless
@@ -1306,8 +1531,11 @@ proxies:
     short-id: 8d4981fb6742b104
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 19
   type: vless
   server: 178.154.253.80
@@ -1322,8 +1550,11 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 20
   type: vless
@@ -1339,8 +1570,11 @@ proxies:
     short-id: 33554379411b3219
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 21
   type: vless
@@ -1356,8 +1590,11 @@ proxies:
     short-id: 50ed6f6007515d63
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 22
   type: vless
   server: 217.154.38.156
@@ -1372,8 +1609,11 @@ proxies:
     short-id: 2e0f
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 23
   type: vless
   server: 146.103.104.157
@@ -1388,8 +1628,11 @@ proxies:
     short-id: ccbfae725b5b
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 24
   type: vless
@@ -1405,8 +1648,11 @@ proxies:
     short-id: '81'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 25
   type: vless
@@ -1422,8 +1668,11 @@ proxies:
     short-id: 4a5b6c7d
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 26
   type: vless
@@ -1439,8 +1688,11 @@ proxies:
     short-id: a0cb
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 27
   type: vless
   server: 147.45.178.107
@@ -1455,8 +1707,11 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 28
   type: vless
@@ -1472,8 +1727,11 @@ proxies:
     short-id: aa7e96542880027a
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 29
   type: vless
@@ -1489,8 +1747,11 @@ proxies:
     short-id: 4ffc99daad0f261f
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 30
   type: vless
@@ -1506,8 +1767,11 @@ proxies:
     short-id: 205748bc0f24a747
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 31
   type: vless
@@ -1523,8 +1787,11 @@ proxies:
     short-id: 22a3708320
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 32
   type: vless
   server: 94.131.123.167
@@ -1539,8 +1806,11 @@ proxies:
     short-id: 8bcfe256cf216fd8
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 33
   type: vless
@@ -1556,8 +1826,11 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 34
   type: vless
@@ -1573,8 +1846,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 35
   type: vless
@@ -1590,8 +1866,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 36
   type: vless
@@ -1607,8 +1886,11 @@ proxies:
     short-id: 3ca620a7ed5f3196
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 37
   type: vless
   server: germ2.vpnhub.shop
@@ -1623,8 +1905,11 @@ proxies:
     short-id: 425ba80cd1a821a8
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 38
   type: vless
   server: 193.233.134.89
@@ -1639,8 +1924,11 @@ proxies:
     short-id: 28b11f1e725a23ad
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 39
   type: vless
@@ -1656,8 +1944,11 @@ proxies:
     short-id: b72523ab
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 40
   type: vless
@@ -1673,8 +1964,11 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 41
   type: vless
@@ -1690,8 +1984,11 @@ proxies:
     short-id: 42c0b628ba6a42a9
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 42
   type: vless
   server: 45.66.163.75
@@ -1706,8 +2003,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 43
   type: vless
@@ -1723,8 +2023,11 @@ proxies:
     short-id: 701775cae5f3a793
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 44
   type: vless
@@ -1740,8 +2043,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 45
   type: vless
@@ -1757,8 +2063,11 @@ proxies:
     short-id: 04bf0403f96e5b4b
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 46
   type: vless
@@ -1774,8 +2083,11 @@ proxies:
     short-id: 52ad
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 47
   type: vless
   server: 5.254.85.152
@@ -1790,8 +2102,11 @@ proxies:
     short-id: 4fa44664f6a566d3
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 48
   type: vless
@@ -1807,8 +2122,11 @@ proxies:
     short-id: 5d8ae11254
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 49
   type: vless
@@ -1824,8 +2142,11 @@ proxies:
     short-id: 4fa44664f6a566d3
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 50
   type: vless
@@ -1841,8 +2162,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 51
   type: vless
@@ -1858,8 +2182,11 @@ proxies:
     short-id: 4a5b6c7d
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 52
   type: vless
@@ -1875,8 +2202,11 @@ proxies:
     short-id: 036861b20a94
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 53
   type: vless
@@ -1892,8 +2222,11 @@ proxies:
     short-id: 67b1e94e4dd1ef90
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 54
   type: vless
@@ -1909,8 +2242,11 @@ proxies:
     short-id: 2f2a
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 55
   type: vless
   server: 62.204.42.162
@@ -1925,8 +2261,11 @@ proxies:
     short-id: edbc04c389
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 56
   type: vless
@@ -1942,8 +2281,11 @@ proxies:
     short-id: abbcd128
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 57
   type: vless
@@ -1959,8 +2301,11 @@ proxies:
     short-id: 86e999a2cdc2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 58
   type: vless
@@ -1976,8 +2321,11 @@ proxies:
     short-id: '281902'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 59
   type: vless
   server: 94.131.104.229
@@ -1992,8 +2340,11 @@ proxies:
     short-id: 50ed6f6007515d63
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 60
   type: vless
   server: ndrl.vpnhub.shop
@@ -2008,8 +2359,11 @@ proxies:
     short-id: 425ba80cd1a821a8
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 61
   type: vless
   server: 193.46.81.207
@@ -2024,8 +2378,11 @@ proxies:
     short-id: 4daa022e84f8edf2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 62
   type: vless
@@ -2041,8 +2398,11 @@ proxies:
     short-id: 9e0d1218f82e3630
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 63
   type: vless
@@ -2058,8 +2418,11 @@ proxies:
     short-id: 3ca620a7ed5f3196
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 64
   type: vless
   server: 194.107.126.157
@@ -2074,8 +2437,11 @@ proxies:
     short-id: 9eb31eb7572c0882
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 65
   type: vless
@@ -2091,8 +2457,11 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 66
   type: vless
@@ -2108,8 +2477,11 @@ proxies:
     short-id: 42c0b628ba6a42a9
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 67
   type: vless
   server: 72.56.105.125
@@ -2124,8 +2496,11 @@ proxies:
     short-id: '3383'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 68
   type: vless
   server: 51.250.13.191
@@ -2140,8 +2515,11 @@ proxies:
     short-id: 90a13f
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 69
   type: vless
@@ -2157,8 +2535,11 @@ proxies:
     short-id: 9eb31eb7572c0882
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 70
   type: vless
@@ -2174,8 +2555,11 @@ proxies:
     short-id: 04bf0403f96e5b4b
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys - 71
   type: vless
@@ -2191,8 +2575,11 @@ proxies:
     short-id: d1
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: oneclickvpnkeys - 72
   type: vless
   server: 178.17.59.73
@@ -2207,8 +2594,11 @@ proxies:
     short-id: 423bccc9c13fb509
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr
   type: vless
@@ -2224,8 +2614,11 @@ proxies:
     short-id: 860705e716cbe6ed
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: tv2rayrr - 2
   type: vless
   server: 188.253.21.106
@@ -2240,8 +2633,11 @@ proxies:
     short-id: 73d3fec4
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 3
   type: vless
@@ -2257,8 +2653,11 @@ proxies:
     short-id: 4c02bbbfa833b3b6
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 4
   type: vless
@@ -2274,8 +2673,11 @@ proxies:
     short-id: 1fbd20fd
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 5
   type: vless
@@ -2291,8 +2693,11 @@ proxies:
     short-id: 4c02bbbfa833b3b6
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 6
   type: vless
@@ -2308,8 +2713,11 @@ proxies:
     short-id: '84'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 7
   type: vless
@@ -2325,8 +2733,11 @@ proxies:
     short-id: 0f1d6a
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 8
   type: vless
@@ -2342,8 +2753,11 @@ proxies:
     short-id: 19d1ff9e
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 9
   type: vless
@@ -2359,8 +2773,11 @@ proxies:
     short-id: 491db313
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 10
   type: vless
@@ -2376,8 +2793,11 @@ proxies:
     short-id: e62fec30f1a0167e
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: tv2rayrr - 11
   type: vless
   server: 77.110.119.225
@@ -2392,8 +2812,11 @@ proxies:
     short-id: 07e904766d29b958
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 12
   type: vless
@@ -2409,8 +2832,11 @@ proxies:
     short-id: 33d92e960cb19e71
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: tv2rayrr - 13
   type: vless
   server: usa.srv.happvpn.com
@@ -2425,8 +2851,11 @@ proxies:
     short-id: 4c02bbbfa833b3b6
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 14
   type: vless
@@ -2442,8 +2871,11 @@ proxies:
     short-id: 4c02bbbfa833b3b6
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 15
   type: vless
@@ -2459,8 +2891,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 16
   type: vless
@@ -2476,8 +2911,11 @@ proxies:
     short-id: 4c02bbbfa833b3b6
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 17
   type: vless
@@ -2493,8 +2931,11 @@ proxies:
     short-id: ab12cd34
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 18
   type: vless
@@ -2510,8 +2951,11 @@ proxies:
     short-id: 6dfeb23c
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 19
   type: vless
@@ -2527,8 +2971,11 @@ proxies:
     short-id: b793cdadb1c785
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 20
   type: vless
@@ -2544,8 +2991,11 @@ proxies:
     short-id: 3e
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 21
   type: vless
@@ -2561,8 +3011,11 @@ proxies:
     short-id: 0e
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: tv2rayrr - 22
   type: vless
   server: 185.243.99.104
@@ -2577,8 +3030,11 @@ proxies:
     short-id: 850a5cbb81
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: tv2rayrr - 23
   type: vless
   server: 178.236.16.98
@@ -2593,8 +3049,11 @@ proxies:
     short-id: 69a2
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: tv2rayrr - 24
   type: vless
   server: 178.239.125.31
@@ -2609,8 +3068,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 25
   type: vless
@@ -2626,8 +3088,11 @@ proxies:
     short-id: ab12cd34
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: tv2rayrr - 26
   type: vless
@@ -2643,8 +3108,11 @@ proxies:
     short-id: fb2c6678
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor
   type: vless
@@ -2660,8 +3128,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 2
   type: vless
@@ -2677,8 +3148,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 3
   type: vless
@@ -2694,8 +3168,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 4
   type: vless
@@ -2711,8 +3188,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 5
   type: vless
@@ -2728,8 +3208,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 6
   type: vless
@@ -2745,8 +3228,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 7
   type: vless
@@ -2762,8 +3248,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 8
   type: vless
@@ -2779,8 +3268,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 9
   type: vless
@@ -2796,8 +3288,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 10
   type: vless
@@ -2813,8 +3308,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 11
   type: vless
@@ -2830,8 +3328,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 12
   type: vless
@@ -2847,8 +3348,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 13
   type: vless
@@ -2864,8 +3368,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 14
   type: vless
@@ -2881,8 +3388,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 15
   type: vless
@@ -2898,8 +3408,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 16
   type: vless
@@ -2915,8 +3428,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 17
   type: vless
@@ -2932,8 +3448,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 18
   type: vless
@@ -2949,8 +3468,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 19
   type: vless
@@ -2966,8 +3488,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 20
   type: vless
@@ -2983,8 +3508,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 21
   type: vless
@@ -3000,8 +3528,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 22
   type: vless
@@ -3017,8 +3548,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 23
   type: vless
@@ -3034,8 +3568,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 24
   type: vless
@@ -3051,8 +3588,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 25
   type: vless
@@ -3068,8 +3608,11 @@ proxies:
     short-id: ''
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 26
   type: vless
@@ -3085,8 +3628,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 27
   type: vless
@@ -3102,8 +3648,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 28
   type: vless
@@ -3119,8 +3668,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 29
   type: vless
@@ -3136,8 +3688,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 30
   type: vless
@@ -3153,8 +3708,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 31
   type: vless
@@ -3170,8 +3728,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 32
   type: vless
@@ -3187,8 +3748,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: v2ray_extractor - 33
   type: vless
@@ -3204,8 +3768,11 @@ proxies:
     short-id: 35c2cb29
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: vpnbaz
   type: vless
@@ -3221,8 +3788,11 @@ proxies:
     short-id: a3ec090d35b64be8
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: vpnbaz - 2
   type: vless
   server: 51.158.206.87
@@ -3237,8 +3807,11 @@ proxies:
     short-id: '01'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
   flow: xtls-rprx-vision
 - name: vpnbaz - 3
   type: vless
@@ -3254,8 +3827,11 @@ proxies:
     short-id: 42c0b628ba6a42a9
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: vpnbaz - 4
   type: vless
   server: 91.99.8.3
@@ -3270,8 +3846,11 @@ proxies:
     short-id: d1
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 - name: wiki_tajrobe
   type: vless
   server: 37.139.42.234
@@ -3286,10 +3865,13 @@ proxies:
     short-id: '6670'
   skip-cert-verify: true
   udp: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 5
 proxy-groups:
-- name: 🚀 Main Select
+- name: Main Select
   type: select
   proxies:
   - FreakConfig
@@ -3486,14 +4068,14 @@ proxy-groups:
   - vpnbaz - 3
   - vpnbaz - 4
   - wiki_tajrobe
-  - ♻️ Auto Best Ping
+  - Auto Best
   - DIRECT
-- name: ♻️ Auto Best Ping
+- name: Auto Best
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 240
-  tolerance: 80
-  timeout: 6
+  interval: 300
+  tolerance: 100
+  timeout: 8
   lazy: true
   proxies:
   - FreakConfig
@@ -3690,30 +4272,60 @@ proxy-groups:
   - vpnbaz - 3
   - vpnbaz - 4
   - wiki_tajrobe
-- name: 🎯 Iran Direct
+- name: Iran Direct
   type: select
   proxies:
   - DIRECT
-  - 🚀 Main Select
+  - Main Select
+- name: YouTube
+  type: select
+  proxies:
+  - Main Select
+  - Auto Best
+  - Iran Direct
+- name: Netflix
+  type: select
+  proxies:
+  - Main Select
+  - Auto Best
+- name: OpenAI
+  type: select
+  proxies:
+  - Main Select
+  - Auto Best
+- name: Telegram
+  type: select
+  proxies:
+  - Main Select
+  - Auto Best
+- name: Streaming
+  type: select
+  proxies:
+  - Main Select
+  - Auto Best
+  - Iran Direct
 rule-providers:
   ir:
+    type: http
     behavior: domain
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt
     interval: 86400
-  adblock:
+  ads:
+    type: http
     behavior: domain
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt
     interval: 86400
   direct:
+    type: http
     behavior: domain
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/direct.txt
     interval: 86400
 rules:
-- RULE-SET,ir,🎯 Iran Direct
-- RULE-SET,adblock,REJECT
-- RULE-SET,direct,🎯 Iran Direct
-- GEOIP,IR,🎯 Iran Direct,no-resolve
-- MATCH,🚀 Main Select
+- RULE-SET,ads,REJECT
+- RULE-SET,ir,Iran Direct
+- RULE-SET,direct,Iran Direct
+- GEOIP,IR,Iran Direct,no-resolve
+- MATCH,Main Select
