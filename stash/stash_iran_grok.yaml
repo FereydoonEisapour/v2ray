@@ -796,22 +796,6 @@ proxies:
   benchmark-timeout: 5
 - name: new_mtproxi2 - 9
   type: vless
-  server: 89.110.119.44
-  port: 443
-  uuid: Fluffy_VPN-NZPzrzi5
-  network: tcp
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: pi3nuu39TECDwHciK9c7oWaMz6KfJWUOiWVLfo1Nz3M
-    short-id: ''
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 5
-  flow: xtls-rprx-vision
-- name: new_mtproxi2 - 10
-  type: vless
   server: 57.129.53.181
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
@@ -826,7 +810,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: new_mtproxi2 - 11
+- name: new_mtproxi2 - 10
   type: vless
   server: 64.188.104.168
   port: 40721
@@ -841,7 +825,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: new_mtproxi2 - 12
+- name: new_mtproxi2 - 11
   type: vless
   server: 91.84.103.69
   port: 8443
@@ -857,7 +841,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: new_mtproxi2 - 13
+- name: new_mtproxi2 - 12
   type: vless
   server: 78.159.131.210
   port: 443
@@ -873,7 +857,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: new_mtproxi2 - 14
+- name: new_mtproxi2 - 13
   type: vless
   server: nl.roblugo.su
   port: 443
@@ -889,7 +873,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: new_mtproxi2 - 15
+- name: new_mtproxi2 - 14
   type: vless
   server: 51.158.206.98
   port: 23576
@@ -905,7 +889,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: new_mtproxi2 - 16
+- name: new_mtproxi2 - 15
   type: vless
   server: 81.19.141.190
   port: 51529
@@ -920,7 +904,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: new_mtproxi2 - 17
+- name: new_mtproxi2 - 16
   type: vless
   server: 37.139.42.234
   port: 4443
@@ -935,7 +919,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: new_mtproxi2 - 18
+- name: new_mtproxi2 - 17
   type: vless
   server: 5.182.38.91
   port: 17267
@@ -2143,22 +2127,6 @@ proxies:
   flow: xtls-rprx-vision
 - name: tv2rayrr - 5
   type: vless
-  server: 213.176.16.74
-  port: 443
-  uuid: d7fbe279896e40118c23d15fe537dddd
-  network: tcp
-  tls: true
-  servername: apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
-    short-id: aabbccdd
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 5
-  flow: xtls-rprx-vision
-- name: tv2rayrr - 6
-  type: vless
   server: lt.srv.happvpn.com
   port: 443
   uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
@@ -2173,7 +2141,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 7
+- name: tv2rayrr - 6
   type: vless
   server: 31.6.1.187
   port: 25607
@@ -2189,7 +2157,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 8
+- name: tv2rayrr - 7
   type: vless
   server: tunnyl.ru
   port: 443
@@ -2205,23 +2173,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 9
-  type: vless
-  server: 91.220.8.177
-  port: 443
-  uuid: 0eb0019b66404203a7e07701f61bf766
-  network: tcp
-  tls: true
-  servername: m.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
-    short-id: aabbccdd
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 5
-  flow: xtls-rprx-vision
-- name: tv2rayrr - 10
+- name: tv2rayrr - 8
   type: vless
   server: 81.19.140.245
   port: 443
@@ -2237,7 +2189,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 11
+- name: tv2rayrr - 9
   type: vless
   server: 143.20.79.11
   port: 443
@@ -2253,7 +2205,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 12
+- name: tv2rayrr - 10
   type: vless
   server: 81.19.140.202
   port: 60552
@@ -2268,7 +2220,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: tv2rayrr - 13
+- name: tv2rayrr - 11
   type: vless
   server: 77.110.119.225
   port: 443
@@ -2284,7 +2236,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 14
+- name: tv2rayrr - 12
   type: vless
   server: fr.soreanapanel.com
   port: 443
@@ -2299,7 +2251,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: tv2rayrr - 15
+- name: tv2rayrr - 13
   type: vless
   server: usa.srv.happvpn.com
   port: 443
@@ -2315,7 +2267,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 16
+- name: tv2rayrr - 14
   type: vless
   server: nl2.srv.happvpn.com
   port: 443
@@ -2331,7 +2283,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 17
+- name: tv2rayrr - 15
   type: vless
   server: 156.244.41.221
   port: 443
@@ -2347,7 +2299,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 18
+- name: tv2rayrr - 16
   type: vless
   server: youtube.happvpn.com
   port: 443
@@ -2363,7 +2315,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 19
+- name: tv2rayrr - 17
   type: vless
   server: 45.134.12.47
   port: 31203
@@ -2379,7 +2331,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 20
+- name: tv2rayrr - 18
   type: vless
   server: 193.233.48.92
   port: 443
@@ -2395,7 +2347,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 21
+- name: tv2rayrr - 19
   type: vless
   server: 154.12.179.154
   port: 2501
@@ -2411,7 +2363,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 22
+- name: tv2rayrr - 20
   type: vless
   server: 38.180.17.232
   port: 443
@@ -2427,7 +2379,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 23
+- name: tv2rayrr - 21
   type: vless
   server: 77.91.68.70
   port: 55983
@@ -2442,7 +2394,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: tv2rayrr - 24
+- name: tv2rayrr - 22
   type: vless
   server: 185.243.99.104
   port: 29453
@@ -2457,7 +2409,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: tv2rayrr - 25
+- name: tv2rayrr - 23
   type: vless
   server: 178.236.16.98
   port: 35728
@@ -2472,7 +2424,7 @@ proxies:
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
-- name: tv2rayrr - 26
+- name: tv2rayrr - 24
   type: vless
   server: 178.239.125.31
   port: 39735
@@ -2488,7 +2440,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 27
+- name: tv2rayrr - 25
   type: vless
   server: de.shvurgceo.online
   port: 14357
@@ -2504,7 +2456,7 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 5
   flow: xtls-rprx-vision
-- name: tv2rayrr - 28
+- name: tv2rayrr - 26
   type: vless
   server: 156.229.161.107
   port: 10001
@@ -3186,7 +3138,6 @@ proxy-groups:
   - new_mtproxi2 - 15
   - new_mtproxi2 - 16
   - new_mtproxi2 - 17
-  - new_mtproxi2 - 18
   - oneclickvpnkeys
   - oneclickvpnkeys - 2
   - oneclickvpnkeys - 3
@@ -3285,8 +3236,6 @@ proxy-groups:
   - tv2rayrr - 24
   - tv2rayrr - 25
   - tv2rayrr - 26
-  - tv2rayrr - 27
-  - tv2rayrr - 28
   - v2ray_extractor
   - v2ray_extractor - 2
   - v2ray_extractor - 3
@@ -3391,7 +3340,6 @@ proxy-groups:
   - new_mtproxi2 - 15
   - new_mtproxi2 - 16
   - new_mtproxi2 - 17
-  - new_mtproxi2 - 18
   - oneclickvpnkeys
   - oneclickvpnkeys - 2
   - oneclickvpnkeys - 3
@@ -3490,8 +3438,6 @@ proxy-groups:
   - tv2rayrr - 24
   - tv2rayrr - 25
   - tv2rayrr - 26
-  - tv2rayrr - 27
-  - tv2rayrr - 28
   - v2ray_extractor
   - v2ray_extractor - 2
   - v2ray_extractor - 3

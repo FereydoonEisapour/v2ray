@@ -2787,7 +2787,7 @@ proxy-groups:
   type: select
   proxies:
   - Auto
-  - Direct
+  - DIRECT
   - FreakConfig
   - FreakConfig 2
   - FreakConfig 3
@@ -3143,7 +3143,7 @@ proxy-groups:
 - name: Iran-Direct
   type: select
   proxies:
-  - Direct
+  - DIRECT
   - Proxy
 rules:
 - RULE-SET,Ads,REJECT
