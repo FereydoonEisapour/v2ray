@@ -1,15 +1,30 @@
 mixed-port: 7890
+allow-lan: true
 mode: rule
 log-level: info
 ipv6: false
 dns:
   enable: true
   listen: 0.0.0.0:1053
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+  - 1.1.1.1
+  - 8.8.8.8
   nameserver:
   - https://cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
+  fallback:
+  - tls://8.8.4.4:853
+  - tls://1.0.0.1:853
+  fallback-filter:
+    geoip: true
+    geoip-code: IR
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
 proxies:
 - name: FreakConfig
   type: vless
@@ -22,6 +37,9 @@ proxies:
   servername: yandex.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
     short-id: 58a8787420b6a153
@@ -36,6 +54,9 @@ proxies:
   servername: st.okcdn.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
     short-id: 39a1eb3ec417cd66
@@ -50,6 +71,9 @@ proxies:
   servername: cdn-dynmedia-1.microsoft.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
     short-id: b0fbe0f0
@@ -64,6 +88,9 @@ proxies:
   servername: 2gis.kz
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: tQshkBu8_I2WDLqhS0kssD7F0uKl6vkvK9egXVXjsQE
     short-id: 63d80d5199a2bc
@@ -78,6 +105,9 @@ proxies:
   servername: logggg.nammknammknammknammknammkb2.ir
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
     short-id: b3d76d
@@ -92,6 +122,9 @@ proxies:
   servername: www.autodesk.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
     short-id: 860705e716cbe6ed
@@ -106,6 +139,9 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
@@ -120,6 +156,9 @@ proxies:
   servername: ip-venzo.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: sGkQutu-jNzzINkigXEr4zm6us4c5KvT6FRSOKEliyY
     short-id: a3ec090d35b64be8
@@ -134,14 +173,18 @@ proxies:
   servername: yandex.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
   reality-opts:
     public-key: -kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI
     short-id: '6670'
 proxy-groups:
-- name: AUTO
+- name: AUTO-IRAN
   type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+  tolerance: 100
   proxies:
   - FreakConfig
   - configraygan
@@ -155,7 +198,7 @@ proxy-groups:
 - name: SELECT
   type: select
   proxies:
-  - AUTO
+  - AUTO-IRAN
   - FreakConfig
   - configraygan
   - dingyue_center
@@ -167,13 +210,18 @@ proxy-groups:
   - wiki_tajrobe
   - DIRECT
 rule-providers:
-  telegram:
-    type: http
+  ir:
     behavior: domain
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegram.txt
-    path: ./ruleset/telegram.yaml
+    format: text
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt
+    interval: 86400
+  direct:
+    behavior: domain
+    format: text
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/direct.txt
     interval: 86400
 rules:
-- RULE-SET,telegram,SELECT
-- GEOIP,IR,DIRECT
+- RULE-SET,ir,DIRECT
+- RULE-SET,direct,DIRECT
+- GEOIP,IR,DIRECT,no-resolve
 - MATCH,SELECT

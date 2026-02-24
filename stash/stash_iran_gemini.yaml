@@ -3,6 +3,7 @@ allow-lan: true
 mode: rule
 log-level: info
 ipv6: false
+global-client-fingerprint: chrome
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -10,19 +11,36 @@ dns:
   default-nameserver:
   - 1.1.1.1
   - 8.8.8.8
+  - 119.29.29.29
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
   - https://1.1.1.1/dns-query
   - https://8.8.8.8/dns-query
+  - https://doh.pub/dns-query
   fallback:
-  - https://1.1.1.1/dns-query
-  - https://8.8.8.8/dns-query
+  - https://1.0.0.1/dns-query
+  - https://public.dns.iij.jp/dns-query
+  - tcp://8.8.8.8
   fallback-filter:
     geoip: true
     ipcidr:
     - 240.0.0.0/4
+  fake-ip-filter:
+  - +.ir
+  - +.gov.ir
+  - '*.ir'
+  - '*.snapp.ir'
+  - '*.tapsi.ir'
+  - '*.rubika.ir'
+  - '*.igap.net'
+  - '*.eitaa.com'
+  - '*.shad.ir'
+  - '*.shaparak.ir'
+  - '*.bank*'
+  - '*.bmi.ir'
+  - '*.sep.ir'
 rule-providers:
   Iran_Domains:
     type: http
@@ -2787,6 +2805,7 @@ proxy-groups:
   type: select
   proxies:
   - Auto
+  - Fallback
   - DIRECT
   - FreakConfig
   - FreakConfig 2
@@ -2964,9 +2983,9 @@ proxy-groups:
 - name: Auto
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
+  interval: 600
+  tolerance: 100
+  proxies: &id001
   - FreakConfig
   - FreakConfig 2
   - FreakConfig 3
@@ -3140,6 +3159,11 @@ proxy-groups:
   - vpnbaz 3
   - vpnbaz 4
   - wiki_tajrobe
+- name: Fallback
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 600
+  proxies: *id001
 - name: Iran-Direct
   type: select
   proxies:
