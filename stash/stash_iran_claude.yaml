@@ -23,17 +23,23 @@ dns:
     +.github.com: https://dns.google/dns-query
     +.twitter.com: https://dns.google/dns-query
     +.x.com: https://dns.google/dns-query
+    +.openai.com: https://dns.google/dns-query
   fake-ip-filter:
   - +.stun.*.*
   - +.stun.*.*.*
   - +.stun.*.*.*.*
   - lens.l.google.com
+  - stun.l.google.com
   - '*.n.n.srv.nintendo.net'
   - +.stun.playstation.net
   - xbox.*.*.microsoft.com
   - '*.*.xboxlive.com'
   - '*.msftncsi.com'
   - '*.msftconnecttest.com'
+  - msftconnecttest.com
+  - time.*.com
+  - time.*.apple.com
+  - +.pool.ntp.org
   - +.ir
   - +.aparat.com
   - +.digikala.com
@@ -2754,10 +2760,10 @@ proxies:
   benchmark-url: http://www.apple.com/library/test/success.html
   benchmark-timeout: 5
 proxy-groups:
-- name: 🚀 پراکسی اصلی
+- name: 🚀 Main Proxy
   type: select
   proxies:
-  - ♻️ بهترین خودکار
+  - ♻️ Auto Best
   - 🔄 Fallback
   - DIRECT
   - FreakConfig
@@ -2933,7 +2939,7 @@ proxy-groups:
   - vpnbaz
   - vpnbaz (2)
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
-- name: ♻️ بهترین خودکار
+- name: ♻️ Auto Best
   type: url-test
   url: http://www.apple.com/library/test/success.html
   interval: 180
@@ -3119,17 +3125,86 @@ proxy-groups:
   interval: 120
   proxies: *id001
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
-- name: 🇮🇷 ایران مستقیم
+- name: 🇮🇷 Iran Direct
   type: select
   proxies:
   - DIRECT
-  - 🚀 پراکسی اصلی
+  - 🚀 Main Proxy
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Iran.png
-- name: ✈️ تلگرام
+- name: ✈️ Telegram
+  type: select
+  proxies: &id003
+  - 🚀 Main Proxy
+  - ♻️ Auto Best
+  - 🔄 Fallback
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+- name: 🤖 OpenAI
+  type: select
+  proxies: &id002
+  - 🚀 Main Proxy
+  - ♻️ Auto Best
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+- name: 🤖 Claude
+  type: select
+  proxies: *id002
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Claude.png
+- name: 🤖 Gemini
+  type: select
+  proxies: *id002
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png
+- name: 📸 Instagram
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
+- name: 🐦 Twitter
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+- name: 💬 Discord
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+- name: 🔍 Google
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png
+- name: 📺 YouTube
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+- name: 🐙 GitHub
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
+- name: 🎬 Netflix
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+- name: 🎬 Disney+
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+_1.png
+- name: 🎵 Spotify
+  type: select
+  proxies: *id003
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+- name: 🍎 Apple
+  type: select
+  proxies: &id004
+  - DIRECT
+  - 🚀 Main Proxy
+  - ♻️ Auto Best
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
+- name: 🪟 Microsoft
+  type: select
+  proxies: *id004
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+- name: 🎮 Steam
   type: select
   proxies:
-  - 🚀 پراکسی اصلی
-  - ♻️ بهترین خودکار
+  - 🚀 Main Proxy
+  - ♻️ Auto Best
+  - DIRECT
   - FreakConfig
   - FreakConfig (2)
   - FreakConfig (3)
@@ -3302,60 +3377,165 @@ proxy-groups:
   - v2ray_extractor (26)
   - vpnbaz
   - vpnbaz (2)
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-- name: 🎬 رسانه
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png
+- name: 🚦 Speedtest
   type: select
-  proxies:
-  - 🚀 پراکسی اصلی
-  - ♻️ بهترین خودکار
-  - DIRECT
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-- name: 🚫 تبلیغات
+  proxies: *id004
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
+- name: 🚫 Ad Block
   type: select
   proxies:
   - REJECT
   - DIRECT
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+- name: 🌐 Final
+  type: select
+  proxies:
+  - 🚀 Main Proxy
+  - ♻️ Auto Best
+  - DIRECT
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 rule-providers:
   iran-domains:
+    type: http
     behavior: domain
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt
     interval: 86400
   iran-direct:
+    type: http
     behavior: domain
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/direct.txt
     interval: 86400
   iran-cidr:
+    type: http
     behavior: ipcidr
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt
     interval: 86400
   ads:
+    type: http
     behavior: domain
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt
     interval: 86400
   telegram-cidr:
+    type: http
     behavior: ipcidr
     format: text
     url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/telegram.txt
     interval: 86400
+  OpenAI:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/OpenAI.yaml
+    interval: 86400
+  Claude:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Claude.yaml
+    interval: 86400
+  Gemini:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Gemini.yaml
+    interval: 86400
+  Instagram:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Facebook.yaml
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Twitter.yaml
+    interval: 86400
+  Discord:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Discord.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Google.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/YouTube.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/GitHub.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Netflix.yaml
+    interval: 86400
+  Disney:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/DisneyPlus.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Spotify.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Apple.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Microsoft.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Steam.yaml
+    interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Speedtest.yaml
+    interval: 86400
 rules:
 - SCRIPT,quic,REJECT,no-track
-- RULE-SET,ads,🚫 تبلیغات
-- RULE-SET,telegram-cidr,✈️ تلگرام,no-resolve
-- DOMAIN-SUFFIX,t.me,✈️ تلگرام
-- DOMAIN-SUFFIX,telegram.me,✈️ تلگرام
-- DOMAIN-SUFFIX,telegram.org,✈️ تلگرام
-- RULE-SET,iran-domains,🇮🇷 ایران مستقیم
-- RULE-SET,iran-direct,🇮🇷 ایران مستقیم
-- RULE-SET,iran-cidr,🇮🇷 ایران مستقیم,no-resolve
-- GEOIP,IR,🇮🇷 ایران مستقیم,no-resolve
+- RULE-SET,ads,🚫 Ad Block
+- RULE-SET,telegram-cidr,✈️ Telegram,no-resolve
+- DOMAIN-SUFFIX,t.me,✈️ Telegram
+- DOMAIN-SUFFIX,telegram.me,✈️ Telegram
+- DOMAIN-SUFFIX,telegram.org,✈️ Telegram
+- RULE-SET,OpenAI,🤖 OpenAI
+- RULE-SET,Claude,🤖 Claude
+- RULE-SET,Gemini,🤖 Gemini
+- RULE-SET,Instagram,📸 Instagram
+- RULE-SET,Twitter,🐦 Twitter
+- RULE-SET,Discord,💬 Discord
+- RULE-SET,Google,🔍 Google
+- RULE-SET,YouTube,📺 YouTube
+- RULE-SET,GitHub,🐙 GitHub
+- RULE-SET,Netflix,🎬 Netflix
+- RULE-SET,Disney,🎬 Disney+
+- RULE-SET,Spotify,🎵 Spotify
+- RULE-SET,Apple,🍎 Apple
+- RULE-SET,Microsoft,🪟 Microsoft
+- RULE-SET,Steam,🎮 Steam
+- RULE-SET,Speedtest,🚦 Speedtest
+- RULE-SET,iran-domains,🇮🇷 Iran Direct
+- RULE-SET,iran-direct,🇮🇷 Iran Direct
+- RULE-SET,iran-cidr,🇮🇷 Iran Direct,no-resolve
+- GEOIP,IR,🇮🇷 Iran Direct,no-resolve
 - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
-- MATCH,🚀 پراکسی اصلی
+- MATCH,🌐 Final
