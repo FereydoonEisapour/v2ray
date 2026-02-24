@@ -1,8 +1,12 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
 mixed-port: 7890
 allow-lan: true
 mode: rule
-log-level: info
+log-level: silent
 ipv6: false
+external-controller: 0.0.0.0:9090
 global-client-fingerprint: chrome
 dns:
   enable: true
@@ -41,6 +45,8 @@ dns:
   - '*.bank*'
   - '*.bmi.ir'
   - '*.sep.ir'
+  - '*.lan'
+  - '*.local'
 rule-providers:
   Iran_Domains:
     type: http
@@ -59,6 +65,78 @@ rule-providers:
     behavior: domain
     url: https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-clash.yaml
     path: ./rules/ads.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Apple.yaml
+    path: ./rules/Apple.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Google.yaml
+    path: ./rules/Google.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Telegram.yaml
+    path: ./rules/Telegram.yaml
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Twitter.yaml
+    path: ./rules/Twitter.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/YouTube.yaml
+    path: ./rules/YouTube.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Netflix.yaml
+    path: ./rules/Netflix.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Spotify.yaml
+    path: ./rules/Spotify.yaml
+    interval: 86400
+  OpenAI:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/OpenAI.yaml
+    path: ./rules/OpenAI.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Microsoft.yaml
+    path: ./rules/Microsoft.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Steam.yaml
+    path: ./rules/Steam.yaml
+    interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Speedtest.yaml
+    path: ./rules/Speedtest.yaml
+    interval: 86400
+  PayPal:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/PayPal.yaml
+    path: ./rules/PayPal.yaml
     interval: 86400
 proxies:
 - name: FreakConfig
@@ -2801,11 +2879,12 @@ proxies:
     short-id: '6670'
   network: tcp
 proxy-groups:
-- name: Proxy
+- name: 🚀 Proxy
   type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Proxy.png
   proxies:
-  - Auto
-  - Fallback
+  - ⚡ Auto
+  - ⏳ Fallback
   - DIRECT
   - FreakConfig
   - FreakConfig 2
@@ -2980,11 +3059,12 @@ proxy-groups:
   - vpnbaz 3
   - vpnbaz 4
   - wiki_tajrobe
-- name: Auto
+- name: ⚡ Auto
   type: url-test
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Auto.png
   url: http://www.gstatic.com/generate_204
-  interval: 600
-  tolerance: 100
+  interval: 300
+  tolerance: 50
   proxies: &id001
   - FreakConfig
   - FreakConfig 2
@@ -3159,21 +3239,70 @@ proxy-groups:
   - vpnbaz 3
   - vpnbaz 4
   - wiki_tajrobe
-- name: Fallback
+- name: ⏳ Fallback
   type: fallback
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Auto.png
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: 300
   proxies: *id001
-- name: Iran-Direct
+- name: 🇮🇷 Iran Direct
   type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Area.png
   proxies:
   - DIRECT
-  - Proxy
+  - 🚀 Proxy
+- name: Telegram
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Telegram.png
+  proxies:
+  - 🚀 Proxy
+  - ⚡ Auto
+  - DIRECT
+- name: YouTube
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/YouTube.png
+  proxies:
+  - 🚀 Proxy
+  - ⚡ Auto
+- name: Netflix
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Netflix.png
+  proxies:
+  - 🚀 Proxy
+  - ⚡ Auto
+- name: Spotify
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Spotify.png
+  proxies:
+  - 🚀 Proxy
+  - ⚡ Auto
+- name: OpenAI
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/AI.png
+  proxies:
+  - 🚀 Proxy
+  - ⚡ Auto
+- name: Steam
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/zuluion/Qure/IconSet/Color/Game.png
+  proxies:
+  - 🚀 Proxy
+  - ⚡ Auto
+  - DIRECT
 rules:
 - RULE-SET,Ads,REJECT
-- RULE-SET,Iran_Domains,Iran-Direct
-- RULE-SET,Iran_IP,Iran-Direct
-- DOMAIN-SUFFIX,ir,Iran-Direct
-- GEOIP,IR,Iran-Direct
+- RULE-SET,Iran_Domains,🇮🇷 Iran Direct
+- RULE-SET,Iran_IP,🇮🇷 Iran Direct
+- DOMAIN-SUFFIX,ir,🇮🇷 Iran Direct
+- GEOIP,IR,🇮🇷 Iran Direct
 - GEOIP,PRIVATE,DIRECT
-- MATCH,Proxy
+- RULE-SET,Telegram,Telegram
+- RULE-SET,YouTube,YouTube
+- RULE-SET,Netflix,Netflix
+- RULE-SET,Spotify,Spotify
+- RULE-SET,OpenAI,OpenAI
+- RULE-SET,Steam,Steam
+- RULE-SET,Microsoft,DIRECT
+- RULE-SET,Apple,DIRECT
+- RULE-SET,Google,🚀 Proxy
+- MATCH,🚀 Proxy
